@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Act28
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=one\ two
+comment2.target=void\ charactersFrom(char,\ char)
+numComments=3

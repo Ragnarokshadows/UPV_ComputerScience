@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Act15
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=n
+comment2.target=int\ integerPart(int)
+comment3.params=n
+comment3.target=int\ countDigits(int)
+numComments=4

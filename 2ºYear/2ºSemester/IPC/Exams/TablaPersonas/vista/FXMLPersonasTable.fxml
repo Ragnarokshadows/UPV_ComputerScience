@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.76-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TablaPersonas.controlador.FXMLPersonasTableController">
+   <children>
+      <Label text="Tabla personas" textFill="#2d27dd">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" prefHeight="68.0" prefWidth="580.0" spacing="30.0">
+         <children>
+            <Button fx:id="addButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#addClick" text="Añadir" />
+            <Button fx:id="modButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#modClick" text="Modificar" />
+            <Button fx:id="delButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#delClick" text="Borrar" />
+         </children>
+      </HBox>
+      <TableView fx:id="personasTable" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+        <columns>
+          <TableColumn fx:id="nomColum" prefWidth="269.0" text="Nombre" />
+          <TableColumn fx:id="apellColum" prefWidth="310.0" text="Apellidos" />
+        </columns>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </TableView>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</VBox>

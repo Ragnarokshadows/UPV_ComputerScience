@@ -1,0 +1,182 @@
+
+**** 05/29/18 20:05:24 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\Stephane\Desktop\UPV\TCO\Prac4\Schematic1.sch
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+* Schematics Version 9.1 - Web Update 1
+* Tue May 29 20:05:20 2018
+
+
+
+** Analysis setup **
+.DC LIN V_VGS 0V 5V 0.1V 
+.OP 
+.LIB "C:\Users\Stephane\Desktop\UPV\TCO\Prac4\Schematic1.lib"
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "Schematic1.net"
+
+**** INCLUDING Schematic1.net ****
+* Schematics Netlist *
+
+
+
+V_VGS         $N_0001 0 0V
+V_VDS         $N_0002 0 10V
+M_M1         $N_0002 $N_0001 0 0 MbreakN-X  
++ L=1u  
++ W=2u         
+
+**** RESUMING Schematic1.cir ****
+.INC "Schematic1.als"
+
+
+
+**** INCLUDING Schematic1.als ****
+* Schematics Aliases *
+
+.ALIASES
+V_VGS           VGS(+=$N_0001 -=0 )
+V_VDS           VDS(+=$N_0002 -=0 )
+M_M1            M1(d=$N_0002 g=$N_0001 s=0 s=0 )
+.ENDALIASES
+
+
+**** RESUMING Schematic1.cir ****
+.probe
+
+
+.END
+
+**** 05/29/18 20:05:24 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\Stephane\Desktop\UPV\TCO\Prac4\Schematic1.sch
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               MbreakN-X       
+               NMOS            
+       LEVEL    1            
+           L  100.000000E-06 
+           W  100.000000E-06 
+         VTO    2            
+          KP    2.000000E-03 
+       GAMMA    0            
+         PHI     .6          
+      LAMBDA    0            
+          IS   10.000000E-15 
+          JS    0            
+          PB     .8          
+        PBSW     .8          
+          CJ    0            
+        CJSW    0            
+        CGSO    0            
+        CGDO    0            
+        CGBO    0            
+         TOX    0            
+          XJ    0            
+       UCRIT   10.000000E+03 
+      DIOMOD    1            
+         VFB    0            
+        LETA    0            
+        WETA    0            
+          U0    0            
+        TEMP    0            
+         VDD    0            
+       XPART    0            
+
+
+**** 05/29/18 20:05:24 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\Stephane\Desktop\UPV\TCO\Prac4\Schematic1.sch
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+($N_0001)    0.0000                   ($N_0002)   10.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_VGS        0.000E+00
+    V_VDS       -1.001E-11
+
+    TOTAL POWER DISSIPATION   1.00E-10  WATTS
+
+
+**** 05/29/18 20:05:24 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\Stephane\Desktop\UPV\TCO\Prac4\Schematic1.sch
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+
+
+**** MOSFETS
+
+
+NAME         M_M1      
+MODEL        MbreakN-X 
+ID           1.00E-11 
+VGS          0.00E+00 
+VDS          1.00E+01 
+VBS          0.00E+00 
+VTH          2.00E+00 
+VDSAT        0.00E+00 
+Lin0/Sat1   -1.00E+00 
+if          -1.00E+00 
+ir          -1.00E+00 
+TAU         -1.00E+00 
+GM           0.00E+00 
+GDS          0.00E+00 
+GMB          0.00E+00 
+CBD          0.00E+00 
+CBS          0.00E+00 
+CGSOV        0.00E+00 
+CGDOV        0.00E+00 
+CGBOV        0.00E+00 
+CGS          0.00E+00 
+CGD          0.00E+00 
+CGB          0.00E+00 
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .02
+

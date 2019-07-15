@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Game
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=start\ end\ game
+comment2.target=int\ opScore(TimeInstant,\ TimeInstant,\ MineSweeper)
+numComments=3

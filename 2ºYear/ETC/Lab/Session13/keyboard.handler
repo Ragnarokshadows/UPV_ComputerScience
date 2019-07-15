@@ -1,0 +1,82 @@
+## ESTRUCTURA DE COMPUTADORES   (ETSInformatica)
+##  
+##
+## LAB 13. Synchronization by interrupts
+##
+## Initial handler code
+
+
+##############################################################
+##              HANDLER DATA SEGMENT                        ##
+##############################################################
+
+			.kdata
+var1:	.word 0xFFFFFFFF
+retaddr:.word 0
+context:.word 0,0,0,0
+
+#############################################################
+##                  HANDLER CODE                           ##
+#############################################################
+
+          .ktext 0x80000080
+
+    ## Save the user program context
+    ## (nothing for the moment)
+	.set noat
+	sw $at,0($k1)
+	.set at
+	sw $t0, 4($k1)
+	sw $v0, 8($k1) 
+	sw $a0, 12($k1)
+	mfc0 $k0, $14
+	sw $k0, retaddr
+
+    ## Identify and handle interrupts
+    ## (nothing for the moment)
+	li $t0, 0xFFFF0000
+	lw $a0, 4($t0)
+	
+	li $v0, 11 
+	li $a0, '*' 
+	syscall
+
+    ## Restore context
+    ## (nothing for the moment)
+	lw $k0, retaddr
+	.set noat
+	lw $at,0($k1)
+	.set at
+	lw $t0, 4($k1)
+	lw $v0, 8($k1) 
+	lw $a0, 12($k1)
+
+    ## Set user mode and return to the user program
+    ## (something is missing)
+	rfe
+	jr $k0 
+
+#############################################################
+##                    Starting code                        ##
+#############################################################
+
+          .text
+          .globl __start 
+__start: 
+    ## Starting code
+    ## (nothing for the moment)
+	la $t0, 0xFFFF0000
+	lb $t1,0($t0)
+	ori $t1, $t1, 0x2
+	sb $t1, 0($t0)
+	li $t0, 0x0103
+	mtc0 $t0, $12
+	la $k1, context
+
+    ## Jump to user program
+	jal main
+
+    ## Ending code
+	li $v0, 10
+	syscall	 # exit function
+

@@ -1,0 +1,67 @@
+#anchorPane {
+    -fx-background-color: #00021A;
+}
+.text {
+    -fx-background-color: transparent;
+    -fx-fill: #FFFFFA;
+}
+.label {
+    -fx-background-color: transparent;
+    -fx-text-fill: #FFFFFA;
+}
+
+/*  REGULAR BUTTONS CHANGES */
+.button {
+    -fx-background-color: #F000FA;
+    -fx-background-color: #00021A;
+    -fx-background-color: #080c38;
+    -fx-background-radius: 0;    
+}
+.button:hover {
+    -fx-background-color: #EEEEEA;
+    -fx-background-color: #030733;
+    -fx-background-color: #080D50;
+}
+.button:pressed, .button:default:hover:pressed {
+    -fx-background-color: e5e5e0;
+    -fx-background-color: #011754;
+}
+.button:disabled, .button:disabled > * {
+    -fx-background-color: #DDDDDA;
+    -fx-background-color: #012054;
+    -fx-opacity: 1.0;
+}
+
+/*  LINE CHART CHANGES  */
+.chart {
+    -fx-background-color: transparent;
+}
+.chart-title {
+    -fx-text-fill: #FFFFFA;
+    -fx-background-color: transparent;
+}
+.axis{
+    -fx-text-fill: #FFFFFA;
+}
+.axis-label {
+    -fx-text-fill: #FFFFFA;
+}
+.chart-plot-background {
+    -fx-background-color: transparent;
+}
+.chart-vertical-grid-lines {
+    -fx-stroke: #FFFFFA;
+}
+.chart-horizontal-grid-lines {
+    -fx-stroke: #FFFFFA;
+}
+.default-color0.chart-series-line { 
+    -fx-stroke: #E50000;
+}
+
+/*  SLIDER CHANGES  */
+.slider .track {
+    -fx-control-inner-background: #1870B8;
+}
+
+/*    SPECIAL BUTTONS CHANGES    */

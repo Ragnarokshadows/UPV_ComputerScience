@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=StackIntArray
+comment1.params=
+comment1.target=StackIntArray()
+comment10.params=o
+comment10.target=boolean\ equals(java.lang.Object)
+comment11.params=
+comment11.target=StackIntArray\ clone()
+comment2.params=initialSize
+comment2.target=StackIntArray(int)
+comment3.params=value
+comment3.target=void\ push(int)
+comment4.params=
+comment4.target=int\ pop()
+comment5.params=
+comment5.target=int\ peek()
+comment6.params=
+comment6.target=int\ top()
+comment7.params=
+comment7.target=boolean\ empty()
+comment8.params=
+comment8.target=int\ size()
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=12

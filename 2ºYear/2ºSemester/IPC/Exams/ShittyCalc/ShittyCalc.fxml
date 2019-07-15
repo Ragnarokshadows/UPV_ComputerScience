@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8.0.76-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ShittyCalcController">
+   <children>
+      <Text fx:id="valueText" strokeType="OUTSIDE" strokeWidth="0.0" text="-20.0">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+      <HBox alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#numberClick" text="1">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#numberClick" text="5">
+               <HBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#numberClick" text="10">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </VBox.margin>
+      </HBox>
+      <CheckBox fx:id="restarCheckbox" mnemonicParsing="false" text="Restar">
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </CheckBox>
+      <HBox alignment="CENTER">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Valor:">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Text>
+            <TextField fx:id="editText">
+               <HBox.margin>
+                  <Insets left="15.0" right="15.0" />
+               </HBox.margin>
+            </TextField>
+            <Button mnemonicParsing="false" onAction="#sumarClick" text="Suma" />
+         </children>
+         <padding>
+            <Insets bottom="15.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER_RIGHT">
+         <children>
+            <Text fx:id="restandoText" strokeType="OUTSIDE" strokeWidth="0.0" text="¡Estas restando!" visible="false" />
+         </children>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+   </padding>
+</VBox>

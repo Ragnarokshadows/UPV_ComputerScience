@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=StackIntLinked
+comment1.params=
+comment1.target=StackIntLinked()
+comment10.params=current\ s
+comment10.target=void\ myClone(NodeInt,\ StackIntLinked)
+comment2.params=value
+comment2.target=void\ push(int)
+comment3.params=
+comment3.target=int\ pop()
+comment4.params=
+comment4.target=int\ top()
+comment5.params=
+comment5.target=boolean\ empty()
+comment6.params=
+comment6.target=int\ size()
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment8.params=o
+comment8.target=boolean\ equals(java.lang.Object)
+comment9.params=
+comment9.target=StackIntLinked\ clone()
+numComments=11

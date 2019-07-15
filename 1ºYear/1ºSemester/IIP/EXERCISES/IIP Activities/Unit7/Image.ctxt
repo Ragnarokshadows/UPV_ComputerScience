@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Image
+comment1.params=fileName
+comment1.target=Image(java.lang.String)
+comment2.params=
+comment2.target=void\ show()
+comment3.params=fileName
+comment3.target=boolean\ save(java.lang.String)
+comment4.params=inputImage
+comment4.target=java.awt.image.BufferedImage\ getGrayScale(java.awt.image.BufferedImage)
+comment5.params=
+comment5.target=java.awt.image.BufferedImage\ convert()
+comment6.params=
+comment6.target=void\ symmetric()
+comment7.params=
+comment7.target=void\ negative()
+numComments=8

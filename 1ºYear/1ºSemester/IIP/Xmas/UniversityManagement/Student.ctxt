@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Student
+comment1.params=nmarks\ nname
+comment1.target=Student(int[],\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=I\ have\ added\ this\ two\ methods\ to\ update\ the\ information\ of\ the\ group\r\n\ \ \ \ and\ to\ get\ the\ name\ of\ the\ student\ as\ there\ isn't\ other\ way\ to\ do\ it,\ I\ \r\nhave\ talked\ with\ the\ group\ and\ they\ agreed\ this\ changes
+comment3.params=ngroup
+comment3.target=void\ setGroup(java.lang.String)
+comment4.params=index
+comment4.target=void\ retakeExam(int)
+comment5.params=
+comment5.target=double\ average()
+comment6.params=
+comment6.target=boolean\ hasPassed()
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8

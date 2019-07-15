@@ -1,0 +1,24 @@
+* C:\Users\Stephane\Desktop\UPV\TCO\Prac5\Schematic3.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Tue May 29 21:20:35 2018
+
+
+
+** Analysis setup **
+.tran 1n 100n
+.OP 
+.LIB "C:\Users\Stephane\Desktop\UPV\TCO\Prac5\Schematic3.lib"
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "Schematic3.net"
+.INC "Schematic3.als"
+
+
+.probe
+
+
+.END

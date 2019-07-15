@@ -1,0 +1,299 @@
+### ESTRUCTURA Y TECNOLOGÍA DE COMPUTADORES II (ETISINF)
+###  
+###
+### LAB 15: SYSTEM CALLS II
+###
+### MANEJADOR MiMoS v.3 (starting handler code)
+
+
+
+
+##############################################################
+##              HANDLER DATA AREA                           ##
+##############################################################
+
+		.kdata
+
+		## Main process context
+
+salvareg:		.word 0,0,0	# $at, $t1 y $t0 are stored here
+addrret:		.word 0		# the returning address is stored here
+
+		## Main process state
+
+		READY	 = 0		# Main process states
+		WAITING_WAIT_TIME = 1
+		WAITING_READ = 2
+		WAITING_WRITE = 3
+
+
+state:		.word READY		# Process state 
+					        # initially ready
+
+		## Clock variables
+seconds:	.word 0
+awake:         	.word 0
+
+		## Keyboard variables
+
+
+		## Console variables
+
+
+#############################################################
+##           HANDLER CODE                                  ##
+#############################################################
+
+          .ktext 0x80000080
+
+## Save context
+
+	.set noat
+	sw $at,0($k1)	      	# Save $at
+	.set at
+	sw $t0,4($k1)		# Save $t0. for addresses
+	sw $t1,8($k1)		# Save $t1. for data
+
+## Exception cause analysis
+
+	mfc0 $k0,$13		# Copy cause register
+	andi $t0,$k0, 0x003c	# Isolate cause code
+	beq $t0,$zero,interrupt	# Hardware interrupt?  
+	li $t1, 0x20		# syscall? 
+	beq $t1, $t0, call 
+
+	b retexc			# Ignoro cualquier otra causa   
+
+#############################################################
+##             TRATAMIENTO DE INTERRUPCIONES               ##
+#############################################################
+
+interrupt:      
+
+## Prepare returning address (only if it is the main process)
+
+	lw $t0,state
+	li $t1,READY
+	bne $t0,$t1,$L1
+	mfc0 $t0, $14		# EPC
+	sw $t0, addrret
+
+## Análisis de interrupciones pendientes
+
+$L1:	andi $t0, $k0, 0x1000	# int2 pendat?
+	bne  $t0, $zero, int2
+	andi $t0, $k0, 0x800		# int1 pendat?
+	bne  $t0, $zero, int1
+	andi $t0, $k0, 0x400		# int0 pendat?
+	bne  $t0, $zero, int0
+	b retexc			# other interrupt
+
+#-------------------------------------------------------------
+
+## Handling clock interrupt
+
+int2:
+
+	li $t0, 0xffff0010
+	li $t1,1
+	sb $t1, 0($t0)		# CANCEL interrupt on the clock interface
+
+	lw $t1,seconds
+	addi $t1,$t1,1
+	sw $t1,seconds		# increment seconds
+
+	lw $t0,state		# if the process doesn't waits for the clock, I have done it
+	li $t1,WAITING_WAIT_TIME
+	bne $t0,$t1,retexc
+
+	lw $t0,awake  		# awake process?
+	lw $t1,seconds
+	bne $t0,$t1,retexc		# NO: keep the state
+	li $t1,READY			# YES: (seconds = awake)
+	sw $t1,state		        # process state = READY
+	b retexc			# end
+
+## Handling keyboard interrupt
+
+int0:
+	# To do
+	lw $t0, state
+	li $t1, WAITING_READ
+	bne $t0, $t1, fin
+	la $t0, 0xffff0004
+	lb $a0, 0($t0)
+	la $t0, 0xffff0000
+	sb $zero, 0($t0)
+	li $t1,READY			
+	sw $t1,state
+fin:
+	b retexc		# end
+
+## Handling console interrupt
+
+int1:
+	# To do
+	lw $t0, state
+	li $t1, WAITING_WRITE
+	bne $t0, $t1, fin
+	la $t0, 0xffff000c
+	sb $a0, 0($t0)
+	la $t0, 0xffff0008
+	sb $zero, 0($t0)
+	li $t1,READY			
+	sw $t1,state
+fin:
+	b retexc		# end
+
+
+#############################################################
+##                    SYSTEM CALLS                         ##
+#############################################################
+
+call:
+
+## Prepare returning address
+
+	mfc0 $k0, $14		# EPC
+	addi $k0,$k0,4
+	sw $k0, addrret
+
+## Select call
+
+	li $t1,11			# print_char?
+	beq $t1,$v0,print_char
+	li $t1,12			# read_char?
+	beq $t1,$v0,read_char
+	li $t1,90			# get_version?
+	beq $t1,$v0,get_version
+	li $t1,91			# get_time?
+	beq $t1,$v0,get_time
+	li $t1,92			# wait_time?
+	beq $t1,$v0,wait_time
+	b retexc			# not implemented call
+
+#---------------------------------------------------------------
+
+###### PRINT_CHAR (Service 11)
+
+print_char:
+	li $t0, 0xffff0008
+	li $t1, 0x2
+	sw $t1, 0($t0)
+	la $t0, state
+	li $t1, WAITING_WRITE
+	sw $t1, 0($t0)
+	b retexc
+
+###### READ_CHAR (Service 12)
+
+read_char:
+	# To do
+	li $t0, 0xffff0000
+	li $t1, 0x2
+	sw $t1, 0($t0)
+	la $t0, state
+	li $t1, WAITING_READ
+	sw $t1, 0($t0)
+	b retexc
+
+
+###### GET_VERSION (Service 90)
+
+get_version:
+	li $v0,3
+	b retexc
+
+
+###### GET_TIME (Service 91)
+
+get_time:
+	lw $v0,seconds
+	b retexc
+
+###### WAIT_TIME (Service 92)
+
+wait_time:
+	lw $t0,seconds
+	add $t0,$t0,$a0
+	sw $t0,awake
+
+	li $t0,WAITING_WAIT_TIME
+	sw $t0,state
+	b retexc
+
+
+#############################################################
+##             PROCESS SWITCH AND HANDLER END              ##
+#############################################################
+
+retexc:
+
+## Process switch
+
+	lw $t0,state
+	li $t1,READY
+	beq $t0,$t1,$L2		# if (state == READY), return to the main process
+
+	la $k0,void_process
+	b $L3			# otherwise return to the void process
+         
+$L2:	lw $k0,addrret		# (on addrret there is the returning address to the
+				            #  main process)
+
+## Restore the context
+
+$L3:	lw $t1, 8($k1)		# restore $t1
+	lw $t0, 4($k1)		# restore $t0
+	.set noat
+	lw $at, 0($k1)		# restore $at
+	.set at
+	rfe			# restore bits KU/IE
+	jr $k0
+
+##############################################################
+
+
+
+###################################################################
+##                       STARTING CODE                           ##
+###################################################################
+
+          .text
+          .globl __start 
+__start: 
+
+## Set peripheral interfaces
+
+	li $t0, 0xffff0000
+	sb $zero, 0($t0)		# disable keyboard interrupt on the keyboard interface
+
+	li $t0, 0xffff0008
+	sb $zero, 0($t0)		# disable console interrupt on the console interface
+
+	li $t0, 0xffff0010
+	sb $zero, 0($t0)		# disable clock interrupt on the clock interface
+
+## Prepare coprocessor state register and set user mode
+
+	mfc0 $t0, $12
+	ori $t0, $0, 0x0703	# Interrupts masked
+	mtc0 $t0, $12
+
+## Jump to user program
+
+	la $k1, salvareg		# $k1 context starting address
+	jal main
+
+## Shutdown
+
+	li $v0, 10
+	syscall			# syscall 10 (exit)
+
+
+###################################################################
+##                  SYSTEM VOID PROCESS                          ##
+###################################################################
+
+void_process: # system void process
+	b void_process

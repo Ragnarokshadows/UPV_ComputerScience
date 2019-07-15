@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<GridPane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="314.0" prefWidth="509.0" xmlns="http://javafx.com/javafx/8.0.76-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TablaPersonas.controlador.FXMLPersonaController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="295.0" minWidth="10.0" prefWidth="190.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="410.0" minWidth="10.0" prefWidth="410.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="115.0" minHeight="10.0" prefHeight="115.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="115.0" minHeight="10.0" prefHeight="115.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="90.0" minHeight="10.0" prefHeight="90.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Label text="Nombre:" textFill="#2750d7" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label text="Apellidos:" textFill="#2750d7" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nombreText" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="apellidosText" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </GridPane.margin>
+      </TextField>
+      <HBox alignment="CENTER" prefHeight="93.0" prefWidth="527.0" spacing="50.0" GridPane.columnSpan="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.vgrow="NEVER">
+         <children>
+            <Button defaultButton="true" mnemonicParsing="false" onAction="#okAction" prefHeight="26.0" prefWidth="91.0" text="OK" />
+            <Button cancelButton="true" mnemonicParsing="false" prefHeight="26.0" prefWidth="98.0" text="CANCEL" />
+         </children>
+      </HBox>
+   </children>
+</GridPane>

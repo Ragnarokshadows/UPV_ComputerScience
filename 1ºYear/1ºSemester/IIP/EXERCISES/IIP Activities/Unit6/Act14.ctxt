@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Act14
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=n
+comment2.target=int\ inverse(int)
+numComments=3

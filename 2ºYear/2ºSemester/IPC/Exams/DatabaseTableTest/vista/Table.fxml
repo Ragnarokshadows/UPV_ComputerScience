@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+<VBox alignment="TOP_CENTER" xmlns="http://javafx.com/javafx/8.0.76-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DatabaseTableTest.controlador.Controlador">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Database Data">
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </Text>
+      <TableView fx:id="tableView" prefHeight="200.0">
+        <columns>
+          <TableColumn fx:id="descripcion" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefWidth="90.0" text="Descripcion" />
+            <TableColumn fx:id="precio" prefWidth="63.0" text="Precio" />
+            <TableColumn fx:id="stock" prefWidth="75.0" text="Stock" />
+        </columns>
+      </TableView>
+   </children>
+   <padding>
+      <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+   </padding>
+</VBox>

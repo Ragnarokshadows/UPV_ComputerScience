@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Act15
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=v\ x
+comment2.target=boolean\ sumGreaterThan(int[],\ int)
+numComments=3

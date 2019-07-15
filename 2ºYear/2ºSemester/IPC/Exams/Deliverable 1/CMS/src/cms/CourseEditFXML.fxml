@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="380.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cms.CourseEditFXMLController">
+   <children>
+      <VBox layoutX="282.0" layoutY="110.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Course Title:  " />
+                  <TextField fx:id="courseTitleText" alignment="CENTER" prefHeight="26.0" prefWidth="200.0">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Teacher:  " />
+                  <TextField fx:id="teacherText" alignment="CENTER" prefHeight="26.0" prefWidth="200.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Max. No. of Students:  " />
+                  <TextField fx:id="maxNoStudents" alignment="CENTER" prefHeight="26.0" prefWidth="200.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Starting Date:  " />
+                  <DatePicker fx:id="sDateText" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ending Date:  " />
+                  <DatePicker fx:id="eDateText" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Time:  " />
+                  <TextField fx:id="hourText" alignment="CENTER" prefHeight="26.0" prefWidth="70.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="  :  " />
+                  <TextField fx:id="minuteText" alignment="CENTER" prefHeight="26.0" prefWidth="70.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text=" (24h)" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Days taught:  " />
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="M " />
+                              <RadioButton fx:id="mondayRadioB" contentDisplay="CENTER" mnemonicParsing="false" textAlignment="CENTER" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="T " textAlignment="CENTER" />
+                              <RadioButton fx:id="tuesdayRadioB" contentDisplay="CENTER" mnemonicParsing="false" textAlignment="CENTER" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="W " textAlignment="CENTER" />
+                              <RadioButton fx:id="wednesdayRadioB" contentDisplay="CENTER" mnemonicParsing="false" textAlignment="CENTER" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="T " textAlignment="CENTER" />
+                              <RadioButton fx:id="thursdayRadioB" contentDisplay="CENTER" mnemonicParsing="false" textAlignment="CENTER" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="F " textAlignment="CENTER" />
+                              <RadioButton fx:id="fridayRadioB" contentDisplay="CENTER" mnemonicParsing="false" textAlignment="CENTER" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="S " textAlignment="CENTER" />
+                              <RadioButton fx:id="saturdayRadioB" contentDisplay="CENTER" mnemonicParsing="false" textAlignment="CENTER" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="S " textAlignment="CENTER" />
+                              <RadioButton fx:id="sundayRadioB" contentDisplay="CENTER" mnemonicParsing="false" textAlignment="CENTER" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Room:  " />
+                  <TextField fx:id="roomText" alignment="CENTER" prefHeight="26.0" prefWidth="200.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" spacing="15.0">
+               <children>
+                  <Button fx:id="okB" mnemonicParsing="false" onMouseClicked="#onMouseClicked" prefHeight="26.0" prefWidth="65.0" text="Ok" />
+                  <Button fx:id="cancelB" mnemonicParsing="false" onMouseClicked="#onMouseClicked" prefHeight="26.0" prefWidth="65.0" text="Cancel" />
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="15.0" right="15.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>

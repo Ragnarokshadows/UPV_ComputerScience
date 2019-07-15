@@ -1,0 +1,403 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     15829,        395]
+NotebookOptionsPosition[     14295,        359]
+NotebookOutlinePosition[     14642,        374]
+CellTagsIndexPosition[     14599,        371]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["", "Input",
+ CellChangeTimes->{{3.7201698087111144`*^9, 
+  3.7201698315036764`*^9}},ExpressionUUID->"08f510b1-30dc-4bd9-aa41-\
+fc69586a0181"],
+
+Cell[CellGroupData[{
+
+Cell["USEFUL INFORMATION", "Title",
+ CellChangeTimes->{{3.720169871700693*^9, 3.720169944850558*^9}, 
+   3.7201701119855056`*^9},ExpressionUUID->"1da17444-3e8a-4335-8046-\
+544d11b9a553"],
+
+Cell[CellGroupData[{
+
+Cell["2.ELEMENTARY FUNCTION", "Chapter",
+ CellChangeTimes->{{3.720169871700693*^9, 3.7201699845702267`*^9}, {
+  3.720184444325642*^9, 
+  3.7201844763180656`*^9}},ExpressionUUID->"cc4f7bbf-47a8-4100-9f60-\
+a2ba3f313320"],
+
+Cell[TextData[{
+ "To make a graph we use \
+\[OpenCurlyDoubleQuote]Plot[]\[CloseCurlyDoubleQuote].Here is how it works \
+this function:\n\tPlot[f, {x, x min, x max}]--------->plot f as a function of \
+x from x min to x max\n\tPlot[{f1, f2 }, {x, x min, x max}]--------->plot \
+several function together\nTo fullfill the area between two functions we use \
+\[OpenCurlyDoubleQuote]Fill\[CloseCurlyDoubleQuote].Here is how it works this \
+function:\n\tPlot[{f1, f2 }, {x, x min, x max}, \
+Filling\[Rule]{1\[Rule]{2}}]---------->Fills the area between this two \
+functions\nTo know the coordenates of the mouse we use \
+\[OpenCurlyDoubleQuote]MousePosition[]\[CloseCurlyDoubleQuote].Here is how it \
+works:\n\tDynamic[MousePosition[]]-------->To know the coordinates of the \
+mouse in every moment\n\t\
+{Graphics[AA,ImageSize\[Rule]100],Dynamic[MousePosition[\
+\[OpenCurlyDoubleQuote]Graphics\[CloseCurlyDoubleQuote],\
+\[CloseCurlyDoubleQuote]Mouse not in \
+graphics!\[CloseCurlyDoubleQuote]]]}-------->To know the coordinates of the \
+mouse in the graph where AA is a plot\nWe can see the vertical asymptotes on \
+the plot, to know the horizontal asymptote we use: ",
+ Cell[BoxData[
+  RowBox[{"Limit", "[", 
+   RowBox[{"f", ",", 
+    RowBox[{"x", "\[Rule]", "Infinity"}]}], "]"}]],
+  CellChangeTimes->{
+   3.588343580921875*^9, {3.58834367278125*^9, 3.588343691578125*^9}, 
+    3.588343722015625*^9, {3.6832709450662313`*^9, 3.6832709686995125`*^9}},
+  ExpressionUUID->"93794eb0-1872-467e-b99a-99c224b63881"],
+ "\nOn the other hand to calculate the oblique asymptote we have to do the \
+next steps:\n\t1.-",
+ Cell[BoxData[
+  RowBox[{"m", "=", 
+   RowBox[{"Limit", "[", 
+    RowBox[{"f", ",", " ", 
+     RowBox[{"x", "\[Rule]", " ", "Infinity"}]}], "]"}]}]],
+  CellChangeTimes->{{3.714461781894812*^9, 3.7144617985086117`*^9}},
+  ExpressionUUID->"62b0c3cb-6ffe-4ada-a0ee-417650ff703b"],
+ "\n\t2.-",
+ Cell[BoxData[
+  RowBox[{"n", "=", 
+   RowBox[{"Limit", "[", 
+    RowBox[{
+     RowBox[{"f", "-", "mx"}], ",", " ", 
+     RowBox[{"x", "\[Rule]", " ", "Infinity"}]}], "]"}]}]],
+  CellChangeTimes->{{3.7144617867561903`*^9, 3.714461807356287*^9}},
+  ExpressionUUID->"a8320d33-f396-456b-bec2-05605e23f030"],
+ "\n\t3.-",
+ Cell[BoxData[
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"Plot", "[", 
+      RowBox[{"f", ",", " ", 
+       RowBox[{"mx", " ", "+", "n"}]}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"x", ",", 
+      RowBox[{"x", " ", "min"}], ",", 
+      RowBox[{"x", " ", "max"}]}], "}"}]}], "]"}]],
+  CellChangeTimes->{3.7144617898784394`*^9, 3.7144618221119204`*^9},
+  ExpressionUUID->"62258313-c78f-4799-9284-afd84c0d03e7"]
+}], "Text",
+ CellChangeTimes->{{3.720169871700693*^9, 3.7201699845702267`*^9}, {
+  3.720184444325642*^9, 3.7201845189465218`*^9}, {3.720184609418316*^9, 
+  3.7201847130013895`*^9}, {3.720184797961807*^9, 3.7201848459417562`*^9}, {
+  3.7201849050354013`*^9, 3.720185025975279*^9}, {3.7201851068480234`*^9, 
+  3.7201851856189632`*^9}, {3.720185239374606*^9, 3.720185290047574*^9}, {
+  3.7201853662882886`*^9, 3.7201854583029947`*^9}, {3.7201855127922044`*^9, 
+  3.7201855528309374`*^9}, {3.7201855887797165`*^9, 
+  3.7201856836520624`*^9}},ExpressionUUID->"06a51d0c-e77a-4e80-8c6a-\
+c4c23f629112"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["3.EQUATIONS", "Chapter",
+ CellChangeTimes->{{3.720169871700693*^9, 3.7201699845702267`*^9}, {
+  3.720184444325642*^9, 3.72018447135843*^9}, {3.720185766285073*^9, 
+  3.7201857712531233`*^9}, {3.7201858084110975`*^9, 
+  3.7201858200406857`*^9}},ExpressionUUID->"7c77ddde-38cb-4d6c-822b-\
+e1041f4101ee"],
+
+Cell["\<\
+To solve equation we use \[OpenCurlyDoubleQuote]Solev[]\
+\[CloseCurlyDoubleQuote].Here is how it works:
+\tSolve[x==k, x]------>Solves this equation for x
+\tSolve[{x==k, y==k}, {x, y}]------->Solves a system of equations
+\tN[x==k, x]------->Gives the numerical solution
+\tNSolve[x+y == k,{x,y}]---------->Gives an aproximate solution
+To solve inequation we use \[OpenCurlyDoubleQuote]Reduce[]\
+\[CloseCurlyDoubleQuote].Here is how it works:
+\tReduce[x < k, x]------>Solves this inequation for x
+\tReduce[x + y > k, {x, y}]------->Solves an inequations with two variables
+To find a root we use \[OpenCurlyDoubleQuote]FindRoot[]\
+\[CloseCurlyDoubleQuote]. Here is how it works:
+\tFindRoot[f, {x, x0}]--------->Searchs a root near x0
+To derivate we use \[OpenCurlyDoubleQuote]D[]\[CloseCurlyDoubleQuote]. Here \
+is how it works:
+\tD[f, x]------------>Derivates f of x
+To simplify we use \[OpenCurlyDoubleQuote]Simplify[]\[CloseCurlyDoubleQuote]\
+\>", "Text",
+ CellChangeTimes->{{3.720169871700693*^9, 3.7201699845702267`*^9}, {
+  3.720184444325642*^9, 3.72018447135843*^9}, {3.720185766285073*^9, 
+  3.7201857712531233`*^9}, {3.7201858084110975`*^9, 3.720185828421629*^9}, {
+  3.720185911374639*^9, 3.7201859781623974`*^9}, {3.72018601841133*^9, 
+  3.7201860801529226`*^9}, {3.720186132597573*^9, 3.7201861851706133`*^9}, {
+  3.720186245319211*^9, 3.7201863676372128`*^9}, {3.7201864429567285`*^9, 
+  3.7201865017143974`*^9}, {3.7201865607121162`*^9, 3.720186650462998*^9}, {
+  3.7201866861149116`*^9, 
+  3.7201867459140778`*^9}},ExpressionUUID->"36d6d23b-8a9c-4b7d-ba3f-\
+087ee71a2575"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["5.INTEGRALS", "Chapter",
+ CellChangeTimes->{{3.720169871700693*^9, 3.7201699845702267`*^9}, {
+  3.720184444325642*^9, 3.72018447135843*^9}, {3.720185766285073*^9, 
+  3.7201857712531233`*^9}, {3.7201858084110975`*^9, 
+  3.720185812589884*^9}},ExpressionUUID->"3cd7473e-b0d7-4267-95f8-\
+e1ca6213fbb0"],
+
+Cell[TextData[{
+ "To integrate in Mathematica we use \[OpenCurlyDoubleQuote]Integrate[]\
+\[CloseCurlyDoubleQuote]. Here is how it works this function:\n\t\
+Integrate[f,x] ----------->the indefinite integral ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Integral]", 
+    RowBox[{"f", 
+     RowBox[{"\[DifferentialD]", "x"}]}]}], TraditionalForm]],ExpressionUUID->
+  "dc6b2631-feb8-4d8b-bece-cfb9a6efbf49"],
+ "\n\tIntegrate[f,x,y] ----------->the multiple integral ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Integral]", 
+    RowBox[{"f", 
+     RowBox[{"\[DifferentialD]", "x"}], " ", 
+     RowBox[{"\[DifferentialD]", "y"}]}]}], TraditionalForm]],ExpressionUUID->
+  "cef6fad8-904a-489c-9245-4eae50a8c4d7"],
+ "\n\tIntegrate[f,{x,x min, x max}] ----------->the definite integral ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubsuperscriptBox["\[Integral]", 
+     RowBox[{"x", " ", "min"}], 
+     RowBox[{"x", " ", "max"}]], 
+    RowBox[{"f", 
+     RowBox[{"\[DifferentialD]", "x"}]}]}], TraditionalForm]],ExpressionUUID->
+  "aea54f9b-1802-4d8b-8876-d382c1421725"],
+ "\n\tTo do aproximated integrals:\n\t\t",
+ Cell[BoxData[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"Trapezoid", "[", 
+     RowBox[{"a_", ",", "b_", ",", "n_", ",", "d_", ",", "f_"}], "]"}], ":=", 
+    RowBox[{"N", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"f", "[", "a", "]"}], "+", 
+         RowBox[{"f", "[", "b", "]"}], "+", 
+         RowBox[{"2", " ", 
+          RowBox[{
+           UnderoverscriptBox["\[Sum]", 
+            RowBox[{"k", "=", "1"}], 
+            RowBox[{"n", "-", "1"}]], 
+           RowBox[{"f", "[", 
+            RowBox[{"a", "+", 
+             RowBox[{"k", " ", 
+              RowBox[{"(", 
+               FractionBox[
+                RowBox[{"b", "-", "a"}], "n"], ")"}]}]}], "]"}]}]}]}], ")"}], 
+       RowBox[{"(", 
+        FractionBox[
+         RowBox[{"b", "-", "a"}], 
+         RowBox[{"2", "  ", "n"}]], ")"}]}], ",", "d"}], "]"}]}], 
+   ";"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"ErrorTrapezoid", "[", 
+     RowBox[{"a_", ",", "b_", ",", "n_", ",", "M2_"}], "]"}], ":=", " ", 
+    RowBox[{
+     FractionBox[
+      RowBox[{" ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"b", "-", "a"}], ")"}], "3"]}], 
+      RowBox[{"12", " ", 
+       SuperscriptBox["n", "2"]}]], "M2"}]}], ";"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Simpson", "[", 
+     RowBox[{"a_", ",", "b_", ",", "n_", ",", "d_", ",", "f_"}], "]"}], ":=", 
+    RowBox[{"N", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"f", "[", "a", "]"}], "+", 
+         RowBox[{"f", "[", "b", "]"}], "+", 
+         RowBox[{"4", 
+          RowBox[{
+           UnderoverscriptBox["\[Sum]", 
+            RowBox[{"k", "=", "0"}], 
+            RowBox[{
+             RowBox[{"(", 
+              RowBox[{"n", "/", "2"}], ")"}], "-", "1"}]], 
+           RowBox[{"f", "[", 
+            RowBox[{"a", "+", 
+             RowBox[{
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"2", "  ", "k"}], " ", "+", " ", "1"}], ")"}], 
+              RowBox[{"(", 
+               FractionBox[
+                RowBox[{"b", "-", "a"}], "n"], ")"}]}]}], "]"}]}]}], "+", 
+         RowBox[{"2", " ", 
+          RowBox[{
+           UnderoverscriptBox["\[Sum]", 
+            RowBox[{"k", "=", "1"}], 
+            RowBox[{
+             RowBox[{"(", 
+              RowBox[{"n", "/", "2"}], ")"}], "-", "1"}]], 
+           RowBox[{"f", "[", 
+            RowBox[{"a", "+", 
+             RowBox[{"2", "  ", "k", " ", 
+              RowBox[{"(", 
+               FractionBox[
+                RowBox[{"b", "-", "a"}], "n"], ")"}]}]}], " ", "]"}]}]}]}], 
+        ")"}], 
+       RowBox[{"(", 
+        FractionBox[
+         RowBox[{"b", "-", "a"}], 
+         RowBox[{"3", " ", "n"}]], ")"}]}], ",", "d"}], "]"}]}], 
+   ";"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"ErrorSimpson", "[", 
+     RowBox[{"a_", ",", "b_", ",", "n_", ",", "M4_"}], "]"}], ":=", " ", 
+    RowBox[{
+     FractionBox[
+      RowBox[{" ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"b", "-", "a"}], ")"}], "5"]}], 
+      RowBox[{"180", 
+       SuperscriptBox["n", "4"]}]], "M4"}]}], ";"}]}],
+  CellChangeTimes->{{3.5906761119375*^9, 3.59067614209375*^9}, {
+    3.59067619465625*^9, 3.5906762316875*^9}, 3.590676928140625*^9, {
+    3.590676970828125*^9, 3.590676974765625*^9}, {3.590680474125*^9, 
+    3.590680483734375*^9}, {3.590680559671875*^9, 3.59068073715625*^9}, {
+    3.590681564828125*^9, 3.5906815665*^9}, 3.590757268890625*^9, {
+    3.590757335359375*^9, 3.590757469796875*^9}, {3.5907581805625*^9, 
+    3.59075818353125*^9}, {3.590758256296875*^9, 3.59075825753125*^9}, {
+    3.59075934903125*^9, 3.59075935453125*^9}, {3.590759429859375*^9, 
+    3.590759491828125*^9}, {3.590759774734375*^9, 3.59075983878125*^9}, {
+    3.590759888609375*^9, 3.5907599173125*^9}, {3.590760031953125*^9, 
+    3.590760032890625*^9}, {3.59076011375*^9, 3.590760155234375*^9}, {
+    3.590760914765625*^9, 3.590760917953125*^9}, {3.590762431890625*^9, 
+    3.590762534*^9}, 3.59197785975*^9},ExpressionUUID->
+  "d9562a9e-b8eb-4a67-a3a6-10fce4f31814"]
+}], "Text",
+ CellChangeTimes->{{3.720169871700693*^9, 3.7201703243450155`*^9}, {
+   3.7201704875300837`*^9, 3.7201705047410464`*^9}, 3.7201846192738824`*^9, {
+   3.721904856909859*^9, 
+   3.721904863400381*^9}},ExpressionUUID->"6c8870cb-c01b-47d7-ba54-\
+9400cc1b3a78"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["8.SEQUENCES", "Chapter",
+ CellChangeTimes->{{3.7219048853051105`*^9, 
+  3.7219049147604637`*^9}},ExpressionUUID->"b8f56f87-2b6b-4127-9e83-\
+454d3d8004f0"],
+
+Cell["\<\
+To calculate the Nth term of a sequence we use \[OpenCurlyDoubleQuote]Table[]\
+\[CloseCurlyDoubleQuote].Here is how it works this function:
+\tTable[a[n_], {n,  n min, n max}]------------------>Calculates the terms \
+from the minimum to the maximum n from the sequence a[n_]
+To plot the terms we use \[OpenCurlyDoubleQuote]ListPlot[]\
+\[CloseCurlyDoubleQuote] and to plot a sequence we use \
+\[OpenCurlyDoubleQuote]DiscretePlot[]\[CloseCurlyDoubleQuote].Here is how it \
+works these functions:
+\tListPlot[{term1, term2,...,termN}]--------------->Plots N terms
+\tDiscretePlot[a[n_], {n, n min, n max}]------------------->Plots a sequences \
+from n minimum to n maximum
+To solve a recurrent sequence we use \[OpenCurlyDoubleQuote]RSolve[]\
+\[CloseCurlyDoubleQuote].Here is how it works this function:
+\tRSolve[{equation}, a[n], n]------------------------>Solves a recurrence
+To calculate the Nth terms of a recurrence we use \
+\[OpenCurlyDoubleQuote]RecurrenceTable[]\[CloseCurlyDoubleQuote].Here is how \
+it works this function:
+\tRecurrenceTable[{equation}, a[n], {n, n min, n \
+max}]------------------->Calculates the terms from the minimum to the maximum \
+n from a recurrence
+\t\
+\>", "Text",
+ CellChangeTimes->{{3.721905079799589*^9, 3.721905262533617*^9}, {
+  3.7219053441210003`*^9, 3.72190541786207*^9}, {3.7219054764976835`*^9, 
+  3.7219055412243814`*^9}, {3.7219055988726764`*^9, 3.721905660471177*^9}, {
+  3.721905784904996*^9, 3.721905913394756*^9}, {3.7219061241461077`*^9, 
+  3.7219062573394346`*^9}, {3.72190629086915*^9, 
+  3.7219062973712454`*^9}},ExpressionUUID->"3827574a-2730-42c3-9b51-\
+68a716058f53"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["9.SERIES", "Chapter",
+ CellChangeTimes->{{3.721906307351376*^9, 
+  3.721906339231758*^9}},ExpressionUUID->"a23ae492-3fbc-4634-84bf-\
+47d0c98be159"],
+
+Cell["", "Text",ExpressionUUID->"40435ad0-d43c-46f8-a5a5-6bb80f25b9df"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1350, 685},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"11.2 para Microsoft Windows (64-bit) (September 10, 2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 147, 3, 28, "Input",ExpressionUUID->"08f510b1-30dc-4bd9-aa41-fc69586a0181"],
+Cell[CellGroupData[{
+Cell[730, 27, 186, 3, 96, "Title",ExpressionUUID->"1da17444-3e8a-4335-8046-544d11b9a553"],
+Cell[CellGroupData[{
+Cell[941, 34, 219, 4, 67, "Chapter",ExpressionUUID->"cc4f7bbf-47a8-4100-9f60-a2ba3f313320"],
+Cell[1163, 40, 3229, 68, 298, "Text",ExpressionUUID->"06a51d0c-e77a-4e80-8c6a-c4c23f629112"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4429, 113, 307, 5, 67, "Chapter",ExpressionUUID->"7c77ddde-38cb-4d6c-822b-e1041f4101ee"],
+Cell[4739, 120, 1593, 28, 298, "Text",ExpressionUUID->"36d6d23b-8a9c-4b7d-ba3f-087ee71a2575"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6369, 153, 305, 5, 67, "Chapter",ExpressionUUID->"3cd7473e-b0d7-4267-95f8-e1ca6213fbb0"],
+Cell[6677, 160, 5496, 146, 264, "Text",ExpressionUUID->"6c8870cb-c01b-47d7-ba54-9400cc1b3a78"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12210, 311, 160, 3, 67, "Chapter",ExpressionUUID->"b8f56f87-2b6b-4127-9e83-454d3d8004f0"],
+Cell[12373, 316, 1630, 29, 232, "Text",ExpressionUUID->"3827574a-2730-42c3-9b51-68a716058f53"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14040, 350, 153, 3, 67, "Chapter",ExpressionUUID->"a23ae492-3fbc-4634-84bf-47d0c98be159"],
+Cell[14196, 355, 71, 0, 34, "Text",ExpressionUUID->"40435ad0-d43c-46f8-a5a5-6bb80f25b9df"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

@@ -1,0 +1,204 @@
+
+**** 05/29/18 22:03:57 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\Stephane\Desktop\UPV\TCO\Prac7\Schematic1.sch
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+* Schematics Version 9.1 - Web Update 1
+* Tue May 29 22:03:52 2018
+
+
+
+** Analysis setup **
+.OP 
+.LIB "C:\Users\Stephane\Desktop\UPV\TCO\Prac7\Schematic1.lib"
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "Schematic1.net"
+
+**** INCLUDING Schematic1.net ****
+* Schematics Netlist *
+
+
+
+V_VDD         $N_0001 0 5V
+V_VA         $N_0002 0 0V
+V_VB         $N_0003 0 0V
+M_M6         $N_0001 $N_0002 $N_0004 $N_0001 MbreakP-X  
++ L=1u  
++ W=1u         
+M_M4         $N_0001 $N_0003 $N_0004 $N_0001 MbreakP-X  
++ L=1u  
++ W=1u         
+M_M1         $N_0004 $N_0002 $N_0005 0 MbreakN-X  
++ L=1u  
++ W=1u         
+M_M5         $N_0005 $N_0003 0 0 MbreakN-X  
++ L=1u  
++ W=1u         
+
+**** RESUMING Schematic1.cir ****
+.INC "Schematic1.als"
+
+
+
+**** INCLUDING Schematic1.als ****
+* Schematics Aliases *
+
+.ALIASES
+V_VDD           VDD(+=$N_0001 -=0 )
+V_VA            VA(+=$N_0002 -=0 )
+V_VB            VB(+=$N_0003 -=0 )
+M_M6            M6(d=$N_0001 g=$N_0002 s=$N_0004 b=$N_0001 )
+M_M4            M4(d=$N_0001 g=$N_0003 s=$N_0004 b=$N_0001 )
+M_M1            M1(d=$N_0004 g=$N_0002 s=$N_0005 b=0 )
+M_M5            M5(d=$N_0005 g=$N_0003 s=0 b=0 )
+.ENDALIASES
+
+
+**** RESUMING Schematic1.cir ****
+.probe
+
+
+.END
+
+Unable to find index file Schematic1.ind for library file Schematic1.lib
+Making new index file Schematic1.ind for library file Schematic1.lib
+Index has 2 entries from 1 file(s).
+
+**** 05/29/18 22:03:57 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\Stephane\Desktop\UPV\TCO\Prac7\Schematic1.sch
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               MbreakP-X       MbreakN-X       
+               PMOS            NMOS            
+       LEVEL    1               1            
+           L  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06 
+         VTO    1               1            
+          KP   15.000000E-06   15.000000E-06 
+       GAMMA    0               0            
+         PHI     .6              .6          
+      LAMBDA    0               0            
+          IS   10.000000E-15   10.000000E-15 
+          JS    0               0            
+          PB     .8              .8          
+        PBSW     .8              .8          
+          CJ    0               0            
+        CJSW    0               0            
+        CGSO    0               0            
+        CGDO    0               0            
+        CGBO    0               0            
+         TOX    0               0            
+          XJ    0               0            
+       UCRIT   10.000000E+03   10.000000E+03 
+      DIOMOD    1               1            
+         VFB    0               0            
+        LETA    0               0            
+        WETA    0               0            
+          U0    0               0            
+        TEMP    0               0            
+         VDD    0               0            
+       XPART    0               0            
+
+
+**** 05/29/18 22:03:57 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\Stephane\Desktop\UPV\TCO\Prac7\Schematic1.sch
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+($N_0001)    5.0000                   ($N_0002)    0.0000                       
+
+($N_0003)    0.0000                   ($N_0004)    5.0000                       
+
+($N_0005)-1.843E-12                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_VDD       -5.010E-12
+    V_VA         0.000E+00
+    V_VB         0.000E+00
+
+    TOTAL POWER DISSIPATION   2.51E-11  WATTS
+
+
+**** 05/29/18 22:03:57 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\Stephane\Desktop\UPV\TCO\Prac7\Schematic1.sch
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+
+
+**** MOSFETS
+
+
+NAME         M_M6        M_M4        M_M1        M_M5      
+MODEL        MbreakP-X   MbreakP-X   MbreakN-X   MbreakN-X 
+ID           2.51E-12    2.51E-12    5.01E-12   -2.56E-24 
+VGS         -5.00E+00   -5.00E+00    1.84E-12    0.00E+00 
+VDS          2.78E-08    2.78E-08    5.00E+00   -1.84E-12 
+VBS          2.78E-08    2.78E-08    1.84E-12    0.00E+00 
+VTH          1.00E+00    1.00E+00    1.00E+00    1.00E+00 
+VDSAT       -6.00E+00   -6.00E+00    0.00E+00    0.00E+00 
+Lin0/Sat1   -1.00E+00   -1.00E+00   -1.00E+00   -1.00E+00 
+if          -1.00E+00   -1.00E+00   -1.00E+00   -1.00E+00 
+ir          -1.00E+00   -1.00E+00   -1.00E+00   -1.00E+00 
+TAU         -1.00E+00   -1.00E+00   -1.00E+00   -1.00E+00 
+GM           4.18E-13    4.18E-13    0.00E+00    0.00E+00 
+GDS          9.00E-05    9.00E-05    0.00E+00    0.00E+00 
+GMB          0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+CBD          0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+CBS          0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+CGSOV        0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+CGDOV        0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+CGBOV        0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+CGS          0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+CGD          0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+CGB          0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .02
+

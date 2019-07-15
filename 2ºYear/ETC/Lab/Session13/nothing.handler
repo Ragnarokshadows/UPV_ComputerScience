@@ -1,0 +1,52 @@
+## ESTRUCTURA DE COMPUTADORES   (ETSInformatica)
+##  
+##
+## LAB 13. Synchronization by interrupts
+##
+## Initial handler code
+
+
+##############################################################
+##              HANDLER DATA SEGMENT                        ##
+##############################################################
+
+			.kdata
+var1:	.word 0xFFFFFFFF
+
+#############################################################
+##                  HANDLER CODE                           ##
+#############################################################
+
+          .ktext 0x80000080
+
+    ## Save the user program context
+    ## (nothing for the moment)
+
+    ## Identify and handle interrupts
+    ## (nothing for the moment)
+
+    ## Restore context
+    ## (nothing for the moment)
+
+    ## Set user mode and return to the user program
+    ## (something is missing)
+	rfe
+	jr $k0 
+
+#############################################################
+##                    Starting code                        ##
+#############################################################
+
+          .text
+          .globl __start 
+__start: 
+    ## Starting code
+    ## (nothing for the moment)
+
+    ## Jump to user program
+	jal main
+
+    ## Ending code
+	li $v0, 10
+	syscall	 # exit function
+

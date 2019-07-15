@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Act1
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=z\ eps
+comment2.target=double\ log(double,\ double)
+numComments=3

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cms.CourseStudentEnrollFMXLController">
+   <children>
+      <VBox layoutX="10.0" layoutY="10.0" prefHeight="444.0" prefWidth="661.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <MenuBar prefHeight="40.0" prefWidth="350.0">
+               <menus>
+                  <Menu mnemonicParsing="false" text="File">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#exitClicked" text="Exit" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Help">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#helpCenterClicked" text="Help Center" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" onAction="#aboutClicked" text="About" />
+                     </items>
+                  </Menu>
+               </menus>
+            </MenuBar>
+            <HBox alignment="CENTER" prefHeight="65.0" prefWidth="310.0" spacing="50.0">
+               <children>
+                  <Button fx:id="bAction" mnemonicParsing="false" onMouseClicked="#onMouseClicked" prefHeight="30.0" prefWidth="90.0" text="Enroll">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="cancelB" mnemonicParsing="false" onMouseClicked="#onMouseClicked" prefHeight="30.0" prefWidth="90.0" text="Cancel">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </HBox>
+            <TextField fx:id="searchText" promptText="Search">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="15.0" right="15.0" top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TableView fx:id="studentTableView" prefHeight="9.9999999999E10" prefWidth="9.9999999999E10">
+               <columns>
+                  <TableColumn fx:id="dniColumn" prefWidth="75.0" text="DNI" />
+                  <TableColumn fx:id="fullNameColumn" prefWidth="120.0" text="Full Name" />
+                  <TableColumn fx:id="photoColumn" prefWidth="115.0" text="Photography" />
+               </columns>
+               <VBox.margin>
+                  <Insets bottom="15.0" left="15.0" right="15.0" />
+               </VBox.margin>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

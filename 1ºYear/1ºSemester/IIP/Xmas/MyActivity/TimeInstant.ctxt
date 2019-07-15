@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=TimeInstant
+comment1.params=
+comment1.target=TimeInstant()
+comment1.text=\r\n\ <code>TimeInstant</code>\ (hours\ and\ minutes)\ from\ current\ \r\n\ UTC\ (universal\ coordinated\ time).\r\n
+comment2.params=
+comment2.target=int\ toMinutes()
+numComments=3

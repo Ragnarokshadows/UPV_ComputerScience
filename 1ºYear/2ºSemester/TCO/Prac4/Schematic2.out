@@ -1,0 +1,191 @@
+
+**** 05/29/18 20:15:31 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\Stephane\Desktop\UPV\TCO\Prac4\Schematic2.sch
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+* Schematics Version 9.1 - Web Update 1
+* Tue May 29 20:15:27 2018
+
+
+
+** Analysis setup **
+.OP 
+.LIB "C:\Users\Stephane\Desktop\UPV\TCO\Prac4\Schematic2.lib"
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "Schematic2.net"
+
+**** INCLUDING Schematic2.net ****
+* Schematics Netlist *
+
+
+
+R_RD         $N_0002 $N_0001  1k  
+R_R1         $N_0003 $N_0001  6k  
+R_R2         0 $N_0003  4k  
+V_VDD         $N_0001 0 10V
+M_M1         $N_0002 $N_0003 0 0 MbreakN-X  
++ L=1u  
++ W=2u         
+
+**** RESUMING Schematic2.cir ****
+.INC "Schematic2.als"
+
+
+
+**** INCLUDING Schematic2.als ****
+* Schematics Aliases *
+
+.ALIASES
+R_RD            RD(1=$N_0002 2=$N_0001 )
+R_R1            R1(1=$N_0003 2=$N_0001 )
+R_R2            R2(1=0 2=$N_0003 )
+V_VDD           VDD(+=$N_0001 -=0 )
+M_M1            M1(d=$N_0002 g=$N_0003 s=0 s=0 )
+.ENDALIASES
+
+
+**** RESUMING Schematic2.cir ****
+.probe
+
+
+.END
+
+WARNING -- Library file C:\Users\Stephane\Desktop\UPV\TCO\Prac4\Schematic2.lib has changed since index file Schematic2.ind was created.
+WARNING -- The timestamp changed from Tue May 29 20:14:30 2018 to Tue May 29 20:15:24 2018.
+Making new index file Schematic2.ind for library file Schematic2.lib
+Index has 1 entries from 1 file(s).
+
+**** 05/29/18 20:15:31 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\Stephane\Desktop\UPV\TCO\Prac4\Schematic2.sch
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               MbreakN-X       
+               NMOS            
+       LEVEL    1            
+           L  100.000000E-06 
+           W  100.000000E-06 
+         VTO    2            
+          KP    2.000000E-03 
+       GAMMA    0            
+         PHI     .6          
+      LAMBDA    0            
+          IS   10.000000E-15 
+          JS    0            
+          PB     .8          
+        PBSW     .8          
+          CJ    0            
+        CJSW    0            
+        CGSO    0            
+        CGDO    0            
+        CGBO    0            
+         TOX    0            
+          XJ    0            
+       UCRIT   10.000000E+03 
+      DIOMOD    1            
+         VFB    0            
+        LETA    0            
+        WETA    0            
+          U0    0            
+        TEMP    0            
+         VDD    0            
+       XPART    0            
+
+
+**** 05/29/18 20:15:31 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\Stephane\Desktop\UPV\TCO\Prac4\Schematic2.sch
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+($N_0001)   10.0000                   ($N_0002)    2.0000                       
+
+($N_0003)    4.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_VDD       -9.000E-03
+
+    TOTAL POWER DISSIPATION   9.00E-02  WATTS
+
+
+**** 05/29/18 20:15:31 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\Stephane\Desktop\UPV\TCO\Prac4\Schematic2.sch
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+
+
+**** MOSFETS
+
+
+NAME         M_M1      
+MODEL        MbreakN-X 
+ID           8.00E-03 
+VGS          4.00E+00 
+VDS          2.00E+00 
+VBS          0.00E+00 
+VTH          2.00E+00 
+VDSAT        2.00E+00 
+Lin0/Sat1   -1.00E+00 
+if          -1.00E+00 
+ir          -1.00E+00 
+TAU         -1.00E+00 
+GM           8.00E-03 
+GDS          1.53E-09 
+GMB          0.00E+00 
+CBD          0.00E+00 
+CBS          0.00E+00 
+CGSOV        0.00E+00 
+CGDOV        0.00E+00 
+CGBOV        0.00E+00 
+CGS          0.00E+00 
+CGD          0.00E+00 
+CGB          0.00E+00 
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .02
+

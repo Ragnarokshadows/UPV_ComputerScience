@@ -1,0 +1,995 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     32828,        985]
+NotebookOptionsPosition[     29823,        874]
+NotebookOutlinePosition[     30204,        891]
+CellTagsIndexPosition[     30161,        888]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[{
+ StyleBox["Ques_09: Numerical series",
+  FontColor->RGBColor[0.501961, 0, 0]],
+ StyleBox[". ",
+  FontSlant->"Italic",
+  FontColor->RGBColor[0.501961, 0, 0]]
+}], "Title",
+ CellChangeTimes->{{3.587467221078125*^9, 3.587467244375*^9}, 
+   3.587467352859375*^9, {3.587467610203125*^9, 3.58746761525*^9}, 
+   3.58747952840625*^9, {3.587719392110547*^9, 3.587719421485347*^9}, {
+   3.588428324590872*^9, 3.588428329122238*^9}, {3.5910879488305016`*^9, 
+   3.591087962231159*^9}, {3.7213643872132845`*^9, 3.7213643880372844`*^9}},
+ TextJustification->1,
+ FontFamily->"Times New Roman",
+ FontColor->RGBColor[0, 0.500008, 0]],
+
+Cell[TextData[StyleBox["",
+ FontSize->18]], "Section 1",
+ CellChangeTimes->{{3.5874672518125*^9, 3.58746725453125*^9}, {
+  3.587467464984375*^9, 3.5874674695*^9}, {3.5884283503102803`*^9, 
+  3.5884283790297656`*^9}},
+ TextAlignment->Left,
+ TextJustification->1,
+ FontSize->16],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "    1.Obtain the exact sum of the numerical series  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     UnderscriptBox[
+      RowBox[{"\[Sum]", " "}], 
+      RowBox[{"n", "\[GreaterEqual]", "1"}]], 
+     FractionBox[
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"-", "1"}], ")"}], 
+       RowBox[{"n", "+", "1"}]], 
+      SuperscriptBox["n", "4"]]}], ",", " ", 
+    RowBox[{"calculate", " ", 
+     SubscriptBox["s", 
+      RowBox[{"50", "  "}]]}]}], TraditionalForm]]],
+ "and the number of exact digits of the approximation and the error using \
+Leibniz ' s criterium."
+}], "Section 1",
+ CellChangeTimes->{{3.587477326234375*^9, 3.587477415421875*^9}, {
+   3.58747748521875*^9, 3.587477491703125*^9}, {3.587477830953125*^9, 
+   3.587477854234375*^9}, {3.587478049484375*^9, 3.587478066734375*^9}, {
+   3.5874783103125*^9, 3.5874783123125*^9}, {3.587478348546875*^9, 
+   3.587478383640625*^9}, {3.5874795494375*^9, 3.587479557125*^9}, {
+   3.587626233890625*^9, 3.587626262359375*^9}, {3.58762633265625*^9, 
+   3.587626378328125*^9}, {3.587626473234375*^9, 3.5876265155625*^9}, {
+   3.58762703353125*^9, 3.587627152359375*^9}, 3.587627194328125*^9, {
+   3.587627279203125*^9, 3.5876273490625*^9}, {3.58762751603125*^9, 
+   3.587627538375*^9}, {3.5876289255653133`*^9, 3.58762893357069*^9}, {
+   3.5876290289772396`*^9, 3.5876291242584596`*^9}, {3.587629227061206*^9, 
+   3.5876292905990763`*^9}, {3.5876294843179655`*^9, 3.587629533928138*^9}, 
+   3.587641049410149*^9, 3.587642918690772*^9, 3.587718428485917*^9, {
+   3.587719635330147*^9, 3.587719673316147*^9}, {3.5877198172263403`*^9, 
+   3.587719825915652*^9}, {3.5877199126215634`*^9, 3.5877199589541574`*^9}, {
+   3.5877295867966857`*^9, 3.5877296241586857`*^9}, {3.5884283867018366`*^9, 
+   3.588428387279977*^9}, {3.588428462891287*^9, 3.5884285520810704`*^9}, {
+   3.588428618692151*^9, 3.588428619910932*^9}, 3.588429110121145*^9, {
+   3.58981085875*^9, 3.589810861921875*^9}, {3.5908412509081106`*^9, 
+   3.590841385437258*^9}, {3.5910879931533556`*^9, 3.5910881179869566`*^9}, {
+   3.59118528415625*^9, 3.59118528640625*^9}, {3.594389124609375*^9, 
+   3.59438914721875*^9}, {3.7213647186752844`*^9, 3.7213647304502845`*^9}},
+ TextJustification->1,
+ FontFamily->"Times New Roman",
+ FontSize->16],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{" ", "\[IndentingNewLine]", 
+  FormBox[
+   RowBox[{
+    UnderoverscriptBox["\[Sum]", 
+     RowBox[{"n", "=", "1"}], "\[Infinity]"], 
+    FractionBox[
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"-", "1"}], ")"}], 
+      RowBox[{"n", "+", "1"}]], 
+     SuperscriptBox["n", "4"]]}],
+   TraditionalForm]}]], "Input",
+ CellChangeTimes->{3.5910881339148626`*^9, 3.594380990982263*^9, 
+  3.594388496765625*^9}],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{"7", " ", 
+   SuperscriptBox["\[Pi]", "4"]}], "720"]], "Output",
+ CellChangeTimes->{3.594388500171875*^9, 3.594461340275735*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{"%", ",", "20"}], "]"}]], "Input",
+ CellChangeTimes->{{3.594461331387846*^9, 3.5944613367433815`*^9}}],
+
+Cell[BoxData["0.94703282949724591757650323484477761768`20."], "Output",
+ CellChangeTimes->{3.594461342746982*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  UnderoverscriptBox["\[Sum]", 
+   RowBox[{"n", "=", "1"}], "50"], 
+  FractionBox[
+   SuperscriptBox[
+    RowBox[{"(", 
+     RowBox[{"-", "1"}], ")"}], 
+    RowBox[{"n", "+", "1"}]], 
+   SuperscriptBox["n", "4"]]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{"17470536703024220936994645310482948982134539259776946224703621068376\
+366744877866434243", "/", 
+  "184476583870254227395145251028070807385040904161698314505494806862206727553\
+84320000000"}]], "Output",
+ CellChangeTimes->{3.594388514484375*^9, 3.594388856375*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{"%", ",", "20"}], "]"}]], "Input",
+ CellChangeTimes->{{3.594388851484375*^9, 3.594388853*^9}}],
+
+Cell[BoxData["0.94703275269405305960315649074984825997`20."], "Output",
+ CellChangeTimes->{3.5943885266875*^9, 3.594388859546875*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{" ", "\[IndentingNewLine]", 
+  RowBox[{
+   FormBox[
+    FractionBox["1", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"N", "+", "1"}], ")"}], "4"]],
+    TraditionalForm], "=", 
+   FormBox[
+    FractionBox["1", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"50", "+", "1"}], ")"}], "4"]],
+    TraditionalForm]}]}]], "Input",
+ CellChangeTimes->{
+  3.5910881339148626`*^9, 3.594380990982263*^9, 3.594388496765625*^9, {
+   3.594388725*^9, 3.594388767484375*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ FormBox[
+  FractionBox["1", 
+   SuperscriptBox[
+    RowBox[{"(", 
+     RowBox[{"50", "+", "1"}], ")"}], "4"]], TraditionalForm]], "Input"],
+
+Cell[BoxData[
+ FractionBox["1", "6765201"]], "Output",
+ CellChangeTimes->{3.59438877578125*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"N", "[", "%", "]"}]], "Input",
+ CellChangeTimes->{{3.594388780046875*^9, 3.5943887844375*^9}}],
+
+Cell[BoxData["1.4781526816424228`*^-7"], "Output",
+ CellChangeTimes->{3.59438878603125*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"                          ", 
+  RowBox[{
+   RowBox[{
+    FormBox[
+     RowBox[{
+      UnderscriptBox[
+       RowBox[{"\[Sum]", " "}], 
+       RowBox[{"n", "\[GreaterEqual]", "1"}]], 
+      FractionBox[
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"-", "1"}], ")"}], 
+        RowBox[{"n", "+", "1"}]], 
+       SuperscriptBox["n", "4"]]}],
+     TraditionalForm], "=", 
+    FractionBox[
+     RowBox[{"7", " ", 
+      SuperscriptBox["\[Pi]", "4"]}], "720"]}], "\[IndentingNewLine]", 
+   "          ", 
+   RowBox[{"The", " ", "sum", " ", 
+    FormBox[
+     SubscriptBox["s", 
+      RowBox[{"50", "  "}]],
+     TraditionalForm], " ", "is", "   ", "0.947032"}], "\[IndentingNewLine]", 
+   RowBox[{
+   "and", " ", "give", " ", "as", "           ", "5", "             ", 
+    "exacts", " ", "decimals", "     ", 
+    RowBox[{"(", 
+     RowBox[{"using", " ", 
+      RowBox[{"Leibniz", "'"}], "s", " ", "criterium"}], " ", 
+     ")"}]}]}]}]], "Author",
+ CellChangeTimes->{
+  3.588428744694878*^9, {3.588430451250848*^9, 3.588430480798668*^9}, {
+   3.5884305144091187`*^9, 3.588430531300284*^9}, {3.589707058676652*^9, 
+   3.5897071594201603`*^9}, {3.589724679765625*^9, 3.589724927109375*^9}, {
+   3.589724987890625*^9, 3.589724989125*^9}, {3.58972505628125*^9, 
+   3.589725087015625*^9}, {3.589808756140625*^9, 3.58980875671875*^9}, 
+   3.589809571765625*^9, {3.589810916359375*^9, 3.589810935484375*^9}, {
+   3.58981098540625*^9, 3.589810986765625*^9}, {3.590811616216075*^9, 
+   3.5908116308583922`*^9}, {3.5908129122598057`*^9, 3.590812918446898*^9}, {
+   3.5908415319174504`*^9, 3.5908415959451857`*^9}, {3.591088142994237*^9, 
+   3.591088202992991*^9}, 3.591088259013668*^9, {3.5943816912778416`*^9, 
+   3.594381729311617*^9}, 3.594388542015625*^9, {3.594388810734375*^9, 
+   3.59438883003125*^9}, {3.594388874375*^9, 3.594388885203125*^9}, {
+   3.625890585801237*^9, 3.625890590879321*^9}},
+ Background->RGBColor[1., 1., 0.5019607843137255]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "   2 .\t \:f35fCalculate the exact value of ",
+ Cell[BoxData[
+  RowBox[{" ", 
+   StyleBox[
+    FormBox[
+     RowBox[{
+      UnderscriptBox[
+       RowBox[{"\[Sum]", " "}], 
+       RowBox[{"n", "\[GreaterEqual]", "1"}]], 
+      FractionBox[
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"-", "1"}], ")"}], 
+        RowBox[{"n", "+", "1"}]], 
+       RowBox[{"n", " ", 
+        SuperscriptBox["2", "n"]}]]}],
+     TraditionalForm],
+    Background->None]}]],
+  CellChangeTimes->{
+   3.588428744694878*^9, {3.588430451250848*^9, 3.588430480798668*^9}, {
+    3.5884305144091187`*^9, 3.588430531300284*^9}, {3.589707058676652*^9, 
+    3.5897071594201603`*^9}, {3.589724679765625*^9, 3.589724927109375*^9}, {
+    3.589724987890625*^9, 3.589724989125*^9}, {3.58972505628125*^9, 
+    3.589725087015625*^9}, {3.589808756140625*^9, 3.58980875671875*^9}, 
+    3.589809571765625*^9, {3.589810916359375*^9, 3.589810935484375*^9}, {
+    3.58981098540625*^9, 3.589810986765625*^9}, {3.590811616216075*^9, 
+    3.5908116308583922`*^9}, {3.5908129122598057`*^9, 3.590812918446898*^9}, {
+    3.5908415319174504`*^9, 3.5908415959451857`*^9}, {3.591088142994237*^9, 
+    3.591088202992991*^9}, 3.591088259013668*^9},
+  Background->RGBColor[1., 1., 0.5019607843137255]],
+ " . How many terms do you need to use in order to approximate the series \
+with 4 exacts decimals? ",
+ StyleBox["N ",
+  FontFamily->"CMMI10",
+  FontSlant->"Italic"],
+ StyleBox["=",
+  FontFamily->"CMR10",
+  FontSize->10]
+}], "Section 1",
+ CellChangeTimes->{{3.587477326234375*^9, 3.587477415421875*^9}, {
+   3.58747748521875*^9, 3.587477491703125*^9}, {3.587477830953125*^9, 
+   3.587477854234375*^9}, {3.587478049484375*^9, 3.587478066734375*^9}, {
+   3.5874783103125*^9, 3.5874783123125*^9}, {3.587478348546875*^9, 
+   3.587478383640625*^9}, {3.5874795494375*^9, 3.587479557125*^9}, {
+   3.587626233890625*^9, 3.587626262359375*^9}, {3.58762633265625*^9, 
+   3.587626378328125*^9}, {3.587626473234375*^9, 3.5876265155625*^9}, {
+   3.58762703353125*^9, 3.587627152359375*^9}, 3.587627194328125*^9, {
+   3.587627279203125*^9, 3.5876273490625*^9}, {3.58762751603125*^9, 
+   3.587627538375*^9}, {3.5876289255653133`*^9, 3.58762893357069*^9}, {
+   3.5876290289772396`*^9, 3.5876291242584596`*^9}, {3.587629227061206*^9, 
+   3.5876292905990763`*^9}, {3.5876294843179655`*^9, 3.587629533928138*^9}, 
+   3.587641049410149*^9, 3.587642918690772*^9, 3.587718428485917*^9, {
+   3.587719635330147*^9, 3.587719673316147*^9}, {3.5877198172263403`*^9, 
+   3.587719825915652*^9}, {3.5877199126215634`*^9, 3.5877199589541574`*^9}, {
+   3.5877295867966857`*^9, 3.5877296241586857`*^9}, {3.5884283867018366`*^9, 
+   3.588428387279977*^9}, {3.588428462891287*^9, 3.5884285520810704`*^9}, {
+   3.5884286087700214`*^9, 3.5884286133326387`*^9}, {3.588428650927351*^9, 
+   3.588428662958909*^9}, {3.5884286941626577`*^9, 3.588428730178974*^9}, {
+   3.5884291141527042`*^9, 3.5884291171998134`*^9}, {3.5884304219061584`*^9, 
+   3.5884304268594418`*^9}, 3.589810896140625*^9, 3.589810981625*^9, {
+   3.590841403316233*^9, 3.5908415181103*^9}, 3.591088681969002*^9, {
+   3.591185358875*^9, 3.591185364171875*^9}, {3.59118540125*^9, 
+   3.591185439640625*^9}, {3.59118553534375*^9, 3.5911855763125*^9}},
+ TextJustification->1,
+ FontFamily->"Times New Roman",
+ FontSize->16],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   UnderoverscriptBox["\[Sum]", 
+    RowBox[{"n", "=", "1"}], "\[Infinity]"], 
+   FractionBox[
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"-", "1"}], ")"}], 
+     RowBox[{"n", "+", "1"}]], 
+    RowBox[{"n", " ", 
+     SuperscriptBox["2", "n"]}]]}], TraditionalForm]], "Input",
+ CellChangeTimes->{{3.594389022921875*^9, 3.594389045671875*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"-", 
+   RowBox[{"Log", "[", "2", "]"}]}], "+", 
+  RowBox[{"Log", "[", "3", "]"}]}]], "Output",
+ CellChangeTimes->{{3.59438904978125*^9, 3.59438907740625*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{"%", ",", "20"}], "]"}]], "Input",
+ CellChangeTimes->{{3.59438905815625*^9, 3.594389074796875*^9}}],
+
+Cell[BoxData["0.40546510810816438197801311546454431102`20."], "Output",
+ CellChangeTimes->{{3.5943890621875*^9, 3.594389079421875*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{"Reduce", "[", 
+   RowBox[{
+    RowBox[{
+     FractionBox["1", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"N", "+", "1"}], ")"}], " ", 
+       SuperscriptBox["2", 
+        RowBox[{"(", 
+         RowBox[{"N", "+", "1"}], ")"}]]}]], "<", 
+     SuperscriptBox["10", 
+      RowBox[{"-", "5"}]]}], " ", ",", "N"}], "]"}]}]], "Input",
+ CellChangeTimes->{
+  3.588495737068944*^9, {3.5943889178125*^9, 3.594388986015625*^9}, {
+   3.595689350578125*^9, 3.59568935125*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"N", "<", 
+   RowBox[{"-", "1"}]}], "||", 
+  RowBox[{"N", ">", 
+   FractionBox[
+    RowBox[{
+     RowBox[{"-", 
+      RowBox[{"Log", "[", "2", "]"}]}], "+", 
+     RowBox[{"ProductLog", "[", 
+      RowBox[{"100000", " ", 
+       RowBox[{"Log", "[", "2", "]"}]}], "]"}]}], 
+    RowBox[{"Log", "[", "2", "]"}]]}]}]], "Output",
+ CellChangeTimes->{3.59438899090625*^9, 3.595689371671875*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"N", "[", "%", "]"}]], "Input",
+ CellChangeTimes->{{3.594388996984375*^9, 3.594389000046875*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"N", "<", 
+   RowBox[{"-", "1.`"}]}], "||", 
+  RowBox[{"N", ">", "11.918296537040124`"}]}]], "Output",
+ CellChangeTimes->{3.5943890008125*^9, 3.59568937446875*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  UnderoverscriptBox["\[Sum]", 
+   RowBox[{"n", "=", "1"}], "12"], 
+  FormBox[
+   FractionBox[
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"-", "1"}], ")"}], 
+     RowBox[{"n", "+", "1"}]], 
+    RowBox[{"n", " ", 
+     SuperscriptBox["2", "n"]}]],
+   TraditionalForm]}]], "Input",
+ CellChangeTimes->{{3.59438920121875*^9, 3.594389217765625*^9}, {
+  3.595689380875*^9, 3.595689381265625*^9}}],
+
+Cell[BoxData[
+ FractionBox["23018117", "56770560"]], "Output",
+ CellChangeTimes->{3.59438921909375*^9, 3.594459450941293*^9, 
+  3.595689383921875*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{"%", ",", "20"}], "]"}]], "Input",
+ CellChangeTimes->{{3.594389222265625*^9, 3.59438923215625*^9}}],
+
+Cell[BoxData["0.40545869196992243867243867243867243867`20."], "Output",
+ CellChangeTimes->{3.594389233296875*^9, 3.595689402859375*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"                          ", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"The", "  ", "exact", " ", "value", " ", "of", "  ", 
+     FormBox[
+      RowBox[{
+       UnderscriptBox[
+        RowBox[{"\[Sum]", " "}], 
+        RowBox[{"n", "\[GreaterEqual]", "1"}]], 
+       FractionBox[
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{"-", "1"}], ")"}], 
+         RowBox[{"n", "+", "1"}]], 
+        RowBox[{"n", " ", 
+         SuperscriptBox["2", "n"]}]]}],
+      TraditionalForm]}], "=", "        ", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"-", 
+       RowBox[{"Log", "[", "2", "]"}]}], "+", 
+      RowBox[{"Log", "[", "3", "]"}]}], "          ", "\[TildeTilde]", 
+     "0.40546510810816438197801311546454431102`20."}]}], 
+   "\[IndentingNewLine]", "       ", 
+   RowBox[{
+    RowBox[{
+    "for", " ", "obtaing", " ", "the", " ", "series", " ", "with", " ", "4", 
+     " ", "exacts", " ", "decimals", " ", "using", " ", 
+     RowBox[{"Leibniz", "'"}], "s", " ", "criterium", "  ", 
+     StyleBox["N",
+      FontFamily->"CMMI10",
+      FontSlant->"Italic"]}], 
+    StyleBox[" ",
+     FontFamily->"CMMI10",
+     FontSlant->"Italic"], 
+    StyleBox["=",
+     FontFamily->"CMR10",
+     FontSize->10], 
+    StyleBox[" ",
+     FontFamily->"CMR10",
+     FontSize->10], 
+    StyleBox["12",
+     FontFamily->"CMR10",
+     FontSize->10]}], 
+   StyleBox["\[IndentingNewLine]",
+    FontFamily->"CMR10",
+    FontSize->10], 
+   StyleBox["\[IndentingNewLine]",
+    FontFamily->"CMR10",
+    FontSize->10], 
+   RowBox[{
+   "and", " ", "the", " ", "value", " ", "of", " ", "this", " ", "sum", " ", 
+    "is", "      ", "0.4054"}]}]}]], "Author",
+ CellChangeTimes->{
+  3.588428744694878*^9, {3.588430451250848*^9, 3.588430480798668*^9}, {
+   3.5884305144091187`*^9, 3.588430531300284*^9}, {3.589707058676652*^9, 
+   3.5897071594201603`*^9}, {3.589724679765625*^9, 3.589724927109375*^9}, {
+   3.589724987890625*^9, 3.589724989125*^9}, {3.58972505628125*^9, 
+   3.589725087015625*^9}, {3.589808756140625*^9, 3.58980875671875*^9}, 
+   3.589809571765625*^9, {3.589810916359375*^9, 3.589810935484375*^9}, {
+   3.58981098540625*^9, 3.589810986765625*^9}, {3.590811616216075*^9, 
+   3.5908116308583922`*^9}, {3.5908129122598057`*^9, 3.590812918446898*^9}, {
+   3.5908415319174504`*^9, 3.5908415959451857`*^9}, {3.59118544871875*^9, 
+   3.591185480140625*^9}, 3.59118552228125*^9, {3.59118558675*^9, 
+   3.591185663375*^9}, {3.594381749529735*^9, 3.5943817564095116`*^9}, {
+   3.59438907025*^9, 3.594389098890625*^9}, 3.594389243671875*^9, {
+   3.59568941653125*^9, 3.595689416984375*^9}, {3.59568946165625*^9, 
+   3.595689462421875*^9}, {3.6258905986569815`*^9, 3.6258906055384507`*^9}},
+ Background->RGBColor[1., 1., 0.5019607843137255]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "   3. \tAs you know, the function ",
+ StyleBox["f(x)=cos (x)",
+  FontSlant->"Italic"],
+ " can be written as \n                                                       \
+          ",
+ StyleBox["f(x)=",
+  FontSlant->"Italic"],
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["P", "n"], TraditionalForm]]],
+ StyleBox[" (x) +",
+  FontSlant->"Italic"],
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["R", "n"], TraditionalForm]]],
+ StyleBox[" (x)",
+  FontSlant->"Italic"],
+ "\n\nwith ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["P", "n"], TraditionalForm]]],
+ StyleBox[" (x)",
+  FontSlant->"Italic"],
+ " the Taylor's polynomial of  ",
+ StyleBox["n",
+  FontSlant->"Italic"],
+ " degree and  ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["R", "n"], TraditionalForm]]],
+ StyleBox[" (x)",
+  FontSlant->"Italic"],
+ " the Lagrange remainder.\n\nApproximate the ",
+ StyleBox["20-th ",
+  FontSlant->"Italic"],
+ " first decimals of ",
+ StyleBox["cos (0.05)",
+  FontSlant->"Italic"],
+ " using the  McLaurin's polynomial of ",
+ StyleBox["8th-degree",
+  FontSlant->"Italic"],
+ ".  Verify the result calculating the value   ",
+ StyleBox["cos (0.05)",
+  FontSlant->"Italic"],
+ "  with 20 decimal digits with ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ ".  "
+}], "Section 1",
+ CellChangeTimes->{{3.587477326234375*^9, 3.587477415421875*^9}, {
+   3.58747748521875*^9, 3.587477491703125*^9}, {3.587477830953125*^9, 
+   3.587477854234375*^9}, {3.587478049484375*^9, 3.587478066734375*^9}, {
+   3.5874783103125*^9, 3.5874783123125*^9}, {3.587478348546875*^9, 
+   3.587478383640625*^9}, {3.5874795494375*^9, 3.587479557125*^9}, {
+   3.587626233890625*^9, 3.587626262359375*^9}, {3.58762633265625*^9, 
+   3.587626378328125*^9}, {3.587626473234375*^9, 3.5876265155625*^9}, {
+   3.58762703353125*^9, 3.587627152359375*^9}, 3.587627194328125*^9, {
+   3.587627279203125*^9, 3.5876273490625*^9}, {3.58762751603125*^9, 
+   3.587627538375*^9}, {3.5876289255653133`*^9, 3.58762893357069*^9}, {
+   3.5876290289772396`*^9, 3.5876291242584596`*^9}, {3.587629227061206*^9, 
+   3.5876292905990763`*^9}, {3.5876294843179655`*^9, 3.587629533928138*^9}, 
+   3.587641049410149*^9, 3.587642918690772*^9, 3.587718428485917*^9, {
+   3.587719635330147*^9, 3.587719673316147*^9}, {3.5877198172263403`*^9, 
+   3.587719825915652*^9}, {3.5877199126215634`*^9, 3.5877199589541574`*^9}, {
+   3.5877295867966857`*^9, 3.5877296241586857`*^9}, {3.5884283867018366`*^9, 
+   3.588428387279977*^9}, {3.588428462891287*^9, 3.5884285520810704`*^9}, {
+   3.5884286087700214`*^9, 3.5884286133326387`*^9}, {3.588428650927351*^9, 
+   3.588428662958909*^9}, {3.5884286941626577`*^9, 3.588428730178974*^9}, {
+   3.5884288355645027`*^9, 3.5884288991215453`*^9}, {3.5884291194812384`*^9, 
+   3.5884291215282707`*^9}, {3.5908120314383345`*^9, 
+   3.5908120451298094`*^9}, {3.590812081299271*^9, 3.5908120934601336`*^9}, {
+   3.590841611967721*^9, 3.590841781725466*^9}, {3.5908418635542846`*^9, 
+   3.59084191786241*^9}, {3.59118627965625*^9, 3.591186499375*^9}, {
+   3.591186549546875*^9, 3.591186619890625*^9}, 3.5943803646809816`*^9, {
+   3.5943810031349745`*^9, 3.59438100333778*^9}},
+ TextJustification->1,
+ FontFamily->"Times New Roman",
+ FontSize->16],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"1", "/", "20."}]], "Input",
+ CellChangeTimes->{{3.59438985390625*^9, 3.594389869703125*^9}}],
+
+Cell[BoxData["0.05`"], "Output",
+ CellChangeTimes->{{3.594389861671875*^9, 3.594389871015625*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{
+   RowBox[{"Cos", "[", 
+    FractionBox["1", "20"], "]"}], ",", "20"}], "]"}]], "Input",
+ CellChangeTimes->{{3.59438959578125*^9, 3.59438961196875*^9}, {
+   3.594389718375*^9, 3.59438971915625*^9}, 3.594389761109375*^9, {
+   3.594389829890625*^9, 3.594389885203125*^9}}],
+
+Cell[BoxData["0.998750260394966246562870811156521095`20."], "Output",
+ CellChangeTimes->{3.594389613328125*^9, 3.59438964534375*^9, 
+  3.59438971971875*^9, 3.594389762421875*^9, 3.59438985140625*^9, 
+  3.594389886625*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Series", "[", 
+  RowBox[{
+   RowBox[{"Cos", "[", "x", "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "0", ",", "20"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{
+  3.590812941563451*^9, {3.59438925378125*^9, 3.59438925671875*^9}, {
+   3.5943892976875*^9, 3.59438931521875*^9}}],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"1", "-", 
+   FractionBox[
+    SuperscriptBox["x", "2"], "2"], "+", 
+   FractionBox[
+    SuperscriptBox["x", "4"], "24"], "-", 
+   FractionBox[
+    SuperscriptBox["x", "6"], "720"], "+", 
+   FractionBox[
+    SuperscriptBox["x", "8"], "40320"], "-", 
+   FractionBox[
+    SuperscriptBox["x", "10"], "3628800"], "+", 
+   FractionBox[
+    SuperscriptBox["x", "12"], "479001600"], "-", 
+   FractionBox[
+    SuperscriptBox["x", "14"], "87178291200"], "+", 
+   FractionBox[
+    SuperscriptBox["x", "16"], "20922789888000"], "-", 
+   FractionBox[
+    SuperscriptBox["x", "18"], "6402373705728000"], "+", 
+   FractionBox[
+    SuperscriptBox["x", "20"], "2432902008176640000"], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{"O", "[", "x", "]"}], "21"],
+    SeriesData[$CellContext`x, 0, {}, 0, 21, 1],
+    Editable->False]}],
+  SeriesData[$CellContext`x, 0, {1, 0, 
+    Rational[-1, 2], 0, 
+    Rational[1, 24], 0, 
+    Rational[-1, 720], 0, 
+    Rational[1, 40320], 0, 
+    Rational[-1, 3628800], 0, 
+    Rational[1, 479001600], 0, 
+    Rational[-1, 87178291200], 0, 
+    Rational[1, 20922789888000], 0, 
+    Rational[-1, 6402373705728000], 0, 
+    Rational[1, 2432902008176640000]}, 0, 21, 1],
+  Editable->False]], "Output",
+ CellChangeTimes->{3.594389317109375*^9, 3.594389358765625*^9, 
+  3.594389469796875*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"1", "-", 
+  FractionBox[
+   SuperscriptBox["x", "2"], "2"], "+", 
+  FractionBox[
+   SuperscriptBox["x", "4"], "24"], "-", 
+  FractionBox[
+   SuperscriptBox["x", "6"], "720"], "+", 
+  FractionBox[
+   SuperscriptBox["x", "8"], "40320"], "-", 
+  FractionBox[
+   SuperscriptBox["x", "10"], "3628800"], "+", 
+  FractionBox[
+   SuperscriptBox["x", "12"], "479001600"], "-", 
+  FractionBox[
+   SuperscriptBox["x", "14"], "87178291200"], "+", 
+  FractionBox[
+   SuperscriptBox["x", "16"], "20922789888000"], "-", 
+  FractionBox[
+   SuperscriptBox["x", "18"], "6402373705728000"], "+", 
+  FractionBox[
+   SuperscriptBox["x", "20"], "2432902008176640000"]}]], "Input",
+ CellChangeTimes->{3.594389559453125*^9}],
+
+Cell[BoxData[
+ RowBox[{"1", "-", 
+  FractionBox[
+   SuperscriptBox["x", "2"], "2"], "+", 
+  FractionBox[
+   SuperscriptBox["x", "4"], "24"], "-", 
+  FractionBox[
+   SuperscriptBox["x", "6"], "720"], "+", 
+  FractionBox[
+   SuperscriptBox["x", "8"], "40320"], "-", 
+  FractionBox[
+   SuperscriptBox["x", "10"], "3628800"], "+", 
+  FractionBox[
+   SuperscriptBox["x", "12"], "479001600"], "-", 
+  FractionBox[
+   SuperscriptBox["x", "14"], "87178291200"], "+", 
+  FractionBox[
+   SuperscriptBox["x", "16"], "20922789888000"], "-", 
+  FractionBox[
+   SuperscriptBox["x", "18"], "6402373705728000"], "+", 
+  FractionBox[
+   SuperscriptBox["x", "20"], "2432902008176640000"]}]], "Output",
+ CellChangeTimes->{{3.59438992271875*^9, 3.59438993990625*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"%", "/.", 
+  RowBox[{"x", "\[Rule]", 
+   RowBox[{"(", 
+    RowBox[{"1", "/", "20"}], ")"}]}]}]], "Input",
+ CellChangeTimes->{{3.59438933115625*^9, 3.594389344109375*^9}, 
+   3.594389467578125*^9, {3.594389902296875*^9, 3.594389935984375*^9}}],
+
+Cell[BoxData[
+ FractionBox["19599188208421179331817370328459092138819077", 
+  "19623712739429449728000000000000000000000000"]], "Output",
+ CellChangeTimes->{
+  3.594389472640625*^9, 3.59438956325*^9, {3.594389911765625*^9, 
+   3.5943899423125*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{"%", ",", "20"}], "]"}]], "Input",
+ CellChangeTimes->{{3.594389945796875*^9, 3.59438996084375*^9}}],
+
+Cell[BoxData["0.99875026039496624656287081115652111861`20."], "Output",
+ CellChangeTimes->{3.594389962046875*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"1", "-", 
+  FractionBox[
+   SuperscriptBox["x", "2"], "2"], "+", 
+  FractionBox[
+   SuperscriptBox["x", "4"], "24"], "-", 
+  FractionBox[
+   SuperscriptBox["x", "6"], "720"], "+", 
+  FractionBox[
+   SuperscriptBox["x", "8"], "40320"], "-", 
+  FractionBox[
+   SuperscriptBox["x", "10"], "3628800"], "+", 
+  FractionBox[
+   SuperscriptBox["x", "12"], "479001600"], "-", 
+  FractionBox[
+   SuperscriptBox["x", "14"], "87178291200"], "+", 
+  FractionBox[
+   SuperscriptBox["x", "16"], "20922789888000"], "-", 
+  FractionBox[
+   SuperscriptBox["x", "18"], "6402373705728000"], "+", 
+  FractionBox[
+   SuperscriptBox["x", "20"], "2432902008176640000"]}]], "Input",
+ CellChangeTimes->{3.594389559453125*^9}],
+
+Cell[BoxData[
+ RowBox[{"1", "-", 
+  FractionBox[
+   SuperscriptBox["x", "2"], "2"], "+", 
+  FractionBox[
+   SuperscriptBox["x", "4"], "24"], "-", 
+  FractionBox[
+   SuperscriptBox["x", "6"], "720"], "+", 
+  FractionBox[
+   SuperscriptBox["x", "8"], "40320"], "-", 
+  FractionBox[
+   SuperscriptBox["x", "10"], "3628800"], "+", 
+  FractionBox[
+   SuperscriptBox["x", "12"], "479001600"], "-", 
+  FractionBox[
+   SuperscriptBox["x", "14"], "87178291200"], "+", 
+  FractionBox[
+   SuperscriptBox["x", "16"], "20922789888000"], "-", 
+  FractionBox[
+   SuperscriptBox["x", "18"], "6402373705728000"], "+", 
+  FractionBox[
+   SuperscriptBox["x", "20"], "2432902008176640000"]}]], "Output",
+ CellChangeTimes->{3.5944596848662233`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"%", "/.", 
+  RowBox[{"x", "\[Rule]", 
+   RowBox[{"(", "0.05", ")"}]}]}]], "Input",
+ CellChangeTimes->{{3.59438933115625*^9, 3.594389344109375*^9}, 
+   3.594389467578125*^9, {3.594389902296875*^9, 3.594389935984375*^9}, {
+   3.5944596934862237`*^9, 3.5944596967012234`*^9}}],
+
+Cell[BoxData["0.9987502603949663`"], "Output",
+ CellChangeTimes->{3.5944596974652233`*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"           ", 
+  RowBox[{
+   RowBox[{
+    FormBox[
+     RowBox[{
+      RowBox[{
+       RowBox[{"The", " ", "approximation", " ", "is", "    ", 
+        StyleBox["cos",
+         FontSlant->"Italic"], 
+        StyleBox[" ",
+         FontSlant->"Italic"], 
+        StyleBox[
+         RowBox[{"(", "0.05", ")"}],
+         FontSlant->"Italic"]}], "\[TildeTilde]", " ", 
+       FormBox[
+        RowBox[{
+         SubscriptBox["P", "8"], 
+         StyleBox[" ",
+          FontSlant->"Italic"], 
+         StyleBox[
+          RowBox[{"(", "0.05", ")"}],
+          FontSlant->"Italic"], 
+         StyleBox[" ",
+          FontSlant->"Italic"]}],
+        TraditionalForm]}], "="}],
+     TraditionalForm], "           ", 
+    "0.99875026039496624656287081115652111861`20."}], "         ", 
+   "\[IndentingNewLine]", "          ", "\[IndentingNewLine]", 
+   "\[IndentingNewLine]"}]}]], "Author",
+ CellChangeTimes->{
+  3.588428744694878*^9, {3.588430451250848*^9, 3.588430480798668*^9}, {
+   3.5884305144091187`*^9, 3.588430531300284*^9}, {3.589707058676652*^9, 
+   3.5897071594201603`*^9}, {3.589724679765625*^9, 3.589724927109375*^9}, {
+   3.589724987890625*^9, 3.589724989125*^9}, {3.58972505628125*^9, 
+   3.589725087015625*^9}, {3.589808756140625*^9, 3.58980875671875*^9}, 
+   3.589809571765625*^9, {3.58981099334375*^9, 3.589811011484375*^9}, 
+   3.590811693097496*^9, {3.5908127349481945`*^9, 3.5908128217765875`*^9}, {
+   3.5908129442688026`*^9, 3.5908129485089216`*^9}, {3.5908417964218907`*^9, 
+   3.5908418327261157`*^9}, {3.590841927800438*^9, 3.590841928096863*^9}, {
+   3.591186638765625*^9, 3.591186887703125*^9}, 3.594380379672966*^9, 
+   3.5943899895625*^9},
+ Background->RGBColor[1., 1., 0.5019607843137255]]
+}, Open  ]]
+}, Open  ]]
+},
+CellGrouping->Manual,
+WindowSize->{1272, 698},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+Magnification->2.,
+FrontEndVersion->"10.2 for Microsoft Windows (64-bit) (July 29, 2015)",
+StyleDefinitions->"Report.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 632, 14, 133, "Title"],
+Cell[1215, 38, 276, 7, 137, "Section 1"],
+Cell[CellGroupData[{
+Cell[1516, 49, 2295, 45, 146, "Section 1"],
+Cell[CellGroupData[{
+Cell[3836, 98, 439, 14, 147, "Input"],
+Cell[4278, 114, 166, 4, 118, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4481, 123, 146, 3, 61, "Input"],
+Cell[4630, 128, 113, 1, 91, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4780, 134, 249, 9, 112, "Input"],
+Cell[5032, 145, 288, 5, 194, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5357, 155, 138, 3, 61, "Input"],
+Cell[5498, 160, 133, 1, 91, "Output"]
+}, Open  ]],
+Cell[5646, 164, 504, 17, 134, "Input"],
+Cell[CellGroupData[{
+Cell[6175, 185, 153, 5, 98, "Input"],
+Cell[6331, 192, 95, 2, 113, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6463, 199, 118, 2, 61, "Input"],
+Cell[6584, 203, 91, 1, 93, "Output"]
+}, Open  ]],
+Cell[6690, 207, 1978, 46, 286, "Author"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8705, 258, 3329, 66, 200, "Section 1"],
+Cell[CellGroupData[{
+Cell[12059, 328, 387, 12, 109, "Input"],
+Cell[12449, 342, 193, 5, 91, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12679, 352, 143, 3, 61, "Input"],
+Cell[12825, 357, 135, 1, 91, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12997, 363, 530, 16, 134, "Input"],
+Cell[13530, 381, 420, 13, 118, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13987, 399, 120, 2, 61, "Input"],
+Cell[14110, 403, 197, 5, 91, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14344, 413, 424, 14, 112, "Input"],
+Cell[14771, 429, 150, 3, 113, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14958, 437, 143, 3, 61, "Input"],
+Cell[15104, 442, 135, 1, 91, "Output"]
+}, Open  ]],
+Cell[15254, 446, 2743, 69, 403, "Author"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18034, 520, 3201, 78, 396, "Section 1"],
+Cell[CellGroupData[{
+Cell[21260, 602, 116, 2, 61, "Input"],
+Cell[21379, 606, 98, 1, 91, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21514, 612, 315, 7, 91, "Input"],
+Cell[21832, 621, 221, 3, 91, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22090, 629, 309, 8, 61, "Input"],
+Cell[22402, 639, 1364, 41, 183, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23803, 685, 724, 22, 173, "Input"],
+Cell[24530, 709, 747, 22, 183, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[25314, 736, 266, 6, 61, "Input"],
+Cell[25583, 744, 248, 5, 113, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[25868, 754, 143, 3, 61, "Input"],
+Cell[26014, 759, 113, 1, 91, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26164, 765, 724, 22, 173, "Input"],
+Cell[26891, 789, 727, 22, 183, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[27655, 816, 297, 6, 61, "Input"],
+Cell[27955, 824, 90, 1, 91, "Output"]
+}, Open  ]],
+Cell[28060, 828, 1735, 42, 312, "Author"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

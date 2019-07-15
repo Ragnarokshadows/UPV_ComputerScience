@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane prefHeight="300.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8.0.76-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ListaPersonas.controlador.VistaListaControlador">
+   <top>
+      <MenuBar useSystemMenuBar="true">
+         <menus>
+            <Menu mnemonicParsing="true" text="_Ver">
+               <items>
+                  <RadioMenuItem onAction="#mostrarAccion" text="_Nombre Apellidos">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="ordenGroup" />
+                     </toggleGroup>
+                  </RadioMenuItem>
+                  <RadioMenuItem fx:id="menuOrdenReverso" onAction="#mostrarAccion" selected="true" text="_Apellidos, Nombre" toggleGroup="$ordenGroup" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="true" onAction="#ordenarAccion" text="_Ordenar" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <HBox spacing="20.0">
+         <children>
+            <ListView fx:id="listView" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lavender;" HBox.hgrow="ALWAYS" />
+            <VBox spacing="10.0">
+               <children>
+                  <Button focusTraversable="false" maxWidth="1.7976931348623157E308" mnemonicParsing="true" onAction="#addAccion" text="_Añadir" />
+                  <Button fx:id="duplicarButton" focusTraversable="false" maxWidth="1.7976931348623157E308" mnemonicParsing="true" onAction="#duplicarAccion" text="_Duplicar" />
+                  <Button fx:id="editarButton" focusTraversable="false" maxWidth="1.7976931348623157E308" mnemonicParsing="true" onAction="#editarAccion" text="_Editar" VBox.vgrow="ALWAYS" />
+                  <Button fx:id="borrarButton" focusTraversable="false" maxWidth="1.7976931348623157E308" mnemonicParsing="true" onAction="#borrarAccion" text="_Borrar" />
+                  <Button fx:id="subirButton" focusTraversable="false" maxWidth="1.7976931348623157E308" onAction="#moverAccion" text="_Subir" />
+                  <Button fx:id="bajarButton" focusTraversable="false" maxWidth="1.7976931348623157E308" onAction="#moverAccion" text="Ba_jar" />
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+         </padding>
+      </HBox>
+   </center>
+</BorderPane>

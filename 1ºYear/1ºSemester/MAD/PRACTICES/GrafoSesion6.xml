@@ -1,0 +1,898 @@
+<?xml version="1.0" standalone="yes" ?>
+<grafo>
+<tipoGrafo> "0" </tipoGrafo>
+<nodos><nodo>
+<nombre> "v1" </nombre>
+<posicion> (40,121) </posicion>
+</nodo>
+<nodo>
+<nombre> "v2" </nombre>
+<posicion> (86,106) </posicion>
+</nodo>
+<nodo>
+<nombre> "v3" </nombre>
+<posicion> (142,96) </posicion>
+</nodo>
+<nodo>
+<nombre> "v4" </nombre>
+<posicion> (135,165) </posicion>
+</nodo>
+<nodo>
+<nombre> "v5" </nombre>
+<posicion> (92,167) </posicion>
+</nodo>
+<nodo>
+<nombre> "v6" </nombre>
+<posicion> (79,218) </posicion>
+</nodo>
+<nodo>
+<nombre> "v7" </nombre>
+<posicion> (132,209) </posicion>
+</nodo>
+<nodo>
+<nombre> "v8" </nombre>
+<posicion> (184,205) </posicion>
+</nodo>
+<nodo>
+<nombre> "v9" </nombre>
+<posicion> (464,366) </posicion>
+</nodo>
+<nodo>
+<nombre> "v10" </nombre>
+<posicion> (145,123) </posicion>
+</nodo>
+<nodo>
+<nombre> "v11" </nombre>
+<posicion> (116,139) </posicion>
+</nodo>
+<nodo>
+<nombre> "v12" </nombre>
+<posicion> (495,357) </posicion>
+</nodo>
+<nodo>
+<nombre> "v13" </nombre>
+<posicion> (209,98) </posicion>
+</nodo>
+<nodo>
+<nombre> "v14" </nombre>
+<posicion> (270,95) </posicion>
+</nodo>
+<nodo>
+<nombre> "v15" </nombre>
+<posicion> (305,170) </posicion>
+</nodo>
+<nodo>
+<nombre> "v16" </nombre>
+<posicion> (469,153) </posicion>
+</nodo>
+<nodo>
+<nombre> "v17" </nombre>
+<posicion> (230,286) </posicion>
+</nodo>
+<nodo>
+<nombre> "v18" </nombre>
+<posicion> (320,286) </posicion>
+</nodo>
+<nodo>
+<nombre> "v19" </nombre>
+<posicion> (114,82) </posicion>
+</nodo>
+<nodo>
+<nombre> "v20" </nombre>
+<posicion> (43,88) </posicion>
+</nodo>
+<nodo>
+<nombre> "v21" </nombre>
+<posicion> (19,243) </posicion>
+</nodo>
+<nodo>
+<nombre> "v22" </nombre>
+<posicion> (84,292) </posicion>
+</nodo>
+<nodo>
+<nombre> "v23" </nombre>
+<posicion> (122,250) </posicion>
+</nodo>
+<nodo>
+<nombre> "v24" </nombre>
+<posicion> (271,361) </posicion>
+</nodo>
+<nodo>
+<nombre> "v25" </nombre>
+<posicion> (252,186) </posicion>
+</nodo>
+<nodo>
+<nombre> "v26" </nombre>
+<posicion> (275,138) </posicion>
+</nodo>
+<nodo>
+<nombre> "v27" </nombre>
+<posicion> (550,249) </posicion>
+</nodo>
+<nodo>
+<nombre> "v28" </nombre>
+<posicion> (191,303) </posicion>
+</nodo>
+<nodo>
+<nombre> "v29" </nombre>
+<posicion> (185,256) </posicion>
+</nodo>
+<nodo>
+<nombre> "v30" </nombre>
+<posicion> (264,261) </posicion>
+</nodo>
+<nodo>
+<nombre> "v31" </nombre>
+<posicion> (325,253) </posicion>
+</nodo>
+<nodo>
+<nombre> "v32" </nombre>
+<posicion> (346,217) </posicion>
+</nodo>
+<nodo>
+<nombre> "v33" </nombre>
+<posicion> (361,173) </posicion>
+</nodo>
+<nodo>
+<nombre> "v34" </nombre>
+<posicion> (341,143) </posicion>
+</nodo>
+<nodo>
+<nombre> "v35" </nombre>
+<posicion> (228,80) </posicion>
+</nodo>
+<nodo>
+<nombre> "v36" </nombre>
+<posicion> (185,120) </posicion>
+</nodo>
+<nodo>
+<nombre> "v37" </nombre>
+<posicion> (336,74) </posicion>
+</nodo>
+<nodo>
+<nombre> "v38" </nombre>
+<posicion> (412,170) </posicion>
+</nodo>
+<nodo>
+<nombre> "v39" </nombre>
+<posicion> (438,235) </posicion>
+</nodo>
+<nodo>
+<nombre> "v40" </nombre>
+<posicion> (414,266) </posicion>
+</nodo>
+<nodo>
+<nombre> "v41" </nombre>
+<posicion> (399,295) </posicion>
+</nodo>
+<nodo>
+<nombre> "v42" </nombre>
+<posicion> (393,251) </posicion>
+</nodo>
+<nodo>
+<nombre> "v43" </nombre>
+<posicion> (401,220) </posicion>
+</nodo>
+<nodo>
+<nombre> "v44" </nombre>
+<posicion> (403,128) </posicion>
+</nodo>
+<nodo>
+<nombre> "v45" </nombre>
+<posicion> (373,110) </posicion>
+</nodo>
+<nodo>
+<nombre> "v46" </nombre>
+<posicion> (413,85) </posicion>
+</nodo>
+<nodo>
+<nombre> "v47" </nombre>
+<posicion> (480,112) </posicion>
+</nodo>
+<nodo>
+<nombre> "v48" </nombre>
+<posicion> (522,199) </posicion>
+</nodo>
+<nodo>
+<nombre> "v49" </nombre>
+<posicion> (518,253) </posicion>
+</nodo>
+<nodo>
+<nombre> "v50" </nombre>
+<posicion> (479,212) </posicion>
+</nodo>
+<nodo>
+<nombre> "v51" </nombre>
+<posicion> (500,310) </posicion>
+</nodo>
+<nodo>
+<nombre> "v52" </nombre>
+<posicion> (470,289) </posicion>
+</nodo>
+<nodo>
+<nombre> "v53" </nombre>
+<posicion> (449,326) </posicion>
+</nodo>
+<nodo>
+<nombre> "v54" </nombre>
+<posicion> (403,330) </posicion>
+</nodo>
+<nodo>
+<nombre> "v55" </nombre>
+<posicion> (349,330) </posicion>
+</nodo>
+<nodo>
+<nombre> "v56" </nombre>
+<posicion> (290,330) </posicion>
+</nodo>
+<nodo>
+<nombre> "v57" </nombre>
+<posicion> (134,338) </posicion>
+</nodo>
+<nodo>
+<nombre> "v58" </nombre>
+<posicion> (46,286) </posicion>
+</nodo>
+<nodo>
+<nombre> "v59" </nombre>
+<posicion> (84,261) </posicion>
+</nodo>
+<nodo>
+<nombre> "v60" </nombre>
+<posicion> (31,262) </posicion>
+</nodo>
+<nodo>
+<nombre> "v61" </nombre>
+<posicion> (43,185) </posicion>
+</nodo>
+<nodo>
+<nombre> "v62" </nombre>
+<posicion> (215,240) </posicion>
+</nodo>
+<nodo>
+<nombre> "v63" </nombre>
+<posicion> (212,208) </posicion>
+</nodo>
+<nodo>
+<nombre> "v64" </nombre>
+<posicion> (122,293) </posicion>
+</nodo>
+<nodo>
+<nombre> "v65" </nombre>
+<posicion> (164,72) </posicion>
+</nodo>
+<nodo>
+<nombre> "v66" </nombre>
+<posicion> (518,83) </posicion>
+</nodo>
+<nodo>
+<nombre> "v67" </nombre>
+<posicion> (535,148) </posicion>
+</nodo>
+<nodo>
+<nombre> "v68" </nombre>
+<posicion> (490,83) </posicion>
+</nodo>
+<nodo>
+<nombre> "v69" </nombre>
+<posicion> (542,317) </posicion>
+</nodo>
+<nodo>
+<nombre> "v70" </nombre>
+<posicion> (91,336) </posicion>
+</nodo>
+<nodo>
+<nombre> "v71" </nombre>
+<posicion> (40,334) </posicion>
+</nodo>
+<nodo>
+<nombre> "v72" </nombre>
+<posicion> (13,295) </posicion>
+</nodo>
+<nodo>
+<nombre> "v73" </nombre>
+<posicion> (12,158) </posicion>
+</nodo>
+</nodos>
+<aristas><arista>
+<nodo1> "0" </nodo1>
+<nodo2> "4" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "1" </nodo1>
+<nodo2> "2" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "1" </nodo1>
+<nodo2> "4" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "1" </nodo1>
+<nodo2> "10" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "1" </nodo1>
+<nodo2> "18" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "3" </nodo1>
+<nodo2> "5" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "3" </nodo1>
+<nodo2> "10" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "3" </nodo1>
+<nodo2> "55" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "4" </nodo1>
+<nodo2> "5" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "4" </nodo1>
+<nodo2> "19" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "4" </nodo1>
+<nodo2> "43" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "4" </nodo1>
+<nodo2> "60" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "5" </nodo1>
+<nodo2> "20" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "5" </nodo1>
+<nodo2> "28" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "5" </nodo1>
+<nodo2> "47" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "5" </nodo1>
+<nodo2> "58" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "6" </nodo1>
+<nodo2> "7" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "7" </nodo1>
+<nodo2> "12" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "7" </nodo1>
+<nodo2> "13" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "7" </nodo1>
+<nodo2> "28" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "7" </nodo1>
+<nodo2> "29" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "7" </nodo1>
+<nodo2> "30" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "7" </nodo1>
+<nodo2> "34" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "7" </nodo1>
+<nodo2> "35" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "8" </nodo1>
+<nodo2> "11" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "8" </nodo1>
+<nodo2> "23" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "9" </nodo1>
+<nodo2> "54" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "9" </nodo1>
+<nodo2> "56" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "9" </nodo1>
+<nodo2> "57" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "9" </nodo1>
+<nodo2> "59" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "13" </nodo1>
+<nodo2> "14" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "13" </nodo1>
+<nodo2> "33" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "13" </nodo1>
+<nodo2> "34" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "13" </nodo1>
+<nodo2> "35" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "13" </nodo1>
+<nodo2> "36" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "13" </nodo1>
+<nodo2> "44" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "14" </nodo1>
+<nodo2> "32" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "14" </nodo1>
+<nodo2> "33" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "15" </nodo1>
+<nodo2> "33" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "15" </nodo1>
+<nodo2> "45" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "15" </nodo1>
+<nodo2> "46" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "15" </nodo1>
+<nodo2> "47" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "16" </nodo1>
+<nodo2> "21" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "16" </nodo1>
+<nodo2> "22" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "16" </nodo1>
+<nodo2> "27" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "16" </nodo1>
+<nodo2> "32" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "16" </nodo1>
+<nodo2> "55" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "16" </nodo1>
+<nodo2> "56" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "16" </nodo1>
+<nodo2> "57" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "17" </nodo1>
+<nodo2> "40" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "17" </nodo1>
+<nodo2> "55" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "20" </nodo1>
+<nodo2> "59" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "20" </nodo1>
+<nodo2> "60" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "24" </nodo1>
+<nodo2> "62" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "25" </nodo1>
+<nodo2> "44" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "26" </nodo1>
+<nodo2> "68" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "28" </nodo1>
+<nodo2> "33" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "30" </nodo1>
+<nodo2> "31" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "30" </nodo1>
+<nodo2> "41" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "30" </nodo1>
+<nodo2> "54" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "31" </nodo1>
+<nodo2> "62" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "32" </nodo1>
+<nodo2> "38" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "32" </nodo1>
+<nodo2> "42" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "32" </nodo1>
+<nodo2> "46" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "32" </nodo1>
+<nodo2> "47" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "33" </nodo1>
+<nodo2> "44" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "34" </nodo1>
+<nodo2> "35" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "34" </nodo1>
+<nodo2> "54" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "35" </nodo1>
+<nodo2> "63" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "35" </nodo1>
+<nodo2> "66" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "37" </nodo1>
+<nodo2> "45" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "37" </nodo1>
+<nodo2> "47" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "38" </nodo1>
+<nodo2> "41" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "38" </nodo1>
+<nodo2> "49" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "38" </nodo1>
+<nodo2> "51" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "39" </nodo1>
+<nodo2> "40" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "39" </nodo1>
+<nodo2> "41" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "39" </nodo1>
+<nodo2> "52" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "39" </nodo1>
+<nodo2> "53" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "44" </nodo1>
+<nodo2> "45" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "45" </nodo1>
+<nodo2> "55" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "47" </nodo1>
+<nodo2> "49" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "48" </nodo1>
+<nodo2> "49" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "49" </nodo1>
+<nodo2> "50" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "50" </nodo1>
+<nodo2> "51" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "51" </nodo1>
+<nodo2> "52" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "53" </nodo1>
+<nodo2> "54" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "54" </nodo1>
+<nodo2> "55" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "55" </nodo1>
+<nodo2> "56" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "55" </nodo1>
+<nodo2> "61" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "64" </nodo1>
+<nodo2> "67" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "64" </nodo1>
+<nodo2> "69" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "64" </nodo1>
+<nodo2> "72" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "65" </nodo1>
+<nodo2> "66" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "65" </nodo1>
+<nodo2> "69" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "66" </nodo1>
+<nodo2> "67" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "69" </nodo1>
+<nodo2> "70" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "69" </nodo1>
+<nodo2> "72" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "70" </nodo1>
+<nodo2> "71" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+<arista>
+<nodo1> "71" </nodo1>
+<nodo2> "72" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "0" </tipo>
+</arista>
+</aristas> 
+ </grafo>

@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Classroom
+comment1.params=numStudents\ clName\ clFloor
+comment1.target=Classroom(int,\ java.lang.String,\ int)
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=java.lang.String\ getGroup()
+comment3.params=
+comment3.target=int\ getFloor()
+comment4.params=clName
+comment4.target=void\ setGroup(java.lang.String)
+comment5.params=clFloor
+comment5.target=void\ setFloor(int)
+comment6.params=
+comment6.target=void\ resolution()
+comment7.params=name
+comment7.target=Student\ searchStudent(java.lang.String)
+comment8.params=s
+comment8.target=boolean\ addStudent(Student)
+comment8.text=I\ have\ changed\ the\ parameter\ of\ the\ addStudent\ in\ order\ to\ have\ the\r\n\ \ \ \ marks\ of\ the\ students\ already\ initialized,\ I\ have\ talked\ with\ the\ group\ \r\nin\ charge\ and\ they\ agreed\ this\ change
+comment9.params=name
+comment9.target=boolean\ removeStudent(java.lang.String)
+numComments=11

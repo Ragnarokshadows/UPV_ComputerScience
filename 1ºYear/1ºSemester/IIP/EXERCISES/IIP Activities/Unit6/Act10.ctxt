@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Act10
+comment1.params=x\ eps
+comment1.target=double\ eVal(double,\ double)
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

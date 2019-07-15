@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="PaperBoatFinal.jnlp">
+  <information>
+    <title>PaperBoatFinal</title>
+    <vendor>david</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\Medusa-8.0.jar" size="1463851" download="eager" />
+    <jar href="lib\marineapi-0.10.0.jar" size="232824" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="PaperBoatFinal" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="paperboat.PaperBoat0v2"  name="PaperBoatFinal" />
+  <update check="always"/>
+</jnlp>
