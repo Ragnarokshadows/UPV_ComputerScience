@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=TestOrdenacion
+comment0.text=\ \n\ \ La\ clase\ TestOrdenacion\ permite\ probar\ y\ temporizar\ los\ \ \n\ \ metodos\ de\ ordenacion\ de\ arrays\ genericos\ definidos\ en\ \ \n\ \ la\ clase\ librerias.util.Ordenacion.\n\ \ \n\ \ @author\ (EDA)\ \n\ \ @version\ (Curso\ 2018-2019)\n
+comment1.params=
+comment1.target=boolean\ comprobar()
+comment1.text=\n\ Comprueba\ la\ correccion\ del\ metodo\ mergeSort2\ de\ \n\ la\ clase\ Ordenacion,\ basandose\ en\ la\ correccion\n\ del\ metodo\ quickSort.\n
+comment2.params=
+comment2.target=void\ temporizar()
+comment2.text=\n\ Temporizacion\ sobre\ Integer\ de\ los\ metodos\ mergeSort1,\ \ \n\ mergeSort2\ y\ quickSort\ de\ la\ clase\ Ordenacion.\n
+comment3.params=talla
+comment3.target=java.lang.Integer[]\ crearAleatorioInteger(int)
+comment3.text=\n\ Devuelve\ un\ array\ de\ talla\ Integer\ generados\ aleatoriamente.\n\ \n\ @param\ talla\ \ Talla\ del\ array\ resultado\n\ @return\ Integer[]\n
+comment4.params=
+comment4.target=void\ temporizarCadenaADN()
+comment4.text=\n\ Temporizacion\ sobre\ String\ de\ los\ metodos\ mergeSort1,\n\ mergeSort2\ y\ quickSort\ de\ la\ clase\ Ordenacion.\n
+comment5.params=talla\ n
+comment5.target=CadenaADN[]\ crearAleatorioCadenaADN(int,\ int)
+comment5.text=\n\ Devuelve\ un\ array\ de\ talla\ CadenaADN\ aleatorias\ con\ los\ primeros\ n\ \n\ elementos\ iguales.\n\ \n\ @param\ talla\ \ Talla\ del\ array\ resultado\n\ @param\ n\ \ Numero\ de\ elementos\ iniciales\ iguales\n\ @return\ CadenaADN[]\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

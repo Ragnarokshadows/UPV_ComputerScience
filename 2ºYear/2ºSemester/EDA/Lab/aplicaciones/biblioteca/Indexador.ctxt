@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Indexador
+comment0.text=\n\ Clase\ que\ genera\ las\ referencias\ cruzadas\ del\ vocabulario\ en\ un\ conjunto\ \n\ de\ libros.\n\ Es\ decir,\ analiza\ los\ documentos\ para\ obtener\ informaci\u00F3n\ que\ permita\ \ \n\ consultar\ de\ forma\ eficiente\ en\ que\ lineas\ de\ que\ documentos\ aparece\ una\ \n\ determinada\ palabra.\n\ Permite\ la\ siguiente\ funcionalidad\:\n\ 1.-\ Construir\ un\ Indexador\ a\ partir\ de\ un\ listado\ con\ los\ nombres\ de\ los\n\ \ \ \ \ documentos\ y\ el\ numero\ aproximado\ de\ terminos\n\ 2.-\ Actualizar\ las\ referencias\ cruzadas\ (el\ Indexador)\ cuando\ se\ analiza\ un\ nuevo\ documento\n\ 2.-\ Consultar\ en\ que\ lineas\ de\ que\ documentos\ aparece\ una\ determinada\ palabra\n\ \n\ @author\ (EDA)\ \n\ @version\ (Curso\ 2017-2018)\n
+comment1.params=listaLibros\ tallaAprox
+comment1.target=Indexador(java.lang.String,\ int)
+comment1.text=\ Construye\ un\ indexador\ a\ partir\ de\ los\ textos\ cuyos\ nombres\ se\ encuentran\n\ \ en\ listaLibros.\n\ \ @param\ \ \ String\ listaLibros,\ nombre\ del\ fichero\ que\ contiene\ la\ lista\ de\ documentos\n\ \ @param\ \ \ int\ tallaAprox,\ numero\ aproximado\ de\ terminos\ a\ considerar\n\ \ @throws\ \ FileNotFoundException\ si\ no\ se\ encuentra\ algun\ fichero\ \n
+comment2.params=fichLibro\ separadores
+comment2.target=boolean\ cargarLibro(java.lang.String,\ java.lang.String)
+comment2.text=\ Actualiza\ el\ Indexador\ con\ los\ datos\ del\ documento\ nombreLibro\ que\n\ \ se\ encuentra\ en\ el\ directorio\ dir.\ Si\ no\ existe\ el\ documento,\ no\ hace\ nada.\n\ \ @param\ \ \ String\ fichLibro,\ nombre\ del\ fichero\ que\ contiene\ el\ documento\n\ \ @param\ \ \ String\ dir,\ nombre\ del\ directorio\ donde\ se\ encuentra\ el\ documento\n\ \ @return\ \ boolean,\ true\ si\ el\ libro\ se\ ha\ leido\ con\ exito\ y\ falso\ en\ caso\ contrario\n
+comment3.params=pal
+comment3.target=librerias.estructurasDeDatos.modelos.ListaConPI\ indiceDe(java.lang.String)
+comment3.text=\n\ Devuelve\ una\ ListaConPI\ con\ la\ representaci\u00F3n\ textual\n\ del\ libro\ y\ pagina\ (Indice)\ en\ los\ que\ aparece\ el\ termino\n\ @param\ \ \ String\ a\ buscar\n\ @return\ ListaConPI<String>\n
+comment4.params=s
+comment4.target=boolean\ esTermino(java.lang.String)
+comment4.text=\ Comprueba\ si\ el\ String\ s\ es\ un\ termino\ valido\n\ es\ decir,\ si\ es\ una\ secuencia\ de\ letras\n
+numComments=5

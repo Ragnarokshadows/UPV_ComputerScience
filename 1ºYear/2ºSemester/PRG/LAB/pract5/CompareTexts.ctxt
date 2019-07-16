@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\n\ Args\:\n\ 1)\ "-u"\ or\ "-i"\ for\ union\ or\ intersection\ respectively\n\ 2)\ Filename\ of\ the\ first\ file.\n\ 3)\ Filename\ of\ the\ second\ file.\n\ \n\ The\ result\ is\ shown\ on\ standard\ output.\n
+comment1.params=filename1\ filename2
+comment1.target=void\ union(java.lang.String,\ java.lang.String)
+comment1.text=\n\ Writes\ on\ standard\ output\ the\ result\ of\ merging\ the\ sets\ of\ words\n\ corresponding\ to\ the\ text\ files\ whose\ names\ are\ in\n\ <code>filename1</code>\ \ and\ <code>filename2</code>\ .\n\ \n\ @param\ filename1\ String,\ name\ of\ the\ first\ file.\n\ @param\ filename2\ String,\ name\ of\ the\ second\ file.\n
+comment2.params=filename1\ filename2
+comment2.target=void\ intersection(java.lang.String,\ java.lang.String)
+comment2.text=\n\ Writes\ on\ standard\ output\ the\ intersection\ of\ the\ sets\ of\ words\n\ corresponding\ to\ the\ text\ files\ whose\ names\ are\ in\n\ <code>filename1</code>\ \ and\ <code>filename2</code>\ .\n\ \n\ @param\ filename1\ String,\ name\ of\ the\ first\ file.\n\ @param\ filename2\ String,\ name\ of\ the\ second\ file.\n
+comment3.params=s
+comment3.target=StringSet\ readSet(java.util.Scanner)
+comment3.text=\n\ Devuelve\ el\ ConjuntoString\ de\ las\ palabras\n\ encontradas\ en\ el\ Scanner\ s\ segun\ los\ separadores\n\ dados,\ por\ defecto,\ en\ ParseString\ (ParseString.SEPARADORES).\n\ @param\ s\ Scanner.\n\ @return\ el\ conjunto\ de\ palabras\ leidas\ del\ Scanner\ s.\n
+numComments=4

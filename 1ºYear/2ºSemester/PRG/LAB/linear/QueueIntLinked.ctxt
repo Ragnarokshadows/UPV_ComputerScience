@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=QueueIntLinked()
+comment1.params=value
+comment1.target=boolean\ add(int)
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment11.params=
+comment11.target=QueueIntLinked\ clone()
+comment2.params=value
+comment2.target=boolean\ offer(int)
+comment3.params=
+comment3.target=int\ element()
+comment4.params=
+comment4.target=int\ peek()
+comment5.params=
+comment5.target=int\ remove()
+comment6.params=
+comment6.target=int\ poll()
+comment7.params=
+comment7.target=int\ size()
+comment8.params=
+comment8.target=boolean\ isEmpty()
+comment9.params=o
+comment9.target=boolean\ equals(java.lang.Object)
+numComments=12

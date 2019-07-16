@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ test1()
+comment0.text=\ Draw\ sin(x)\ and\ sin(x)/x\ with\n\ x\ in\ [-1.0\:\ +PI*4]\ and\ f(x)\ in\ [-1.10\ \:\ +1.10].\n\ Representation\ by\ consecutive\ dots.\n
+numComments=1

@@ -1,0 +1,18 @@
+#BlueJ package file
+objectbench.height=100
+objectbench.width=248
+package.editor.height=172
+package.editor.width=413
+package.editor.x=825
+package.editor.y=79
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
+project.charset=UTF-8
+target1.height=62
+target1.name=graph2D
+target1.type=PackageTarget
+target1.width=80
+target1.x=70
+target1.y=10

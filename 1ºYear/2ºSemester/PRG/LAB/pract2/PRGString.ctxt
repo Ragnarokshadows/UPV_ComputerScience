@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PRGString()
+comment0.text=Objects\ of\ this\ class\ cannot\ be\ created.
+comment1.params=s
+comment1.target=int\ countA(java.lang.String)
+comment1.text=\n\ Returns\ the\ number\ of\ occurrences\ of\ the\ letter\ 'a'\ in\ the\ String\ given\ as\ parameter.\n\ @param\ s\ String\ to\ be\ explored\ to\ find\ occurrences\ of\ the\ letter\ 'a'.\n\ @return\ int\n
+comment2.params=s\ pos
+comment2.target=int\ countA(java.lang.String,\ int)
+comment2.text=\n\ Returns\ the\ number\ of\ occurrences\ of\ the\ letter\ 'a'\ in\n\ the\ String\ given\ as\ parameter\ from\ the\ specified\ position.\n\ @param\ s\ String\ to\ be\ explored\ to\ find\ occurrences\ of\ the\ letter\ 'a'.\n\ @param\ pos\ starting\ position\ of\ 's'\ where\ the\ substring\ starts.\n\ @return\ int\n\ PRECONDITION\:\ pos\ >\=\ 0\n
+comment3.params=s
+comment3.target=int\ countA2(java.lang.String)
+comment3.text=\n\ Returns\ the\ number\ of\ occurrences\ of\ the\ letter\ 'a'\ in\n\ @param\ s\ String\ to\ be\ explored\ to\ find\ occurrences\ of\ the\ letter\ 'a'.\n\ @return\ int\n
+comment4.params=a\ b
+comment4.target=boolean\ isPrefix(java.lang.String,\ java.lang.String)
+comment4.text=\n\ Check\ whether\ 'a'\ is\ prefix\ of\ 'b'.\n\ --\ TO\ BE\ COMPLETED\ --\n\ Returns\ a\ boolean\ that\ express\ if\ 'a'\ is\ prefix\ of\ 'b'.\n\ @param\ a\ String\ that\ represents\ the\ prefix.\n\ @param\ b\ String\ where\ could\ be\ or\ not\ 'a'\ a\ prefix.\n\ @return\ boolean\n
+comment5.params=a\ b\ i
+comment5.target=boolean\ isPrefix(java.lang.String,\ java.lang.String,\ int)
+comment6.params=a\ b
+comment6.target=boolean\ isSubstring(java.lang.String,\ java.lang.String)
+comment6.text=\n\ Check\ whether\ 'a'\ is\ contained\ in\ 'b'.\n\ --\ TO\ BE\ COMPLETED\ --\n\ Returns\ a\ boolean\ that\ express\ if\ 'a'\ is\ contained\ in\ 'b'.\n\ @param\ a\ String\ that\ represents\ the\ substring.\n\ @param\ b\ String\ where\ could\ be\ or\ not\ 'a'\ contained.\n\ @return\ boolean\n
+numComments=7

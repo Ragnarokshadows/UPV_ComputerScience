@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=NumeroPrimitiva
+comment0.text=\ NumeroPrimitiva\:\ representa\ un\ numero\ entero\n\ \ entre\ el\ 1\ y\ el\ 49,\ elegido\ aleatoriamente.\n\n\ \ @version\ Febrero\ 2019\n
+comment1.params=
+comment1.target=NumeroPrimitiva()
+comment1.text=\n\ Crea\ un\ NumeroPrimitiva\ eligiendo\ aleatoriamente\ \ \n\ un\ numero\ del\ intervalo\ entero\ [1,\ 49].\n
+comment2.params=o
+comment2.target=boolean\ equals(java.lang.Object)
+comment2.text=COMPLETAR\ EL\ METODO\ equals
+comment3.params=n
+comment3.target=int\ compareTo(NumeroPrimitiva)
+comment3.text=COMPLETAR\ EL\ METODO\ compareTo
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\n\ Devuelve\ el\ String\ que\ representa\ un\ (this)\ NumeroPrimitiva\ \n\ en\ formato\ texto\n\ \n\ @return\ el\ String\ con\ el\ NumeroPrimitiva\ en\ formato\ texto.\ \n
+numComments=5

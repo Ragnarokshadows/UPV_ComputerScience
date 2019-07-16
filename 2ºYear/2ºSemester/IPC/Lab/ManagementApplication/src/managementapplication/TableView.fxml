@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.input.KeyCodeCombination?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="400.0" minWidth="600.0" prefHeight="564.0" prefWidth="741.0" styleClass="dashboard" stylesheets="@appointmentstableview.css" xmlns="http://javafx.com/javafx/8.0.211" xmlns:fx="http://javafx.com/fxml/1" fx:controller="managementapplication.TableViewController">
+   <center>
+      <TableView fx:id="tableView" prefHeight="400.0" prefWidth="627.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="nameColumn" prefWidth="136.0" text="Name" />
+          <TableColumn fx:id="surnameColumn" prefWidth="136.0" text="Surname" />
+            <TableColumn fx:id="dniColumn" prefWidth="137.0" text="DNI" />
+        </columns>
+         <BorderPane.margin>
+            <Insets bottom="25.0" left="25.0" top="25.0" />
+         </BorderPane.margin>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </center>
+   <right>
+      <VBox prefHeight="243.0" prefWidth="189.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="viewButton" mnemonicParsing="false" onAction="#buttonHandler" prefHeight="46.0" prefWidth="295.0" text="Patient Data">
+               <VBox.margin>
+                  <Insets left="25.0" right="25.0" top="25.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="addButton" mnemonicParsing="false" onAction="#buttonHandler" prefHeight="46.0" prefWidth="249.0" text="New Patient">
+               <VBox.margin>
+                  <Insets left="25.0" right="25.0" top="25.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="deleteButton" mnemonicParsing="false" onAction="#buttonHandler" prefHeight="46.0" prefWidth="241.0" text="Delete Patient">
+               <VBox.margin>
+                  <Insets left="25.0" right="25.0" top="25.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="appointmentButton" mnemonicParsing="false" onAction="#buttonHandler" prefHeight="46.0" prefWidth="192.0" text="View Appoint.">
+               <VBox.margin>
+                  <Insets left="25.0" right="25.0" top="25.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="returnButton" mnemonicParsing="false" onAction="#buttonHandler" prefHeight="46.0" prefWidth="138.0" styleClass="returnButton" text="Go Back">
+               <VBox.margin>
+                  <Insets left="25.0" top="30.0" />
+               </VBox.margin></Button>
+         </children>
+      </VBox>
+   </right>
+   <top>
+      <HBox prefHeight="176.0" prefWidth="726.0" styleClass="doctorTitle" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="143.0" prefWidth="812.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <MenuBar fx:id="menuBar" HBox.hgrow="ALWAYS">
+                           <menus>
+                              <Menu text="_Exit">
+                                 <items>
+                                    <MenuItem fx:id="closeMenu" onAction="#menuHandler" text="_Close" />
+                                 </items>
+                              </Menu>
+                              <Menu text="_View ">
+                                 <items>
+                                    <MenuItem fx:id="patientsMenu" onAction="#menuHandler" text="_Patients" />
+                                    <MenuItem fx:id="doctorsMenu" onAction="#menuHandler" text="_Doctors" />
+                                    <MenuItem fx:id="appointmentsMenu" onAction="#menuHandler" text="_Appointments" />
+                                 </items>
+                              </Menu>
+                              <Menu text="_Add">
+                                 <items>
+                                    <MenuItem fx:id="addPatientMenu" onAction="#menuHandler" text="_Patients">
+                                       <accelerator>
+                                          <KeyCodeCombination alt="UP" code="S" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                                       </accelerator>
+                                    </MenuItem>
+                                    <MenuItem fx:id="addDoctorMenu" onAction="#menuHandler" text="_Doctors">
+                                       <accelerator>
+                                          <KeyCodeCombination alt="UP" code="D" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                                       </accelerator>
+                                    </MenuItem>
+                                    <MenuItem fx:id="addAppMenu" onAction="#menuHandler" text="_Appointments">
+                                       <accelerator>
+                                          <KeyCodeCombination alt="UP" code="A" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                                       </accelerator>
+                                    </MenuItem>
+                                 </items>
+                              </Menu>
+                           </menus>
+                        </MenuBar>
+                     </children>
+                  </HBox>
+                  <Text fx:id="title" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Patients View">
+                     <VBox.margin>
+                        <Insets left="25.0" top="25.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="instructions" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Select a row to see the patient's info, remove the patient or see its scheduled appointments. " wrappingWidth="595.67041015625">
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="25.0" top="10.0" />
+                     </VBox.margin>
+                  </Text>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </top>
+</BorderPane>

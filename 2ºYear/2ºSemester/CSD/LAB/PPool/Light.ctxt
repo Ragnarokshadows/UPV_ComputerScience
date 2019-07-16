@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Light
+comment1.params=
+comment1.target=Light()
+comment2.params=
+comment2.target=void\ red()
+comment3.params=
+comment3.target=void\ yellow()
+comment4.params=
+comment4.target=void\ green()
+comment5.params=g
+comment5.target=void\ paintComponent(java.awt.Graphics)
+comment6.params=
+comment6.target=java.awt.Dimension\ getPreferredSize()
+numComments=7

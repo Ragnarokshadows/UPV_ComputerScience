@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=NodoLEG
+comment0.text=\ Clase\ friendly\ que\ representa\ un\ Nodo\ de\ una\ LEG\n\ \ TIENE\ UN\:\n\ \ -\ dato,\ el\ elemento\ que\ contiene\ el\ Nodo\n\ \ -\ siguiente,\ la\ referencia\ al\ siguiente\ Nodo\ de\ la\ LEG\n\ \ \n\ \ @version\ Febrero\ 2019\n\ \ @param\ <E>\ tipo\ de\ datos\ de\ la\ estructura\n
+comment1.params=e\ s
+comment1.target=NodoLEG(java.lang.Object,\ NodoLEG)
+comment1.text=\ Crea\ un\ NodoLEG\ que\ contiene\ al\ Elemento\ e\ \ \n\ \ y\ al\ que\ sigue\ el\ NodoLEG\ s\n\ \ \n\ \ @param\ e\ un\ Elemento\ de\ tipo\ generico\ E\n\ \ @param\ s\ un\ NodoLEG\n
+comment2.params=e
+comment2.target=NodoLEG(java.lang.Object)
+comment2.text=\ Crea\ un\ NodoLEG\ que\ contiene\ al\ Elemento\ e\ \ \n\ \ y\ al\ que\ NO\ sigue\ ninguno\n\ \ \n\ \ @param\ e\ un\ Elemento\ de\ tipo\ generico\ E\n
+numComments=3

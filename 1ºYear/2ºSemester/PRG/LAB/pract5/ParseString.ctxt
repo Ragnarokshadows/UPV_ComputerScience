@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ParseString()
+comment0.text=\n\ Creates\ an\ object\ of\ the\ class\ ParseString\ with\ the\n\ default\ delimiters.\n
+comment1.params=delim
+comment1.target=ParseString(java.lang.String)
+comment1.text=\n\ Creates\ an\ object\ of\ the\ class\ ParseString\ with\ a\n\ delimiters\ expression\ provided\ by\ the\ user.\n\n\ @param\ delim\ String.\ Delimiters\ to\ use.\n
+comment2.params=s
+comment2.target=java.lang.String[]\ split(java.lang.String)
+comment2.text=\n\ Returns\ an\ array\ with\ the\ words\ of\ <code>s</code>\n\ split\ according\ to\ delimiters.\n\ @param\ s\ String.\ The\ string\ to\ be\ split.\n\ @return\ the\ array\ with\ the\ words.\n
+numComments=3

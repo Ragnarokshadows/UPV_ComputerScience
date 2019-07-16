@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=UFSet
+comment0.text=\ Representa\ las\ clases\ -subconjuntos\ disjuntos-\ que\ define\ una\ relacion\n\ \ de\ equivalencia\ en\ un\ conjunto\ de\ cardinal\ n\ \n\ Los\ elementos\ del\ conjunto\ se\ representan\ mediante\ enteros\ en\ \ \n\ \ \ el\ intervalo\ [0,\ n-1],\ pues\ su\ tipo\ concreto\ NO\ interviene\ en\ \n\ \ \ la\ defincion\ de\ las\ clases\n\ \ \ \n\ Los\ elementos\ de\ una\ clase\ se\ representan\ mediante\ uno\ SOLO\ de\ sus\ \n\ \ \ miembros,\ cualquiera\ de\ ellos,\ pues\ todos\ son\ equivalentes.\ Este\ \n\ \ \ elemento\ recibe\ el\ nombre\ de\ identificador\ de\ la\ clase\n\ \ \ \n\ Las\ clases\ se\ definen\ dinamicamente\ a\ partir\ de\ las\ n\ triviales,\ \n\ \ \ cada\ una\ formada\ por\ un\ elemento\ del\ conjunto\n\ \ \ \ \ \ \n\ \ Ademas\ de\ Union-Find\ Set,\ otros\ nombres\ que\ recibe\ este\ Modelo\ son\ \n\ \ Estructura\ de\ Particion\ (Disjoint-Set\ en\ Ingles)\ y\ Merge-Find\ Set\n\ \ \ \n\ \ @version\ Diciembre\ 2018\n
+comment1.params=i
+comment1.target=int\ find(int)
+comment1.text=\ Devuelve\ el\ identificador\ de\ la\ clase\ de\ equivalencia\ \ \n\ \ -subconjunto-\ al\ que\ pertence\ i,\ tras\ realizar\ una\ \n\ \ compresion\ de\ caminos.\n
+comment2.params=claseI\ claseJ
+comment2.target=void\ union(int,\ int)
+comment2.text=\ PRECONDICION\:\ claseI\ \!\=\ claseJ\ AND\ claseI\ \=\ find(i)\ &&\ claseJ\ \=\ find(j)\n\ \ Une\ las\ clases\ de\ equivalencia\ -subconjuntos-\ con\ \n\ \ identificadores\ claseI\ y\ claseJ\ mediante\ combinacion\ \n\ \ por\ rango.\n
+numComments=3

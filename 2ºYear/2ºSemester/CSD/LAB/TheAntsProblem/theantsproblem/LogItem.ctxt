@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=LogItem
+comment1.params=c\ id\ x\ y\ s\ e
+comment1.target=LogItem(int,\ int,\ int,\ int,\ int,\ java.lang.String)
+numComments=2

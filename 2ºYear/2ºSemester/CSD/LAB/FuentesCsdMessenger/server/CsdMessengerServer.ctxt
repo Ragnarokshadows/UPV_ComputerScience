@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=CsdMessengerServer
+comment0.text=\n\ @author\ Agust\u00EDn\ Espinosa\ Minguet\ (aespinos@upvnet.upv.es)\n\ \n\ \ \ \ \ \ \ \ \ Clase\ para\ un\ \u00FAnico\ objeto\ que\ act\u00FAa\ como\ servidor\ del\ servicio\ de\n\ \ \ \ \ \ \ \ \ mensajer\u00EDa.\ Sus\ funciones\ son\:\n\ \n\ \ \ \ \ \ \ \ \ 1.-\ Mantener\ y\ difundir\ la\ lista\ de\ usuarios\ participantes\n\ \n\ \ \ \ \ \ \ \ \ 2.-\ Crear,\ la\ primera\ vez\ que\ un\ usuario\ participa,\ su\ cola\ JMS\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=java.util.ArrayList\ registeredUsers()
+comment3.params=userName
+comment3.target=void\ createJMSQueue(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getJolokiaPort()
+numComments=5

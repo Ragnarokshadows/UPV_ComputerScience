@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=GrafoRedMunicipiosEx
+comment0.text=\ GrafoRedMunicipios\:\ grafo\ etiquetado\ que\ representa\ una\ red\ \ \n\ \ electrica\ interurbana\ mediante...\n\ Un\ conjunto\ de\ vertices\ etiquetados\ por\ los\ nombres\ \n\ \ de\ los\ municipios\ de\ la\ red\ \n\ Un\ conjunto\ de\ aristas\ etiquetadas\ por\ los\ millones\ \n\ \ de\ euros\ que\ costaria\ la\ renovacion\ del\ tendido\ electrico\ \n\ \ entre\ cada\ par\ de\ municipios\ de\ la\ red\ (vertices).\ \n\ \n\ @version\ (Curso\ 2018/19)\n
+comment1.params=
+comment1.target=GrafoRedMunicipiosEx()
+comment1.text=Constructor
+comment2.params=
+comment2.target=int\ numVertices()
+comment2.text=Consultor\ del\ n\u00FAmero\ de\ v\u00E9rtices
+comment3.params=
+comment3.target=int\ numAristas()
+comment3.text=Consultor\ del\ n\u00FAmero\ de\ aristas
+comment4.params=m
+comment4.target=int\ getVertice(others.aplicaciones.redElectrica.Municipio)
+comment4.text=Consultor\ de\ v\u00E9rtice\ dado\ el\ municipio
+comment5.params=v
+comment5.target=others.aplicaciones.redElectrica.Municipio\ getMunicipio(int)
+comment5.text=Consultor\ del\ municipio\ dado\ el\ v\u00E9rtice
+comment6.params=m
+comment6.target=double\ pesoAristasEnMST(others.aplicaciones.redElectrica.Municipio)
+numComments=7

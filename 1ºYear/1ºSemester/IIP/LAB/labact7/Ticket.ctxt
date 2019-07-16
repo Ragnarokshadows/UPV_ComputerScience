@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=plt\ entH
+comment0.target=Ticket(java.lang.String,\ labact4.TimeInstant)
+comment0.text=\ Create\ a\ Ticket\ for\ a\ car\ with\ a\ given\ plate\n\ \ and\ enter\ time,\ without\ location\ (floor\ and\ space\ are\ -1)\n\ \ @param\ plt\ String,\ the\ plate\ number.\n\ \ @param\ entH\ TimeInstant,\ enter\ hour\ into\ the\ parking.\ \ \ \ \ \ \n
+comment1.params=
+comment1.target=java.lang.String\ getPlate()
+comment1.text=\ Returns\ plate\n\ \ @return\ String,\ plate\ number.\n
+comment2.params=
+comment2.target=labact4.TimeInstant\ getEnterHour()
+comment2.text=\ Returns\ enter\ hour.\n\ \ @return\ TimeInstant,\ enter\ hour.\n
+comment3.params=
+comment3.target=int\ getFloor()
+comment3.text=\ Returns\ floor.\n\ \ @return\ int,\ floor.\ \n
+comment4.params=
+comment4.target=int\ getSpace()
+comment4.text=\ Returns\ space\ number.\n\ \ @return\ int,\ space.\ \n
+comment5.params=fl
+comment5.target=void\ setFloor(int)
+comment5.text=\ Updates\ floor.\n\ \ @param\ fl\ int,\ floor.\n
+comment6.params=spc
+comment6.target=void\ setSpace(int)
+comment6.text=\ Updates\ space\ number.\n\ \ @param\ spc\ int,\ space.\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\ Returns\ a\ String\ that\ represents\ Ticket\ data\ in\ the\n\ \ following\ format\:\ <br>\n\ \ -\ When\ the\ ticket\ HAS\ NOT\ location\:\ <pre>\n\ \ \ \ "Plate\:\ PLATE\ -\ Enter\ time\:\ ENTERHOUR"\ \n\ \ \ \ </pre>\n\ \ -\ When\ the\ ticket\ HAS\ location\:\ <pre>\n\ \ \ \ "Plate\:\ PLATE\ -\ Enter\ time\:\ ENTERHOUR\ -\ Floor\:\ FLOOR\ -\ Space\ number\:\ SPACE"\n\ \ \ \ </pre>\n\ \ @return\ String,\ Ticket\ representation.\n
+numComments=8

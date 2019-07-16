@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=size
+comment0.target=int[]\ createRandomArray(int)
+comment0.text=\ Creates\ an\ array\ of\ length\ size\ with\ random\ values\ in\ the\ range\ 0,\ size-1\n\ @param\ size\ int,\ size\ of\ the\ array\n\ @result\ int[],\ created\ array\n
+comment1.params=size
+comment1.target=int[]\ createArraySortedInAscendingOrder(int)
+comment1.text=\ Generates\ an\ array\ of\ length\ size\ sorted\ in\ ascending\ order\n\ @param\ size\ int,\ size\ of\ the\ array\n\ @result\ int[],\ created\ array\n
+comment2.params=size
+comment2.target=int[]\ createArraySortedInDescendingOrder(int)
+comment2.text=\ Generates\ an\ array\ of\ length\ size\ sorted\ in\ descending\ order\n\ @param\ size\ int,\ size\ of\ the\ array\n\ @result\ int[],\ created\ array\n
+comment3.params=a\ i\ j
+comment3.target=void\ swap(int[],\ int,\ int)
+comment4.params=
+comment4.target=void\ measuringSelectionSort()
+comment5.params=
+comment5.target=void\ measuringInsertionSort()
+comment6.params=
+comment6.target=void\ measuringMergeSort()
+comment7.params=
+comment7.target=void\ help()
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9

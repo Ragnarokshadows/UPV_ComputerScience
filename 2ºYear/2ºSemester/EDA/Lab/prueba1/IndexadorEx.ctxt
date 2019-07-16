@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=IndexadorEx
+comment0.text=\n\ IndexadorEx\:\ version\ de\ la\ clase\ Indexador\ (Practica\ 3\ -\ S1)\ para\ el\ Primer\ Parcial\ de\ Lab.\ \n\ @author\ (EDA)\ \n\ @version\ (Curso\ 2018-2019)\n
+comment1.params=l
+comment1.target=librerias.estructurasDeDatos.modelos.ListaConPI\ palsFrecuenciaUno(librerias.estructurasDeDatos.modelos.ListaConPI)
+comment1.text=\n\ Dada\ una\ lista\ de\ palabras\ l,\ devuelve\ una\ lista\ con\ aquellas\ palabras\ de\ l\n\ que\ aparecen\ una\ sola\ vez\ en\ los\ documentos\ indexados\ en\ su\ Map\ indices;\ si\ \ \n\ ninguna\ palabra\ de\ l\ cumple\ tal\ condicion\ o\ l\ esta\ vacia,\ el\ metodo\ debe\ \n\ devolver\ una\ lista\ vacia.\n
+comment2.params=titulo\ contenido\ tallaAprox
+comment2.target=IndexadorEx(java.lang.String,\ java.lang.String,\ int)
+comment2.text=\ Construye\ un\ indexador\ a\ partir\ de\ un\ libro\ dados\ su\ titulo,\ contenido\ y\ \n\ \ una\ estimacion\ del\ numero\ maximo\ de\ terminos\ que\ puede\ contener.\n\ \ \n\ \ @param\ \ \ String\ titulo,\ titulo\ del\ libro\n\ \ @param\ \ \ String\ contenido,\ contenido\ del\ libro\n\ \ @param\ \ \ int\ tallaAprox,\ estimacion\ del\ numero\ maximo\ de\ terminos\ en\ el\ libro\n
+comment3.params=pal
+comment3.target=librerias.estructurasDeDatos.modelos.ListaConPI\ indiceDe(java.lang.String)
+comment3.text=\n\ Devuelve\ una\ ListaConPI\ con\ la\ representacion\ textual\n\ del\ libro\ y\ pagina\ (Indice)\ en\ los\ que\ aparece\ una\ palabra\n\ \n\ @param\ \ \ String\ pal,\ palabra\ a\ buscar\n\ @return\ \ ListaConPI<String>\n
+comment4.params=s
+comment4.target=boolean\ esTermino(java.lang.String)
+comment4.text=\ Comprueba\ si\ el\ String\ s\ es\ un\ termino\ valido\n\ \ es\ decir,\ si\ es\ una\ secuencia\ de\ letras\n
+numComments=5

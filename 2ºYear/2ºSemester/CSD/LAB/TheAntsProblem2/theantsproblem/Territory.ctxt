@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Territory
+comment1.params=
+comment1.target=java.lang.String\ getDesc()
+comment2.params=tamT\ l
+comment2.target=Territory(int,\ Log)
+comment3.params=
+comment3.target=int\ getTam()
+comment4.params=h\ x\ y
+comment4.target=void\ putAnt(Ant,\ int,\ int)
+comment5.params=h
+comment5.target=void\ takeAnt(Ant)
+comment6.params=h\ x1\ y1\ step
+comment6.target=void\ moves(Ant,\ int,\ int,\ int)
+numComments=7

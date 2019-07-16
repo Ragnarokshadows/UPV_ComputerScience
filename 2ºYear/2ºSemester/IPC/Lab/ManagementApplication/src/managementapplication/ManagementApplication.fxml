@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.input.KeyCodeCombination?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane prefHeight="640.0" prefWidth="783.0" stylesheets="@appointmentstableview.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="managementapplication.ManagementApplicationController">
+   <top>
+      <HBox prefHeight="29.0" prefWidth="734.0" BorderPane.alignment="TOP_LEFT">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <HBox prefHeight="29.0" prefWidth="1054.0">
+                     <children>
+                        <MenuBar fx:id="menuBar" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="29.0" prefWidth="1052.0" HBox.hgrow="ALWAYS">
+                          <menus>
+                            <Menu text="_Exit">
+                              <items>
+                                <MenuItem fx:id="closeMenu" onAction="#menuHandler" text="_Close" />
+                              </items>
+                            </Menu>
+                            <Menu text="_View ">
+                              <items>
+                                    <MenuItem fx:id="patientsMenu" onAction="#menuHandler" text="_Patients" />
+                                <MenuItem fx:id="doctorsMenu" onAction="#menuHandler" text="_Doctors" />
+                                    <MenuItem fx:id="appointmentsMenu" onAction="#menuHandler" text="_Appointments" />
+                              </items>
+                            </Menu>
+                            <Menu text="_Add">
+                              <items>
+                                    <MenuItem fx:id="addPatientMenu" onAction="#menuHandler" text="_Patients">
+                                       <accelerator>
+                                          <KeyCodeCombination alt="UP" code="S" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                                       </accelerator>
+                                    </MenuItem>
+                                <MenuItem fx:id="addDoctorMenu" onAction="#menuHandler" text="_Doctors">
+                                       <accelerator>
+                                          <KeyCodeCombination alt="UP" code="D" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                                       </accelerator>
+                                    </MenuItem>
+                                    <MenuItem fx:id="addAppMenu" onAction="#menuHandler" text="_Appointments">
+                                       <accelerator>
+                                          <KeyCodeCombination alt="UP" code="A" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                                       </accelerator>
+                                    </MenuItem>
+                              </items>
+                            </Menu>
+                          </menus>
+                        </MenuBar>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <VBox alignment="CENTER" prefHeight="611.0" prefWidth="1066.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" maxHeight="1.7976931348623157E308" prefHeight="381.0" prefWidth="734.0" styleClass="doctorTitle">
+               <opaqueInsets>
+                  <Insets bottom="20.0" />
+               </opaqueInsets>
+               <children>
+                  <ImageView fitHeight="269.0" fitWidth="319.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/ipclogo.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets top="30.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="50.0" prefWidth="734.0" styleClass="doctorTitle">
+               <children>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Hospital Management " textAlignment="CENTER" wrappingWidth="730.7666015625">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="5.0" />
+                     </HBox.margin>
+                  </Text>
+               </children>
+               <opaqueInsets>
+                  <Insets bottom="50.0" />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="48.0" prefWidth="734.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="What kind of task do you want to perform?" textAlignment="CENTER" wrappingWidth="690.59375">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="25.0" top="35.0" />
+                     </HBox.margin>
+                  </Text>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="0.0" prefWidth="272.0">
+               <children>
+                  <Button fx:id="patientButton" mnemonicParsing="false" onAction="#buttonHandler" prefHeight="73.0" prefWidth="226.0" styleClass="ti" text="Patient">
+                     <font>
+                        <Font size="66.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="53.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true" styleClass="titleButton">
+                           <image>
+                              <Image url="@../images/patient.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <HBox.margin>
+                        <Insets bottom="25.0" left="20.0" right="25.0" top="25.0" />
+                     </HBox.margin>
+                  </Button>
+                <Button fx:id="doctorButton" mnemonicParsing="false" onAction="#buttonHandler" prefHeight="69.0" prefWidth="207.0" text="Doctor">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="25.0" right="25.0" top="25.0" />
+                     </HBox.margin>
+                     <graphic>
+                        <ImageView fitHeight="54.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/doctor.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="appointmentButton" mnemonicParsing="false" onAction="#buttonHandler" prefHeight="12.0" prefWidth="207.0" text="Appointment">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="25.0" right="20.0" top="25.0" />
+                     </HBox.margin>
+                     <graphic>
+                        <ImageView fitHeight="55.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/appointment.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+   <top>
+      <HBox prefHeight="22.0" prefWidth="734.0" styleClass="doctorTitle" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="185.0" prefWidth="734.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <HBox prefHeight="30.0" prefWidth="734.0">
+                     <children>
+                        <MenuBar fx:id="menuBar" HBox.hgrow="ALWAYS">
+                           <menus>
+                              <Menu text="_Exit">
+                                 <items>
+                                    <MenuItem fx:id="closeMenu" onAction="#menuHandler" text="_Close" />
+                                 </items>
+                              </Menu>
+                              <Menu text="_View ">
+                                 <items>
+                                    <MenuItem fx:id="patientsMenu" onAction="#menuHandler" text="_Patients" />
+                                    <MenuItem fx:id="doctorsMenu" onAction="#menuHandler" text="_Doctors" />
+                                    <MenuItem fx:id="appointmentsMenu" onAction="#menuHandler" text="_Appointments" />
+                                 </items>
+                              </Menu>
+                              <Menu text="_Add">
+                                 <items>
+                                    <MenuItem fx:id="addPatientMenu" onAction="#menuHandler" text="_Patients">
+                                       <accelerator>
+                                          <KeyCodeCombination alt="UP" code="S" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                                       </accelerator>
+                                    </MenuItem>
+                                    <MenuItem fx:id="addDoctorMenu" onAction="#menuHandler" text="_Doctors">
+                                       <accelerator>
+                                          <KeyCodeCombination alt="UP" code="D" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                                       </accelerator>
+                                    </MenuItem>
+                                    <MenuItem fx:id="addAppMenu" onAction="#menuHandler" text="_Appointments">
+                                       <accelerator>
+                                          <KeyCodeCombination alt="UP" code="A" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                                       </accelerator>
+                                    </MenuItem>
+                                 </items>
+                              </Menu>
+                           </menus>
+                        </MenuBar>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </top>
+</BorderPane>

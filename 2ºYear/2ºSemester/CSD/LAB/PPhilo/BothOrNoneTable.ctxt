@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=BothOrNoneTable
+comment1.params=state
+comment1.target=BothOrNoneTable(StateManager)
+comment2.params=id
+comment2.target=void\ takeLR(int)
+numComments=3

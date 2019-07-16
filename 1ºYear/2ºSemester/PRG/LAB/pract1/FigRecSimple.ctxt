@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FigRecSimple()
+comment1.params=initialOrder
+comment1.target=void\ figRec(int)
+comment1.text=\n\ Draws\ a\ serie\ of\ squares\ where\ ones\ are\ included\ in\ others.\n\ The\ number\ of\ squares\ is\ given\ by\ the\ parameter\n\ <code>initialOrder</code>.\n\ PRECONDITION\:\ <code>initialOrder\ >\=\ 0</code>\n\ @param\ initialOrder\ Number\ of\ squares\ to\ be\ drawn.\n
+comment2.params=g\ ord\ l
+comment2.target=void\ figRec(graph2D.Graph2D,\ int,\ double)
+comment2.text=\n\ Draws\ a\ square\ of\ order\ n\ and\ lateral\ length\ of\ l.\n\ @param\ g\:\ the\ drawing\ canvas,\ an\ object\ of\ the\ class\ Graph2D\n\ @param\ n\:\ order\ of\ the\ figure\ with\ nested\ squares\n\ @param\ l\:\ lateral\ length\ of\ the\ square\n\ PRECONDITION\:\ n\ >\=\ 0\ \n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

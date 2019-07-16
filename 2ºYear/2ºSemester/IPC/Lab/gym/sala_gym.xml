@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gimnasio>
+    <grupos>
+        <codigo>g1</codigo>
+        <descripcion>Grupo principiante</descripcion>
+        <sesiones>
+            <duracion>PT3.2S</duracion>
+            <fecha>2019-05-16T21:24:18.810</fecha>
+            <tipo>
+                <codigo>tp1</codigo>
+                <d_circuito>0</d_circuito>
+                <d_ejercicio>120</d_ejercicio>
+                <num_circuitos>1</num_circuitos>
+                <num_ejercicios>1</num_ejercicios>
+                <t_calentamiento>60</t_calentamiento>
+                <t_ejercicio>120</t_ejercicio>
+            </tipo>
+        </sesiones>
+    </grupos>
+    <tiposSesion>
+        <codigo>tp1</codigo>
+        <d_circuito>0</d_circuito>
+        <d_ejercicio>120</d_ejercicio>
+        <num_circuitos>1</num_circuitos>
+        <num_ejercicios>1</num_ejercicios>
+        <t_calentamiento>60</t_calentamiento>
+        <t_ejercicio>120</t_ejercicio>
+    </tiposSesion>
+    <tiposSesion>
+        <codigo>tp2</codigo>
+        <d_circuito>10</d_circuito>
+        <d_ejercicio>240</d_ejercicio>
+        <num_circuitos>2</num_circuitos>
+        <num_ejercicios>1</num_ejercicios>
+        <t_calentamiento>60</t_calentamiento>
+        <t_ejercicio>240</t_ejercicio>
+    </tiposSesion>
+</gimnasio>

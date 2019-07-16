@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ChatUser
+comment1.params=nick\ lis
+comment1.target=ChatUser(java.lang.String,\ MessageListener)
+comment2.params=
+comment2.target=java.lang.String\ getNick()
+comment3.params=msg
+comment3.target=void\ sendMessage(IChatMessage)
+numComments=4

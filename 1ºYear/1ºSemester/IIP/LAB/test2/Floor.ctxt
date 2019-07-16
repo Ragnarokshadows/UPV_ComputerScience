@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=numF\ numSpaces
+comment0.target=Floor(int,\ int)
+comment0.text=\ Creates\ a\ Floor\ given\ number\ of\ floor\ and\ number\ of\ spaces.\n\ \ Floor\ initially\ is\ empty\ (without\ vehicles).\n\ \ @param\ numF\ int,\ number\ of\ floor,\ numF\ >\=\ 0.\n\ \ @param\ numSpaces\ int,\ number\ of\ spaces,\ numSpaces\ >\ 0.\n
+comment1.params=spc\ exitT
+comment1.target=int\ leave(int,\ labact4.TimeInstant)
+comment1.text=\ Returns\ number\ of\ minutes\ that\ passed\ from\ the\ time\ that\ the\ vehicle\n\ \ entered\ in\ the\ space\ until\ a\ given\ exit\ time,\ updating\ the\ floor.\n\ \ @param\ spc\ int,\ space\ number.\ \n\ \ \ \ Precondition\:\ 0\ <\=\ spc\ <\ spaces.length\ and\ spaces[spc]\ \!\=\ null.\n\ \ @param\ exitT\ TimeInstant,\ exit\ time.\ \n\ \ \ \ Precondition\:\ posterior\ to\ enter\ time\ of\ the\ vehicle.\n\ \ @return\ int,\ number\ of\ minutes\ the\ vehicle\ was\ in\ the\ parking.\n
+comment2.params=lettersPlate\ exitT
+comment2.target=int\ freeUpSpace(java.lang.String,\ labact4.TimeInstant)
+comment2.text=\ Frees\ all\ spaces\ occupied\ by\ those\ vehicles\ whose\ plate\ contains\ a\ given\n\ \ letter\ sequence\ (lettersPlate),\ returning\ the\ total\ number\ of\ minutes\ \n\ \ that\ those\ vehicles\ were\ on\ the\ floor\ until\ a\ given\ exit\ time\ (exitT).\n\ \ @param\ lettersPlate\ String,\ the\ sequence\ of\ letters\ in\ a\ plate.\n\ \ @param\ exitT\ TimeInstant,\ exit\ time.\n\ \ Precondition\:\ posterior\ to\ enter\ hour\ of\ all\ the\ vehicles\ in\ the\ floor.\n\ \ @return\ int,\ total\ number\ of\ minutes\ that\ passed.\n
+numComments=3

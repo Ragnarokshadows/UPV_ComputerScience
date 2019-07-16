@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StringSet()
+comment0.text=\n\ Creates\ an\ empty\ set.\n
+comment1.params=s
+comment1.target=void\ add(java.lang.String)
+comment1.text=\n\ Adds\ <code>s</code>\ into\ the\ set.\n\ If\ <code>s</code>\ is\ already\ in\ the\ set,\n\ the\ set\ remains\ untouched.\n\n\ @param\ s\ String.\ Element\ to\ be\ inserted.\n
+comment2.params=s
+comment2.target=boolean\ contains(java.lang.String)
+comment2.text=\n\ Checks\ if\ <code>s</code>\ belongs\ to\ the\ set.\n\n\ @param\ s\ String.\n\ @return\ true\ iff\ <code>s</code>\ is\ in\ the\ set.\n
+comment3.params=s
+comment3.target=void\ remove(java.lang.String)
+comment3.text=\n\ Removes\ <code>s</code>\ from\ the\ set.\n\ If\ <code>s</code>\ is\ not\ in\ the\ set,\n\ the\ set\ remains\ untouched.\n\n\ @param\ s\ String.\n
+comment4.params=
+comment4.target=int\ size()
+comment4.text=\n\ Returns\ the\ size\ of\ the\ set.\n\ @return\ the\ size\ of\ the\ set.\n
+comment5.params=other
+comment5.target=StringSet\ intersection(StringSet)
+comment5.text=\n\ Returns\ a\ new\ set\ as\ the\ intersection\ of\ both\n\ this\ and\ other.\n\n\ @param\ other\ StringSet.\n\ @return\ the\ intersection\ as\ a\ set.\n
+comment6.params=other
+comment6.target=StringSet\ union(StringSet)
+comment6.text=\n\ Returns\ the\ union\ of\ both\ sets,\ this\ and\ other.\n\n\ @param\ other\ StringSet.\n\ @return\ the\ union\ of\ both\ sets.\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\n\ Returns\ the\ list\ of\ strings\ in\ the\ set\ in\ lexicographical\ order\n\ and\ each\ word\ in\ a\ line.\n\ If\ the\ empty\ set\ returns\ an\ empty\ string.\n\n\ @return\ list\ of\ all\ the\ words\ in\ the\ set.\n
+numComments=8

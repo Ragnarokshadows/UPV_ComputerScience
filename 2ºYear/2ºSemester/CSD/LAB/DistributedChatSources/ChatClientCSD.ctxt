@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=ChatClientCSD
+comment1.params=conf
+comment1.target=ChatClientCSD(ChatConfiguration)
+comment10.params=
+comment10.target=void\ doTerminate()
+comment11.params=msg
+comment11.target=void\ messageArrived(IChatMessage)
+comment12.params=args
+comment12.target=void\ main(java.lang.String[])
+comment2.params=ui
+comment2.target=void\ setUI(ChatUI)
+comment3.params=
+comment3.target=java.lang.String\ getDefaultServerName()
+comment4.params=serverName\ nick
+comment4.target=java.lang.String[]\ doConnect(java.lang.String,\ java.lang.String)
+comment5.params=
+comment5.target=void\ doDisconnect()
+comment6.params=channelName
+comment6.target=void\ doLeaveChannel(java.lang.String)
+comment7.params=channelName
+comment7.target=java.lang.String[]\ doJoinChannel(java.lang.String)
+comment8.params=dst\ msg
+comment8.target=void\ doSendChannelMessage(java.lang.String,\ java.lang.String)
+comment9.params=dst\ msg
+comment9.target=void\ doSendPrivateMessage(java.lang.String,\ java.lang.String)
+numComments=13

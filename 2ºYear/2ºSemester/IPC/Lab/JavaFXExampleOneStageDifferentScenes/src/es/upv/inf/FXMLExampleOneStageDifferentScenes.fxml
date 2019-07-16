@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.upv.inf.FXMLExampleOneStageDifferentScenesController">
+    <children>
+        <Button fx:id="buttonOpenWin1" layoutX="107.0" layoutY="67.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleOnActionButtonOpenWin1" prefHeight="25.0" prefWidth="122.0" text="Open window 1" />
+      <Button fx:id="butonClose" cancelButton="true" layoutX="107.0" layoutY="106.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleOnActionButtonClose" prefHeight="25.0" prefWidth="122.0" text="Close" />
+    </children>
+</AnchorPane>

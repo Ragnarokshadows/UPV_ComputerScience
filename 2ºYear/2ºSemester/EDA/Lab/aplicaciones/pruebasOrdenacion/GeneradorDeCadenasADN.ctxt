@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=GeneradorDeCadenasADN
+comment0.text=\n\ GeneradorDeCadenasADN\ genera\ CadenaADN\ con\ un\ numero\ dado\ \ \n\ de\ bases\ nitrogenadas\ iniciales\ iguales.\n\ \n\ @author\ (EDA)\ \n\ @version\ (Curso\ 2018-2019)\n
+comment1.params=n
+comment1.target=GeneradorDeCadenasADN(int)
+comment1.text=\n\ Constructor\ del\ GeneradorDeCadenas,\ que\ permite\ generar\ objetos\ de\ tipo\ CadenaADN\ \n\ inicializando\ una\ cadena\ de\ n\ bases\ nitrogenadas\ que\ ser\u00E1\ prefijo\ com\u00FAn\ a\ todas\ las\ cadenas\ \n\ generadas\ posteriormente.\n
+comment2.params=a
+comment2.target=char\ baseNitrogenada(int)
+comment2.text=\ M\u00E9todo\ para\ convertir\ el\ n\u00FAmero\ entre\ 0\ y\ 4\ en\ la\ \n\ inicial\ de\ la\ base\ nitrogenada\ correspondiente.\n
+comment3.params=
+comment3.target=CadenaADN\ generar()
+comment3.text=\n\ Devuelve\ una\ CadenaADN\ con\ sus\ n\ primeros\ bases\ nitrogenadas\n\ identicas,\ aunque\ elegidas\ al\ azar.\n
+numComments=4

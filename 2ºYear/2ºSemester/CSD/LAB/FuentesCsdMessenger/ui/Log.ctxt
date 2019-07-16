@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Log
+comment0.text=\n\ @author\ Agust\u00EDn\ Espinosa\ Minguet\ (aespinos@upvnet.upv.es)\n\ \n\ \ \ \ \ \ \ \ \ Clase\ con\ un\ \u00FAnico\ objeto\ que\ representa\ el\ log\ que\ se\ muestra\ en\ la\n\ \ \ \ \ \ \ \ \ parte\ inferior\ de\ la\ UI\n\ \n\ \ \ \ \ \ \ \ \ Permite\ a\u00F1adir\ strings\ que\ se\ visualizan\ si\ se\ supera\ un\ cierto\n\ \ \ \ \ \ \ \ \ umbral\ de\ importancia\n\n
+comment1.params=
+comment1.target=Log()
+comment2.params=
+comment2.target=Log\ getLog()
+comment3.params=level\ text
+comment3.target=void\ add(int,\ java.lang.String)
+comment3.text=\n\ A\u00F1ade\ una\ l\u00EDnea\ al\ log\n\ \n\ @param\ level\n\ \ \ \ \ \ \ \ \ \ \ \ Nivel\ de\ importancia.\ S\u00F3lo\ se\ muestra\ si\ es\ igual\ o\ inferior\n\ \ \ \ \ \ \ \ \ \ \ \ al\ umbral\ actual\n\ @param\ text\n\ \ \ \ \ \ \ \ \ \ \ \ Texto\ a\ mostrar\n
+comment4.params=
+comment4.target=void\ run()
+comment5.params=
+comment5.target=int\ getLogLevel()
+comment5.text=\n\ @return\ Umbral\ actual\ del\ log\n
+comment6.params=logLevel
+comment6.target=void\ setLogLevel(int)
+comment6.text=\n\ @param\ logLevel\n\ \ \ \ \ \ \ \ \ \ \ \ Establece\ el\ umbral\ actual\ del\ log\n
+numComments=7

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.201" xmlns:fx="http://javafx.com/fxml/1" fx:controller="converter.FXMLConverterController">
+   <children>
+      <Slider fx:id="slider" max="2.0" showTickLabels="true" showTickMarks="true">
+         <VBox.margin>
+            <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+         </VBox.margin>
+      </Slider>
+      <HBox>
+         <children>
+            <Label text="Conversion Rate:">
+               <HBox.margin>
+                  <Insets bottom="25.0" left="25.0" />
+               </HBox.margin>
+            </Label>
+            <Label fx:id="conversion_rate" text="0,5">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Input">
+               <HBox.margin>
+                  <Insets bottom="25.0" left="25.0" />
+               </HBox.margin>
+            </Text>
+            <TextField fx:id="input_value">
+               <HBox.margin>
+                  <Insets bottom="25.0" left="38.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+      <HBox alignment="CENTER_LEFT">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Output">
+               <HBox.margin>
+                  <Insets left="25.0" />
+               </HBox.margin>
+            </Text>
+            <TextField fx:id="output_value">
+               <HBox.margin>
+                  <Insets left="25.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER">
+         <children>
+            <Button fx:id="convert_button" mnemonicParsing="false" onAction="#convert" text="Convert">
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="clear_button" mnemonicParsing="false" onAction="#clear" text="Clear" />
+         </children>
+         <VBox.margin>
+            <Insets left="25.0" right="25.0" top="25.0" />
+         </VBox.margin>
+      </HBox>
+      <Line endX="250.0" startX="-100.0">
+         <VBox.margin>
+            <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+         </VBox.margin>
+      </Line>
+      <CheckBox fx:id="check_aut" mnemonicParsing="false" text="Automatic conversion">
+         <VBox.margin>
+            <Insets bottom="25.0" left="25.0" right="25.0" />
+         </VBox.margin>
+      </CheckBox>
+   </children>
+</VBox>

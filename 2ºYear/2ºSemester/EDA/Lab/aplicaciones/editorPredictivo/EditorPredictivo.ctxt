@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=EditorPredictivo
+comment0.text=\ Clase\ EditorPredictivo\:\ es\ un\ Arbol\ Binario\ de\ Busqueda\ <br>\n\ de\ elementos\ de\ tipo\ String,\ que\ representan\ las\ palabras\ <br>\ \n\ de\ un\ idioma.\ Esta\ clase\ proporciona\ los\ metodos\ necesarios\ <br>\n\ para\ la\ gestion\ de\ un\ editor\ predictivo.\ <br>\n\ \ \n\ \ @version\ Febrero\ 2019\n
+comment1.params=
+comment1.target=EditorPredictivo()
+comment1.text=\n\ Constructor\ de\ un\ EditorPredictivo\ vacio\n
+comment2.params=nombreFichero
+comment2.target=EditorPredictivo(java.lang.String)
+comment2.text=\n\ Constructor\ de\ un\ Editor\ Predictivo\ a\ partir\ de\ las\ palabras\ \n\ que,\ en\ orden\ alfabetico,\ contiene\ un\ fichero\ de\ texto\ a\ \n\ partir\ de\ su\ segunda\ linea,\ pues\ en\ su\ primera\ linea\ aparece\ \n\ el\ numero\ de\ palabras\ que\ almacena.\n\ @param\ nombreFichero\ Nombre\ del\ fichero\ de\ texto\ que\ contiene\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ las\ palabras\ a\ partir\ de\ las\ que\ se\ creara\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ el\ editor\ ordenadas\ alfabeticamente,\ junto\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ con\ su\ numero.\n
+comment3.params=nueva
+comment3.target=void\ incluir(java.lang.String)
+comment3.text=\ Anyade\ la\ palabra\ nueva\ a\ un\ Editor\ Predictivo.\n\ \ @param\ \ nueva\ \ Palabra\ a\ anyadir\ a\ las\ que\ ya\ tiene\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ un\ Editor\ Predictivo.\n
+comment4.params=nombreFichero
+comment4.target=void\ guardar(java.lang.String)
+comment4.text=\n\ Guarda\ en\ orden\ alfabetico\ las\ palabras\ de\ un\ Editor\ Predictivo\ \n\ a\ partir\ de\ la\ segunda\ linea\ de\ un\ fichero\ de\ texto,\ escribiendo\ \n\ su\ numero\ en\ la\ primera\ linea.\n\ @param\ nombreFichero\ Nombre\ del\ fichero\ de\ texto\ donde\ se\ guardaran\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ la\ talla\ y\ palabras\ en\ orden\ alfabetico\ de\ un\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Editor\ Predictivo.\n
+comment5.params=prefijo\ n
+comment5.target=librerias.estructurasDeDatos.modelos.ListaConPI\ recuperarSucesores(java.lang.String,\ int)
+comment5.text=\n\ Devuelve\ una\ ListaConPI\ con,\ como\ maximo,\ los\ n\ siguientes\ \n\ sucesores\ de\ prefijo;\ en\ el\ primer\ lugar\ de\ esta\ lista\ figurara\ \n\ el\ propio\ prefijo\ siempre\ y\ cuando\ sea\ ya\ una\ palabra\ del\ editor.\n\ @param\ \ prefijo\ \ Prefijo\ a\ partir\ del\ que\ se\ buscan\ los\ "n"\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ siguientes\ sucesores\n\ @param\ \ n\ \ \ \ \ \ \ \ Numero\ maximo\ de\ sucesores\ a\ recuperar\n\ @return\ ListaConPI<String>\ \ \ Lista\ Con\ Punto\ de\ Interes\ con\ los\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sucesores\ de\ prefijo\ obtenidos;\ su\ primer\ elemento\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ es\ el\ propio\ prefijo\ siempre\ y\ cuando\ sea\ ya\ una\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ palabra\ del\ editor.\n
+numComments=6

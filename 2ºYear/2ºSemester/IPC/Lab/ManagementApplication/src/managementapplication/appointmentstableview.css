@@ -1,0 +1,59 @@
+
+.titleButton{
+
+  -fx-background-color: #2196f3;
+  -fx-border: none;
+  -fx-padding: 15px ;
+  -fx-text-align: center;
+  -fx-text-decoration: none;
+  -fx-display: inline-block;
+  -fx-font-size: 16px;
+  -fx-font-family: Arial;
+  -fx-text-fill: #ffffff;
+}
+.button{
+
+  -fx-background-color: #2196f3;
+  -fx-border: none;
+  -fx-padding: 15px ;
+  -fx-text-align: center;
+  -fx-text-decoration: none;
+  -fx-display: inline-block;
+  -fx-font-size: 14px;
+  -fx-font-family: Arial;
+  -fx-text-fill: #ffffff;
+}
+.dashboard{
+ -fx-background-color: #ffffff;
+}
+.tableColumn{
+    
+     -fx-background-color: #2196f3; 
+     -fx-font-family: Arial;
+     -fx-color: #ffffff;
+     -fx-text-fill: #ffffff;
+     -fx-highlight-fill: red !important;
+     -fx-accent: red !important;
+     -fx-highlight-text-fill: red !important;
+    
+}
+
+
+.doctorTitle{    
+  -fx-background-color: #2196f3; 
+}
+.textForm{
+-fx-background-color: #eeeeee; 
+}
+.textFormInput{
+ -fx-font-family: Arial;
+}
+.saveButton{
+   -fx-background-color: #4CAF50;  
+}
+.exitButton{
+   -fx-background-color: #f44336;
+}
+.returnButton{
+   -fx-background-color: #757575;
+}

@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Model
+comment0.text=\n\ Clase\ con\ objeto\ \u00FAnico\ que\ representa\ el\ modelo\ subyacente\ de\ la\ vista.\n\ Cualquier\ cambio\ en\ el\ modelo\ se\ repercute\ autom\u00E1ticamente\ en\ la\ vista,\n\ gracias\ a\ las\ asociaciones\ realizadas\ en\ el\ controlador\ (MainController)\n\ \n\ @author\ Agust\u00EDn\ Espinosa\ Minguet\ (aespinos@upvnet.upv.es)\n\n
+comment1.params=
+comment1.target=Model()
+comment10.params=
+comment10.target=java.lang.String\ getMe()
+comment11.params=me
+comment11.target=void\ setMe(java.lang.String)
+comment2.params=
+comment2.target=Model\ getModel()
+comment3.params=
+comment3.target=javafx.collections.ObservableList\ getChats()
+comment4.params=
+comment4.target=java.util.Map\ getChatMessages()
+comment5.params=chatMessages
+comment5.target=void\ setChatMessages(java.util.Map)
+comment6.params=
+comment6.target=java.util.Map\ getNewMessageMap()
+comment7.params=
+comment7.target=javafx.beans.property.StringProperty\ getMessageFieldValue()
+comment8.params=
+comment8.target=java.lang.String\ getCurrentChatUser()
+comment9.params=user
+comment9.target=void\ setCurrentChatUser(java.lang.String)
+numComments=12

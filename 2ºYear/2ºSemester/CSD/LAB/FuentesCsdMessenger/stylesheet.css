@@ -1,0 +1,95 @@
+.list-view {
+	-fx-padding: 3px;
+	-fx-background-color: rgb(234,234,234);
+}
+
+.list-cell {
+	-fx-padding: 5px;
+/*	-fx-background-color: transparent, -fx-background; */
+	-fx-background-color: rgb(234,234,234);
+	-fx-background-insets: 0px, 2px;
+	
+}
+
+.list-cell:empty {
+	-fx-padding: 0px;
+	-fx-background-color: rgb(234,234,234);
+	-fx-background-insets: 0;
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: #9E2E67;
+	-fx-text-fill: white;
+
+}
+
+}
+
+#chatsList {
+	-fx-font-size: 16pt;
+	-fx-border-style: solid;
+}
+
+#messageField {
+	-fx-font-size: 12pt;
+	-fx-text-fill: black;
+}
+
+#logView {
+	-fx-border-style: solid;
+}
+
+#messagesList {
+	-fx-border-style: solid;
+}
+
+#nuevomensaje {
+	-fx-border-style: solid;
+}
+
+
+
+.root {
+	-fx-font-size: 10pt;
+	-fx-background-color: rgb(234,234,234);
+}
+
+.messageTextLabel {
+	-fx-font-size: 12pt;
+	-fx-text-fill: black;
+}
+
+/* The main scrollbar **track** CSS class  */
+.scroll-bar:horizontal .track, .scroll-bar:vertical .track {
+	-fx-background-color: derive(gray, 50%);
+	-fx-border-color: derive(gray, 50%);
+	-fx-background-radius: 0em;
+	-fx-border-radius: 2em;
+}
+
+.scroll-bar:horizontal .increment-button, .scroll-bar:horizontal .decrement-button
+	{
+	-fx-background-color: derive(gray, 50%);
+	-fx-background-radius: 0em;
+	-fx-padding: 0 0 10 0;
+}
+
+/* The increment and decrement button CSS class of scrollbar */
+.scroll-bar:vertical .increment-button, .scroll-bar:vertical .decrement-button
+	{
+	-fx-background-color: derive(gray, 50%);
+	-fx-background-radius: 0em;
+	-fx-padding: 0 10 0 0;
+}
+
+.scroll-bar .increment-arrow, .scroll-bar .decrement-arrow {
+	-fx-shape: " ";
+	-fx-padding: 0;
+}
+
+/* The main scrollbar **thumb** CSS class which we drag every time (movable) */
+.scroll-bar:horizontal .thumb, .scroll-bar:vertical .thumb {
+	-fx-background-color: derive(black, 90%);
+	-fx-background-insets: 2, 0, 0;
+	-fx-background-radius: 2em;
+}

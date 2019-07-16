@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.211" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <TableView fx:id="groupView" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="codeColumn" prefWidth="75.0" text="Code" />
+          <TableColumn fx:id="descriptionColumn" prefWidth="75.0" text="Description" />
+            <TableColumn fx:id="templateColumn" prefWidth="75.0" text="Default template" />
+        </columns>
+      </TableView>
+   </center>
+   <right>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="addButton" mnemonicParsing="false" onAction="#buttonHandler" text="Add" />
+            <Button fx:id="editButton" mnemonicParsing="false" onAction="#buttonHandler" text="Edit" />
+            <Button fx:id="statsButton" mnemonicParsing="false" onAction="#buttonHandler" text="Stats" />
+            <Button fx:id="returnButton" mnemonicParsing="false" onAction="#buttonHandler" text="Return" />
+         </children>
+      </VBox>
+   </right>
+   <top>
+      <HBox prefHeight="44.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Filter: " />
+            <TextField fx:id="filterField" />
+         </children>
+      </HBox>
+   </top>
+</BorderPane>

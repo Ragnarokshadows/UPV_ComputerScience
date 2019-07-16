@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=MessageListener
+comment1.params=msg
+comment1.target=void\ messageArrived(IChatMessage)
+numComments=2

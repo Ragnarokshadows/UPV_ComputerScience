@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=ChatServer
+comment1.params=conf
+comment1.target=ChatServer(ChatConfiguration)
+comment10.params=
+comment10.target=void\ work()
+comment11.params=args
+comment11.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=IChatChannel[]\ listChannels()
+comment3.params=name
+comment3.target=IChatChannel\ getChannel(java.lang.String)
+comment4.params=name
+comment4.target=IChatChannel\ createChannel(java.lang.String)
+comment5.params=nick
+comment5.target=IChatUser\ getUser(java.lang.String)
+comment6.params=usr
+comment6.target=boolean\ connectUser(IChatUser)
+comment7.params=usr
+comment7.target=boolean\ disconnectUser(IChatUser)
+comment8.params=
+comment8.target=void\ purgeUsers()
+comment9.params=
+comment9.target=void\ purgeChannels()
+numComments=12

@@ -1,0 +1,15 @@
+illescas;17312;57.35;333;274
+cardiel de los montes;306;24.31;287;278
+cabanillas del campo;8258;34.7;368;237
+alovera;9184;13.65;366;239
+valdelaguna;778;42.13;246;252
+carabaña;1691;47.58;368;265
+navarrevisca;371;39.99;274;256
+montesclaros;398;20.58;271;276
+navalacruz;254;49.89;271;252
+méntrida;3997;83.01;314;266
+cazalegas;1642;29.48;286;282
+algete;18429;37.88;352;239
+rascafría;2053;150.28;331;217
+santorcaz;789;27.98;368;249
+fontiveros;897;36.42;269;215

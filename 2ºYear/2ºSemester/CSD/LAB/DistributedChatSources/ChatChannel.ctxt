@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ChatChannel
+comment1.params=name
+comment1.target=ChatChannel(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=usr
+comment3.target=boolean\ join(IChatUser)
+comment4.params=usr
+comment4.target=boolean\ leave(IChatUser)
+comment5.params=msg
+comment5.target=void\ sendMessage(IChatMessage)
+comment6.params=
+comment6.target=IChatUser[]\ listUsers()
+comment7.params=
+comment7.target=void\ purge()
+comment8.params=code\ nick
+comment8.target=void\ notifyUsers(java.lang.String,\ java.lang.String)
+numComments=9

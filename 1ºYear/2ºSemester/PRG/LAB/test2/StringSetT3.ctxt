@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StringSetT3()
+comment0.text=\n\ Creates\ an\ empty\ set.\n
+comment1.params=s
+comment1.target=void\ add(java.lang.String)
+comment1.text=\n\ Adds\ <code>s</code>\ into\ the\ set.\n\ If\ <code>s</code>\ is\ already\ in\ the\ set,\n\ the\ set\ remains\ untouched.\n\ @param\ s\ String.\ Element\ to\ be\ inserted.\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\n\ Returns\ the\ list\ of\ strings\ in\ the\ set\ in\ \n\ lexicographical\ order\ and\ each\ word\ in\ a\ line.\n\ If\ the\ empty\ set\ returns\ an\ empty\ string.\n\ @return\ list\ of\ all\ the\ words\ in\ the\ set.\n
+comment3.params=s
+comment3.target=java.lang.String\ removeAndNext(java.lang.String)
+comment3.text=\n\ Removes\ the\ word\ s\ from\ the\ set,\ returning\ as\ a\ result\ \n\ the\ following\ word\ of\ s.\n\ If\ s\ does\ not\ belong\ to\ the\ set\ or\ is\ the\ last\ one\ \n\ (it\ has\ no\ following),\ the\ set\ does\ not\ change\ and\ \n\ returns\ null.\n\ @param\ s\ String.\n\ @return\ String,\ the\ following\ word\ of\ s\ or\ null\ \n\ if\ it\ does\ not\ exist.\n
+numComments=4

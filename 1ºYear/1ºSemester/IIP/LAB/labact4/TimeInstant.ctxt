@@ -1,0 +1,32 @@
+#BlueJ class context
+comment0.params=hh\ mm
+comment0.target=TimeInstant(int,\ int)
+comment0.text=\n\ \ <code>TimeInstant</code>\ corresponding\ to\ <code>hh</code>\ \n\ \ hours\ and\ <code>mm</code>\ minutes.\n\ \ <p>\ Precondition\:\ <code>0<\=hh<24,\ 0<\=mm<60\ </code>\ </p>\n
+comment1.params=
+comment1.target=TimeInstant()
+comment1.text=\n\ <code>TimeInstant</code>\ (hours\ and\ minutes)\ from\ current\ \n\ UTC\ (universal\ coordinated\ time).\n
+comment2.params=
+comment2.target=int\ getH()
+comment2.text=Returns\ hours\ of\ current\ TimeInstant\ object.
+comment3.params=
+comment3.target=int\ getM()
+comment3.text=Returns\ minutes\ of\ current\ TimeInstant\ object.
+comment4.params=hh
+comment4.target=void\ setH(int)
+comment4.text=Modifies\ hours\ of\ current\ TimeInstant\ object.
+comment5.params=mm
+comment5.target=void\ setM(int)
+comment5.text=Modifies\ minutes\ of\ current\ TimeInstant\ object.
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\ Returns\ current\ TimeInstant\ object\ in\ "hh\:mm"\ format.\n
+comment7.params=o
+comment7.target=boolean\ equals(java.lang.Object)
+comment7.text=\ Returns\ true\ only\ if\ o\ is\ TimeInstant\ that\ concides\ in\ hours\n\ \ and\ minutes\ with\ current\ TimeInstant.\n
+comment8.params=
+comment8.target=int\ toMinutes()
+comment8.text=\ Returns\ number\ of\ minutes\ from\ \n\ \ 00\:00\ until\ current\ TimeInstant\ object\n
+comment9.params=ti
+comment9.target=int\ compareTo(TimeInstant)
+comment9.text=\ Compares\ chronologically\ current\ TimeInstant\ object\ and\ ti\ \n\ \ parameter.\ Result\ is\ the\ difference\ between\ the\ conversion\n\ \ obained\ with\ <code>toMinutes</code>\ for\ current\ and\ parameter\n\ \ object,\ giving\:\n\ \ \ \ \ \ -\ negative\ when\ current\ TimeInstant\ is\ previous\ to\ \n\ \ \ \ \ \ \ \ <code>ti</code>\n\ \ \ \ \ \ -\ zero\ if\ they\ are\ equal\n\ \ \ \ \ \ -\ positive\ when\ current\ TimeInstant\ is\ posterior\ to\ \n\ \ \ \ \ \ \ \ <code>ti</code>\n
+numComments=10

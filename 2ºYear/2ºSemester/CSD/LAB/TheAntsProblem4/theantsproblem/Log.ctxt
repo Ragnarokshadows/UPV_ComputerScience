@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Log
+comment1.params=size
+comment1.target=Log(int)
+comment2.params=op\ hid\ cx\ cy\ state\ s
+comment2.target=void\ writeLog(int,\ int,\ int,\ int,\ int,\ java.lang.String)
+comment3.params=pos
+comment3.target=LogItem\ readLog(int)
+comment4.params=
+comment4.target=int\ getsize()
+numComments=5

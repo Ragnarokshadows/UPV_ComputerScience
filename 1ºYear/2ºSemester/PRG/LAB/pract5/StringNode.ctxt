@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=v
+comment0.target=StringNode(java.lang.String)
+comment1.params=v\ n
+comment1.target=StringNode(java.lang.String,\ StringNode)
+comment2.params=
+comment2.target=java.lang.String\ getData()
+comment3.params=
+comment3.target=StringNode\ getNext()
+comment4.params=v
+comment4.target=void\ setValue(java.lang.String)
+comment5.params=n
+comment5.target=void\ setNext(StringNode)
+numComments=6

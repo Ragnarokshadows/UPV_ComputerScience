@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=QueueAL
+comment0.text=\n\ class\ QueueAL<T>\n\ It\ is\ the\ implementation\ of\ a\ Queue<T>\ \n\ using\ a\ generic\ ArrayList.\n\ \n\ @author\ LTP\ \n\ @version\ 2018-19\n\ @param\ <T>\n
+comment1.params=
+comment1.target=QueueAL()
+comment1.text=The\ object\ constructor
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\ It\ returns\ the\ content\ of\ the\ queue\ \n\ \ according\ to\ the\ following\ format\:\n\ \ \ <-\ item0\ <-\ item1\ <-\ item2\ <-\ ...\ <-\ itemN\ \n\ \ where\ N\ \=\ size()\ -\ 1\n\ \ and\ each\ item\ is\ concatenated\ \n\ \ according\ to\ the\ format\ defined\ in\ its\ type\n\ \ @return\ the\ content\ of\ the\ queue\ \n
+comment3.params=e
+comment3.target=void\ enqueue(java.lang.Object)
+comment3.text=\ Inserts\ the\ element\ at\ the\ end\ of\ the\ queue\n\ \ @param\ e\ element\ to\ be\ inserted\ \n
+comment4.params=
+comment4.target=java.lang.Object\ dequeue()
+comment4.text=\ Queries\ and\ extracts\ the\ first\ element,\n\ \ only\ if\ the\ queue\ is\ not\ empty\ \n\ \ @return\ the\ first\ element\n
+comment5.params=
+comment5.target=int\ size()
+comment5.text=\ Queries\ the\ number\ of\ elements\ of\ the\ queue\n\ \ @return\ the\ number\ of\ elements\n
+comment6.params=
+comment6.target=java.lang.Object\ first()
+comment6.text=\ Queries\ the\ first\ element,\ in\ order\ of\ insertion,\n\ \ only\ if\ the\ queue\ is\ not\ empty\ \n\ \ @return\ the\ first\ element\n
+comment7.params=
+comment7.target=boolean\ isEmpty()
+comment7.text=\ Verifies\ if\ the\ queue\ is\ empty\n\ \ @return\ true\ iif\ the\ queue\ is\ empty\n
+numComments=8

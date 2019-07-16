@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=IChatServer
+comment1.params=
+comment1.target=IChatChannel[]\ listChannels()
+comment2.params=name
+comment2.target=IChatChannel\ getChannel(java.lang.String)
+comment3.params=name
+comment3.target=IChatChannel\ createChannel(java.lang.String)
+comment4.params=nick
+comment4.target=IChatUser\ getUser(java.lang.String)
+comment5.params=usr
+comment5.target=boolean\ connectUser(IChatUser)
+comment6.params=usr
+comment6.target=boolean\ disconnectUser(IChatUser)
+numComments=7

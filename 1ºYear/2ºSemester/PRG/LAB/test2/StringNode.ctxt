@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=s
+comment0.target=StringNode(java.lang.String)
+comment0.text=\ \n\ Creates\ a\ node\ with\ value\ <code>s</code>\ and\ \n\ next\ set\ to\ null.\n\ @param\ s\ String.\ The\ value\ for\ the\ new\ node.\n
+comment1.params=s\ n
+comment1.target=StringNode(java.lang.String,\ StringNode)
+comment1.text=\ \n\ Creates\ a\ node\ with\ value\ <code>s/code>\ and\ \n\ next\ set\ to\ <code>n</code>.\n\ @param\ s\ String.\ The\ value\ for\ the\ new\ node.\n\ @param\ n\ StringNode.\ Next\ node\ in\ the\ sequence.\n
+numComments=2

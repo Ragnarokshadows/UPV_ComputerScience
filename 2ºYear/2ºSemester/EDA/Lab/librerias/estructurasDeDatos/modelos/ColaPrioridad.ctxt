@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ColaPrioridad
+comment0.text=\n\ Modelo\ de\ una\ Cola\ de\ Prioridad,\ o\ de\ Busqueda\ Dinamica\ \n\ del\ Elemento\ de\ maxima\ prioridad\ en\ una\ Coleccion\n\ \n\ @version\ Febrero\ 2018\n\ @param\ <E>\ tipo\ de\ datos\ de\ la\ estructura,\ \ \n\ RESTRINGIDO\ POR\ Comparable\ \n
+comment1.params=e
+comment1.target=void\ insertar(java.lang.Comparable)
+comment1.text=Atendiendo\ a\ su\ prioridad,\ inserta\ el\ Elemento\ e\ en\ una\ CP
+comment2.params=
+comment2.target=java.lang.Comparable\ eliminarMin()
+comment2.text=\ SII\ \!esVacia()\:\ \nobtiene\ y\ elimina\ el\ Elemento\ con\ maxima\ prioridad\ de\ una\ CP
+comment3.params=
+comment3.target=java.lang.Comparable\ recuperarMin()
+comment3.text=\ SII\ \!esVacia()\:\ \nobtiene\ el\ Elemento\ con\ maxima\ prioridad\ de\ una\ CP
+comment4.params=
+comment4.target=boolean\ esVacia()
+comment4.text=Comprueba\ si\ una\ CP\ esta\ vacia
+numComments=5

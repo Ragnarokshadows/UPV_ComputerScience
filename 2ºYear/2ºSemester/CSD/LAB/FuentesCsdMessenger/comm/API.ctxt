@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=API
+comment0.text=\n\ \n\ @author\ Agust\u00EDn\ Espinosa\ Minguet\ (aespinos@upvnet.upv.es)\n\n
+comment1.params=
+comment1.target=void\ initialize()
+comment1.text=\n\ Este\ m\u00E9todo\ es\ llamado\ cuando\ se\ completa\ la\ inicializaci\u00F3n\ de\ la\n\ interfaz\ de\ usuario.\ Su\ funci\u00F3n\ consiste\ en\ inicializar\ el\ componente\ de\n\ comunicaci\u00F3n.\n
+comment2.params=destUser\ text\ timestamp
+comment2.target=void\ sendChatMessage(java.lang.String,\ java.lang.String,\ long)
+comment2.text=\n\ Env\u00EDa\ un\ mensaje\ de\ chat\ al\ usuario\ especificado.\ Es\ llamado\ desde\ la\n\ interfaz\ de\ usuario\ cuando\ se\ pulsa\ el\ bot\u00F3n\ de\ env\u00EDo\ o\ la\ tecla\ Entrar\n\ \n\ @param\ destUser\n\ \ \ \ \ \ \ \ \ \ \ \ El\ usuario\ destinatario\n\ @param\ text\n\ \ \ \ \ \ \ \ \ \ \ \ El\ texto\ del\ mensaje\n\ @param\ timestamp\n\ \ \ \ \ \ \ \ \ \ \ \ La\ hora\ local\ del\ sistema\n\ @throws\ NamingException\n\ @throws\ JMSException\n
+comment3.params=user\ timestamp
+comment3.target=void\ sendMessageReaded(java.lang.String,\ long)
+comment3.text=\n\ Notifica\ al\ usuario\ especificado\ que\ un\ mensaje\ en\ particular\ ha\ sido\n\ le\u00EDdo.\ Es\ llamado\ desde\ la\ interfaz\ de\ usuario\ cuando\ el\ mensaje\ se\n\ muestra\ al\ estar\ seleccionado\ el\ usuario\ especificado\ en\ el\ panel\n\ derecho.\n\ \n\ @param\ user\n\ \ \ \ \ \ \ \ \ \ \ \ El\ usuario\ que\ envi\u00F3\ el\ mensaje\ que\ se\ ha\ le\u00EDdo\n\ @param\ timestamp\n\ \ \ \ \ \ \ \ \ \ \ \ La\ hora\ que\ fue\ establecida\ en\ origen\ del\ mensaje\ que\ se\ ha\n\ \ \ \ \ \ \ \ \ \ \ \ le\u00EDdo\n\ @throws\ NamingException\n\ @throws\ JMSException\n
+numComments=4

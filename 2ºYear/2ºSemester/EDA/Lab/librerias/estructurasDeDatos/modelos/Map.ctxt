@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Map
+comment0.text=\n\ Modelo\ Diccionario,\ orientado\ a\ la\ busqueda\ por\ clave\ en\ una\ coleccion\ de\ datos\n\ @author\ Profesores\ de\ EDA\ \n\ @version\ 2011\n
+comment1.params=c\ v
+comment1.target=java.lang.Object\ insertar(java.lang.Object,\ java.lang.Object)
+comment2.params=c
+comment2.target=java.lang.Object\ eliminar(java.lang.Object)
+comment3.params=c
+comment3.target=java.lang.Object\ recuperar(java.lang.Object)
+comment4.params=
+comment4.target=boolean\ esVacio()
+comment5.params=
+comment5.target=int\ talla()
+comment6.params=
+comment6.target=ListaConPI\ claves()
+numComments=7

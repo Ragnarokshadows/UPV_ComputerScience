@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=v
+comment0.target=NodeInt(int)
+comment1.params=v\ n
+comment1.target=NodeInt(int,\ NodeInt)
+comment2.params=p\ v\ n
+comment2.target=NodeInt(NodeInt,\ int,\ NodeInt)
+comment3.params=
+comment3.target=int\ getValue()
+comment4.params=
+comment4.target=NodeInt\ getNext()
+comment5.params=
+comment5.target=NodeInt\ getPrevious()
+comment6.params=v
+comment6.target=void\ setValue(int)
+comment7.params=n
+comment7.target=void\ setNext(NodeInt)
+comment8.params=p
+comment8.target=void\ setPrevious(NodeInt)
+numComments=9

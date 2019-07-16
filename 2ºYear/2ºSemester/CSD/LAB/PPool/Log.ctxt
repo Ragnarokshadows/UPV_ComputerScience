@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Log
+comment1.params=states\ k\ i
+comment1.target=Log(javax.swing.JList,\ int,\ int)
+comment10.params=x\ n
+comment10.target=void\ step(int,\ int)
+comment11.params=
+comment11.target=void\ run()
+comment12.params=type
+comment12.target=boolean\ checkstate(int)
+comment2.params=
+comment2.target=void\ run()
+comment3.params=
+comment3.target=void\ begin()
+comment4.params=
+comment4.target=void\ end()
+comment5.params=
+comment5.target=void\ waitingToSwim()
+comment6.params=
+comment6.target=void\ swimming()
+comment7.params=
+comment7.target=void\ waitingToRest()
+comment8.params=
+comment8.target=void\ resting()
+comment9.params=
+comment9.target=int\ getID()
+numComments=13

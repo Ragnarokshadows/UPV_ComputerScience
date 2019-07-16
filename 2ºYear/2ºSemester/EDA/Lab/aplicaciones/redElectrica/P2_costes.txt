@@ -1,0 +1,105 @@
+illescas;cardiel de los montes;68.879750785813
+illescas;cabanillas del campo;77.10495847223925
+illescas;alovera;73.10710667368737
+illescas;valdelaguna;41.12880189821991
+illescas;carabaña;54.23547849302811
+illescas;navarrevisca;92.66494468747707
+illescas;montesclaros;92.71726642257657
+illescas;navalacruz;98.32883606325771
+illescas;méntrida;31.923640784705555
+illescas;cazalegas;71.63021396166152
+illescas;algete;60.31285924084899
+illescas;rascafría;86.69495107095538
+illescas;santorcaz;64.92825055773491
+illescas;fontiveros;130.11649823299464
+cardiel de los montes;cabanillas del campo;136.14482916871918
+cardiel de los montes;alovera;133.18587104838008
+cardiel de los montes;valdelaguna;110.0083612134433
+cardiel de los montes;carabaña;122.61585780736073
+cardiel de los montes;navarrevisca;39.23371700811259
+cardiel de los montes;montesclaros;24.667807403104643
+cardiel de los montes;navalacruz;48.081635261048255
+cardiel de los montes;méntrida;43.69627691930459
+cardiel de los montes;cazalegas;6.197203988179895
+cardiel de los montes;algete;114.66231134729321
+cardiel de los montes;rascafría;114.20125747476905
+cardiel de los montes;santorcaz;128.89561779179658
+cardiel de los montes;fontiveros;99.96032785790104
+cabanillas del campo;alovera;4.646408599085658
+cabanillas del campo;valdelaguna;54.17916807004671
+cabanillas del campo;carabaña;42.33995391468246
+cabanillas del campo;navarrevisca;143.49972060875905
+cabanillas del campo;montesclaros;155.89916754824588
+cabanillas del campo;navalacruz;145.00368983719304
+cabanillas del campo;méntrida;92.48185383809842
+cabanillas del campo;cazalegas;140.70513574388823
+cabanillas del campo;algete;22.507948047870542
+cabanillas del campo;rascafría;61.82159527280079
+cabanillas del campo;santorcaz;18.432107425610234
+cabanillas del campo;fontiveros;149.25063009553034
+alovera;valdelaguna;49.5333711900195
+alovera;carabaña;37.82671425252446
+alovera;navarrevisca;141.63866695369114
+alovera;montesclaros;153.3152135172858
+alovera;navalacruz;143.40811363265215
+alovera;méntrida;89.49060292896075
+alovera;cazalegas;137.6362634659628
+alovera;algete;21.0167719675943
+alovera;rascafría;63.26691545284704
+alovera;santorcaz;13.957227430884188
+alovera;fontiveros;149.35293044010228
+valdelaguna;carabaña;15.555740771259577
+valdelaguna;navarrevisca;131.5602232124926
+valdelaguna;montesclaros;133.74726143636732
+valdelaguna;navalacruz;136.2780546487529
+valdelaguna;méntrida;70.76129764119108
+valdelaguna;cazalegas;112.68509561938048
+valdelaguna;algete;49.67915758680735
+valdelaguna;rascafría;93.34474177853221
+valdelaguna;santorcaz;36.41868728786669
+valdelaguna;fontiveros;159.8937057867746
+carabaña;navarrevisca;141.2999163004743
+carabaña;montesclaros;145.78988269912304
+carabaña;navalacruz;145.3158783164201
+carabaña;méntrida;81.5137668889799
+carabaña;cazalegas;125.70389271450078
+carabaña;algete;43.83058784428475
+carabaña;rascafría;90.32267872034524
+carabaña;santorcaz;23.909377756486116
+carabaña;fontiveros;164.27683373354827
+navarrevisca;montesclaros;28.952594878895766
+navarrevisca;navalacruz;8.976035620978173
+navarrevisca;méntrida;61.03176080768611
+navarrevisca;cazalegas;43.53049632769997
+navarrevisca;algete;120.99177854200042
+navarrevisca;rascafría;104.55956270171843
+navarrevisca;santorcaz;141.17044077187526
+navarrevisca;fontiveros;63.19476273623534
+montesclaros;navalacruz;37.111008406388116
+montesclaros;méntrida;64.94409792052713
+montesclaros;cazalegas;24.722257452326147
+montesclaros;algete;133.79618480708928
+montesclaros;rascafría;126.04787395390595
+montesclaros;santorcaz;150.293467006222
+montesclaros;fontiveros;91.64314766850715
+navalacruz;méntrida;66.43655584091904
+navalacruz;cazalegas;52.483126002268364
+navalacruz;algete;122.54478587320493
+navalacruz;rascafría;102.64595068949063
+navalacruz;santorcaz;143.7923532500669
+navalacruz;fontiveros;54.583442917350794
+méntrida;cazalegas;48.25411648762787
+méntrida;algete;71.2261197406636
+méntrida;rascafría;78.6926918757028
+méntrida;santorcaz;85.5022120921321
+méntrida;fontiveros;100.84538904606748
+cazalegas;algete;119.44826909234934
+cazalegas;rascafría;120.1504957742343
+cazalegas;santorcaz;132.89673895025464
+cazalegas;fontiveros;105.1990286774898
+algete;rascafría;47.04027156586243
+algete;santorcaz;26.260440751846676
+algete;fontiveros;129.1631270708403
+rascafría;santorcaz;72.72020098927169
+rascafría;fontiveros;91.2899111555002
+santorcaz;fontiveros;154.7186857159078

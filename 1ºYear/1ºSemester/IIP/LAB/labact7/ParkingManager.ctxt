@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=kbd
+comment0.target=int\ menu(java.util.Scanner)
+comment0.text=\n\ Shows\ a\ menu\ with\ options\ on\ the\ screen\ and\n\ reads\ from\ keyboard\ a\ valid\ option.\ \n\ @param\ kbd\ Scanner,\ represents\ the\ keyboard.\n\ @return\ int,\ valid\ option.\n
+comment1.params=kbd
+comment1.target=labact4.TimeInstant\ readTimeInstant(java.util.Scanner)
+comment1.text=\n\ Read\ from\ keyboard\ a\ valid\ time.\n\ @param\ kbd\ Scanner,\ represents\ the\ keyboard.\n\ @return\ TimeInstant,\ valid\ time.\n
+comment2.params=kbd
+comment2.target=java.lang.String\ readPlate(java.util.Scanner)
+comment2.text=\n\ Read\ from\ keyboard\ a\ plate\ number.\n\ @param\ kbd\ Scanner,\ represents\ the\ keyboard.\n\ @return\ String,\ plate.\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=\n\ Main\ method.\n\ @param\ args\ String[].\ \ \ \ \ \n
+numComments=4

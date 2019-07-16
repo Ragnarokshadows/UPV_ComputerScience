@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=MainController
+comment0.text=\n\ Control\ de\ la\ vista\ definida\ en\ Main.fxml\n\ \n\ @author\ Agust\u00EDn\ Espinosa\ Minguet\ (aespinos@upvnet.upv.es)\n\n
+comment1.params=
+comment1.target=void\ initialize()
+comment1.text=\n\ Este\ m\u00E9todo\ se\ llama\ autom\u00E1ticamente\ cuando\ el\ toolkit\ de\ JavaFX\ ya\ ha\n\ sido\ inicializado,\ es\ decir,\ cuando\ termina\ el\ m\u00E9todo\ Start\ de\n\ CsdMessengerClient.\n\ \n\ @throws\ ClassNotFoundException\n
+comment2.params=list
+comment2.target=javafx.scene.control.ListCell\ call(javafx.scene.control.ListView)
+comment3.params=ov\ old_val\ new_val
+comment3.target=void\ changed(javafx.beans.value.ObservableValue,\ java.lang.String,\ java.lang.String)
+comment3.text=\n\ (non-Javadoc)\n\ \n\ @see\n\ javafx.beans.value.ChangeListener\#changed(javafx.beans.value.\n\ ObservableValue,\ java.lang.Object,\ java.lang.Object)\n
+comment4.params=event
+comment4.target=void\ handle(javafx.event.ActionEvent)
+numComments=5

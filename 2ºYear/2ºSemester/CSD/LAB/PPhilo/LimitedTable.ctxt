@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=LimitedTable
+comment1.params=state
+comment1.target=LimitedTable(StateManager)
+comment2.params=id
+comment2.target=void\ enter(int)
+comment3.params=id
+comment3.target=void\ exit(int)
+numComments=4

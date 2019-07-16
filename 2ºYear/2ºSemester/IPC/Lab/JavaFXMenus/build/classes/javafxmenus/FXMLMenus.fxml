@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioMenuItem?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.201" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxmenus.FXMLMenusController">
+   <top>
+      <MenuBar fx:id="menuBar" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu text="_File">
+            <items>
+              <MenuItem fx:id="exitMenu" onAction="#menuHandler" text="_Exit" />
+            </items>
+          </Menu>
+          <Menu text="_Launch">
+               <items>
+                  <MenuItem fx:id="amazonMenu" onAction="#menuHandler" text="_Amazon" />
+                  <MenuItem fx:id="blogMenu" onAction="#menuHandler" text="_Blogger" />
+                  <MenuItem fx:id="ebayMenu" onAction="#menuHandler" text="_Ebay" />
+                  <MenuItem fx:id="facebookMenu" onAction="#menuHandler" text="_Facebook" />
+                  <MenuItem fx:id="googleMenu" onAction="#menuHandler" text="_Google+" />
+               </items>
+          </Menu>
+          <Menu text="_Options">
+               <items>
+                  <Menu text="_Buy in">
+                    <items>
+                        <RadioMenuItem fx:id="radioAmazon" text="_Amazon">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="buy" />
+                           </toggleGroup></RadioMenuItem>
+                        <RadioMenuItem fx:id="radioEbay" text="_Ebay" toggleGroup="$buy" />
+                    </items>
+                  </Menu>
+               </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <bottom>
+      <Label fx:id="message" BorderPane.alignment="CENTER_LEFT">
+         <BorderPane.margin>
+            <Insets bottom="5.0" left="10.0" />
+         </BorderPane.margin>
+      </Label>
+   </bottom>
+   <center>
+      <ToolBar prefHeight="40.0" prefWidth="600.0" BorderPane.alignment="TOP_CENTER">
+        <items>
+          <Button fx:id="amazonButton" mnemonicParsing="false" onAction="#buttonHandler">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/amazon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="blogButton" mnemonicParsing="false" onAction="#buttonHandler">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/bing.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="ebayButton" mnemonicParsing="false" onAction="#buttonHandler">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/ebay.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="facebookButton" mnemonicParsing="false" onAction="#buttonHandler">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/facebook.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="googleButton" mnemonicParsing="false" onAction="#buttonHandler">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/googlePlus.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+        </items>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </ToolBar>
+   </center>
+</BorderPane>

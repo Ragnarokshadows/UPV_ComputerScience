@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=PPhilo
+comment1.params=s
+comment1.target=void\ simulate(java.lang.String)
+comment10.params=
+comment10.target=void\ run()
+comment2.params=
+comment2.target=void\ run()
+comment3.params=
+comment3.target=PPhilo()
+comment4.params=e
+comment4.target=void\ valueChanged(javax.swing.event.ListSelectionEvent)
+comment5.params=e
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment6.params=
+comment6.target=void\ run()
+comment7.params=f
+comment7.target=void\ enableTypeRadioButtons(boolean)
+comment8.params=v\ i\ def\ a\ b
+comment8.target=int\ integer(java.lang.String[],\ int,\ int,\ int,\ int)
+comment9.params=args
+comment9.target=void\ main(java.lang.String[])
+numComments=11

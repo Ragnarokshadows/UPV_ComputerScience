@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=RSquare()
+comment0.text=There\ are\ no\ objects\ of\ this\ class.
+comment1.params=gd\ cX\ cY\ l
+comment1.target=void\ drawCentSquare(graph2D.Graph2D,\ double,\ double,\ double)
+comment1.text=\ Draws\ in\ the\ window\ <code>gd</code>\ a\ grey\ filled\ square\ with\n\ the\ ledge\ highlighted\ in\ blue,\ centred\ at\ <code>(\ cX,\ cY\ )</code>\n\ and\ lateral\ length\ equal\ to\ <code>l</code>.\n
+comment2.params=
+comment2.target=void\ delay()
+comment2.text=Waits\ 50\ ms\ to\ continue\ the\ execution\ of\ the\ current\ thread.
+comment3.params=gd\ n\ cX\ cY\ l
+comment3.target=void\ rSquareA(graph2D.Graph2D,\ int,\ double,\ double,\ double)
+comment3.text=\ Draws\ in\ the\ window\ <code>gd</code>\ an\ <code>RSquare-A</code>\ figure\n\ of\ order\ <code>n\ >\=\ 1</code>,\ with\ the\ central\ square\ centred\ at\n\ <code>(\ cX,\ cY\ )</code>\ and\ lateral\ length\ equal\ to\ $l$.\n
+comment4.params=n
+comment4.target=void\ rSquareA(int)
+comment4.text=\ Draws\ an\ <code>RSquare-A</code>\ figure\ of\ order\ <code>n\ >\=\ 1</code>\n\ with\ lateral\ length\ equal\ to\ 1\ and\ centred\ at\ <code>(0,\ 0)</code>.\n
+comment5.params=gd\ n\ cX\ cY\ l
+comment5.target=void\ rSquareB(graph2D.Graph2D,\ int,\ double,\ double,\ double)
+comment5.text=\ Draws\ an\ <code>RSquare-B</code>\ figure\ of\ order\ <code>n\ >\=\ 1</code>\n\ with\ lateral\ length\ equal\ to\ 1\ and\ centred\ at\ <code>(0,\ 0)</code>.\n
+comment6.params=n
+comment6.target=void\ rSquareB(int)
+comment6.text=\ Draws\ an\ <code>RSquare-B</code>\ figure\ of\ order\ <code>n\ >\=\ 1</code>\n\ with\ lateral\ length\ equal\ to\ 1\ and\ centred\ at\ <code>(0,\ 0)</code>.\n
+numComments=7

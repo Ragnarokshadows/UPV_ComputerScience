@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Indice
+comment0.text=\n\ Clase\ que\ representa\ un\ indice\ para\ una\ palabra\:\ \n\ titulo\ y\ linea\ del\ libro\ donde\ aparece\n\ \n\ @author\ (EDA)\ \n\ @version\ (Curso\ 2017-2018)\n
+comment1.params=nombreLibro\ noLinea
+comment1.target=Indice(java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3

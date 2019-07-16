@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane prefHeight="387.0" prefWidth="400.0" style="-fx-border-color: darkgrey;" xmlns="http://javafx.com/javafx/8.0.201" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.upv.inf.FXMLDetailsViewController">
+   <children>
+      <VBox prefHeight="387.0" prefWidth="400.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="Name:">
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="editName" editable="true" prefHeight="25.0" prefWidth="235.0">
+                     <HBox.margin>
+                        <Insets left="25.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets top="50.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="400.0">
+               <children>
+                  <Label text="Surname:">
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="editSurname" editable="true" prefHeight="25.0" prefWidth="235.0">
+                     <HBox.margin>
+                        <Insets left="6.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <VBox.margin>
+                  <Insets top="25.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="29.0" prefWidth="400.0">
+               <children>
+                  <Label text="City:">
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin></Label>
+                  <TextField fx:id="editCity" prefHeight="31.0" prefWidth="234.0">
+                     <HBox.margin>
+                        <Insets left="40.0" />
+                     </HBox.margin></TextField>
+               </children>
+               <VBox.margin>
+                  <Insets top="25.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="32.0" prefWidth="400.0">
+               <children>
+                  <Label text="Province:">
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin></Label>
+                  <TextField fx:id="editProvince" prefHeight="31.0" prefWidth="234.0">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin></TextField>
+               </children>
+               <padding>
+                  <Insets top="25.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="30.0" prefWidth="400.0">
+               <children>
+                  <Label text="Image:">
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin></Label>
+                  <ToggleButton fx:id="cryButton" mnemonicParsing="false" onAction="#imageButton">
+                     <HBox.margin>
+                        <Insets left="25.0" />
+                     </HBox.margin>
+                  </ToggleButton>
+                  <ToggleButton fx:id="angryButton" mnemonicParsing="false" onAction="#imageButton">
+                     <HBox.margin>
+                        <Insets left="25.0" />
+                     </HBox.margin>
+                  </ToggleButton>
+                  <ToggleButton fx:id="smileButton" mnemonicParsing="false" onAction="#imageButton">
+                     <HBox.margin>
+                        <Insets left="25.0" />
+                     </HBox.margin>
+                  </ToggleButton>
+               </children>
+               <VBox.margin>
+                  <Insets top="25.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="400.0">
+               <children>
+                  <Button fx:id="buttonOk" mnemonicParsing="false" onAction="#onActionButtonOk" prefHeight="25.0" prefWidth="75.0" text="OK" textAlignment="CENTER" />
+                  <Button fx:id="buttonCancel" mnemonicParsing="false" onAction="#onActionButtonOk" prefWidth="75.0" text="Cancel">
+                     <HBox.margin>
+                        <Insets left="25.0" right="80.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</Pane>

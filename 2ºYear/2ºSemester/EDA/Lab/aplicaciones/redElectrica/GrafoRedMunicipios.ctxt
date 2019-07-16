@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=GrafoRedMunicipios
+comment0.text=\ GrafoRedMunicipios\:\ grafo\ etiquetado\ que\ representa\ una\ red\ \ \n\ \ electrica\ interurbana\ mediante...\n\ Un\ conjunto\ de\ vertices\ etiquetados\ por\ los\ nombres\ \n\ \ de\ los\ municipios\ de\ la\ red\ \n\ Un\ conjunto\ de\ aristas\ etiquetadas\ por\ los\ millones\ \n\ \ de\ euros\ que\ costaria\ la\ renovacion\ del\ tendido\ electrico\ \n\ \ entre\ cada\ par\ de\ municipios\ de\ la\ red\ (vertices).\ \n\ \n\ @version\ (Curso\ 2017/18)\n
+comment1.params=nomFich
+comment1.target=GrafoRedMunicipios(java.lang.String)
+comment1.text=\ Construye\ el\ grafo\ que\ representa\ una\ red\ electrica\ interurbana\ \ \n\ como\ un\ GrafoNoDirigido,\ a\ partir\ de\ los\ datos\ contenidos\ en\ 2\ \n\ ficheros\ de\ texto\ cuyos\ nombres\ empiezan\ por\ un\ mismo\ prefijo\ \n\ nomFich\:\ uno\ contiene\ datos\ de\ los\ municipios\ de\ la\ red\ y\ otro\ \n\ los\ datos\ de\ la\ lineas\ de\ tendido\ que\ los\ conectan,\ incluidos\n\ sus\ costes\ de\ renovacion.\ \n\ \n\ Al\ mismo\ tiempo\ que\ se\ construye\ el\ grafo,\ se\ construyen\n\ sus\ Map\ verticesAMunicipios\ y\ municipiosAVertices,\ \n\ implementados\ eficientemente\ mediante\ sendas\ Tablas\ Hash.\n
+comment2.params=nomFich
+comment2.target=void\ cargarAristas(java.lang.String)
+comment3.params=
+comment3.target=int\ numVertices()
+comment3.text=\ Devuelve\ el\ numero\ de\ municipios\ de\ una\ red\ electrica,\ o\ \n\ numero\ de\ vertices\ del\ grafo\ que\ la\ representa.\n\ @return\ int\n
+comment4.params=
+comment4.target=int\ numAristas()
+comment4.text=\ Devuelve\ el\ numero\ de\ lineas\ de\ tendido\ electrico\ de\ una\ red,\n\ o\ numero\ de\ aristas\ del\ grafo\ que\ la\ representa.\n\ @return\ int\n
+comment5.params=m
+comment5.target=int\ getVertice(Municipio)
+comment5.text=\ Devuelve\ el\ vertice\ de\ un\ grafo\ asociado\ al\ municipio\ m\ \n\ de\ una\ red\ electrica,\ -1\ si\ m\ no\ esta\ en\ la\ red.\n\ \n\ Es\ un\ metodo\ consultor\ del\ Map\ municipiosAVertices\:\n\ @param\ m\ \ \ \ Un\ municipio\ de\ la\ red\n\ @return\ int\ Valor\ de\ la\ clave\ m\ en\ municipiosAVertices,\n\ \ \ \ \ \ \ \ \ \ \ \ \ -1\ si\ la\ clave\ no\ esta\ en\ el\ Map\n
+comment6.params=v
+comment6.target=Municipio\ getMunicipio(int)
+comment6.text=\ Devuelve\ el\ municipio\ de\ una\ red\ electrica\ asociado\ al\ \n\ vertice\ v\ del\ grafo\ que\ la\ representa,\ null\ si\ v\ no\ esta\n\ en\ el\ intervalo\ [0,\ numMunicipios()\ -\ 1].\n\ \n\ Es\ un\ metodo\ consultor\ del\ Map\ verticesAMunicipios\:\n\ @param\ v\ Un\ vertice\ del\ grafo\ que\ representa\ la\ red\n\ @return\ Municipio\ Valor\ de\ la\ clave\ v\ en\ verticesAMunicipios,\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ null\ si\ v\ no\ es\ un\ vertice\ del\ grafo\n
+comment7.params=v
+comment7.target=librerias.estructurasDeDatos.modelos.ListaConPI\ adyacentesDe(int)
+comment7.text=\ Devuelve\ la\ lista\ de\ adyacentes\ a\ un\ vertice\ v,\ null\ si\n\ v\ no\ esta\ en\ el\ intervalo\ [0,\ numMunicipios()\ -\ 1].\n\ @param\ v\ Vertice\ del\ grafo\n\ @return\ ListaConPI<Adyacente>\ al\ vertice\ v,\ null\ si\ v\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ no\ es\ un\ vertice\ del\ grafo\n
+comment8.params=
+comment8.target=double\ crearAdyKruskal()
+comment8.text=\ Si\ existe,\ calcula\ las\ lineas\ de\ tendido\ electrico\ de\ \ \ \ \n\ una\ subred\ de\ coste\ minimo\ de\ una\ red\ interurbana,\ i.e.\ \n\ las\ aristas\ que\ definen\ un\ Arbol\ de\ Recubrimiento\ Minimo\n\ del\ grafo\ que\ representa\ a\ la\ red,\ y\ devuelve\ su\ coste.\ \ \n\ Ademas,\ construye\ el\ Map\ adyKruskal,\ que\ asocia\ a\ cada\ \ \n\ Municipio\ de\ la\ red\ todos\ sus\ Adyacentes\ en\ dicho\ Arbol.\n\ \n\ Si\ no\ existe\ la\ subred\ de\ coste\ minimo,\ devuelve\ -1.0;\n\ \n\ @return\ double\ Coste\ del\ Arbol\ de\ Recubrimiento\ Minimo,\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -1\ si\ no\ existe\n
+numComments=9

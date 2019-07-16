@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.MainController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="ALWAYS" percentWidth="25.0" />
+    <ColumnConstraints hgrow="ALWAYS" percentWidth="75.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints vgrow="ALWAYS" />
+    <RowConstraints vgrow="NEVER" />
+      <RowConstraints vgrow="NEVER" />
+  </rowConstraints>
+   <children>
+      <StackPane id="fondoChats" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: Green;" GridPane.hgrow="ALWAYS" GridPane.rowSpan="2" GridPane.vgrow="ALWAYS">
+         <children>
+            <ListView fx:id="chatsList">
+               <padding>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </padding>
+            </ListView>
+         </children>
+      </StackPane>
+      <ListView fx:id="messagesList" GridPane.columnIndex="1" />
+      <HBox id="nuevomensaje" alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+         <children>
+            <TextArea fx:id="messageField" minHeight="64.0" prefHeight="64.0" wrapText="true" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <padding>
+                  <Insets right="5.0" />
+               </padding></TextArea>
+            <Button fx:id="btnSendMessage" minWidth="50.0" mnemonicParsing="false" prefWidth="50.0" text="Send">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin></Button>
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding></HBox>
+      <TextArea fx:id="logView" minHeight="200.0" prefHeight="200.0" text="LOG:" wrapText="true" GridPane.columnSpan="2" GridPane.rowIndex="2" />
+   </children>
+</GridPane>

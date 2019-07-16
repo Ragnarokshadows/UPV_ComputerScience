@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=ChatMessage
+comment0.text=\n\ Esta\ clase\ representa\ los\ mensajes\ de\ chat\ que\ se\ muestran\ en\ la\ UI,\n\ y\ que\ son\ por\ tanto\ parte\ del\ modelo\ subyacente.\n\ \n\ Ten\ en\ cuenta\ que\ no\ son\ los\ mensajes\ que\ se\ intercambian\ utilizando\ JMS.\n\ \n\ @author\ Agust\u00EDn\ Espinosa\ Minguet\ (aespinos@upvnet.upv.es)\n\n
+comment1.params=
+comment1.target=ChatMessage()
+comment10.params=state
+comment10.target=void\ setState(ChatMessage.State)
+comment2.params=text\ state\ t\ mine
+comment2.target=ChatMessage(java.lang.String,\ ChatMessage.State,\ long,\ java.lang.Boolean)
+comment3.params=
+comment3.target=java.lang.String\ getText()
+comment4.params=text
+comment4.target=void\ setText(java.lang.String)
+comment5.params=
+comment5.target=java.lang.Boolean\ getMine()
+comment6.params=mine
+comment6.target=void\ setMine(java.lang.Boolean)
+comment7.params=
+comment7.target=long\ getTimeStamp()
+comment8.params=t
+comment8.target=void\ setTimeStamp(long)
+comment9.params=
+comment9.target=ChatMessage.State\ getState()
+numComments=11

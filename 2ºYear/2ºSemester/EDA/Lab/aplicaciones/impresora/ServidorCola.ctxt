@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ServidorCola
+comment0.text=\ Clase\ ServidorCola\:\ implementa\ un\ ServidorDeImpresion\n\ \ que\ usa\ un\ modelo\ FIFO\ (Cola)\ para\ gestionar\ los\ trabajos\n\ \ en\ espera\ que\ almacena.\n\ \ \n\ \ @author\ (profesores\ EDA)\n\ \ @version\ (Curso\ 2018-2019)\n
+comment1.params=
+comment1.target=ServidorCola()
+comment1.text=Crea\ un\ Servidor\ de\ Impresion\ vacio.
+comment2.params=t
+comment2.target=void\ insertar(Trabajo)
+comment2.text=\ Incluye\ un\ nuevo\ trabajo\ en\ espera\ t\ en\ un\ ServidorDeImpresion.\n\ \ @param\ t\ \ \ Trabajo\n
+comment3.params=
+comment3.target=boolean\ hayTrabajos()
+comment3.text=\ Comprueba\ si\ hay\ algun\ trabajo\ en\ espera\ en\ un\ ServidorDeImpresion.\n\ \ @return\ boolean\n
+comment4.params=
+comment4.target=Trabajo\ getTrabajo()
+comment4.text=\ SII\ hayTrabajos()\:\ devuelve\ el\ Trabajo\ de\ un\ ServidorDeImpresion\n\ \ que\ va\ a\ ser\ impreso.\n\ \ @return\ Trabajo\n
+comment5.params=
+comment5.target=int\ imprimirTrabajo()
+comment5.text=\ SII\ hayTrabajos()\:\ elimina\ de\ un\ ServidorDeImpresion\ el\ \n\ \ trabajo\ que\ va\ a\ ser\ impreso\ y\ devuelve\ el\ tiempo\ que\ \n\ \ este\ tardara\ en\ imprimirse,\ en\ base\ a\ la\ velocidad\ de\ la\ impresora.\n\ \ @return\ int\ (seg.)\n
+numComments=6

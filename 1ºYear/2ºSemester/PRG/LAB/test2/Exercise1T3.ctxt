@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Exercise1T3()
+comment0.text=There\ are\ not\ objects\ of\ this\ class.
+comment1.params=sc
+comment1.target=int\ calculate(java.util.Scanner)
+comment1.text=\ Returns\ how\ many\ integers\ have\ been\ read\ from\ the\ sc\ file.\n\ \ Considering\ that\ the\ file\ contains\ a\ data\ in\ each\ line\ and\ \n\ \ that\ this\ data\ can\ have\ format\ errors\ that\ the\ nextInt()\n\ \ method\ detects\ and\ warns\ throwing\ the\ InputMismatchException\n\ \ exception,\ you\ have\ to\:\n\ \ Modify\ the\ following\ code\ so\ that,\ instead\ of\ returning\n\ \ the\ number\ of\ valid\ integers,\ return\ the\ total\ number\ of\ \n\ \ data\ with\ formatting\ errors\ that\ exist\ in\ the\ file.\n
+numComments=2

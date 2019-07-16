@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CorrectReading()
+comment0.text=There\ are\ not\ objects\ of\ this\ class.
+comment1.params=keyboard\ message
+comment1.target=double\ nextDoublePositive(java.util.Scanner,\ java.lang.String)
+comment1.text=\n\ Reads\ from\ a\ Scanner\ object\ and\ returns\ a\ double\ value\ \n\ checking\ that\ it\ is\ >\ 0.\n\ @param\ keyboard\ Scanner\ object\ for\ reading\ from.\n\ @param\ message\ String\ for\ asking\ the\ user\ for\ the\ value.\n\ @return\ double,\ a\ non-negative\ double\ value.\n
+comment2.params=keyboard\ message
+comment2.target=int\ nextInt(java.util.Scanner,\ java.lang.String)
+comment2.text=\n\ Reads\ from\ a\ Scanner\ object\ and\ returns\ an\ integer\ value.\ \n\ @param\ keyboard\ Scanner\ object\ for\ reading\ from.\n\ @param\ message\ String\ for\ asking\ to\ the\ user\ for\ the\ value.\n\ @return\ int,\ the\ integer\ value\ user\ entered.\n
+comment3.params=keyboard\ message\ lowerBound\ upperBound
+comment3.target=int\ nextInt(java.util.Scanner,\ java.lang.String,\ int,\ int)
+comment3.text=\n\ Reads\ from\ a\ Scanner\ object\ and\ returns\ an\ integer\ value\ \n\ in\ the\ range\ <code>[\ lowerBound\ ..\ upperBound\ ]</code>\ \n\ where\ <code>Integer.MIN_VALUE\ <\=\ lowerBound</code>\ and\ \n\ <code>upperBound\ <\=\ Integer.MAX_VALUE</code>.\n\ @param\ keyboard\ Scanner\ object\ for\ reading\ from.\n\ @param\ message\ String\ for\ asking\ to\ the\ user\ for\ the\ value.\n\ @param\ lowerBound\ int\ lower\ bound\ of\ the\ value\ to\ be\ read\ and\ accepted.\n\ @param\ upperBound\ int\ upper\ bound\ of\ the\ value\ to\ be\ read\ and\ accepted.\n\ @return\ int,\ the\ integer\ number\ entered\ by\ the\ user.\n
+numComments=4

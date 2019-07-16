@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=hh\ mm
+comment0.target=TimeInstant(int,\ int)
+comment0.text=\n\ \ <code>TimeInstant</code>\ corresponding\ to\ <code>hh</code>\ \n\ \ hours\ and\ <code>mm</code>\ minutes.\n\ \ <p>\ Precondition\:\ <code>0<\=hh<24,\ 0<\=mm<60\ </code>\ </p>\n
+comment1.params=
+comment1.target=TimeInstant()
+comment1.text=\n\ <code>TimeInstant</code>\ (hours\ and\ minutes)\ from\ current\ \n\ UTC\ (universal\ coordinated\ time).\n
+comment2.params=
+comment2.target=int\ getH()
+comment2.text=Returns\ hours\ of\ current\ TimeInstant\ object.
+comment3.params=
+comment3.target=int\ getM()
+comment3.text=Returns\ minutes\ of\ current\ TimeInstant\ object.
+comment4.params=hh
+comment4.target=void\ setH(int)
+comment4.text=Modifies\ hours\ of\ current\ TimeInstant\ object.
+comment5.params=mm
+comment5.target=void\ setM(int)
+comment5.text=Modifies\ minutes\ of\ current\ TimeInstant\ object.
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=Returns\ current\ TimeInstant\ object\ in\ "hh\:mm"\ format.
+comment7.params=
+comment7.target=void\ decrement1Min()
+comment7.text=Decrements\ in\ one\ minute\ the\ current\ TimeInstant\ object.
+numComments=8

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=EntradaHash
+comment0.text=\ Clase\ envolvente\ del\ par\ (clave,\ valor)\ de\ una\ Tabla\ Hash\ para\ \n\ \ usar\ como\ dato\ en\ la\ ListaConPI\ que\ representa\ cada\ cubeta\n\ \ @author\ (EDA)\n\ \ @version\ (Curso\ 2017/18)\n\ \ @param\ <C>,\ el\ tipo\ de\ las\ claves\n\ \ @param\ <V>,\ el\ tipo\ de\ los\ valores\ asociados\ a\ las\ claves\n
+comment1.params=c\ v
+comment1.target=EntradaHash(java.lang.Object,\ java.lang.Object)
+numComments=2

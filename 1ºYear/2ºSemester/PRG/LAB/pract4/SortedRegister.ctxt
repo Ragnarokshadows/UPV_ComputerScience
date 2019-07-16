@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=dataYear
+comment0.target=SortedRegister(int)
+comment0.text=\ Creates\ a\ SortedRegister\ object\ for\ dataYear.\n\ \ @param\ int\ dataYear\n
+comment1.params=s
+comment1.target=void\ add(java.util.Scanner)
+comment1.text=\ Sort\ data\ read\ from\ Scanner\ s.\n\ \ Precondition\:\ each\ line\ from\ s\ must\ contain\ the\ format\:\n\ \ \ \ \ \ \ \ day\ month\ count\n\ \ where\ day\ and\ month\ must\ be\ integers\ corresponding\ to\ a\ correct\ date\n\ \ and\ count\ must\ be\ >\ 0.\n\ \ The\ count\ must\ be\ aggregated\ in\ the\ register\ of\ the\ day\ and\ month.\n\ \ If\ any\ error\ or\ wrong\ format,\ the\ method\ must\ throw\ an\ exception\ and\ end.\n\n\ \ @param\ s\ Scanner\ with\ the\ data\n\ \ @throws\ InputMismatchException\ if\ a\ non-integer\ value\ is\ read\ from\ s.\n\ \ @throws\ ArrayIndexOutOfBoundsException\ if\ an\ incorrect\ date\ is\ read\ from\ s.\n\ \ @throws\ IllegalArgumentException\ if\ a\ negative\ count\ is\ read\ from\ s.\n
+comment2.params=p
+comment2.target=void\ save(java.io.PrintWriter)
+comment2.text=\ Registered\ data\ with\ counts\ >\ 0\ are\ written\ in\ p,\ line-by-line\n\ \ with\ the\ format\n\ \ \ \ \ \ \ \ day\ \ month\ \ count\n\ \ sorted\ in\ chronological\ order.\n\ \ @param\ p\ Printwriter\ stream\ where\ sorted\ data\ is\ written.\n
+comment3.params=s\ err
+comment3.target=void\ add(java.util.Scanner,\ java.io.PrintWriter)
+comment3.text=\ Sort\ data\ read\ from\ Scanner\ s.\n\ \ Wrong\ data\ is\ filtered,\ an\ error\ report\ is\ printed.\n\ \ Precondition\:\n\ \ \ \ \ \ The\ accepted\ and\ non-filtered\ data\ follows\ this\ format\:\n\ \ \ \ \ \ \ \ day\ month\ count\n\ \ where\ day\ and\ month\ must\ be\ integers\ \n\ \ where\ day\ and\ month\ must\ be\ integers\ corresponding\ to\ a\ correct\ date\n\ \ and\ count\ must\ be\ >\ 0.\n\ \ The\ count\ must\ be\ aggregated\ in\ the\ register\ of\ the\ day\ and\ month.\n\ \ Wrong\ lines\ are\ reported\ via\ err\ indicating\ the\ line\ number.\n\n\ \ @param\ s\ Scanner\ data\ source\n\ \ @param\ err\ PrintWriter\ stream\ where\ report\ errors\n
+comment4.params=year
+comment4.target=boolean\ isLeap(int)
+comment4.text=\ Chech\ if\ a\ leap\ year\n\ \ @param\ year\ int\n\ \ @return\ true\ iff\ is\ a\ leap\ year.\n
+numComments=5

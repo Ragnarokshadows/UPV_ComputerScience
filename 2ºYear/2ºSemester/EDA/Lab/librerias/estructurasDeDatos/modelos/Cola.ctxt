@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Cola
+comment0.text=\n\ Modelo\ Cola,\ ofrece\ una\ gestion\ FIFO\ (First\ In\ First\ Out)\ de\ la\ \n\ coleccion\ de\ datos\n\ \n\ @author\ Profesores\ de\ EDA\ \n\ @version\ 2017\n\ @param\ <E>\ tipo\ de\ datos\ de\ la\ estructura\n
+comment1.params=x
+comment1.target=void\ encolar(java.lang.Object)
+comment1.text=Inserta\ el\ dato\ x\ al\ final\ de\ la\ cola
+comment2.params=
+comment2.target=java.lang.Object\ desencolar()
+comment2.text=SII\ \!esVacia()\:\ elimina\ y\ devuelve\ el\ primer\ dato
+comment3.params=
+comment3.target=java.lang.Object\ primero()
+comment3.text=SII\ \!esVacia()\:\ devuelve\ el\ primer\ dato\ de\ la\ cola
+comment4.params=
+comment4.target=boolean\ esVacia()
+comment4.text=Comprueba\ si\ la\ cola\ esta\ o\ no\ vacia
+numComments=5

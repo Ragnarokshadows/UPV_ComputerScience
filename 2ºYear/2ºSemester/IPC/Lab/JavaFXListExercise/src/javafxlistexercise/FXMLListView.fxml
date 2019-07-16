@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.201" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLListViewController">
+   <left>
+      <Pane prefHeight="357.0" prefWidth="46.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <Pane prefHeight="357.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Button fx:id="buttonAdd" accessibleHelp="Añade el valor dado en los campos Nombre y  Apellidos" accessibleText="Añadir" mnemonicParsing="false" onAction="#handleOnActionButtonDetails" prefWidth="75.0" text="Add">
+                     <VBox.margin>
+                        <Insets bottom="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="buttonRemove" mnemonicParsing="false" onAction="#handleOnActionButtonDetails" prefWidth="75.0" text="Remove">
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="buttonEdit" mnemonicParsing="false" onAction="#handleOnActionButtonDetails" prefWidth="75.0" text="Edit" />
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+   </right>
+   <bottom>
+      <Pane prefHeight="44.0" prefWidth="582.0" BorderPane.alignment="CENTER" />
+   </bottom>
+   <center>
+      <ListView fx:id="listViewPerson" prefHeight="335.0" prefWidth="232.0" style="-fx-background-color: aliceblue;" BorderPane.alignment="CENTER" />
+   </center>
+   <top>
+      <Pane prefHeight="33.0" prefWidth="378.0" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>

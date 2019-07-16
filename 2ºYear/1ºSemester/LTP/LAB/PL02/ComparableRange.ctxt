@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=ComparableRange
+comment1.params=o
+comment1.target=int\ compareToRange(java.lang.Object)
+numComments=2

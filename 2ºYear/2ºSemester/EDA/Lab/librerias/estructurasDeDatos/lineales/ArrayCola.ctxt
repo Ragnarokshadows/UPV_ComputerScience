@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=ArrayCola
+comment0.text=\ Implementa\ el\ interfaz\ Cola\ mediante\ un\ array\n\ @author\ (profesores\ EDA\ )\ \n\ @version\ 2017\n\ @param\ <E>\ tipo\ de\ datos\ de\ la\ estructura\n
+comment1.params=
+comment1.target=ArrayCola()
+comment2.params=x
+comment2.target=void\ encolar(java.lang.Object)
+comment2.text=inserta\ x\ al\ final\ de\ la\ Cola
+comment3.params=
+comment3.target=java.lang.Object\ desencolar()
+comment3.text=SII\ \!esVacia()\:\ elimina\ el\ primer\ dato\ de\ la\ Cola
+comment4.params=
+comment4.target=java.lang.Object\ primero()
+comment4.text=SII\ \!esVacia()\:\ devuelve\ el\ primer\ dato\ de\ la\ Cola
+comment5.params=
+comment5.target=boolean\ esVacia()
+comment5.text=comprueba\ si\ la\ Cola\ esta\ o\ no\ vacia
+comment6.params=indice
+comment6.target=int\ incrementa(int)
+comment6.text=incrementa\ la\ posicion\ de\ forma\ circular
+comment7.params=
+comment7.target=void\ duplicarCola()
+comment7.text=\ \n\ duplica\ la\ capacidad\ del\ array\n
+numComments=8

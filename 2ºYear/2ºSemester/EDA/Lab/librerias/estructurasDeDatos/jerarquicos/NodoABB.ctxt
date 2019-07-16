@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=NodoABB
+comment0.text=\ Clase\ friendly\ NodoABB<E>\:\ representa\ un\ Nodo\ de\ un\ ABB,\ por\ lo\ que\n\ \ TIENE\ UN\:\ \n\ \ 1.-\ E\ dato,\ que\ representa\ el\ Elemento\ que\ ocupa\ un\ Nodo\ de\ un\ ABB\ \n\ \ 2.-\ NodoABB<E>\ izq,\ un\ enlace\ al\ Hijo\ Izquierdo\ de\ un\ Nodo\ de\ un\ ABB\n\ \ 3.-\ NodoABB<E>\ der,\ un\ enlace\ al\ Hijo\ Derecho\ de\ un\ Nodo\ de\ un\ ABB\n\ \ 4.-\ talla,\ un\ entero\ que\ representa\ el\ tamanyo\ de\ un\ Nodo\ de\ un\ ABB\n\ \ \ \ \ \ Un\ ABB\ que\ tiene\ Nodos\ con\ este\ atributo\ se\ denomina\ ABB\ con\ Rango\n\ \ \ \ \ \ \n\ \ @param\ <E>,\ el\ tipo\ de\ los\ datos\ del\ ABB\n\ \ @version\ Marzo\ 2017\n
+comment1.params=valor
+comment1.target=NodoABB(java.lang.Object)
+comment1.text=\ Constructor\ de\ un\ nodo\ sin\ hijos\n\ @param\ \ valor\ \ Dato\ a\ almacenar\ en\ el\ nodo\n
+comment2.params=valor\ izq\ der
+comment2.target=NodoABB(java.lang.Object,\ NodoABB,\ NodoABB)
+comment2.text=\ \ Constructor\ de\ un\ nodo\ con\ un\ hijo\ izquierdo\ y\ derecho\ dado\n\ @param\ \ valor\ Dato\ a\ almacenar\ en\ el\ nodo\n\ @param\ \ izq\ \ \ Hijo\ izquierdo\ del\ nodo\n\ @param\ \ der\ \ \ Hijo\ derecho\ del\ nodo\n
+numComments=3

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ApuestaPrimitiva
+comment0.text=\ \n\ ApuestaPrimitiva\:\ representa\ una\ apuesta\ aleatoria\ de\ La\ Primitiva,\ \n\ o\ combinacion\ de\ 6\ numeros\ distintos\ entre\ el\ 1\ y\ el\ 49\ elegidos\ \ \n\ de\ forma\ aleatoria.\n\ \n\ @version\ Febrero\ 2019\n
+comment1.params=ordenada
+comment1.target=ApuestaPrimitiva(boolean)
+comment1.text=\n\ Crea\ una\ ApuestaPrimitiva,\ o\ una\ combinacion\ de\ \ \n\ seis\ numeros\ aleatorios\ con\ valores\ distintos\ y\ \ \ \n\ en\ el\ intervalo\ [1,\ 49].\n\ \n\ @param\ ordenada\ Un\ boolean\ que\ indica\ si\ la\ combinacion,\ \ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sus\ 6\ numeros,\ debe\ estar\ ordenada\ Asc.\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (true)\ o\ no\ (false).\ \ \ \ \ \ \ \ \ \ \ \n
+comment2.params=n
+comment2.target=int\ posicionDe(NumeroPrimitiva)
+comment2.text=\n\ Devuelve\ la\ posicion\ del\ numero\ n\ en\ una\ ApuestaPrimitiva,\ \n\ o\ -1\ si\ n\ no\ forma\ parte\ de\ la\ combinacion.\ \n\ IMPORTANTE\:\ se\ asume\ que\ el\ primer\ elemento\ de\ una\ combinacion\ \n\ esta\ en\ su\ posicion\ 0\ y\ el\ ultimo\ en\ la\ 5.\n\ \n\ @param\ n\ un\ int\n\ @return\ \ la\ posicion\ de\ n\ en\ una\ combinacion,\ un\ valor\ int\n\ \ \ \ \ \ \ \ \ \ en\ el\ intervalo\ [0,\ 5]\ si\ n\ esta\ en\ la\ combinacion\ \ \ \ \ \ \n\ \ \ \ \ \ \ \ \ \ o\ -1\ en\ caso\ contrario\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\n\ Devuelve\ el\ String\ que\ representa\ una\ ApuestaPrimitiva\ en\ el\ formato\n\ texto\ que\ muestra\ el\ siguiente\ ejemplo\:\ "16,\ 25,\ 28,\ 49,\ 9,\ 20"\n\ \n\ @return\ el\ String\ con\ la\ ApuestaPrimitiva\ en\ el\ formato\ texto\ dado.\ \n
+numComments=4

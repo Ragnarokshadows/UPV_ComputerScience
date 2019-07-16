@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Arista
+comment0.text=\ Clase\ Arista\:\ representa\ una\ arista\ de\ un\ grafo.<br>\ \n\ \ \n\ \ @version\ Mayo\ 2018\n
+comment1.params=v\ w\ p
+comment1.target=Arista(int,\ int,\ double)
+comment1.text=\ Crea\ una\ arista\ (v,\ w)\ con\ peso\ p.\n\n\ @param\ v\ \ Vertice\ origen\n\ @param\ w\ \ Vertice\ destino\n\ @param\ p\ \ Peso\n
+comment2.params=
+comment2.target=int\ getOrigen()
+comment2.text=\ Devuelve\ el\ vertice\ origen\ de\ una\ arista.\n\n\ @return\ int\ vertice\ origen\n
+comment3.params=
+comment3.target=int\ getDestino()
+comment3.text=\ Devuelve\ el\ vertice\ destino\ de\ una\ arista.\n\n\ @return\ int\ vertice\ destino\n
+comment4.params=
+comment4.target=double\ getPeso()
+comment4.text=\ Devuelve\ el\ peso\ de\ una\ arista.\n\n\ @return\ double\ Peso\ de\ la\ arista\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\ Devuelve\ un\ String\ que\ representa\ una\ arista\n\ en\ formato\ (origen,\ destino,\ peso)\n\n\ @return\ \ String\ que\ representa\ la\ arista\n
+comment6.params=a
+comment6.target=int\ compareTo(Arista)
+numComments=7

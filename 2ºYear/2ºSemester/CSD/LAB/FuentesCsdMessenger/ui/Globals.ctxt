@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Globals
+comment0.text=\n\ M\u00E9todos\ de\ clase\ que\ devuelven\ valores\ usados\ globalmente\ en\ la\ UI\n\ \n\ @author\ Agust\u00EDn\ Espinosa\ Minguet\ (aespinos@upvnet.upv.es)\n\n
+comment1.params=
+comment1.target=java.lang.String\ getDir()
+comment1.text=\n\ @return\ El\ directorio\ donde\ se\ guardan\ los\ chats\ de\ todos\ los\ usuarios.\ Un\ fichero\ por\ usuario.\n
+comment2.params=
+comment2.target=java.lang.String\ getDatafile()
+comment2.text=\n\ @return\ El\ fichero\ donde\ se\ guardan\ los\ chats\ de\ un\ usuario\ concreto\n
+numComments=3

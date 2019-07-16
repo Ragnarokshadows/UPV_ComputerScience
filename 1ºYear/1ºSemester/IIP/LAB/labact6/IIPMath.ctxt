@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=IIPMath()
+comment0.text=No\ objects\ can\ be\ created\ for\ this\ datatype\ (utility\ class)
+comment1.params=x\ epsilon
+comment1.target=double\ sqrt(double,\ double)
+comment1.text=\n\ Calculate\ square\ root\ of\ x\ with\ a\ precision\ epsilon\n\ @param\ x.\ Value.\n\ @param\ epsilon.\ Error\n\ @return\ double.\ natural\ logarithm\ of\ x\ with\ a\ maximum\ error\ eps\n
+comment2.params=x
+comment2.target=double\ sqrt(double)
+comment2.text=\n\ Calculate\ square\ root\ of\ x\ with\ a\ precision\ 1e-15.\n\ @param\ x.\ Value.\n\ @return\ double.\ natural\ logarithm\ of\ x\ with\ a\ maximum\ error\ 1e-15\n
+comment3.params=z\ epsilon
+comment3.target=double\ logBase(double,\ double)
+comment3.text=\ Returns\ log(z),\ 1/2\ <\=\ z\ <\ 1,\ with\ an\ error\ epsilon\ >\ 0.\n\ @param\ z.\ Value.\n\ @param\ epsilon.\ Error\n\ @return\ double.\ natural\ logarithm\ of\ z\ with\ a\ maximum\ error\ eps\n
+comment4.params=x\ epsilon
+comment4.target=double\ log(double,\ double)
+comment4.text=\ Returns\ log(x),\ x\ >\ 0,\ with\ error\ epsilon\ >\ 0.\n\ C@param\ x.\ Value.\n\ @param\ epsilon.\ Error\n\ @return\ double.\ natural\ logarithm\ of\ x\ with\ a\ maximum\ error\ eps\n
+comment5.params=x
+comment5.target=double\ log(double)
+comment5.text=\ Returns\ log(x),\ x\ >\ 0,\ with\ error\ 1e-15.\n\ @param\ x.\ Value.\n\ @return\ double.\ natural\ logarithm\ of\ x\ with\ a\ maximum\ error\ 1e-15\n
+numComments=6

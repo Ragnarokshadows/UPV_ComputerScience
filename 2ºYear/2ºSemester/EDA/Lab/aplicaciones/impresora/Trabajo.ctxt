@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Trabajo
+comment0.text=\ Clase\ Trabajo\:\ representa\ un\ trabajo\ a\ imprimir.\n\ \ ATRIBUTOS\:\ \n\ \ \ \ \ \ TIENE\ UN\ titulo\ (String)\n\ \ \ \ \ \ TIENE\ UN\ numero\ de\ paginas\ (int)\n\ \ \ \ \ \ TIENE\ UN\ instante\ de\ envio\ a\ imprimir\ en\ segundos\ (int)\n\ \ \ \ \ \ \n\ \ @author\ (profesores\ EDA)\n\ \ @version\ (Curso\ 2018-2019)\n
+comment1.params=t\ n\ e
+comment1.target=Trabajo(java.lang.String,\ int,\ int)
+comment1.text=\ Crea\ un\ Trabajo\ de\ titulo\ t,\ numero\ de\ paginas\ n\n\ \ y\ enviado\ a\ imprimir\ en\ el\ intante\ de\ envio\ e.\n\ \ @param\ t\ \ \ \ String\n\ \ @param\ n\ \ \ \ int\n\ \ @param\ e\ \ \ \ int\ (seg.)\n
+comment2.params=
+comment2.target=java.lang.String\ getTitulo()
+comment2.text=\ Devuelve\ el\ titulo\ de\ un\ Trabajo.\n\ \ @return\ String\n
+comment3.params=
+comment3.target=int\ getNumPaginas()
+comment3.text=\ Devuelve\ el\ numero\ de\ paginas\ de\ un\ Trabajo.\n\ \ @return\ int\n
+comment4.params=
+comment4.target=int\ getEnvio()
+comment4.text=\ Devuelve\ el\ instante\ de\ envio\ a\ impresion\ de\ un\ Trabajo.\n\ \ @return\ int\ (seg.)\n
+comment5.params=otro
+comment5.target=int\ compareTo(Trabajo)
+comment5.text=\ Devuelve\ el\ valor\ int\ que\ resulta\ de\ comparar\ el\ numero\ de\n\ \ paginas\ de\ un\ documento\ (this)\ con\ las\ de\ otro.\ Dicho\ valor\n\ \ sera...\n\ \ **\ NEGATIVO\ si\ un\ documento\ (this)\ tiene\ MENOS\ paginas\ que\ el\ otro,\n\ \ \ \ \ i.e.\ si\ su\ impresion\ es\ MAS\ prioritaria\ que\ la\ del\ otro\n\ \ **\ POSITIVO\ si\ un\ documento\ (this)\ tiene\ MAS\ paginas\ que\ otro,\ \n\ \ \ \ \ i.e.\ si\ su\ impresion\ es\ MENOS\ prioritaria\ que\ la\ del\ otro\n\ \ **\ CERO\ si\ ambos\ documentos\ tienen\ el\ mismo\ numero\ de\ paginas\n\ \ @param\ otro\ \ Trabajo\ \ \n\ \ @return\ int\ resultado\ de\ la\ comparacion\ de\ un\ documento\ (this)\ con\ otro\ \n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\ Devuelve\ el\ String\ que\ representa\ un\ Trabajo\ en\ un\ cierto\ \n\ \ formato\ texto.\n\ \ @return\ String\n
+numComments=7

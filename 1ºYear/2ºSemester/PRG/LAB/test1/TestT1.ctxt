@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=s\ a\ b
+comment0.target=java.lang.String\ replace(java.lang.String,\ char,\ char)
+comment0.text=\n\ Returns\ a\ String\ resulting\ from\ replacing\ \n\ all\ occurrences\ of\ a\ in\ the\ String\ s\ with\ b.\ \n
+comment1.params=s\ a\ b\ pos
+comment1.target=java.lang.String\ replace(java.lang.String,\ char,\ char,\ int)
+numComments=2

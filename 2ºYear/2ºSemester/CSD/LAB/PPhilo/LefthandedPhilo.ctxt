@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=LefthandedPhilo
+comment1.params=id\ cycles\ delay\ table
+comment1.target=LefthandedPhilo(int,\ int,\ int,\ Table)
+comment2.params=
+comment2.target=void\ run()
+numComments=3

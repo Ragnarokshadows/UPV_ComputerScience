@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.target=QueueAC
+comment0.text=\n\ class\ QueueAC<T>\n\ It\ is\ the\ implementation\ of\ a\ Queue<T>\ \n\ using\ a\ circular\ array\ of\ variable\ length.\n\ \n\ @author\ LTP\ \n\ @version\ 2018-19\n\ @param\ <T>\n
+comment1.params=
+comment1.target=QueueAC()
+comment1.text=\ The\ object\ constructor\ \n\ \n\ The\ compiler\ warns\ us\ (warning)\n\ that\ the\ pure\ type\ corresponding\ to\ T\ in\ (1)\n\ will\ be\ applied\ at\ run\ time.\n\ With\ this\ directive\ we\ say\ that\n\ do\ not\ show\ us\ the\ warning\ since\ the\ coercion\ is\ safe.\n
+comment2.params=
+comment2.target=void\ expandArray()
+comment2.text=\ Private\ method\ for\ expanding\ the\ array\ when\ it\ is\ necessary\ \n
+comment3.params=i
+comment3.target=int\ increase(int)
+comment3.text=\ Private\ method\ for\ increasing\ the\ array\ indexes\ \n\ \ in\ a\ ciclic\ way\ (module\ theArray.length)\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\ It\ returns\ the\ content\ of\ the\ queue\ \n\ \ according\ to\ the\ following\ format\:\n\ \ \ <-\ item0\ <-\ item1\ <-\ item2\ <-\ ...\ <-\ itemN\ \n\ \ where\ N\ \=\ size()\ -\ 1\n\ \ and\ each\ item\ is\ concatenated\ \n\ \ according\ to\ the\ format\ defined\ in\ its\ type\n\ \ @return\ the\ content\ of\ the\ queue\ \n
+comment5.params=e
+comment5.target=void\ enqueue(java.lang.Object)
+comment5.text=\ Inserts\ the\ element\ at\ the\ end\ of\ the\ queue\n\ \ @param\ e\ element\ to\ be\ inserted\ \n
+comment6.params=
+comment6.target=java.lang.Object\ dequeue()
+comment6.text=\ Queries\ and\ extracts\ the\ first\ element,\n\ \ only\ if\ the\ queue\ is\ not\ empty\ \n\ \ @return\ the\ first\ element\n
+comment7.params=
+comment7.target=int\ size()
+comment7.text=\ Queries\ the\ number\ of\ elements\ of\ the\ queue\n\ \ @return\ the\ number\ of\ elements\n
+comment8.params=
+comment8.target=java.lang.Object\ first()
+comment8.text=\ Queries\ the\ first\ element,\ in\ order\ of\ insertion,\n\ \ only\ if\ the\ queue\ is\ not\ empty\ \n\ \ @return\ the\ first\ element\n
+comment9.params=
+comment9.target=boolean\ isEmpty()
+comment9.text=\ Verifies\ if\ the\ queue\ is\ empty\n\ \ @return\ true\ iif\ the\ queue\ is\ empty\n
+numComments=10

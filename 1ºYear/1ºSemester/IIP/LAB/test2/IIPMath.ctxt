@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=epsilon
+comment0.target=int\ numTerms(double)
+comment0.text=\ Returns\ the\ number\ of\ terms\ that\ must\ be\ calculated\ \n\ \ of\ the\ series\:\n\ \ \ \ \ a_1\ \=\ Square\ root\ of\ 2\ \n\ \ \ \ \ a_i\ \=\ Square\ root\ of\ (2\ *\ a_(i-1))\n\ \ until\ obtaining\ one\ with\ a\ value\ greater\ than\ or\ \n\ \ equal\ to\ 2\ -\ epsilon.\n\ \ PRECONDITION\:\ 0\ <\ epsilon\n
+numComments=1

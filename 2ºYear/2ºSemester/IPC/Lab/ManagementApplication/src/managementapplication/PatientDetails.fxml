@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="513.0" prefWidth="791.0" stylesheets="@appointmentstableview.css" xmlns="http://javafx.com/javafx/8.0.211" xmlns:fx="http://javafx.com/fxml/1" fx:controller="managementapplication.PatientDetailsController">
+   <bottom>
+      <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="okButton" maxWidth="92.0" mnemonicParsing="false" onAction="#buttonHandler" prefHeight="31.0" prefWidth="92.0" styleClass="saveButton" text="OK">
+               <HBox.margin>
+                  <Insets right="25.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="cancelButton" mnemonicParsing="false" onAction="#buttonHandler" prefHeight="31.0" prefWidth="91.0" styleClass="exitButton" text="Cancel">
+               <HBox.margin>
+                  <Insets right="25.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
+   <center>
+      <HBox prefHeight="100.0" prefWidth="605.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="301.0" prefWidth="559.0">
+               <children>
+                  <HBox prefHeight="27.0" prefWidth="422.0">
+                     <children>
+                        <Label minHeight="-Infinity" minWidth="-Infinity" prefHeight="21.0" prefWidth="75.0" text="Identifier: ">
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField fx:id="identifierField" prefHeight="27.0" prefWidth="200.0" styleClass="textForm">
+                           <HBox.margin>
+                              <Insets bottom="15.0" />
+                           </HBox.margin></TextField>
+                        <Label fx:id="identifierError" textFill="#e80909" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="30.0" right="20.0" top="50.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox prefHeight="50.0" prefWidth="600.0">
+                     <children>
+                        <Label prefWidth="75.0" text="Name:   ">
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin></Label>
+                        <TextField fx:id="nameField" prefHeight="27.0" prefWidth="200.0" styleClass="textForm" />
+                        <Label fx:id="nameError" textFill="#e80909" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="15.0" left="30.0" right="20.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox prefHeight="51.0" prefWidth="600.0">
+                     <children>
+                        <Label prefHeight="17.0" prefWidth="75.0" text="Surname:">
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin></Label>
+                        <TextField fx:id="surnameField" prefHeight="27.0" prefWidth="200.0" styleClass="textForm" />
+                        <Label fx:id="surnameError" textFill="#e80909" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="30.0" right="20.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox prefHeight="50.0" prefWidth="600.0">
+                     <children>
+                        <Label prefHeight="17.0" prefWidth="75.0" text="Telephone:">
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin></Label>
+                        <TextField fx:id="telephoneField" prefHeight="27.0" prefWidth="200.0" styleClass="textForm" />
+                        <Label fx:id="telephoneError" textFill="#dd0808" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="30.0" right="20.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox prefHeight="301.0" prefWidth="217.0">
+               <children>
+                  <HBox prefHeight="53.0" prefWidth="366.0">
+                     <children>
+                        <Label>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Label>
+                        <Button fx:id="searchButton" mnemonicParsing="false" onAction="#buttonHandler" prefHeight="46.0" prefWidth="155.0" text="Add Photo">
+                           <HBox.margin>
+                              <Insets bottom="15.0" />
+                           </HBox.margin></Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="50.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <ImageView fx:id="imageView" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/anonimo.png" />
+                     </image></ImageView>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </center>
+   <top>
+      <HBox prefHeight="100.0" prefWidth="200.0" styleClass="doctorTitle" BorderPane.alignment="CENTER">
+         <children>
+            <Text fx:id="title" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Patient Data" wrappingWidth="574.2060546875">
+               <font>
+                  <Font size="48.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="20.0" left="30.0" top="35.0" />
+               </HBox.margin>
+            </Text>
+         </children>
+      </HBox>
+   </top>
+</BorderPane>

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=CsdMessengerClient
+comment0.text=\n\ Programa\ principal\ del\ cliente\ CSD\ Messenger\n\ \n\ @author\ Agust\u00EDn\ Espinosa\ Minguet\ (aespinos@upvnet.upv.es)\n\n
+comment1.params=
+comment1.target=javafx.scene.Scene\ getGlobalScene()
+comment2.params=stage
+comment2.target=void\ start(javafx.stage.Stage)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

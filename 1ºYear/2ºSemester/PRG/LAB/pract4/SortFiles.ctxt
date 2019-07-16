@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=listF\ year\ place
+comment1.target=void\ reportedSortFiles(java.io.File[],\ int,\ java.io.File)
+comment1.text=\ Clasifica\ los\ datos\ leidos\ de\ un\ array\ de\ ficheros\ de\ texto.\ \n\ \ Los\ datos\ corresponden\ a\ fechas\ de\ un\ determinado\ a\u00F1o.\ Se\ filtran\ los\ \n\ \ datos\ con\ algun\ defecto\ de\ formato,\ emitiendo\ un\ informe\ de\ errores.\ \n\ \ Precondicion\:\ El\ formato\ de\ linea\ reconocible\ es\n\ \ \ \ \ \ \ \ dia\ mes\ cantidad\n\ \ en\ donde\ dia\ y\ mes\ deben\ ser\ enteros\ correspondientes\ a\ una\ fecha\ \n\ \ valida\ del\ a\u00F1o,\ y\ cantidad\ debe\ ser\ un\ entero\ >\ 0.\n\ \ En\ un\ fichero\ "result.out"\ se\ escriben\ en\ orden\ cronologico\ las\ \n\ \ cantidades\ acumuladas\ para\ cada\ fecha.\ En\ un\ fichero\ "result.log"\ se\ \n\ \ escriben\ las\ lineas\ con\ datos\ defectuosos.\n\ \ Si\ hay\ problemas\ de\ acceso\ a\ alguno\ de\ los\ ficheros,\ el\ proceso\ \n\ \ no\ se\ completa.\n\ \ \ \ \ \n\ \ @param\ listF\ array\ de\ los\ ficheros\ fuente\ de\ los\ datos\n\ \ @param\ int\ year\ a\u00F1o\ al\ que\ corresponden\ los\ datos\n\ \ @param\ File\ place\ lugar\ del\ sistema\ en\ donde\ se\ guardan\ \n\ \ los\ ficheros\ .out\ y\ .log\n
+numComments=2
