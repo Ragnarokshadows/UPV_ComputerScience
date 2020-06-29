@@ -1,0 +1,49 @@
+{
+    "host": "gtirouter.dsic.upv.es",
+    "manager": "ccc_m",
+    "manager_password": "secret",
+    "service": "ccc_s",
+    "service_password": "secret",
+    "axis": [
+		{
+            "rank": "BDISoldier",
+            "name": "ccc_axis",
+            "password": "secret",
+            "amount": 8,
+            "asl": "bdisoldier.asl"
+        },
+        {
+            "rank": "BDIMedic",
+            "name": "ccc_medic_axis",
+            "password": "secret",
+            "asl": "bdimedic.asl"
+        },
+         {
+            "rank": "drunkenMonkey.BDIDrunkenMonkey",
+            "name": "ccc_DM_fieldop_axis",
+            "password": "secret",
+            "asl": "bdifieldop_DM.asl"
+        }
+    ],
+     "allied": [
+		{
+            "rank": "BDISoldier",
+            "name": "ccc_allied",
+            "password": "secret",
+            "amount": 8,
+            "asl": "bdisoldier.asl"
+        },
+        {
+            "rank": "BDIMedic",
+            "name": "ccc_medic_allied",
+            "password": "secret",
+            "asl": "bdimedic.asl"
+        },
+         {
+            "rank": "BDIFieldOp",
+            "name": "ccc_fieldop_allied",
+            "password": "secret",
+            "asl": "bdifieldop.asl"
+        }
+   ]
+  }

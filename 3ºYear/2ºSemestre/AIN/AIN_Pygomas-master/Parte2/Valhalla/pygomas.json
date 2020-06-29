@@ -1,0 +1,58 @@
+{
+    "host": "gtirouter.dsic.upv.es",
+    "manager": "manager_valhalla",
+    "manager_password": "secret",
+    "service": "service_valhalla",
+    "service_password": "secret",
+    "axis": [
+        {
+            "rank": "captain.BDICaptain",
+            "name": "captain_axis_valhalla",
+            "password": "secret",
+            "asl": "bdicaptain.asl"
+        },
+		{
+            "rank": "basicMethods.BDISoldier_Int",
+            "name": "axis_valhalla",
+            "password": "secret",
+            "amount": 5,
+            "asl": "bdisoldier.asl"
+        },
+        {
+            "rank": "basicMethods.BDIMedic_Int",
+            "name": "medic_axis_valhalla",
+            "password": "secret",
+            "amount": 2,
+            "asl": "bdimedic.asl"
+        },
+         {
+            "rank": "basicMethods.BDIFieldOp_Int",
+            "name": "fieldop_axis_valhalla",
+            "password": "secret",
+            "amount": 2,
+            "asl": "bdifieldop.asl"
+        }
+        
+    ],
+    "allied": [
+       {
+           "rank": "BDISoldier",
+           "name": "allied_valhalla",
+           "password": "secret",
+           "amount": 8,
+           "asl": "bdisoldier_Allied.asl"
+       },
+       {
+           "rank": "BDIMedic",
+           "name": "medic_allied_valhalla",
+           "password": "secret",
+           "asl": "bdimedic_Allied.asl"
+       },
+        {
+           "rank": "BDIFieldOp",
+           "name": "fieldop_allied_valhalla",
+           "password": "secret",
+           "asl": "bdifieldop_Allied.asl"
+       }
+  ]
+ }

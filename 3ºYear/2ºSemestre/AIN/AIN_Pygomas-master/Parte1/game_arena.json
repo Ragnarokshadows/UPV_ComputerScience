@@ -1,0 +1,39 @@
+{
+    "host": "gtirouter.dsic.upv.es",
+    "manager": "manager_stediale",
+    "manager_password": "secret",
+    "service": "service_stediale",
+    "service_password": "secret",
+    "axis": [
+		{
+            "rank": "BDISoldier",
+            "name": "luchador_stediale",
+            "password": "secret",
+            "amount": 20,
+            "asl": "luchador.asl"
+        },
+        {
+            "rank": "BDISoldier",
+            "name": "RAGNAROK_stediale",
+            "password": "secret",
+            "amount": 1,
+            "asl": "loki2.asl"
+        }
+    ],
+     "allied": [
+                {
+            "rank": "invencibleM.BDIMInvencible",
+            "name": "medic_stediale",
+            "password": "secret",
+            "amount": 1,
+            "asl": "medic_arena.asl"
+        }, 
+        {
+            "rank": "invencibleF.BDIFInvencible",
+            "name": "fieldop_stediale",
+            "password": "secret",
+            "amount": 3,
+            "asl": "fieldop_arena.asl"
+        }
+   ]
+  }

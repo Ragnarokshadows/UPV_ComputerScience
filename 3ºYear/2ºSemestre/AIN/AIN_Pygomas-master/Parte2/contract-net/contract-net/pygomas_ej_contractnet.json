@@ -1,0 +1,22 @@
+{
+    "host": "localhost",
+    "manager": "m",
+    "manager_password": "secret",
+    "service": "s",
+    "service_password": "secret",
+     "allied": [
+        {
+            "rank": "agente.BDITropa",
+            "name": "vlc_allied2",
+            "password": "secret",
+            "asl": "bdiiniciador.asl"
+        },
+        {
+            "rank": "BDIMedic",
+            "name": "vlc_medic_allied",
+            "password": "secret",
+             "amount": 4,
+            "asl": "bdimedic.asl"
+        }
+   ]
+  }
