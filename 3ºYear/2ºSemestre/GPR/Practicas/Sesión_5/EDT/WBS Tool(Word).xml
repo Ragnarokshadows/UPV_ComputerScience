@@ -1,0 +1,6510 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?mso-application progid="Word.Document"?><w:wordDocument w:macrosPresent="no" w:embeddedObjPresent="no" w:ocxPresent="no" xmlns:w="http://schemas.microsoft.com/office/word/2003/wordml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:sl="http://schemas.microsoft.com/schemaLibrary/2003/core" xmlns:aml="http://schemas.microsoft.com/aml/2001/core" xmlns:wx="http://schemas.microsoft.com/office/word/2003/auxHint" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:wsp="http://schemas.microsoft.com/office/word/2003/wordml/sp2">
+  <w:ignoreElements w:val="http://schemas.microsoft.com/office/word/2003/wordml/sp2"/>
+  <w:styles>
+    <w:style w:type="table" w:styleId="Tabelacomgrade">
+      <w:name w:val="Table Grid"/>
+      <wx:uiName wx:val="Tabela com grade"/>
+      <w:basedOn w:val="Tabelanormal"/>
+      <w:rsid w:val="00E52491"/>
+      <w:rPr>
+        <wx:font wx:val="Times New Roman"/>
+      </w:rPr>
+      <w:tblPr>
+        <w:tblInd w:w="0" w:type="dxa"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+          <w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+          <w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+          <w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+          <w:insideH w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+          <w:insideV w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+        </w:tblBorders>
+        <w:tblCellMar>
+          <w:top w:w="0" w:type="dxa"/>
+          <w:left w:w="108" w:type="dxa"/>
+          <w:bottom w:w="0" w:type="dxa"/>
+          <w:right w:w="108" w:type="dxa"/>
+        </w:tblCellMar>
+      </w:tblPr>
+    </w:style>
+  </w:styles>
+  <w:docPr>
+    <w:view w:val="print"/>
+    <w:zoom w:percent="100"/>
+  </w:docPr>
+  <w:body>
+    <wx:sect>
+      <w:p>
+        <w:r>
+          <w:t>0 Task 0</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1 PRONEXE</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.1 Análisis</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.1.1 Elicitación de requisitos</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.1.1.1 Encuestas exploratorias</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.1.1.2 Obtener conclusiones</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.1.1.3 Valorar los posibles costes y beneficios</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.1.1.4 Alcance del proyecto</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.1.2 Análisis de requisitos</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.1.2.1 Storyboards</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.1.2.2 Casos de uso</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.1.2.3 Diagrama UML</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.1.2.4 Prototipo inicial</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.1.3 Validación</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.1.3.1 Pruebas del prototipo</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.1.3.2 Consulta a expertos</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.1.3.3 Reuniones con interesados</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.1.3.4 Reuniones del equipo de desarrollo</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.2 Diseño</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.2.1 Capa de presentacion o frontend</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.2.1.1 Vista del cliente</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.2.1.2 Vista del profesional</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.2.1.3 Vista del empleado</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.2.1.4 Versión web</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.2.2 Capa lógica</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.2.2.1 Revisión del diagrama UML</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.2.2.2 Establecimiento de librerias</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.2.2.3 Comunicacion con la capa de persistencia</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.2.3 Capa de persistencia</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.2.3.1 Diseño de las tablas y relaciones</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.2.3.2 Establecimiento de usuarios y permisos</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.2.3.3 Diseño de la base de datos</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.2.3.4 Comunicación con la capa lógica</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.3 Implementación</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.3.1 Capa de presentación</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.3.1.1 Interfaz gráfica de la aplicación</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.3.1.2 Interfaz versión web</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.3.1.3 Implementar la conexión con la capa lógica</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.3.2 Capa de lógica</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.3.2.1 Acceso a la capa de persistencia</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.3.2.2 Implementar el diagrama UML</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.3.2.3 Contruir servicios web</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.3.3 Capa de persistencia</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.3.3.1 Estructura de datos</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.3.3.2 Lógica de los datos</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.4 Verificación y pruebas</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.4.1 Pruebas funcionales</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.4.1.1 Pruebas unitarias</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.4.1.2 Acta de aprobación</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.4.2 Pruebas de integración</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.4.2.1 Pruebas de aplicación</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.4.2.2 Pruebas de web</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.4.2.3 Acta de aprobación</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.4.3 Pruebas de aceptación</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.4.3.1 Pruebas del departamento de calidad</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.4.3.2 Acta de aprobación</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.4.4 Pruebas de estrés</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.4.4.1 Base de datos</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.4.4.2 Acceso al servidor</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.4.4.3 Acceso a la web</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.4.4.4 Acta de aprobación</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.5 Despliegue e implementación</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.5.1 Base de datos</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.5.1.1 Poblar con datos</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.5.2 Servidor web</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.5.2.1 Implementación de servidores</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.5.2.2 Comprar dominio</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.5.2.3 Conexión con servicios de estadísticas</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.5.3 Aplicación</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.5.3.1 Detección de dependencias</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.5.3.2 Creación de contenedores</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.5.3.3 Despliegue de contenedores</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.5.4 Mantenimiento</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.5.4.1 Actualizaciones</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.5.4.2 Reuniones del equipo de desarrollo</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:r>
+          <w:t>1.5.4.3 Gestion de control</w:t>
+        </w:r>
+      </w:p>
+      <w:tbl>
+        <w:tblPr>
+          <w:tblStyle w:val="Tabelacomgrade"/>
+          <w:tblW w:w="0" w:type="auto"/>
+          <w:tblLook w:val="01E0"/>
+        </w:tblPr>
+        <w:tblGrid>
+          <w:gridCol w:w="4322"/>
+          <w:gridCol w:w="4322"/>
+        </w:tblGrid>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>0 Task 0</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1 PRONEXE</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 0</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.1 Análisis</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.1.1 Elicitación de requisitos</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.1.1.1 Encuestas exploratorias</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.1.1.2 Obtener conclusiones</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.1.1.3 Valorar los posibles costes y beneficios</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.1.1.4 Alcance del proyecto</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.1.2 Análisis de requisitos</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.1.2.1 Storyboards</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.1.2.2 Casos de uso</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.1.2.3 Diagrama UML</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.1.2.4 Prototipo inicial</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.1.3 Validación</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.1.3.1 Pruebas del prototipo</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.1.3.2 Consulta a expertos</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.1.3.3 Reuniones con interesados</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.1.3.4 Reuniones del equipo de desarrollo</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.2 Diseño</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.2.1 Capa de presentacion o frontend</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.2.1.1 Vista del cliente</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.2.1.2 Vista del profesional</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.2.1.3 Vista del empleado</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.2.1.4 Versión web</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.2.2 Capa lógica</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.2.2.1 Revisión del diagrama UML</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.2.2.2 Establecimiento de librerias</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.2.2.3 Comunicacion con la capa de persistencia</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.2.3 Capa de persistencia</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.2.3.1 Diseño de las tablas y relaciones</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.2.3.2 Establecimiento de usuarios y permisos</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.2.3.3 Diseño de la base de datos</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.2.3.4 Comunicación con la capa lógica</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.3 Implementación</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.3.1 Capa de presentación</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.3.1.1 Interfaz gráfica de la aplicación</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.3.1.2 Interfaz versión web</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.3.1.3 Implementar la conexión con la capa lógica</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.3.2 Capa de lógica</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.3.2.1 Acceso a la capa de persistencia</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.3.2.2 Implementar el diagrama UML</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.3.2.3 Contruir servicios web</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.3.3 Capa de persistencia</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.3.3.1 Estructura de datos</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.3.3.2 Lógica de los datos</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.4 Verificación y pruebas</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.4.1 Pruebas funcionales</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.4.1.1 Pruebas unitarias</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.4.1.2 Acta de aprobación</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.4.2 Pruebas de integración</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.4.2.1 Pruebas de aplicación</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.4.2.2 Pruebas de web</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.4.2.3 Acta de aprobación</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.4.3 Pruebas de aceptación</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.4.3.1 Pruebas del departamento de calidad</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.4.3.2 Acta de aprobación</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.4.4 Pruebas de estrés</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.4.4.1 Base de datos</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.4.4.2 Acceso al servidor</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.4.4.3 Acceso a la web</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.4.4.4 Acta de aprobación</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.5 Despliegue e implementación</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.5.1 Base de datos</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.5.1.1 Poblar con datos</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.5.2 Servidor web</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.5.2.1 Implementación de servidores</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.5.2.2 Comprar dominio</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.5.2.3 Conexión con servicios de estadísticas</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.5.3 Aplicación</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.5.3.1 Detección de dependencias</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.5.3.2 Creación de contenedores</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.5.3.3 Despliegue de contenedores</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.5.4 Mantenimiento</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.5.4.1 Actualizaciones</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.5.4.2 Reuniones del equipo de desarrollo</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge w:val="restart"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>1.5.4.3 Gestion de control</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Description:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Duration: 1</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Acceptance Criteria:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+              <w:vmerge/>
+            </w:tcPr>
+            <w:p/>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4322" w:type="dxa"/>
+            </w:tcPr>
+            <w:p>
+              <w:r>
+                <w:t>Resources:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+      </w:tbl>
+    </wx:sect>
+  </w:body>
+</w:wordDocument>
