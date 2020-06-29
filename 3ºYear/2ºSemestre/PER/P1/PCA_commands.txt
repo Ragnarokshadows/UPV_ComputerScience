@@ -1,0 +1,9 @@
+% X es una matriz con las muestras por filas y las características por columnas
+
+m=mean(X);
+Xm=X-m;
+covarianza=(Xm'*Xm)/rows(X);
+[eigvec, eigval] = eig(covarianza);
+[S I] = sort(diag(eigval),"descend");
+W = eigvec(:,I);
+Xr = (X-m) * W(:,1:i) % i es el número de dimensiones que se quieren representar 
