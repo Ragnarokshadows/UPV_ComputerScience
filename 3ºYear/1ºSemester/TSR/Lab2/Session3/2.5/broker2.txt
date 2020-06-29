@@ -1,0 +1,17 @@
+const zmq = require('zeromq')
+let workers=[]
+let sb = zmq.socket('dealer') // broker1
+let sw = zmq.socket('router') // backend
+sb.connect('tcp://127.0.0.1:9997')
+sw.bind('tcp://*:9999')
+sb.on('message',(c,sep,m)=> {
+	if(workers.length == 0){console.log("NO WORKER AVAILABLE. PACKET DROPEED: ["+c+","+sep+","+m+"]"); return;}
+		let worker = workers.shift()
+		sw.send([worker, '', c, '', m])
+		console.log("BROKER 2 ==> FROM CLI: " + c + " / TO WOR: " + worker + " / CONTENT: " + m + "(freeWorkers=" + workers.length + ")")
+})
+sw.on('message',(w,sep,c,sep2,r)=> {
+	workers.push(w)
+	sb.send(['',c,'',r])
+	console.log("BROKER 2 ==> FROM WOR: " + w + " / TO: CLI: " + c + " / CONTENT: " + r)
+})

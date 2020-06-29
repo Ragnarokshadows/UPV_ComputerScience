@@ -1,0 +1,297 @@
+// read1.js -------------------------------------------------------------------------
+const fs = require('fs');
+fs.readFile('/etc/hosts', 'utf8', function (err,data) {
+  if (err) {
+    return console.log(err);
+  }
+  console.log(data);
+})
+
+
+// write1.js ------------------------------------------------------------------------
+const fs = require('fs');
+fs.writeFile('/tmp/f', 'contenido del nuevo fichero', 'utf8', 
+  function (err) {
+  if (err) {
+    return console.log(err);
+  }
+  console.log('se ha completado la escritura');
+})
+
+//Módulo fiSys (fiSys.js) ------------------------------------------------------------
+//Ejemplo de módulo de funciones adaptadas para el uso de ficheros.
+//(Podrían haberse definido más funciones.)
+
+const fs=require("fs");
+
+function readFile(fichero,callbackError,callbackLectura){
+	fs.readFile(fichero,"utf8",function(error,datos){
+	        if(error) callbackError(fichero);
+	               else callbackLectura(datos);
+			
+	});
+} 
+
+
+function readFileSync(fichero){
+	var resultado; //retornará undefined si ocurre algún error en la lectura
+	try{
+	        resultado=fs.readFileSync(fichero,"utf8");
+	}catch(e){};
+	return resultado;
+}
+
+
+function writeFile(fichero,datos,callbackError,callbackEscritura){
+	fs.writeFile(fichero,datos,function(error){
+		if(error) callbackError(fichero);
+		       else callbackEscritura(fichero);
+	});
+}
+
+exports.readFile=readFile;
+exports.readFileSync=readFileSync;
+exports.writeFile=writeFile;
+
+
+//Lecturas de ficheros (read2.js) ---------------------------------------
+const fiSys=require("./fiSys");
+
+//Para la lectura asíncrona:
+console.log("Invocación lectura asíncrona");
+fiSys.readFile("/proc/loadavg",cbError,formato);
+console.log("Lectura asíncrona invocada\n\n");
+
+//Lectura síncrona
+console.log("Invocación lectura síncrona");
+const datos=fiSys.readFileSync("/proc/loadavg");
+if(datos!=undefined)formato(datos);
+	else console.log(datos);
+console.log("Lectura síncrona finalizada\n\n");
+
+//- - - - - - - - - - -
+function formato(datos){
+	const separador=" "; //espacio
+	const tokens = datos.toString().split(separador);
+	const min1 = parseFloat(tokens[0])+0.01;
+	const min5 = parseFloat(tokens[1])+0.01;
+	const min15 = parseFloat(tokens[2])+0.01;
+	const resultado=min1*10+min5*2+min15;
+	console.log(resultado);
+}
+
+function cbError(fichero){
+	console.log("ERROR DE LECTURA en "+fichero);
+}
+
+
+//Escritura asíncrona de ficheros (write2.js) -------------------------------
+const fiSys = require('./fiSys');
+
+fiSys.writeFile('texto.txt','contenido del nuevo fichero',cbError,cbEscritura);
+
+function cbEscritura(fichero){
+	console.log("escritura realizada en: "+fichero);
+}
+
+function cbError(fichero){
+	console.log("ERROR DE ESCRITURA en "+fichero);
+}
+
+//Emisor de eventos  (emisor1.js) ---------------------------------------------
+
+const ev = require('events');
+const emitter = new ev.EventEmitter();
+const e1 = "print", e2= "read";   // name of  events
+var n1 = 0, n2 = 0;         // auxiliary vars
+
+// register listener functions on the event emitter
+emitter.on(e1,
+    function() {
+        console.log('event '+e1+' '+n1+++' times')})
+emitter.on(e2,
+    function() {
+        console.log('event '+e2+' '+n2+++' times')})
+
+emitter.on(e1,  // more than one listener for the same event is possible
+    function() {
+       console.log('something has been printed!')})
+       
+//The event generation and propagation are synchronous
+
+emitter.emit(e1);
+emitter.emit(e2);
+console.log("---------------------------------------------------------");
+
+//The generation of events can be done asynchronously, for example,
+//by means of setTimeout or setInterval
+
+// Generate the events periodically
+setInterval(
+    function() {emitter.emit(e1);}, // generates e1
+    2000);                          // every 2 seconds
+
+setInterval(
+    function() {emitter.emit(e2);}, // generates e2
+    8000);                          // every 8 seconds
+    
+console.log("\n\t===========> end of code: events become emitted periodically\n")
+
+// Módulo generadorEventos  (generadorEvetnos.js) ---------------------------------
+
+const EventEmitter = require('events').EventEmitter;
+
+const emisor=new EventEmitter();
+
+function Evento(evento,entidadEmisora,valor){
+   return {
+	   emit:function(incr){
+                               valor += incr;
+                               emisor.emit(evento,entidadEmisora,evento,valor);
+                 },
+                on:function(listener){
+		   emisor.on(evento,listener);
+	   }
+   }
+}
+module.exports=Evento;
+
+//Emisor de eventos (emisor2.js) -------------------------------------------------
+
+const Evento=require("./generadorEventos");
+
+function visualizar(entidad,evento,dato){
+   console.log(entidad,evento+'··> ',dato);
+}
+
+const evento1 = 'e1';
+const evento2 = 'e2';
+
+const emisor1 = Evento(evento1,'emisor1:   ',0);
+const emisor2 = Evento(evento2,'emisor2:   ','');
+
+emisor1.on(visualizar);
+emisor2.on(visualizar);
+
+console.log('\n\n------->> inicial\n\n');
+
+for(var i=1;i<=3;i++) emisor1.emit(i);
+
+console.log('\n\n------------------>> intermedio\n\n');
+
+for(var i=1;i<=3;i++) emisor2.emit(i);
+
+console.log('\n\n-------------------------------->> fin\n\n');
+
+//Emisor de eventos (emisor3.js) -------------------------------------------
+
+const Evento=require("./generadorEventos");
+
+const evento1 = 'e1';
+const evento2 = 'e2';
+var incremento=0;
+
+const emisor1 = Evento(evento1,'emisor1:   ',0);
+const emisor2 = Evento(evento2,'emisor2:   ','');
+
+function visualizar(entidad,evento,dato){
+   console.log(entidad,evento+'··> ',dato);
+}
+
+emisor1.on(visualizar);
+emisor2.on(visualizar);
+
+
+emisiones();
+
+//. . . . . . . . . . . . . .
+
+// ejemploSencillo.js --------------------------------------------------
+const http = require('http');
+
+function dd(i) {return (i<10?"0":"")+i;}
+
+const server = http.createServer(
+    function (req,res) {
+        res.writeHead(200,{'Content-Type':'text/html'});
+        res.end('<marquee>Node y Http</marquee>');
+        var d = new Date();
+        console.log('alguien ha accedido a las '+
+            d.getHours() +":"+ 
+            dd(d.getMinutes()) +":"+
+            dd(d.getSeconds()));
+}).listen(8000)
+
+// netclient.js
+const net = require('net');
+
+const client = net.connect({port:8000}, 
+    function() { //connect listener
+        console.log('client connected');
+        client.write('world!\r\n');
+    });
+
+client.on('data', 
+    function(data) {
+        console.log(data.toString());
+        client.end(); //no more data written to the stream
+    });
+
+client.on('end', 
+    function() {
+        console.log('client disconnected');
+    });
+
+// netserver.js
+const net = require('net');
+
+const server = net.createServer( 
+    function(c) { //connection listener
+        console.log('server: client connected');
+        c.on('end', 
+            function() {
+                console.log('server: client disconnected');
+            });
+        c.on('data', 
+            function(data) {
+                c.write('Hello\r\n'+ data.toString()); // send resp
+                  c.end(); // close socket
+            });
+    });
+
+server.listen(8000,
+    function() { //listening listener
+        console.log('server bound'); 
+    });
+	
+// ---------------- función getLoad
+function getLoad(){
+  data=fs.readFileSync("/proc/loadavg"); //requiere fs
+  var tokens = data.toString().split(' ');
+  var min1  = parseFloat(tokens[0])+0.01;
+  var min5  = parseFloat(tokens[1])+0.01;
+  var min15 = parseFloat(tokens[2])+0.01;
+  return min1*10+min5*2+min15;
+};
+
+// proxy.js
+const net = require('net');
+
+const LOCAL_PORT  = 8000;
+const LOCAL_IP  = '127.0.0.1';
+const REMOTE_PORT = 80;
+const REMOTE_IP = '158.42.4.23'; // www.upv.es
+
+const server = net.createServer(function (socket) {
+      const serviceSocket = new net.Socket();
+      serviceSocket.connect(parseInt(REMOTE_PORT),   
+         REMOTE_IP, function () {
+          socket.on('data', function (msg) {
+               serviceSocket.write(msg);
+          });
+          serviceSocket.on('data', function (data) {
+             socket.write(data);
+          });
+      });
+}).listen(LOCAL_PORT, LOCAL_IP);
+console.log("TCP server accepting connection on port: " + LOCAL_PORT);

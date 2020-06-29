@@ -1,0 +1,2686 @@
+%PDF-1.2
+%‚„œ”
+%%IncludeResource: font Times-Roman
+2 0 obj
+<<
+/Type /Encoding
+/Differences [ 0
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/space /exclam /quotedbl /numbersign /dollar /percent /ampersand /quoteright
+/parenleft /parenright /asterisk /plus /comma /hyphen /period /slash
+/zero /one /two /three /four /five /six /seven
+/eight /nine /colon /semicolon /less /equal /greater /question
+/at /A /B /C /D /E /F /G
+/H /I /J /K /L /M /N /O
+/P /Q /R /S /T /U /V /W
+/X /Y /Z /bracketleft /backslash /bracketright /asciicircum /underscore
+/quoteleft /a /b /c /d /e /f /g
+/h /i /j /k /l /m /n /o
+/p /q /r /s /t /u /v /w
+/x /y /z /braceleft /bar /braceright /asciitilde /.notdef
+/quotesinglbase /quotedblbase /ellipsis /OE /oe /quotedblleft /quotedblright /fi
+/fl /endash /emdash /bullet /dagger /daggerdbl /florin /fraction
+/dotlessi /grave /acute /circumflex /tilde /macron /breve /dotaccent
+/dieresis /.notdef /ring /cedilla /.notdef /hungarumlaut /ogonek /caron
+/space /exclamdown /cent /sterling /currency /yen /brokenbar /section
+/dieresis /copyright /ordfeminine /guillemotleft /logicalnot /hyphen /registered /macron
+/degree /plusminus /twosuperior /threesuperior /acute /mu /paragraph /periodcentered
+/cedilla /onesuperior /ordmasculine /guillemotright /onequarter /onehalf /threequarters /questiondown
+/Agrave /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE /Ccedilla
+/Egrave /Eacute /Ecircumflex /Edieresis /Igrave /Iacute /Icircumflex /Idieresis
+/Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde /Odieresis /multiply
+/Oslash /Ugrave /Uacute /Ucircumflex /Udieresis /Yacute /Thorn /germandbls
+/agrave /aacute /acircumflex /atilde /adieresis /aring /ae /ccedilla
+/egrave /eacute /ecircumflex /edieresis /igrave /iacute /icircumflex /idieresis
+/eth /ntilde /ograve /oacute /ocircumflex /otilde /odieresis /divide
+/oslash /ugrave /uacute /ucircumflex /udieresis /yacute /thorn /ydieresis
+]
+>>
+endobj
+%%IncludeResource: font Times-Bold
+%%IncludeResource: font Times-Italic
+%%IncludeResource: font Courier
+4 0 obj
+<< /Length 5 0 R >>
+stream
+0.05 0 0 0.05 0 0 cm
+10 w
+q
+/F0 240 Tf
+0.0 0.0 0.0 rg 0.0 0.0 0.0 RG q
+% @DoBackground/LoutPageSet UNIMPLEMENTED
+Q
+q
+1.0 1.0 1.0 rg 1.0 1.0 1.0 RG q
+0 0 m 11900 0 l 11900 16840 l 0 16840 l h
+q 1.0 1.0 1.0 rg 1.0 1.0 1.0 RG f Q 0.00 w S
+Q
+q
+1 0 0 1 0.00 16840.00 cm
+q
+1 0 0 1 567.00 -850.00 cm
+0.0 0.0 0.0 rg 0.0 0.0 0.0 RG q
+% @MargSet/LoutMargSet UNIMPLEMENTED
+Q
+
+Q
+q
+1 0 0 1 567.00 -15990.00 cm
+0.0 0.0 0.0 rg 0.0 0.0 0.0 RG q
+% @MargSet/LoutMargSet UNIMPLEMENTED
+Q
+q
+1 0 0 1 480.00 14489.00 cm
+q
+72 0 m
+10214.00 0 l
+10253.00 0
+10286 33.00
+10286 72 c
+10286 291.00 l
+10286 330.00
+10253.00 363
+10214.00 363 c
+72 363 l
+33.00 363
+0 330.00
+0 291.00 c
+0 72 l
+0 33.00
+33.00 0
+72 0 c
+h
+ S
+Q
+/F1 240 Tf
+BT
+1 0 0 1 72 121 Tm
+[(TSR)]TJ
+1599 0 Td
+[(Recuperaci\363n)]TJ
+2538 0 Td
+[(Pr\341ctica)]TJ
+907 0 Td
+[(1)]TJ
+1808 0 Td
+[(2019-01-25)]TJ
+3124 0 Td
+[(A)]TJ
+ET
+
+Q
+/F2 240 Tf
+BT
+1 0 0 1 0 13376 Tm
+[(Esta)]TJ
+490 0 Td
+[(prueba)]TJ
+745 0 Td
+[(tiene)]TJ
+528 0 Td
+[(un)]TJ
+304 0 Td
+[(valor)]TJ
+581 0 Td
+[(de)]TJ
+290 0 Td
+[(1)]TJ
+169 0 Td
+[(punto,)]TJ
+650 0 Td
+[(y)]TJ
+173 0 Td
+[(consta)]TJ
+691 0 Td
+[(de)]TJ
+289 0 Td
+[(6)]TJ
+196 0 Td
+[(cuestiones)]TJ
+1062 0 Td
+[(tipo)]TJ
+435 0 Td
+[(test.)]TJ
+436 0 Td
+[(Cada)]TJ
+586 0 Td
+[(cuesti\363n)]TJ
+861 0 Td
+[(plantea)]TJ
+784 0 Td
+[(4)]TJ
+186 0 Td
+[(alternativas)]TJ
+1208 0 Td
+[(y)]TJ
+1 0 0 1 0 13088 Tm
+[(tiene)]TJ
+504 0 Td
+[(una)]TJ
+401 0 Td
+[(\372nica)]TJ
+573 0 Td
+[(r)37(espuesta)]TJ
+951 0 Td
+[(corr)37(ecta.)]TJ
+882 0 Td
+[(Cada)]TJ
+561 0 Td
+[(r)37(espuesta)]TJ
+951 0 Td
+[(corr)37(ecta)]TJ
+843 0 Td
+[(aporta)]TJ
+680 0 Td
+[(1/6)]TJ
+358 0 Td
+[(puntos,)]TJ
+718 0 Td
+[(y)]TJ
+148 0 Td
+[(cada)]TJ
+508 0 Td
+[(err)45(or)]TJ
+546 0 Td
+[(descuenta)]TJ
+998 0 Td
+[(1/18)]TJ
+471 0 Td
+[(puntos.)]TJ
+1 0 0 1 0 12800 Tm
+[(Debe)]TJ
+558 0 Td
+[(contestar)]TJ
+955 0 Td
+[(en)]TJ
+280 0 Td
+[(la)]TJ
+241 0 Td
+[(hoja)]TJ
+481 0 Td
+[(de)]TJ
+279 0 Td
+[(r)37(espuestas.)]TJ
+ET
+q
+1 0 0 1 0.00 11369.00 cm
+/F1 240 Tf
+q
+72 0 m
+179.00 0 l
+218.00 0
+251 33.00
+251 72 c
+251 236.00 l
+251 275.00
+218.00 308
+179.00 308 c
+72 308 l
+33.00 308
+0 275.00
+0 236.00 c
+0 72 l
+0 33.00
+33.00 0
+72 0 c
+h
+ S
+Q
+BT
+1 0 0 1 72 72 Tm
+[(1)]TJ
+ET
+
+Q
+BT
+1 0 0 1 512 11505 Tm
+[(Se\361ala)]TJ
+689 0 Td
+[(la)]TJ
+223 0 Td
+[(opci\363n)]TJ
+688 0 Td
+[(corr)37(ecta)]TJ
+839 0 Td
+[(sobr)37(e)]TJ
+559 0 Td
+[(el)]TJ
+214 0 Td
+[(pr)45(oxy)]TJ
+573 0 Td
+[(desarr)45(o-)]TJ
+1 0 0 1 512 11217 Tm
+[(llado)]TJ
+545 0 Td
+[(en)]TJ
+280 0 Td
+[(el)]TJ
+232 0 Td
+[(bloque)]TJ
+705 0 Td
+[(1)]TJ
+159 0 Td
+[(de)]TJ
+279 0 Td
+[(pr)15(\341cticas:)]TJ
+/F1 240 Tf
+1 0 0 1 240 10848 Tm
+[(a)]TJ
+/F0 240 Tf
+1 0 0 1 512 10849 Tm
+[(La)]TJ
+312 0 Td
+[(respuesta)]TJ
+949 0 Td
+[(del)]TJ
+347 0 Td
+[(servidor)]TJ
+843 0 Td
+[(remoto)]TJ
+730 0 Td
+[(accedido)]TJ
+903 0 Td
+[(a)]TJ
+1 0 0 1 512 10561 Tm
+[(tra)20(v)15(\351s)]TJ
+614 0 Td
+[(del)]TJ
+347 0 Td
+[(proxy)]TJ
+613 0 Td
+[(lle)15(g)5(a)]TJ
+520 0 Td
+[(directamente)]TJ
+1289 0 Td
+[(al)]TJ
+227 0 Td
+[(cliente.)]TJ
+/F1 240 Tf
+1 0 0 1 240 10190 Tm
+[(b)]TJ
+/F0 240 Tf
+1 0 0 1 512 10191 Tm
+[(T)80(odas)]TJ
+597 0 Td
+[(las)]TJ
+296 0 Td
+[(respuestas)]TJ
+1013 0 Td
+[(del)]TJ
+327 0 Td
+[(servidor)]TJ
+823 0 Td
+[(remoto)]TJ
+709 0 Td
+[(accedi-)]TJ
+1 0 0 1 512 9903 Tm
+[(do)]TJ
+282 0 Td
+[(a)]TJ
+155 0 Td
+[(tra)20(v)15(\351s)]TJ
+603 0 Td
+[(del)]TJ
+336 0 Td
+[(proxy)]TJ
+602 0 Td
+[(son)]TJ
+379 0 Td
+[(procesadas)]TJ
+1089 0 Td
+[(por)]TJ
+368 0 Td
+[(el)]TJ
+216 0 Td
+[(mis-)]TJ
+1 0 0 1 512 9615 Tm
+[(mo)]TJ
+359 0 Td
+[(listener)]TJ
+762 0 Td
+[(en)]TJ
+283 0 Td
+[(el)]TJ
+227 0 Td
+[(proxy)65(.)]TJ
+ET
+q
+1 0 0 1 0.00 9063.00 cm
+/F1 240 Tf
+q
+96.00 0 m 343 0 l
+343 260.00 l
+295.00 260.00 l
+295.00 48 l
+96.00 48 l h f
+Q
+q
+1 0 0 1 48.00 48.00 cm
+q
+0 0 m 247 0 l 247 260 l 0 260 l h
+ S
+Q
+BT
+1 0 0 1 72 75 Tm
+[(c)]TJ
+ET
+
+Q
+
+Q
+BT
+1 0 0 1 512 9245 Tm
+[(Cada)]TJ
+552 0 Td
+[(v)15(ez)]TJ
+383 0 Td
+[(que)]TJ
+402 0 Td
+[(se)]TJ
+255 0 Td
+[(conecta)]TJ
+790 0 Td
+[(un)]TJ
+297 0 Td
+[(cliente)]TJ
+692 0 Td
+[(al)]TJ
+227 0 Td
+[(proxy)65(,)]TJ
+1 0 0 1 512 8957 Tm
+[(un)]TJ
+297 0 Td
+[(nue)25(v)20(o)]TJ
+629 0 Td
+[(listener)]TJ
+762 0 Td
+[(se)]TJ
+255 0 Td
+[(asigna)]TJ
+671 0 Td
+[(y)]TJ
+174 0 Td
+[(crea)]TJ
+457 0 Td
+[(una)]TJ
+406 0 Td
+[(nue)25(v)25(a)]TJ
+1 0 0 1 512 8669 Tm
+[(cone)15(xi\363n)]TJ
+932 0 Td
+[(al)]TJ
+227 0 Td
+[(servidor)]TJ
+843 0 Td
+[(remoto.)]TJ
+/F1 240 Tf
+1 0 0 1 240 8347 Tm
+[(d)]TJ
+/F0 240 Tf
+1 0 0 1 512 8348 Tm
+[(Las)]TJ
+376 0 Td
+[(respuestas)]TJ
+1012 0 Td
+[(del)]TJ
+327 0 Td
+[(servidor)]TJ
+822 0 Td
+[(remoto)]TJ
+710 0 Td
+[(se)]TJ
+234 0 Td
+[(reciben)]TJ
+739 0 Td
+[(en)]TJ
+1 0 0 1 512 8060 Tm
+[(el)]TJ
+225 0 Td
+[(proxy)]TJ
+611 0 Td
+[(en)]TJ
+281 0 Td
+[(el)]TJ
+225 0 Td
+[(mismo)]TJ
+702 0 Td
+[(orden)]TJ
+600 0 Td
+[(en)]TJ
+281 0 Td
+[(el)]TJ
+225 0 Td
+[(que)]TJ
+400 0 Td
+[(recibe)]TJ
+637 0 Td
+[(las)]TJ
+1 0 0 1 512 7772 Tm
+[(peticiones)]TJ
+1020 0 Td
+[(el)]TJ
+227 0 Td
+[(proxy)]TJ
+613 0 Td
+[(efectuadas)]TJ
+1059 0 Td
+[(desde)]TJ
+601 0 Td
+[(distintos)]TJ
+1 0 0 1 512 7484 Tm
+[(clientes.)]TJ
+ET
+q
+1 0 0 1 0.00 6454.00 cm
+/F1 240 Tf
+q
+72 0 m
+187.00 0 l
+226.00 0
+259 33.00
+259 72 c
+259 236.00 l
+259 275.00
+226.00 308
+187.00 308 c
+72 308 l
+33.00 308
+0 275.00
+0 236.00 c
+0 72 l
+0 33.00
+33.00 0
+72 0 c
+h
+ S
+Q
+BT
+1 0 0 1 72 72 Tm
+[(2)]TJ
+ET
+
+Q
+/F2 240 Tf
+BT
+1 0 0 1 512 6590 Tm
+[(La)]TJ
+308 0 Td
+[(funcion)]TJ
+/F3 220 Tf
+1 0 0 1 1592 6596 Tm
+[(getLoad\(\))]TJ
+/F2 240 Tf
+1 0 0 1 2780 6590 Tm
+[(,)]TJ
+93 0 Td
+[(usada)]TJ
+628 0 Td
+[(en)]TJ
+280 0 Td
+[(el)]TJ
+232 0 Td
+[(bloque)]TJ
+705 0 Td
+[(1)]TJ
+1 0 0 1 512 6302 Tm
+[(de)]TJ
+279 0 Td
+[(pr)15(\341cticas)]TJ
+ET
+q
+1 0 0 1 0.00 5752.00 cm
+/F1 240 Tf
+q
+96.00 0 m 358 0 l
+358 260.00 l
+310.00 260.00 l
+310.00 48 l
+96.00 48 l h f
+Q
+q
+1 0 0 1 48.00 48.00 cm
+q
+0 0 m 262 0 l 262 260 l 0 260 l h
+ S
+Q
+BT
+1 0 0 1 72 75 Tm
+[(a)]TJ
+ET
+
+Q
+
+Q
+/F0 240 Tf
+BT
+1 0 0 1 512 5934 Tm
+[(Determina)]TJ
+1068 0 Td
+[(la)]TJ
+232 0 Td
+[(capacidad)]TJ
+1014 0 Td
+[(del)]TJ
+347 0 Td
+[(servidor)]TJ
+843 0 Td
+[(para)]TJ
+471 0 Td
+[(reci-)]TJ
+1 0 0 1 512 5646 Tm
+[(bir)]TJ
+325 0 Td
+[(peticiones.)]TJ
+/F1 240 Tf
+1 0 0 1 240 5275 Tm
+[(b)]TJ
+/F0 240 Tf
+1 0 0 1 512 5276 Tm
+[(De)25(vuelv)15(e)]TJ
+964 0 Td
+[(la)]TJ
+232 0 Td
+[(cantidad)]TJ
+868 0 Td
+[(de)]TJ
+282 0 Td
+[(peticiones)]TJ
+1020 0 Td
+[(que)]TJ
+402 0 Td
+[(est\341n)]TJ
+1 0 0 1 512 4988 Tm
+[(siendo)]TJ
+678 0 Td
+[(procesadas)]TJ
+1100 0 Td
+[(por)]TJ
+379 0 Td
+[(el)]TJ
+227 0 Td
+[(servidor)55(.)]TJ
+/F1 240 Tf
+1 0 0 1 240 4617 Tm
+[(c)]TJ
+/F0 240 Tf
+1 0 0 1 512 4618 Tm
+[(Requiere)]TJ
+914 0 Td
+[(la)]TJ
+227 0 Td
+[(IP)]TJ
+264 0 Td
+[(del)]TJ
+342 0 Td
+[(cliente)]TJ
+687 0 Td
+[(para)]TJ
+466 0 Td
+[(poder)]TJ
+600 0 Td
+[(responder)]TJ
+1 0 0 1 512 4330 Tm
+[(al)]TJ
+227 0 Td
+[(mismo.)]TJ
+/F1 240 Tf
+1 0 0 1 240 4009 Tm
+[(d)]TJ
+/F0 240 Tf
+1 0 0 1 512 4010 Tm
+[(De)25(vuelv)15(e)]TJ
+964 0 Td
+[(junto)]TJ
+545 0 Td
+[(al)]TJ
+227 0 Td
+[(resultado)]TJ
+929 0 Td
+[(la)]TJ
+232 0 Td
+[(IP)]TJ
+269 0 Td
+[(del)]TJ
+347 0 Td
+[(servidor)40(,)]TJ
+1 0 0 1 512 3722 Tm
+[(para)]TJ
+471 0 Td
+[(determinar)]TJ
+1094 0 Td
+[(claramente)]TJ
+1103 0 Td
+[(el)]TJ
+227 0 Td
+[(servidor)]TJ
+843 0 Td
+[(al)]TJ
+227 0 Td
+[(que)]TJ
+1 0 0 1 512 3434 Tm
+[(corresponde)]TJ
+1225 0 Td
+[(el)]TJ
+227 0 Td
+[(resultado.)]TJ
+ET
+q
+1 0 0 1 5666.00 11654.00 cm
+/F1 240 Tf
+q
+72 0 m
+185.00 0 l
+224.00 0
+257 33.00
+257 72 c
+257 239.00 l
+257 278.00
+224.00 311
+185.00 311 c
+72 311 l
+33.00 311
+0 278.00
+0 239.00 c
+0 72 l
+0 33.00
+33.00 0
+72 0 c
+h
+ S
+Q
+BT
+1 0 0 1 72 75 Tm
+[(3)]TJ
+ET
+
+Q
+/F2 240 Tf
+BT
+1 0 0 1 6178 11793 Tm
+[(Suponemos)]TJ
+1123 0 Td
+[(el)]TJ
+208 0 Td
+[(m\363dulo)]TJ
+/F3 220 Tf
+1 0 0 1 8257 11799 Tm
+[(generadorEventos.js)]TJ
+/F2 240 Tf
+1 0 0 1 6178 11505 Tm
+[(de)]TJ
+262 0 Td
+[(la)]TJ
+223 0 Td
+[(pr)15(\341ctica)]TJ
+832 0 Td
+[(1)]TJ
+141 0 Td
+[(\(primer)]TJ
+777 0 Td
+[(c\363digo\),)]TJ
+807 0 Td
+[(y)]TJ
+144 0 Td
+[(una)]TJ
+397 0 Td
+[(aplicaci\363n)]TJ
+1 0 0 1 6178 11217 Tm
+[(que)]TJ
+394 0 Td
+[(cr)37(ea)]TJ
+467 0 Td
+[(dos)]TJ
+382 0 Td
+[(objetos)]TJ
+741 0 Td
+[(de)]TJ
+274 0 Td
+[(tipo)]TJ
+419 0 Td
+[(Evento)]TJ
+712 0 Td
+[(y)]TJ
+157 0 Td
+[(emite)]TJ
+564 0 Td
+[(c\355cli-)]TJ
+1 0 0 1 6178 10929 Tm
+[(camente)]TJ
+850 0 Td
+[(los)]TJ
+334 0 Td
+[(e)15(ventos)]TJ
+769 0 Td
+[(1)]TJ
+159 0 Td
+[(y)]TJ
+162 0 Td
+[(2)]TJ
+169 0 Td
+[(por)]TJ
+398 0 Td
+[(etapas,)]TJ
+718 0 Td
+[(mostr)15(ando)]TJ
+1 0 0 1 6178 10641 Tm
+[(en)]TJ
+280 0 Td
+[(cada)]TJ
+521 0 Td
+[(etapa)]TJ
+587 0 Td
+[(su)]TJ
+267 0 Td
+[(dur)15(aci\363n)]TJ
+916 0 Td
+[(\(se)40(gundo)]TJ
+922 0 Td
+[(c\363digo,)]TJ
+745 0 Td
+[(in-)]TJ
+1 0 0 1 6178 10353 Tm
+[(completo\).)]TJ
+ET
+q
+1 0 0 1 5666.00 6697.00 cm
+/F0 240 Tf
+q
+0 0 m 12 0 l 12 3534 l 0 3534 l h q 0.0 0.0 0.0 rg 0.0 0.0 0.0 RG f Q S
+Q
+
+Q
+q
+1 0 0 1 10765.00 6697.00 cm
+/F0 240 Tf
+q
+0 0 m 12 0 l 12 3534 l 0 3534 l h q 0.0 0.0 0.0 rg 0.0 0.0 0.0 RG f Q S
+Q
+
+Q
+q
+1 0 0 1 5666.00 10219.00 cm
+/F0 240 Tf
+q
+0 0 m 5099 0 l 5099 12 l 0 12 l h q 0.0 0.0 0.0 rg 0.0 0.0 0.0 RG f Q S
+Q
+
+Q
+q
+1 0 0 1 5666.00 6685.00 cm
+/F0 240 Tf
+q
+0 0 m 5099 0 l 5099 12 l 0 12 l h q 0.0 0.0 0.0 rg 0.0 0.0 0.0 RG f Q S
+Q
+
+Q
+q
+1 0 0 1 10765.00 10219.00 cm
+/F0 240 Tf
+q
+0 0 m 12 0 l 12 12 l 0 12 l h q 0.0 0.0 0.0 rg 0.0 0.0 0.0 RG f Q S
+Q
+
+Q
+q
+1 0 0 1 10765.00 6685.00 cm
+/F0 240 Tf
+q
+0 0 m 12 0 l 12 12 l 0 12 l h q 0.0 0.0 0.0 rg 0.0 0.0 0.0 RG f Q S
+Q
+
+Q
+/F1 240 Tf
+BT
+1 0 0 1 5810 9984 Tm
+[(const)]TJ
+/F2 240 Tf
+1 0 0 1 6401 9987 Tm
+[(ee)]TJ
+/F0 240 Tf
+1 0 0 1 6666 9985 Tm
+[(=)]TJ
+/F2 240 Tf
+1 0 0 1 6854 9987 Tm
+[(r)37(equir)37(e)]TJ
+/F0 240 Tf
+1 0 0 1 7535 9985 Tm
+[(\()]TJ
+/F2 240 Tf
+1 0 0 1 7608 9987 Tm
+[('e)15(vents')]TJ
+/F0 240 Tf
+1 0 0 1 8350 9985 Tm
+[(\).)]TJ
+/F2 240 Tf
+1 0 0 1 8473 9987 Tm
+[(EventEmitter)]TJ
+/F1 240 Tf
+1 0 0 1 5810 9696 Tm
+[(const)]TJ
+/F2 240 Tf
+1 0 0 1 6401 9699 Tm
+[(emisor)]TJ
+/F0 240 Tf
+1 0 0 1 7057 9697 Tm
+[(=)]TJ
+/F1 240 Tf
+1 0 0 1 7185 9696 Tm
+[(new)]TJ
+/F2 240 Tf
+1 0 0 1 7654 9699 Tm
+[(ee)]TJ
+/F0 240 Tf
+1 0 0 1 7859 9697 Tm
+[(\(\))]TJ
+/F2 240 Tf
+1 0 0 1 5810 9411 Tm
+[(function)]TJ
+838 0 Td
+[(Evento)]TJ
+/F0 240 Tf
+1 0 0 1 7305 9409 Tm
+[(\()]TJ
+/F2 240 Tf
+1 0 0 1 7378 9411 Tm
+[(e)15(vento)]TJ
+/F0 240 Tf
+1 0 0 1 7992 9409 Tm
+[(,)]TJ
+/F2 240 Tf
+1 0 0 1 8039 9411 Tm
+[(emitter)]TJ
+/F0 240 Tf
+1 0 0 1 8720 9409 Tm
+[(,)]TJ
+/F2 240 Tf
+1 0 0 1 8767 9411 Tm
+[(n)]TJ
+/F0 240 Tf
+1 0 0 1 8881 9409 Tm
+[(\){)]TJ
+/F1 240 Tf
+1 0 0 1 5990 9120 Tm
+[(r)18(etur)15(n)]TJ
+/F0 240 Tf
+1 0 0 1 6702 9121 Tm
+[({)]TJ
+/F2 240 Tf
+1 0 0 1 6170 8835 Tm
+[(emit)]TJ
+/F0 240 Tf
+1 0 0 1 6585 8833 Tm
+[(:)]TJ
+/F2 240 Tf
+1 0 0 1 6631 8835 Tm
+[(function)]TJ
+/F0 240 Tf
+1 0 0 1 7409 8833 Tm
+[(\()]TJ
+/F2 240 Tf
+1 0 0 1 7482 8835 Tm
+[(incr)]TJ
+/F0 240 Tf
+1 0 0 1 7872 8833 Tm
+[(\){)]TJ
+/F2 240 Tf
+1 0 0 1 6410 8547 Tm
+[(n)]TJ
+/F0 240 Tf
+1 0 0 1 6584 8545 Tm
+[(+=)]TJ
+/F2 240 Tf
+1 0 0 1 6907 8547 Tm
+[(incr)]TJ
+/F0 240 Tf
+1 0 0 1 7297 8545 Tm
+[(;)]TJ
+/F2 240 Tf
+1 0 0 1 7409 8547 Tm
+[(emisor)]TJ
+/F0 240 Tf
+1 0 0 1 8065 8545 Tm
+[(.)]TJ
+/F2 240 Tf
+1 0 0 1 8109 8547 Tm
+[(emit)]TJ
+/F0 240 Tf
+1 0 0 1 8524 8545 Tm
+[(\()]TJ
+/F2 240 Tf
+1 0 0 1 8597 8547 Tm
+[(e)15(vento)]TJ
+/F0 240 Tf
+1 0 0 1 9211 8545 Tm
+[(,)]TJ
+/F2 240 Tf
+1 0 0 1 9258 8547 Tm
+[(emitter)]TJ
+/F0 240 Tf
+1 0 0 1 9939 8545 Tm
+[(,)]TJ
+/F2 240 Tf
+1 0 0 1 9986 8547 Tm
+[(n)]TJ
+/F0 240 Tf
+1 0 0 1 10100 8545 Tm
+[(\))]TJ
+1 0 0 1 6170 8257 Tm
+[(},)]TJ
+/F2 240 Tf
+1 0 0 1 6170 7971 Tm
+[(on)]TJ
+/F0 240 Tf
+1 0 0 1 6404 7969 Tm
+[(:)]TJ
+/F2 240 Tf
+1 0 0 1 5810 7683 Tm
+[(function)]TJ
+/F0 240 Tf
+1 0 0 1 6588 7681 Tm
+[(\()]TJ
+/F2 240 Tf
+1 0 0 1 6661 7683 Tm
+[(listener)]TJ
+/F0 240 Tf
+1 0 0 1 7382 7681 Tm
+[(\){)]TJ
+/F2 240 Tf
+1 0 0 1 7545 7683 Tm
+[(emisor)]TJ
+/F0 240 Tf
+1 0 0 1 8201 7681 Tm
+[(.)]TJ
+/F2 240 Tf
+1 0 0 1 8245 7683 Tm
+[(on)]TJ
+/F0 240 Tf
+1 0 0 1 8479 7681 Tm
+[(\()]TJ
+/F2 240 Tf
+1 0 0 1 8552 7683 Tm
+[(e)15(vento)]TJ
+/F0 240 Tf
+1 0 0 1 9166 7681 Tm
+[(,)]TJ
+/F2 240 Tf
+1 0 0 1 9213 7683 Tm
+[(listener)]TJ
+/F0 240 Tf
+1 0 0 1 9934 7681 Tm
+[(\)})]TJ
+1 0 0 1 5990 7393 Tm
+[(})]TJ
+1 0 0 1 5810 7105 Tm
+[(})]TJ
+/F2 240 Tf
+1 0 0 1 5810 6819 Tm
+[(module)]TJ
+/F0 240 Tf
+1 0 0 1 6508 6817 Tm
+[(.)]TJ
+/F2 240 Tf
+1 0 0 1 6552 6819 Tm
+[(e)20(xports)]TJ
+/F0 240 Tf
+1 0 0 1 7247 6817 Tm
+[(=)]TJ
+/F2 240 Tf
+1 0 0 1 7375 6819 Tm
+[(Evento)]TJ
+ET
+q
+1 0 0 1 5666.00 3457.00 cm
+/F0 240 Tf
+q
+0 0 m 12 0 l 12 3240 l 0 3240 l h q 0.0 0.0 0.0 rg 0.0 0.0 0.0 RG f Q S
+Q
+
+Q
+q
+1 0 0 1 10765.00 3457.00 cm
+/F0 240 Tf
+q
+0 0 m 12 0 l 12 3240 l 0 3240 l h q 0.0 0.0 0.0 rg 0.0 0.0 0.0 RG f Q S
+Q
+
+Q
+q
+1 0 0 1 5666.00 6685.00 cm
+/F0 240 Tf
+q
+0 0 m 5099 0 l 5099 12 l 0 12 l h q 0.0 0.0 0.0 rg 0.0 0.0 0.0 RG f Q S
+Q
+
+Q
+q
+1 0 0 1 5666.00 3445.00 cm
+/F0 240 Tf
+q
+0 0 m 5099 0 l 5099 12 l 0 12 l h q 0.0 0.0 0.0 rg 0.0 0.0 0.0 RG f Q S
+Q
+
+Q
+q
+1 0 0 1 10765.00 6685.00 cm
+/F0 240 Tf
+q
+0 0 m 12 0 l 12 12 l 0 12 l h q 0.0 0.0 0.0 rg 0.0 0.0 0.0 RG f Q S
+Q
+
+Q
+q
+1 0 0 1 10765.00 3445.00 cm
+/F0 240 Tf
+q
+0 0 m 12 0 l 12 12 l 0 12 l h q 0.0 0.0 0.0 rg 0.0 0.0 0.0 RG f Q S
+Q
+
+Q
+/F1 240 Tf
+BT
+1 0 0 1 5810 6450 Tm
+[(const)]TJ
+/F2 240 Tf
+1 0 0 1 6401 6453 Tm
+[(Evento)]TJ
+/F0 240 Tf
+1 0 0 1 7058 6451 Tm
+[(=)]TJ
+/F2 240 Tf
+1 0 0 1 7186 6453 Tm
+[(r)37(equir)37(e)]TJ
+/F0 240 Tf
+1 0 0 1 7867 6451 Tm
+[(\()]TJ
+/F2 240 Tf
+1 0 0 1 7940 6453 Tm
+[("./g)10(ener)15(adorEventos")]TJ
+/F0 240 Tf
+1 0 0 1 10018 6451 Tm
+[(\))]TJ
+/F1 240 Tf
+1 0 0 1 5810 6162 Tm
+[(const)]TJ
+/F2 240 Tf
+1 0 0 1 6401 6165 Tm
+[(e)15(vento1)]TJ
+/F0 240 Tf
+1 0 0 1 7181 6163 Tm
+[(=)]TJ
+/F2 240 Tf
+1 0 0 1 7369 6165 Tm
+[('e1')]TJ
+/F0 240 Tf
+1 0 0 1 7743 6163 Tm
+[(,)]TJ
+/F2 240 Tf
+1 0 0 1 7850 6165 Tm
+[(e)15(vento2)]TJ
+/F0 240 Tf
+1 0 0 1 8640 6163 Tm
+[(=)]TJ
+/F2 240 Tf
+1 0 0 1 8828 6165 Tm
+[('e2')]TJ
+1 0 0 1 5810 5877 Tm
+[(var)]TJ
+384 0 Td
+[(incr)37(emento)]TJ
+/F0 240 Tf
+1 0 0 1 7255 5875 Tm
+[(=0)]TJ
+/F1 240 Tf
+1 0 0 1 5810 5586 Tm
+[(const)]TJ
+/F2 240 Tf
+1 0 0 1 6401 5589 Tm
+[(emisor1)]TJ
+/F0 240 Tf
+1 0 0 1 7211 5587 Tm
+[(=)]TJ
+/F2 240 Tf
+1 0 0 1 7399 5589 Tm
+[(Evento)]TJ
+/F0 240 Tf
+1 0 0 1 8056 5587 Tm
+[(\()]TJ
+/F2 240 Tf
+1 0 0 1 8129 5589 Tm
+[(e)15(vento1)]TJ
+/F0 240 Tf
+1 0 0 1 8849 5587 Tm
+[(,)]TJ
+/F2 240 Tf
+1 0 0 1 8896 5589 Tm
+[('emisor1:)]TJ
+1032 0 Td
+[(')]TJ
+/F0 240 Tf
+1 0 0 1 9997 5587 Tm
+[(,0\))]TJ
+/F1 240 Tf
+1 0 0 1 5810 5298 Tm
+[(const)]TJ
+/F2 240 Tf
+1 0 0 1 6401 5301 Tm
+[(emisor2)]TJ
+/F0 240 Tf
+1 0 0 1 7221 5299 Tm
+[(=)]TJ
+/F2 240 Tf
+1 0 0 1 7409 5301 Tm
+[(Evento)]TJ
+/F0 240 Tf
+1 0 0 1 8066 5299 Tm
+[(\()]TJ
+/F2 240 Tf
+1 0 0 1 8139 5301 Tm
+[(e)15(vento2)]TJ
+/F0 240 Tf
+1 0 0 1 8869 5299 Tm
+[(,)]TJ
+/F2 240 Tf
+1 0 0 1 8916 5301 Tm
+[('emisor2:)]TJ
+1032 0 Td
+[(')]TJ
+/F0 240 Tf
+1 0 0 1 10017 5299 Tm
+[(,)]TJ
+/F2 240 Tf
+1 0 0 1 10064 5301 Tm
+[(')111(')]TJ
+/F0 240 Tf
+1 0 0 1 10186 5299 Tm
+[(\))]TJ
+/F2 240 Tf
+1 0 0 1 5810 5013 Tm
+[(function)]TJ
+838 0 Td
+[(visualizar)]TJ
+/F0 240 Tf
+1 0 0 1 7596 5011 Tm
+[(\()]TJ
+/F2 240 Tf
+1 0 0 1 7669 5013 Tm
+[(entidad)]TJ
+/F0 240 Tf
+1 0 0 1 8393 5011 Tm
+[(,)]TJ
+/F2 240 Tf
+1 0 0 1 8440 5013 Tm
+[(e)15(vento)]TJ
+/F0 240 Tf
+1 0 0 1 9054 5011 Tm
+[(,)]TJ
+/F2 240 Tf
+1 0 0 1 9101 5013 Tm
+[(dato)]TJ
+/F0 240 Tf
+1 0 0 1 9520 5011 Tm
+[(\){)]TJ
+/F2 240 Tf
+1 0 0 1 6050 4725 Tm
+[(console)]TJ
+/F0 240 Tf
+1 0 0 1 6774 4723 Tm
+[(.)]TJ
+/F2 240 Tf
+1 0 0 1 6818 4725 Tm
+[(lo)10(g)]TJ
+/F0 240 Tf
+1 0 0 1 7116 4723 Tm
+[(\()]TJ
+/F2 240 Tf
+1 0 0 1 7189 4725 Tm
+[(entidad)]TJ
+/F0 240 Tf
+1 0 0 1 7913 4723 Tm
+[(,)]TJ
+/F2 240 Tf
+1 0 0 1 7960 4725 Tm
+[(e)15(vento)]TJ
+/F0 240 Tf
+1 0 0 1 8574 4723 Tm
+[(+)]TJ
+/F2 240 Tf
+1 0 0 1 8702 4725 Tm
+[('-->)]TJ
+440 0 Td
+[(')]TJ
+/F0 240 Tf
+1 0 0 1 9211 4723 Tm
+[(,)]TJ
+/F2 240 Tf
+1 0 0 1 9258 4725 Tm
+[(dato)]TJ
+/F0 240 Tf
+1 0 0 1 9677 4723 Tm
+[(\))]TJ
+1 0 0 1 5810 4435 Tm
+[(})]TJ
+/F2 240 Tf
+1 0 0 1 5810 4149 Tm
+[(emisor1)]TJ
+/F0 240 Tf
+1 0 0 1 6560 4147 Tm
+[(.)]TJ
+/F2 240 Tf
+1 0 0 1 6604 4149 Tm
+[(on)]TJ
+/F0 240 Tf
+1 0 0 1 6838 4147 Tm
+[(\()]TJ
+/F2 240 Tf
+1 0 0 1 6911 4149 Tm
+[(e)15(vento1)]TJ
+/F0 240 Tf
+1 0 0 1 7631 4147 Tm
+[(,)]TJ
+/F2 240 Tf
+1 0 0 1 7678 4149 Tm
+[(visualizar)]TJ
+/F0 240 Tf
+1 0 0 1 8626 4147 Tm
+[(\))]TJ
+/F2 240 Tf
+1 0 0 1 5810 3861 Tm
+[(emisor2)]TJ
+/F0 240 Tf
+1 0 0 1 6570 3859 Tm
+[(.)]TJ
+/F2 240 Tf
+1 0 0 1 6614 3861 Tm
+[(on)]TJ
+/F0 240 Tf
+1 0 0 1 6848 3859 Tm
+[(\()]TJ
+/F2 240 Tf
+1 0 0 1 6921 3861 Tm
+[(e)15(vento2)]TJ
+/F0 240 Tf
+1 0 0 1 7651 3859 Tm
+[(,)]TJ
+/F2 240 Tf
+1 0 0 1 7698 3861 Tm
+[(visualizar)]TJ
+/F0 240 Tf
+1 0 0 1 8646 3859 Tm
+[(\))]TJ
+1 0 0 1 5810 3571 Tm
+[(/*)]TJ
+230 0 Td
+[(...)]TJ
+224 0 Td
+[(*/)]TJ
+/F2 240 Tf
+1 0 0 1 6512 3573 Tm
+[(emisiones)]TJ
+/F0 240 Tf
+1 0 0 1 7450 3571 Tm
+[(\(\))]TJ
+/F1 240 Tf
+1 0 0 1 5906 3210 Tm
+[(a)]TJ
+/F0 240 Tf
+1 0 0 1 6178 3211 Tm
+[(Se)]TJ
+295 0 Td
+[(soluciona)]TJ
+977 0 Td
+[(usando)]TJ
+732 0 Td
+[(la)]TJ
+232 0 Td
+[(funci\363n)]TJ
+/F3 220 Tf
+1 0 0 1 9202 3219 Tm
+[(setInter-)]TJ
+1 0 0 1 6178 2931 Tm
+[(val)]TJ
+/F0 240 Tf
+1 0 0 1 6574 2923 Tm
+[(.)]TJ
+ET
+q
+1 0 0 1 5666.00 2372.00 cm
+/F1 240 Tf
+q
+96.00 0 m 365 0 l
+365 309.00 l
+317.00 309.00 l
+317.00 48 l
+96.00 48 l h f
+Q
+q
+1 0 0 1 48.00 48.00 cm
+q
+0 0 m 269 0 l 269 309 l 0 309 l h
+ S
+Q
+BT
+1 0 0 1 72 75 Tm
+[(b)]TJ
+ET
+
+Q
+
+Q
+BT
+1 0 0 1 6178 2603 Tm
+[(P)15(ara)]TJ
+481 0 Td
+[(poder)]TJ
+605 0 Td
+[(mostrar)]TJ
+789 0 Td
+[(la)]TJ
+232 0 Td
+[(duraci\363n)]TJ
+894 0 Td
+[(de)]TJ
+282 0 Td
+[(cada)]TJ
+498 0 Td
+[(etapa)]TJ
+1 0 0 1 6178 2315 Tm
+[(al)]TJ
+227 0 Td
+[(\207nalizar)]TJ
+842 0 Td
+[(la)]TJ
+232 0 Td
+[(misma,)]TJ
+744 0 Td
+[(debe)]TJ
+508 0 Td
+[(pasarse)]TJ
+759 0 Td
+[(la)]TJ
+232 0 Td
+[(duraci\363n)]TJ
+1 0 0 1 6178 2027 Tm
+[(como)]TJ
+585 0 Td
+[(par\341metro)]TJ
+1021 0 Td
+[(al)]TJ
+227 0 Td
+[(listener)]TJ
+762 0 Td
+[(del)]TJ
+/F3 220 Tf
+1 0 0 1 9120 2035 Tm
+[(setTimeout)]TJ
+/F0 240 Tf
+1 0 0 1 10440 2027 Tm
+[(,)]TJ
+1 0 0 1 6178 1739 Tm
+[(o)]TJ
+173 0 Td
+[(usar)]TJ
+458 0 Td
+[(una)]TJ
+406 0 Td
+[(clausura)]TJ
+856 0 Td
+[(que)]TJ
+402 0 Td
+[(permita)]TJ
+789 0 Td
+[(el)]TJ
+227 0 Td
+[(acceso)]TJ
+690 0 Td
+[(al)]TJ
+1 0 0 1 6178 1451 Tm
+[(v)25(alor)55(.)]TJ
+/F1 240 Tf
+1 0 0 1 5906 1129 Tm
+[(c)]TJ
+/F0 240 Tf
+1 0 0 1 6178 1130 Tm
+[(La)]TJ
+312 0 Td
+[(v)25(ariable)]TJ
+819 0 Td
+[(incremento,)]TJ
+1182 0 Td
+[(que)]TJ
+402 0 Td
+[(permite)]TJ
+785 0 Td
+[(lle)25(v)25(ar)]TJ
+591 0 Td
+[(el)]TJ
+1 0 0 1 6178 842 Tm
+[(conteo)]TJ
+691 0 Td
+[(de)]TJ
+282 0 Td
+[(etapas,)]TJ
+704 0 Td
+[(se)]TJ
+255 0 Td
+[(almacena)]TJ
+962 0 Td
+[(en)]TJ
+283 0 Td
+[(el)]TJ
+227 0 Td
+[(e)25(v)15(ento.)]TJ
+/F1 240 Tf
+1 0 0 1 5906 471 Tm
+[(d)]TJ
+/F0 240 Tf
+1 0 0 1 6178 472 Tm
+[(P)15(ara)]TJ
+481 0 Td
+[(visualizar)]TJ
+988 0 Td
+[(la)]TJ
+232 0 Td
+[(duraci\363n)]TJ
+894 0 Td
+[(de)]TJ
+282 0 Td
+[(cada)]TJ
+498 0 Td
+[(etapa)]TJ
+564 0 Td
+[(se)]TJ
+1 0 0 1 6178 184 Tm
+[(utiliza)]TJ
+656 0 Td
+[(una)]TJ
+406 0 Td
+[(v)25(ariable)]TJ
+819 0 Td
+[(de)]TJ
+282 0 Td
+[(la)]TJ
+232 0 Td
+[(funci\363n)]TJ
+/F3 220 Tf
+1 0 0 1 9361 192 Tm
+[(emisiones)]TJ
+ET
+
+Q
+q
+1 0 0 1 567.00 -15990.00 cm
+0.0 0.0 0.0 rg 0.0 0.0 0.0 RG q
+% @MargSet/LoutMargSet UNIMPLEMENTED
+Q
+
+Q
+
+Q
+
+Q
+
+Q
+endstream
+endobj
+5 0 obj
+18376
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F3
+/BaseFont /Courier
+/Encoding 2 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F2
+/BaseFont /Times-Italic
+/Encoding 2 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F1
+/BaseFont /Times-Bold
+/Encoding 2 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F0
+/BaseFont /Times-Roman
+/Encoding 2 0 R
+>>
+endobj
+3 0 obj
+<<
+/Type /Page
+/CropBox [ 0 0 595 842 ]
+/Parent 1 0 R
+/Contents 4 0 R
+/Resources
+<<
+/Font << /F3 6 0 R /F2 7 0 R /F1 8 0 R /F0 9 0 R >>
+/ProcSet [ /PDF /Text ]
+>>
+>>
+endobj
+%%IncludeResource: font Times-Roman
+%%IncludeResource: font Times-Bold
+%%IncludeResource: font Times-Italic
+%%IncludeResource: font Courier
+11 0 obj
+<< /Length 12 0 R >>
+stream
+0.05 0 0 0.05 0 0 cm
+10 w
+q
+/F4 240 Tf
+0.0 0.0 0.0 rg 0.0 0.0 0.0 RG q
+% @DoBackground/LoutPageSet UNIMPLEMENTED
+Q
+q
+1.0 1.0 1.0 rg 1.0 1.0 1.0 RG q
+0 0 m 11900 0 l 11900 16840 l 0 16840 l h
+q 1.0 1.0 1.0 rg 1.0 1.0 1.0 RG f Q 0.00 w S
+Q
+q
+1 0 0 1 0.00 16840.00 cm
+0.0 0.0 0.0 rg 0.0 0.0 0.0 RG BT
+1 0 0 1 567 -1015 Tm
+[(TSR)]TJ
+5198 0 Td
+[(-)]TJ
+128 0 Td
+[(2)]TJ
+174 0 Td
+[(-)]TJ
+4162 0 Td
+[(2019-01-25)]TJ
+ET
+q
+1 0 0 1 567.00 -15990.00 cm
+q
+% @MargSet/LoutMargSet UNIMPLEMENTED
+Q
+q
+1 0 0 1 0.00 13877.00 cm
+/F5 240 Tf
+q
+72 0 m
+186.00 0 l
+225.00 0
+258 33.00
+258 72 c
+258 236.00 l
+258 275.00
+225.00 308
+186.00 308 c
+72 308 l
+33.00 308
+0 275.00
+0 236.00 c
+0 72 l
+0 33.00
+33.00 0
+72 0 c
+h
+ S
+Q
+BT
+1 0 0 1 72 72 Tm
+[(4)]TJ
+ET
+
+Q
+/F6 240 Tf
+BT
+1 0 0 1 512 14013 Tm
+[(En)]TJ
+320 0 Td
+[(la)]TJ
+241 0 Td
+[(pr)15(\341ctica)]TJ
+849 0 Td
+[(1)]TJ
+159 0 Td
+[(se)]TJ
+252 0 Td
+[(plantean)]TJ
+892 0 Td
+[(tr)37(es)]TJ
+405 0 Td
+[(pasos)]TJ
+601 0 Td
+[(incr)37(e-)]TJ
+1 0 0 1 512 13725 Tm
+[(mentales)]TJ
+896 0 Td
+[(par)15(a)]TJ
+496 0 Td
+[(construir)]TJ
+933 0 Td
+[(un)]TJ
+285 0 Td
+[(pr)45(oxy)]TJ
+582 0 Td
+[(pr)45(o)10(gr)15(amable)]TJ
+1280 0 Td
+[(a)]TJ
+1 0 0 1 512 13437 Tm
+[(partir)]TJ
+623 0 Td
+[(de)]TJ
+279 0 Td
+[(uno)]TJ
+413 0 Td
+[(b\341sico.)]TJ
+719 0 Td
+[(Si)]TJ
+243 0 Td
+[(el)]TJ
+232 0 Td
+[(pr)45(o)10(gr)15(amador)]TJ
+1342 0 Td
+[(en)40(v\355a)]TJ
+564 0 Td
+[(el)]TJ
+1 0 0 1 512 13149 Tm
+[(mensaje)]TJ
+/F7 220 Tf
+1 0 0 1 1349 13155 Tm
+[([{remote_ip:44.55.66.77,)]TJ
+3300 0 Td
+[(re-)]TJ
+1 0 0 1 512 12867 Tm
+[(mote_port:8888}])]TJ
+/F6 240 Tf
+1 0 0 1 2684 12861 Tm
+[(al)]TJ
+246 0 Td
+[(puerto)]TJ
+/F7 220 Tf
+1 0 0 1 3608 12867 Tm
+[(8001)]TJ
+/F6 240 Tf
+1 0 0 1 4196 12861 Tm
+[(del)]TJ
+352 0 Td
+[(pr)45(oxy)]TJ
+1 0 0 1 512 12573 Tm
+[(pr)45(o)10(gr)15(amable)10(,)]TJ
+1327 0 Td
+[(indica)]TJ
+653 0 Td
+[(cu\341l)]TJ
+472 0 Td
+[(de)]TJ
+279 0 Td
+[(las)]TJ
+334 0 Td
+[(siguientes)]TJ
+1011 0 Td
+[(a\207r)20(-)]TJ
+1 0 0 1 512 12285 Tm
+[(maciones)]TJ
+959 0 Td
+[(es)]TJ
+254 0 Td
+[(cierta:)]TJ
+/F5 240 Tf
+1 0 0 1 240 11963 Tm
+[(a)]TJ
+/F4 240 Tf
+1 0 0 1 512 11964 Tm
+[(Un)]TJ
+349 0 Td
+[(na)20(v)15(e)15(g)5(ador)]TJ
+1044 0 Td
+[(web)]TJ
+450 0 Td
+[(que)]TJ
+401 0 Td
+[(conecte)]TJ
+784 0 Td
+[(al)]TJ
+225 0 Td
+[(puerto)]TJ
+/F7 220 Tf
+1 0 0 1 4427 11972 Tm
+[(8001)]TJ
+/F4 240 Tf
+1 0 0 1 512 11676 Tm
+[(del)]TJ
+339 0 Td
+[(proxy)]TJ
+604 0 Td
+[(programable)]TJ
+1256 0 Td
+[(recibir\341)]TJ
+779 0 Td
+[(como)]TJ
+576 0 Td
+[(respuesta)]TJ
+1 0 0 1 512 11388 Tm
+[(un)]TJ
+297 0 Td
+[(mensaje)]TJ
+/F7 220 Tf
+1 0 0 1 1648 11396 Tm
+[(Connection)]TJ
+1452 0 Td
+[(rejected)]TJ
+/F4 240 Tf
+1 0 0 1 4156 11388 Tm
+[(.)]TJ
+/F5 240 Tf
+1 0 0 1 240 11017 Tm
+[(b)]TJ
+/F4 240 Tf
+1 0 0 1 512 11018 Tm
+[(Un)]TJ
+349 0 Td
+[(na)20(v)15(e)15(g)5(ador)]TJ
+1044 0 Td
+[(web)]TJ
+450 0 Td
+[(que)]TJ
+401 0 Td
+[(conecte)]TJ
+784 0 Td
+[(al)]TJ
+225 0 Td
+[(puerto)]TJ
+/F7 220 Tf
+1 0 0 1 4427 11026 Tm
+[(8001)]TJ
+/F4 240 Tf
+1 0 0 1 512 10730 Tm
+[(del)]TJ
+339 0 Td
+[(proxy)]TJ
+604 0 Td
+[(programable)]TJ
+1256 0 Td
+[(recibir\341)]TJ
+779 0 Td
+[(como)]TJ
+576 0 Td
+[(respuesta)]TJ
+1 0 0 1 512 10442 Tm
+[(la)]TJ
+223 0 Td
+[(que)]TJ
+393 0 Td
+[(obtedr\355amos)]TJ
+1224 0 Td
+[(con)]TJ
+394 0 Td
+[(un)]TJ
+288 0 Td
+[(na)20(v)15(e)15(g)5(ador)]TJ
+1037 0 Td
+[(que)]TJ
+392 0 Td
+[(acce-)]TJ
+1 0 0 1 512 10154 Tm
+[(de)]TJ
+282 0 Td
+[(a)]TJ
+/F7 220 Tf
+1 0 0 1 960 10162 Tm
+[(http://44.55.66.77:8888)]TJ
+/F5 240 Tf
+1 0 0 1 240 9808 Tm
+[(c)]TJ
+/F4 240 Tf
+1 0 0 1 512 9809 Tm
+[(El)]TJ
+267 0 Td
+[(componente)]TJ
+1226 0 Td
+[(netClient)]TJ
+936 0 Td
+[(puede)]TJ
+628 0 Td
+[(conec-)]TJ
+1 0 0 1 512 9521 Tm
+[(tar)]TJ
+311 0 Td
+[(al)]TJ
+227 0 Td
+[(puerto)]TJ
+/F7 220 Tf
+1 0 0 1 1714 9529 Tm
+[(8000)]TJ
+/F4 240 Tf
+1 0 0 1 2302 9521 Tm
+[(del)]TJ
+347 0 Td
+[(proxy)]TJ
+613 0 Td
+[(programa-)]TJ
+1 0 0 1 512 9233 Tm
+[(ble)]TJ
+348 0 Td
+[(y)]TJ
+174 0 Td
+[(recibir)]TJ
+682 0 Td
+[(como)]TJ
+585 0 Td
+[(respuesta)]TJ
+949 0 Td
+[(la)]TJ
+232 0 Td
+[(que)]TJ
+402 0 Td
+[(ob-)]TJ
+1 0 0 1 512 8945 Tm
+[(tedr\355amos)]TJ
+993 0 Td
+[(con)]TJ
+403 0 Td
+[(un)]TJ
+297 0 Td
+[(na)20(v)15(e)15(g)5(ador)]TJ
+1046 0 Td
+[(que)]TJ
+402 0 Td
+[(accede)]TJ
+706 0 Td
+[(a)]TJ
+/F7 220 Tf
+1 0 0 1 512 8665 Tm
+[(http://44.55.66.77:8888)]TJ
+ET
+q
+1 0 0 1 0.00 8081.00 cm
+/F5 240 Tf
+q
+96.00 0 m 368 0 l
+368 309.00 l
+320.00 309.00 l
+320.00 48 l
+96.00 48 l h f
+Q
+q
+1 0 0 1 48.00 48.00 cm
+q
+0 0 m 272 0 l 272 309 l 0 309 l h
+ S
+Q
+BT
+1 0 0 1 72 75 Tm
+[(d)]TJ
+ET
+
+Q
+
+Q
+/F4 240 Tf
+BT
+1 0 0 1 512 8312 Tm
+[(Ninguna)]TJ
+885 0 Td
+[(de)]TJ
+282 0 Td
+[(las)]TJ
+316 0 Td
+[(dem\341s)]TJ
+662 0 Td
+[(opciones)]TJ
+902 0 Td
+[(es)]TJ
+250 0 Td
+[(correcta.)]TJ
+ET
+q
+1 0 0 1 0.00 7053.00 cm
+/F5 240 Tf
+q
+72 0 m
+185.00 0 l
+224.00 0
+257 33.00
+257 72 c
+257 236.00 l
+257 275.00
+224.00 308
+185.00 308 c
+72 308 l
+33.00 308
+0 275.00
+0 236.00 c
+0 72 l
+0 33.00
+33.00 0
+72 0 c
+h
+ S
+Q
+BT
+1 0 0 1 72 74 Tm
+[(5)]TJ
+ET
+
+Q
+/F6 240 Tf
+BT
+1 0 0 1 512 7189 Tm
+[(A)]TJ
+195 0 Td
+[(continuaci\363n)]TJ
+1304 0 Td
+[(apar)37(ece)]TJ
+816 0 Td
+[(una)]TJ
+415 0 Td
+[(ver)10(si\363n)]TJ
+756 0 Td
+[(simpli\207ca-)]TJ
+1 0 0 1 512 6901 Tm
+[(da)]TJ
+295 0 Td
+[(de)]TJ
+278 0 Td
+[(uno)]TJ
+412 0 Td
+[(de)]TJ
+278 0 Td
+[(los)]TJ
+333 0 Td
+[(ejemplos)]TJ
+904 0 Td
+[(J)35(avascript)]TJ
+1051 0 Td
+[(pr)45(opuestos)]TJ
+1 0 0 1 512 6613 Tm
+[(par)15(a)]TJ
+505 0 Td
+[(su)]TJ
+267 0 Td
+[(estudio)]TJ
+744 0 Td
+[(en)]TJ
+280 0 Td
+[(la)]TJ
+241 0 Td
+[(primer)15(a)]TJ
+823 0 Td
+[(parte)]TJ
+558 0 Td
+[(de)]TJ
+279 0 Td
+[(la)]TJ
+241 0 Td
+[(pr)15(\341cti-)]TJ
+1 0 0 1 512 6325 Tm
+[(ca)]TJ
+281 0 Td
+[(1.)]TJ
+214 0 Td
+[(Si)]TJ
+243 0 Td
+[(lo)]TJ
+239 0 Td
+[(ponemos)]TJ
+907 0 Td
+[(en)]TJ
+280 0 Td
+[(ejecuci\363n,)]TJ
+1009 0 Td
+[(selecciona)]TJ
+1064 0 Td
+[(qu\351)]TJ
+1 0 0 1 512 6037 Tm
+[(mostr)15(ar)15(\341)]TJ
+929 0 Td
+[(en)]TJ
+280 0 Td
+[(pantalla)]TJ
+853 0 Td
+[(\(cada)]TJ
+600 0 Td
+[(coma)]TJ
+574 0 Td
+[(r)37(epr)37(esenta)]TJ
+1062 0 Td
+[(un)]TJ
+1 0 0 1 512 5749 Tm
+[(salto)]TJ
+518 0 Td
+[(de)]TJ
+279 0 Td
+[(l\355nea\):)]TJ
+ET
+q
+1 0 0 1 0.00 1816.00 cm
+/F4 240 Tf
+q
+0 0 m 12 0 l 12 3817 l 0 3817 l h q 0.0 0.0 0.0 rg 0.0 0.0 0.0 RG f Q S
+Q
+
+Q
+q
+1 0 0 1 5099.00 1816.00 cm
+/F4 240 Tf
+q
+0 0 m 12 0 l 12 3817 l 0 3817 l h q 0.0 0.0 0.0 rg 0.0 0.0 0.0 RG f Q S
+Q
+
+Q
+q
+1 0 0 1 0.00 5621.00 cm
+/F4 240 Tf
+q
+0 0 m 5099 0 l 5099 12 l 0 12 l h q 0.0 0.0 0.0 rg 0.0 0.0 0.0 RG f Q S
+Q
+
+Q
+q
+1 0 0 1 0.00 1804.00 cm
+/F4 240 Tf
+q
+0 0 m 5099 0 l 5099 12 l 0 12 l h q 0.0 0.0 0.0 rg 0.0 0.0 0.0 RG f Q S
+Q
+
+Q
+q
+1 0 0 1 5099.00 5621.00 cm
+/F4 240 Tf
+q
+0 0 m 12 0 l 12 12 l 0 12 l h q 0.0 0.0 0.0 rg 0.0 0.0 0.0 RG f Q S
+Q
+
+Q
+q
+1 0 0 1 5099.00 1804.00 cm
+/F4 240 Tf
+q
+0 0 m 12 0 l 12 12 l 0 12 l h q 0.0 0.0 0.0 rg 0.0 0.0 0.0 RG f Q S
+Q
+
+Q
+/F5 240 Tf
+BT
+1 0 0 1 144 5386 Tm
+[(f)25(or)]TJ
+/F4 240 Tf
+1 0 0 1 501 5387 Tm
+[(\()]TJ
+/F6 240 Tf
+1 0 0 1 574 5389 Tm
+[(var)]TJ
+384 0 Td
+[(i)]TJ
+/F4 240 Tf
+1 0 0 1 1021 5387 Tm
+[(=0;)]TJ
+/F6 240 Tf
+1 0 0 1 1388 5389 Tm
+[(i)]TJ
+/F4 240 Tf
+1 0 0 1 1451 5387 Tm
+[(<5;)]TJ
+/F6 240 Tf
+1 0 0 1 1818 5389 Tm
+[(i)]TJ
+/F4 240 Tf
+1 0 0 1 1881 5387 Tm
+[(++\))]TJ
+1 0 0 1 384 5099 Tm
+[(\()]TJ
+/F6 240 Tf
+1 0 0 1 457 5101 Tm
+[(function)]TJ
+/F4 240 Tf
+1 0 0 1 1235 5099 Tm
+[(\(\){)]TJ
+/F6 240 Tf
+1 0 0 1 504 4813 Tm
+[(setT)55(imeout)]TJ
+/F4 240 Tf
+1 0 0 1 1544 4811 Tm
+[(\()]TJ
+/F6 240 Tf
+1 0 0 1 1617 4813 Tm
+[(function)]TJ
+/F4 240 Tf
+1 0 0 1 2395 4811 Tm
+[(\(\){)]TJ
+/F6 240 Tf
+1 0 0 1 684 4525 Tm
+[(console)]TJ
+/F4 240 Tf
+1 0 0 1 1408 4523 Tm
+[(.)]TJ
+/F6 240 Tf
+1 0 0 1 1452 4525 Tm
+[(lo)10(g)]TJ
+/F4 240 Tf
+1 0 0 1 1750 4523 Tm
+[(\()]TJ
+/F6 240 Tf
+1 0 0 1 1823 4525 Tm
+[("A")]TJ
+/F4 240 Tf
+1 0 0 1 2171 4523 Tm
+[(+)]TJ
+/F6 240 Tf
+1 0 0 1 2299 4525 Tm
+[(i)]TJ
+/F4 240 Tf
+1 0 0 1 2362 4523 Tm
+[(\))]TJ
+1 0 0 1 504 4235 Tm
+[(},)]TJ
+/F6 240 Tf
+1 0 0 1 726 4237 Tm
+[(i)]TJ
+/F4 240 Tf
+1 0 0 1 789 4181 Tm
+[(*)]TJ
+1 0 0 1 893 4235 Tm
+[(10\))]TJ
+1 0 0 1 324 3947 Tm
+[(}\)\(\))]TJ
+/F5 240 Tf
+1 0 0 1 144 3370 Tm
+[(f)25(or)]TJ
+/F4 240 Tf
+1 0 0 1 501 3371 Tm
+[(\()]TJ
+/F6 240 Tf
+1 0 0 1 574 3373 Tm
+[(var)]TJ
+384 0 Td
+[(k)]TJ
+/F4 240 Tf
+1 0 0 1 1068 3371 Tm
+[(=0;)]TJ
+/F6 240 Tf
+1 0 0 1 1435 3373 Tm
+[(k)]TJ
+/F4 240 Tf
+1 0 0 1 1545 3371 Tm
+[(<3;)]TJ
+/F6 240 Tf
+1 0 0 1 1912 3373 Tm
+[(k)]TJ
+/F4 240 Tf
+1 0 0 1 2022 3371 Tm
+[(++\))]TJ
+1 0 0 1 384 3083 Tm
+[(\()]TJ
+/F6 240 Tf
+1 0 0 1 457 3085 Tm
+[(function)]TJ
+/F4 240 Tf
+1 0 0 1 1235 3083 Tm
+[(\()]TJ
+/F6 240 Tf
+1 0 0 1 1308 3085 Tm
+[(k)]TJ
+/F4 240 Tf
+1 0 0 1 1418 3083 Tm
+[(\){)]TJ
+/F6 240 Tf
+1 0 0 1 504 2797 Tm
+[(setT)55(imeout)]TJ
+/F4 240 Tf
+1 0 0 1 1544 2795 Tm
+[(\()]TJ
+/F6 240 Tf
+1 0 0 1 1617 2797 Tm
+[(function)]TJ
+/F4 240 Tf
+1 0 0 1 2395 2795 Tm
+[(\(\){)]TJ
+/F6 240 Tf
+1 0 0 1 684 2509 Tm
+[(console)]TJ
+/F4 240 Tf
+1 0 0 1 1408 2507 Tm
+[(.)]TJ
+/F6 240 Tf
+1 0 0 1 1452 2509 Tm
+[(lo)10(g)]TJ
+/F4 240 Tf
+1 0 0 1 1750 2507 Tm
+[(\()]TJ
+/F6 240 Tf
+1 0 0 1 1823 2509 Tm
+[("B")]TJ
+/F4 240 Tf
+1 0 0 1 2171 2507 Tm
+[(+)]TJ
+/F6 240 Tf
+1 0 0 1 2299 2509 Tm
+[(k)]TJ
+/F4 240 Tf
+1 0 0 1 2409 2507 Tm
+[(\))]TJ
+1 0 0 1 504 2219 Tm
+[(},)]TJ
+/F6 240 Tf
+1 0 0 1 726 2221 Tm
+[(k)]TJ
+/F4 240 Tf
+1 0 0 1 836 2165 Tm
+[(*)]TJ
+1 0 0 1 940 2219 Tm
+[(31\))]TJ
+1 0 0 1 324 1931 Tm
+[(}\)\()]TJ
+/F6 240 Tf
+1 0 0 1 591 1933 Tm
+[(k)]TJ
+/F4 240 Tf
+1 0 0 1 701 1931 Tm
+[(\))]TJ
+/F5 240 Tf
+1 0 0 1 240 1569 Tm
+[(a)]TJ
+/F4 240 Tf
+1 0 0 1 512 1570 Tm
+[(A0,)]TJ
+400 0 Td
+[(B0,)]TJ
+387 0 Td
+[(A1,)]TJ
+400 0 Td
+[(A2,)]TJ
+400 0 Td
+[(A3,)]TJ
+400 0 Td
+[(B1,)]TJ
+387 0 Td
+[(A4,)]TJ
+400 0 Td
+[(B2)]TJ
+/F5 240 Tf
+1 0 0 1 240 1185 Tm
+[(b)]TJ
+/F4 240 Tf
+1 0 0 1 512 1186 Tm
+[(A0,)]TJ
+400 0 Td
+[(A1,)]TJ
+400 0 Td
+[(A2,)]TJ
+400 0 Td
+[(A3,)]TJ
+400 0 Td
+[(A4,)]TJ
+400 0 Td
+[(B0,)]TJ
+387 0 Td
+[(B1,)]TJ
+387 0 Td
+[(B2)]TJ
+ET
+q
+1 0 0 1 0.00 620.00 cm
+/F5 240 Tf
+q
+96.00 0 m 343 0 l
+343 260.00 l
+295.00 260.00 l
+295.00 48 l
+96.00 48 l h f
+Q
+q
+1 0 0 1 48.00 48.00 cm
+q
+0 0 m 247 0 l 247 260 l 0 260 l h
+ S
+Q
+BT
+1 0 0 1 72 75 Tm
+[(c)]TJ
+ET
+
+Q
+
+Q
+BT
+1 0 0 1 512 802 Tm
+[(A5,)]TJ
+400 0 Td
+[(B0,)]TJ
+387 0 Td
+[(A5,)]TJ
+400 0 Td
+[(A5,)]TJ
+400 0 Td
+[(A5,)]TJ
+400 0 Td
+[(B1,)]TJ
+387 0 Td
+[(A5,)]TJ
+400 0 Td
+[(B2)]TJ
+/F5 240 Tf
+1 0 0 1 240 301 Tm
+[(d)]TJ
+/F4 240 Tf
+1 0 0 1 512 302 Tm
+[(A0,)]TJ
+400 0 Td
+[(B0,)]TJ
+387 0 Td
+[(A1,)]TJ
+400 0 Td
+[(B1,)]TJ
+387 0 Td
+[(A2,)]TJ
+400 0 Td
+[(B2,)]TJ
+387 0 Td
+[(A3,)]TJ
+400 0 Td
+[(A4)]TJ
+ET
+q
+1 0 0 1 5666.00 13874.00 cm
+/F5 240 Tf
+q
+72 0 m
+186.00 0 l
+225.00 0
+258 33.00
+258 72 c
+258 239.00 l
+258 278.00
+225.00 311
+186.00 311 c
+72 311 l
+33.00 311
+0 278.00
+0 239.00 c
+0 72 l
+0 33.00
+33.00 0
+72 0 c
+h
+ S
+Q
+BT
+1 0 0 1 72 75 Tm
+[(6)]TJ
+ET
+
+Q
+/F6 240 Tf
+BT
+1 0 0 1 6178 14013 Tm
+[(Selecciona)]TJ
+1091 0 Td
+[(la)]TJ
+241 0 Td
+[(r)37(espuesta)]TJ
+964 0 Td
+[(corr)37(ecta)]TJ
+/F5 240 Tf
+1 0 0 1 5906 13555 Tm
+[(a)]TJ
+/F4 240 Tf
+1 0 0 1 6178 13556 Tm
+[(Cuando)]TJ
+799 0 Td
+[(dos)]TJ
+383 0 Td
+[(clientes)]TJ
+779 0 Td
+[(acceden)]TJ
+827 0 Td
+[(al)]TJ
+226 0 Td
+[(proxy)65(,)]TJ
+650 0 Td
+[(el)]TJ
+226 0 Td
+[(proxy)]TJ
+1 0 0 1 6178 13268 Tm
+[(f)10(alla)]TJ
+/F5 240 Tf
+1 0 0 1 5906 12947 Tm
+[(b)]TJ
+/F4 240 Tf
+1 0 0 1 6178 12948 Tm
+[(Mientras)]TJ
+900 0 Td
+[(no)]TJ
+293 0 Td
+[(hay)]TJ
+400 0 Td
+[(clientes)]TJ
+780 0 Td
+[(conectando)]TJ
+1143 0 Td
+[(con)]TJ
+403 0 Td
+[(el)]TJ
+1 0 0 1 6178 12660 Tm
+[(proxy)65(,)]TJ
+645 0 Td
+[(el)]TJ
+221 0 Td
+[(proxy)]TJ
+606 0 Td
+[(realiza)]TJ
+689 0 Td
+[(operaciones)]TJ
+/F7 220 Tf
+1 0 0 1 9526 12668 Tm
+[(ping)]TJ
+/F4 240 Tf
+1 0 0 1 10107 12660 Tm
+[(sobre)]TJ
+1 0 0 1 6178 12372 Tm
+[(los)]TJ
+330 0 Td
+[(servidores)]TJ
+/F5 240 Tf
+1 0 0 1 5906 12050 Tm
+[(c)]TJ
+/F4 240 Tf
+1 0 0 1 6178 12051 Tm
+[(El)]TJ
+267 0 Td
+[(proxy)]TJ
+613 0 Td
+[(\372nicamente)]TJ
+1158 0 Td
+[(conecta)]TJ
+790 0 Td
+[(con)]TJ
+403 0 Td
+[(un)]TJ
+297 0 Td
+[(servidor)]TJ
+1 0 0 1 6178 11763 Tm
+[(cuando)]TJ
+745 0 Td
+[(el)]TJ
+227 0 Td
+[(cliente)]TJ
+692 0 Td
+[(en)40(v\355a)]TJ
+569 0 Td
+[(datos)]TJ
+ET
+q
+1 0 0 1 5666.00 11211.00 cm
+/F5 240 Tf
+q
+96.00 0 m 368 0 l
+368 309.00 l
+320.00 309.00 l
+320.00 48 l
+96.00 48 l h f
+Q
+q
+1 0 0 1 48.00 48.00 cm
+q
+0 0 m 272 0 l 272 309 l 0 309 l h
+ S
+Q
+BT
+1 0 0 1 72 75 Tm
+[(d)]TJ
+ET
+
+Q
+
+Q
+BT
+1 0 0 1 6178 11442 Tm
+[(Un)]TJ
+350 0 Td
+[(proxy)]TJ
+613 0 Td
+[(puede)]TJ
+628 0 Td
+[(ser)]TJ
+338 0 Td
+[(cliente)]TJ
+692 0 Td
+[(de)]TJ
+282 0 Td
+[(otro)]TJ
+438 0 Td
+[(proxy)]TJ
+ET
+
+Q
+q
+1 0 0 1 567.00 -15990.00 cm
+q
+% @MargSet/LoutMargSet UNIMPLEMENTED
+Q
+
+Q
+
+Q
+
+Q
+
+Q
+endstream
+endobj
+12 0 obj
+12023
+endobj
+13 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F7
+/BaseFont /Courier
+/Encoding 2 0 R
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F6
+/BaseFont /Times-Italic
+/Encoding 2 0 R
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F5
+/BaseFont /Times-Bold
+/Encoding 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F4
+/BaseFont /Times-Roman
+/Encoding 2 0 R
+>>
+endobj
+10 0 obj
+<<
+/Type /Page
+/CropBox [ 0 0 595 842 ]
+/Parent 1 0 R
+/Contents 11 0 R
+/Resources
+<<
+/Font << /F7 13 0 R /F6 14 0 R /F5 15 0 R /F4 16 0 R >>
+/ProcSet [ /PDF /Text ]
+>>
+>>
+endobj
+1 0 obj
+<<
+/Type /Pages
+/Kids [ 3 0 R 10 0 R  ]
+/Count 2
+/MediaBox [ 0 0 595 842 ]
+>>
+endobj
+17 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+>>
+endobj
+18 0 obj
+<<
+/Creator (Basser Lout Version 3.40 (June 2013))
+/Producer (Basser Lout Version 3.40 (June 2013))
+/CreationDate (D:20190205152523)
+>>
+endobj
+xref
+0 19
+0000000000 65535 f 
+0000034134 00000 n 
+0000000052 00000 n 
+0000021131 00000 n 
+0000002294 00000 n 
+0000020722 00000 n 
+0000020743 00000 n 
+0000020837 00000 n 
+0000020936 00000 n 
+0000021033 00000 n 
+0000033947 00000 n 
+0000021456 00000 n 
+0000033533 00000 n 
+0000033555 00000 n 
+0000033650 00000 n 
+0000033750 00000 n 
+0000033848 00000 n 
+0000034227 00000 n 
+0000034277 00000 n 
+trailer
+<<
+/Size 19
+/Root 17 0 R
+/Info 18 0 R >>
+startxref
+34429
+%%EOF
