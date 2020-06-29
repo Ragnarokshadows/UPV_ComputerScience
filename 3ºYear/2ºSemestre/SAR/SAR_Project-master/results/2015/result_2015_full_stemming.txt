@@ -1,0 +1,127 @@
+#
+# MINIMO
+#
+de	803
+isla	43
+valencia	40
+sanidad	34
+cultura	70
+videojuegos	4
+videojuegos OR cultura	74
+videojuegos OR NOT videojuegos	803
+isla AND valencia	3
+isla AND NOT valencia	40
+NOT pero	291
+isla AND NOT valencia AND NOT pero	8
+NOT isla AND NOT valencia AND NOT pero	275
+isla AND valencia AND pero	2
+isla OR valencia	80
+isla OR NOT valencia	766
+NOT isla OR valencia	763
+NOT isla OR NOT valencia	800
+NOT isla OR NOT valencia AND pero	510
+NOT isla OR NOT valencia AND NOT pero	290
+NOT isla OR NOT valencia OR NOT pero	801
+años	453
+google	12
+cultura	70
+google OR cultura	80
+años AND google	7
+años AND cultura	46
+
+
+#
+# PARENTESIS
+#
+años AND google OR cultura	75
+años AND (google OR cultura)	51
+(google OR cultura) AND años	51
+años AND NOT (google OR cultura)	402
+años AND (NOT google AND NOT cultura)	402
+NOT (google OR cultura) AND años	402
+(psoe OR pp OR CiU)	107
+(economía OR política)	283
+(psoe OR pp OR CiU) AND (economía OR política)	68
+NOT (psoe OR pp OR CiU) AND (economía OR política)	215
+mujer	84
+mujer AND ((psoe OR pp OR CiU) AND (economía OR política))	8
+mujer AND (NOT (psoe OR pp OR CiU) AND (economía OR política))	30
+
+
+#
+# MULTICAMPO
+#
+cultura	70
+cultura AND date:2015-01-21	1
+cultura AND NOT date:2015-01-21	69
+móvil	51
+keywords:nervioso	1
+móvil AND keywords:nervioso	1
+economía	134
+keywords:precio	0
+economía OR keywords:precio	134
+guerra	99
+keywords:EEUU	2
+guerra AND keywords:EEUU	1
+guerra OR keywords:EEUU	100
+
+
+#
+# POSICIONALES
+#
+fin AND de AND semana	64
+fin AND de AND semana AND país	35
+"fin de semana"	29
+"fin de semana" AND país	15
+medalla AND de AND oro	8
+"medalla de oro"	4
+deporte AND "medalla de oro"	2
+"medalla de oro" AND NOT deporte	2
+
+
+#
+# PERMUTERM
+#
+casa	412
+cosa	139
+c*sa	245
+c?sa	174
+c*sa AND c?sa	174
+c*sa OR c?sa	245
+c*sa AND NOT c?sa	71
+ma?a AND NOT mata	69
+bar*na OR val*cia OR pa*s	590
+date:201*10	23
+date:201*3	94
+
+
+#
+# DE TODO UN POCO
+#
+cosa	139
+"cosa"	51
+"fin de semana"	29
+"el país"	63
+"fin de semana" AND title:"el país"	0
+"fin de semana" AND (title:el OR title:país)	10
+title:"el país"	0
+title:el OR title:país	300
+"fin de semana" AND keywords:restaurantes	0
+"fin de semana" AND (Carmena)	2
+keywords:restaurantes OR Carmena	19
+"fin de semana" AND (restaurantes OR Carmena)	6
+"fin de semana" AND (keywords:restaurantes OR Carmena)	2
+keywords:precio OR keywords:economía	1
+keywords:"precio" OR keywords:economía	1
+keywords:"precio" OR keywords:"economía"	0
+keywords:precio OR keywords:economía AND banco	1
+(keywords:precio OR keywords:economía) AND banco	1
+keywords:precio OR (keywords:economía AND banco)	1
+keywords:precio OR (keywords:economía AND "banco")	1
+keywords:"precio" OR (keywords:economía AND "banco")	1
+keywords:precio OR NOT (keywords:economía AND banco)	802
+c*sa AND (keywords:restaurantes OR Carmena)	9
+c*sa AND (keywords:restaurantes OR date:201*10)	8
+c*sa AND (keywords:restaurantes AND title:"el país") OR date:201*10	23
+c*sa AND keywords:restaurantes AND (title:"el país" OR date:201*3)	0
+c*sa AND (keywords:restaurantes AND (title:"el país" OR date:201*3))	0

@@ -1,0 +1,127 @@
+#
+# MINIMO
+#
+de
+isla
+valencia
+sanidad
+cultura
+videojuegos
+videojuegos OR cultura
+videojuegos OR NOT videojuegos
+isla AND valencia
+isla AND NOT valencia
+NOT pero
+isla AND NOT valencia AND NOT pero
+NOT isla AND NOT valencia AND NOT pero
+isla AND valencia AND pero
+isla OR valencia
+isla OR NOT valencia
+NOT isla OR valencia
+NOT isla OR NOT valencia
+NOT isla OR NOT valencia AND pero
+NOT isla OR NOT valencia AND NOT pero
+NOT isla OR NOT valencia OR NOT pero
+años
+google
+cultura
+google OR cultura
+años AND google
+años AND cultura
+
+
+#
+# PARENTESIS
+#
+años AND google OR cultura
+años AND (google OR cultura)
+(google OR cultura) AND años
+años AND NOT (google OR cultura)
+años AND (NOT google AND NOT cultura)
+NOT (google OR cultura) AND años
+(psoe OR pp OR CiU)
+(economía OR política)
+(psoe OR pp OR CiU) AND (economía OR política)
+NOT (psoe OR pp OR CiU) AND (economía OR política)
+mujer
+mujer AND ((psoe OR pp OR CiU) AND (economía OR política))
+mujer AND (NOT (psoe OR pp OR CiU) AND (economía OR política))
+
+
+#
+# MULTICAMPO
+#
+cultura
+cultura AND date:2015-01-21
+cultura AND NOT date:2015-01-21
+móvil
+keywords:nervioso
+móvil AND keywords:nervioso
+economía
+keywords:precio
+economía OR keywords:precio
+guerra
+keywords:EEUU
+guerra AND keywords:EEUU
+guerra OR keywords:EEUU
+
+
+#
+# POSICIONALES
+#
+fin AND de AND semana
+fin AND de AND semana AND país
+"fin de semana"
+"fin de semana" AND país
+medalla AND de AND oro
+"medalla de oro"
+deporte AND "medalla de oro"
+"medalla de oro" AND NOT deporte
+
+
+#
+# PERMUTERM
+#
+casa
+cosa
+c*sa
+c?sa
+c*sa AND c?sa
+c*sa OR c?sa
+c*sa AND NOT c?sa
+ma?a AND NOT mata
+bar*na OR val*cia OR pa*s
+date:201*10
+date:201*3
+
+
+#
+# DE TODO UN POCO
+#
+cosa
+"cosa"
+"fin de semana"
+"el país"
+"fin de semana" AND title:"el país"
+"fin de semana" AND (title:el OR title:país)
+title:"el país"
+title:el OR title:país
+"fin de semana" AND keywords:restaurantes
+"fin de semana" AND (Carmena)
+keywords:restaurantes OR Carmena
+"fin de semana" AND (restaurantes OR Carmena)
+"fin de semana" AND (keywords:restaurantes OR Carmena)
+keywords:precio OR keywords:economía
+keywords:"precio" OR keywords:economía
+keywords:"precio" OR keywords:"economía"
+keywords:precio OR keywords:economía AND banco
+(keywords:precio OR keywords:economía) AND banco
+keywords:precio OR (keywords:economía AND banco)
+keywords:precio OR (keywords:economía AND "banco")
+keywords:"precio" OR (keywords:economía AND "banco")
+keywords:precio OR NOT (keywords:economía AND banco)
+c*sa AND (keywords:restaurantes OR Carmena)
+c*sa AND (keywords:restaurantes OR date:201*10)
+c*sa AND (keywords:restaurantes AND title:"el país") OR date:201*10
+c*sa AND keywords:restaurantes AND (title:"el país" OR date:201*3)
+c*sa AND (keywords:restaurantes AND (title:"el país" OR date:201*3))

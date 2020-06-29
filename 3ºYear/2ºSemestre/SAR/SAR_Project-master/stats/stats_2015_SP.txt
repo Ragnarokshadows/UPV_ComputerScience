@@ -1,0 +1,20 @@
+
+========================================
+Number of indexed days: 285
+----------------------------------------
+Number of indexed news: 803
+----------------------------------------
+TOKENS:
+	# of tokens in 'article': 44684
+----------------------------------------
+PERMUTERMS:
+	# of permuterms in 'article': 407377
+----------------------------------------
+STEMS:
+	# of stems in 'article': 23284
+----------------------------------------
+Positional queries are NOT allowed.
+========================================
+Time indexing: 2.22s.
+Time saving: 0.44s.
+

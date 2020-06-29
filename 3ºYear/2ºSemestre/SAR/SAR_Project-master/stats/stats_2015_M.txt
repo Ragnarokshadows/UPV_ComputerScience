@@ -1,0 +1,18 @@
+
+========================================
+Number of indexed days: 285
+----------------------------------------
+Number of indexed news: 803
+----------------------------------------
+TOKENS:
+	# of tokens in 'title': 3321
+	# of tokens in 'date': 285
+	# of tokens in 'keywords': 2266
+	# of tokens in 'article': 44684
+	# of tokens in 'summary': 6919
+----------------------------------------
+Positional queries are NOT allowed.
+========================================
+Time indexing: 0.55s.
+Time saving: 0.10s.
+

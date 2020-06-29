@@ -1,0 +1,31 @@
+========================================
+Number of indexed days: 285
+----------------------------------------
+Number of indexed news: 803
+----------------------------------------
+TOKENS:
+	# of tokens in 'title': 3321
+	# of tokens in 'date': 285
+	# of tokens in 'keywords': 2266
+	# of tokens in 'article': 44684
+	# of tokens in 'summary': 6919
+----------------------------------------
+PERMUTERMS:
+	# of permuterms in 'title': 26115
+	# of permuterms in 'date': 3135
+	# of permuterms in 'keywords': 18440
+	# of permuterms in 'article': 407377
+	# of permuterms in 'summary': 59173
+----------------------------------------
+STEMS:
+	# of stems in 'title': 2642
+	# of stems in 'date': 285
+	# of stems in 'keywords': 1968
+	# of stems in 'article': 23284
+	# of stems in 'summary': 4738
+----------------------------------------
+Positional queries are allowed.
+========================================
+Time indexing: 4.35s.
+Time saving: 0.81s.
+
