@@ -1,0 +1,12 @@
+# name: X
+# type: matrix
+# rows: 8
+# columns: 2
+1 4
+2 2
+2 3
+4 2
+3 4
+3 5
+5 4
+5 6

@@ -1,0 +1,245 @@
+apply plugin: 'base'
+apply plugin: 'application'
+
+mainClassName = 'org.opt4j.core.start.Opt4J'
+
+version = 'SNAPSHOT-' + new Date().format("yyyyMMdd")
+
+def stagingURL = 'https://oss.sonatype.org/service/local/staging/deploy/maven2/'
+def snapshotURL = 'https://oss.sonatype.org/content/repositories/snapshots/'
+
+ext {
+	dateISO = new Date().format("yyyy-MM-dd")
+}
+
+allprojects {
+    group = 'org.opt4j'
+   
+    repositories {
+    	mavenCentral()
+    }
+    
+    configurations {
+         deployerJars
+    }
+    
+    dependencies {
+         deployerJars "org.apache.maven.wagon:wagon-http:2.6"
+    }
+}
+
+def descriptions = [
+	'opt4j-core' : 'The core module of Opt4J', 
+	'opt4j-benchmarks' : 'A set of benchmarks for Opt4J',
+	'opt4j-operators' : 'A set of operators for Opt4J', 
+	'opt4j-optimizers' : 'A set of optimizers for Opt4J',
+	'opt4j-satdecoding' : 'The SAT decoding module for Opt4J', 
+	'opt4j-tutorial' : 'The tutorial classes for Opt4J',
+	'opt4j-viewer' : 'The viewer module for Opt4J'
+]
+
+subprojects {
+	apply plugin: 'java'
+    apply plugin: 'maven'
+    apply plugin: 'signing'
+
+    sourceCompatibility = 1.6 
+	targetCompatibility = 1.6
+    
+    version = parent.version
+	
+	task sourcesJar(type: Jar, dependsOn:classes) {
+		from sourceSets.main.allSource 
+		classifier = 'sources' 
+	} 
+
+	task javadocJar(type: Jar, dependsOn:javadoc) {
+		from javadoc.destinationDir 
+		classifier = 'javadoc' 
+	}
+
+	artifacts { 
+		archives jar
+		archives sourcesJar 
+		archives javadocJar 
+	}
+
+	signing {
+	    sign configurations.archives
+	}
+	
+	uploadArchives {
+	    repositories {
+	        mavenDeployer {
+	            configuration = configurations.deployerJars
+	            beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }
+	 
+	            repository(url: stagingURL) {
+	              authentication(userName: sonatypeUsername, password: sonatypePassword)
+	            }
+	 
+	            pom.project {
+	               name 'Opt4J'
+	               packaging 'jar'
+	               description descriptions[project.name]
+	               url 'http://www.opt4j.org'
+	 
+	               scm {
+	                   url 'http://hg.code.sf.net/p/opt4j/hgroot'
+	                   connection 'http://hg.code.sf.net/p/opt4j/hgroot'
+	               }
+	 
+	               licenses {
+	                   license {
+	                       name 'GNU Lesser General Public License'
+	                       url 'http://www.gnu.org/licenses/lgpl.txt'
+	                       distribution 'repo'
+	                   }
+	               }
+	 
+	               developers {
+	                   developer {
+	                       id 'lukasiewycz'
+	                       name 'Martin Lukasiewycz'
+	                   }
+	                   developer {
+	                       id 'reimann'
+	                       name 'Felix Reimann'
+	                   }
+	                   developer {
+	                       id 'glass'
+	                       name 'Michael Glass'
+	                   }
+	               }
+	           }
+	        }
+	    }
+	}
+}
+
+compileJava  {
+   	def currentJvm = org.gradle.internal.jvm.Jvm.current()
+	println "Current JVM: "+currentJvm
+}
+
+uploadArchives.doFirst {
+	println "Sonatype Username: "+sonatypeUsername 
+	println "Private Key: "+project.ext.get("signing.secretKeyRingFile")
+	println "Private Key ID: "+project.ext.get("signing.keyId")
+}
+
+dependencies {
+	runtime project(':opt4j-core')
+	runtime project(':opt4j-satdecoding')
+	runtime project(':opt4j-operators')
+	runtime project(':opt4j-optimizers')
+	runtime project(':opt4j-benchmarks')
+	runtime project(':opt4j-viewer')
+	runtime project(':opt4j-tutorial')
+}
+
+jar {
+	manifest { 
+		attributes 'Main-Class': mainClassName
+	}
+}
+
+boolean isSnapshot() {
+	project.version.contains('SNAPSHOT')
+}
+
+import org.apache.tools.ant.filters.ReplaceTokens
+
+task copyWebsite(type: Copy){
+	from('src/main/website/') {
+		include '**/*.html'
+		filter(ReplaceTokens, tokens: [version : project.version, date : project.dateISO])
+	}
+	from('src/main/website/') {
+		exclude '**/*.html'
+	}
+	into 'build/website/'
+}
+
+task copyJavadocStyle(type: Copy, dependsOn: 'alldocs') {
+	if(JavaVersion.current().java6) {
+		from ('src/javadocStyles/1.6/resources') {
+			include '*.png'
+		}
+	} else {
+		from ('src/javadocStyles/1.7/resources') {
+			include '*.png'
+		}
+	}
+	into 'build/docs/javadoc/resources'
+}
+
+task copyJavadoc(type: Copy, dependsOn: 'copyJavadocStyle'){
+	from new File(project.buildDir, 'docs/javadoc')
+	into 'build/website/javadoc/'+version
+}
+
+task copyTutorial(type: Copy, dependsOn: ":opt4j-tutorial:tutorial"){
+	from new File(project(':opt4j-tutorial').buildDir,'tutorial')
+	into 'build/website/documentation/'+version
+}
+
+task website(dependsOn: [copyWebsite, copyJavadoc, copyTutorial]) {}
+
+/* for now ignore all javadoc errors in case of Java 8 */
+if (JavaVersion.current().isJava8Compatible()) {
+    allprojects {
+		tasks.withType(Javadoc) {
+			options.addStringOption('Xdoclint:none', '-quiet')
+		}
+    }
+}
+
+task alldocs(type: Javadoc) {
+	title = "Opt4J version $version Project API Documentation"
+	destinationDir = new File(project.buildDir, 'docs/javadoc')
+	if(JavaVersion.current().java6) {
+	options.stylesheetFile = file('src/javadocStyles/1.6/stylesheet.css')
+	} else {
+		options.stylesheetFile = file('src/javadocStyles/1.7/stylesheet.css')
+	}
+	
+	options.memberLevel = org.gradle.external.javadoc.JavadocMemberLevel.PUBLIC
+	options.links 'http://docs.oracle.com/javase/6/docs/api/','http://google-guice.googlecode.com/svn/tags/3.0/javadoc/'
+	options.linkSource = true
+
+	subprojects.each {subproject ->
+		source subproject.sourceSets.main.java
+	}
+	exclude 'ptolemy/**'
+
+	subprojects.each { subproject ->
+		if( classpath ) {
+			classpath += subproject.sourceSets.main.output + subproject.sourceSets.main.compileClasspath
+		} else {
+			classpath = subproject.sourceSets.main.output + subproject.sourceSets.main.compileClasspath
+		}
+	}
+}
+
+task release(dependsOn: [distZip,website] ){}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.4'
+}
+
+task fatjar(dependsOn: subprojects.jar, type: Jar) {
+    destinationDir = new File(project.buildDir, 'fatjar')
+    from { configurations.runtime.collect { it.isDirectory() ? it : zipTree(it) } }
+    manifest {
+		attributes 'Main-Class': mainClassName
+		attributes 'SplashScreen-Image': 'img/splash.png'
+    }
+}
+
+import org.apache.tools.ant.filters.ReplaceTokens
+applicationDistribution.from("src/distribution") {
+    filter(ReplaceTokens, tokens: [version : project.version, date : project.dateISO])
+}
+
+applicationDefaultJvmArgs = ["-splash:opt4j-core/src/main/resources/img/splash.png"]

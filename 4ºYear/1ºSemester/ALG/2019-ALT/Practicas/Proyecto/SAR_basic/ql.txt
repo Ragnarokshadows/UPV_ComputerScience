@@ -1,0 +1,12 @@
+[InternetShortcut]
+URL=casa
+NOT casa
+cosa
+NOT cosa
+casa OR cosa
+CASA AND cosa
+casa OR NOT casa
+casa AND NOT cosa
+casa OR NOT cosa OR NOT pasa OR NOT pisa
+NOT casa AND cosa AND pasa AND pisa
+cosa AND pasa AND pisa

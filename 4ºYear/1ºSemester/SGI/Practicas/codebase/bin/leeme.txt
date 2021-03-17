@@ -1,0 +1,5 @@
+Uso de glew32.dll:
+
++Para mingw copiar glew32mingw.dll a glew32.dll
+
++Para msvc copiar glew32msvc.dll a glew32.dll

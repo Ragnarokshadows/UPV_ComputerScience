@@ -1,0 +1,138 @@
+Método: levenshtein Talla: 6 Media: 0.00019349548955101294 Mediana: 0.00017631046553918896 Desviación Típica: 4.6899334731019195e-05
+Método: levenshtein Talla: 36 Media: 0.0014106110361353614 Mediana: 0.0013050426136363637 Desviación Típica: 0.0003290988256803509
+Método: levenshtein Talla: 216 Media: 0.010324701340326339 Mediana: 0.009528882575757576 Desviación Típica: 0.0027451239882142256
+Método: levenshtein Talla: 1296 Media: 0.0765625 Mediana: 0.0703125 Desviación Típica: 0.02285740443488718
+Método: levenshtein Talla: 7776 Media: 0.515625 Mediana: 0.46875 Desviación Típica: 0.14540487655164802
+Método: levenshtein Talla: 46656 Media: 1.7 Mediana: 1.453125 Desviación Típica: 0.5759587794495367
+Método: restringida Talla: 6 Media: 0.00026192302997740473 Mediana: 0.00023751609229550406 Desviación Típica: 6.933100333992154e-05
+Método: restringida Talla: 36 Media: 0.0018614449625022986 Mediana: 0.0017501120071684588 Desviación Típica: 0.0004418995310547996
+Método: restringida Talla: 216 Media: 0.013177477904040405 Mediana: 0.01154513888888889 Desviación Típica: 0.0036611688620374447
+Método: restringida Talla: 1296 Media: 0.09609375 Mediana: 0.0859375 Desviación Típica: 0.024469468380259103
+Método: restringida Talla: 7776 Media: 0.64375 Mediana: 0.578125 Desviación Típica: 0.17647259879369376
+Método: restringida Talla: 46656 Media: 2.015625 Mediana: 1.78125 Desviación Típica: 0.5409951767345066
+Método: intermedia Talla: 6 Media: 0.0003377951958654994 Mediana: 0.0003033986418898122 Desviación Típica: 9.032738346073583e-05
+Método: intermedia Talla: 36 Media: 0.002380759818678504 Mediana: 0.0021255896226415093 Desviación Típica: 0.0006304334331743554
+Método: intermedia Talla: 216 Media: 0.017382812499999997 Mediana: 0.015625 Desviación Típica: 0.006303459696752426
+Método: intermedia Talla: 1296 Media: 0.12578125 Mediana: 0.1171875 Desviación Típica: 0.03359375
+Método: intermedia Talla: 7776 Media: 0.84375 Mediana: 0.75 Desviación Típica: 0.24486922530199665
+Método: intermedia Talla: 46656 Media: 2.65625 Mediana: 2.3046875 Desviación Típica: 0.8745534574855902
+Método: levenshtein_thres Talla: 6 Threshold: 1 Media: 2.360895912921931e-06 Mediana: 2.2893663374636847e-06 Desviación Típica: 4.768820017352851e-07
+Método: levenshtein_thres Talla: 6 Threshold: 2 Media: 1.9901287482647773e-06 Mediana: 1.9807211464043826e-06 Desviación Típica: 5.22227483921149e-07
+Método: levenshtein_thres Talla: 6 Threshold: 3 Media: 2.240452090345098e-05 Mediana: 2.417373793807496e-06 Desviación Típica: 2.551233853863871e-05
+Método: levenshtein_thres Talla: 6 Threshold: 4 Media: 0.00012122812769908274 Mediana: 7.15219422888212e-05 Desviación Típica: 0.00010817603614636413
+Método: levenshtein_thres Talla: 6 Threshold: 5 Media: 0.0002606710609088543 Mediana: 0.0002860736650891534 Desviación Típica: 0.00016444164928752834
+Método: levenshtein_thres Talla: 36 Threshold: 1 Media: 6.762591903986835e-05 Mediana: 8.65998551869405e-05 Desviación Típica: 3.497926546323065e-05
+Método: levenshtein_thres Talla: 36 Threshold: 2 Media: 0.00018247804231106792 Mediana: 0.0001528936856172936 Desviación Típica: 0.00011279694579150547
+Método: levenshtein_thres Talla: 36 Threshold: 3 Media: 0.0005259136692738007 Mediana: 0.000389358150907064 Desviación Típica: 0.0003904932804062725
+Método: levenshtein_thres Talla: 36 Threshold: 4 Media: 0.0013721806275885536 Mediana: 0.0011889991728701406 Desviación Típica: 0.0009548147588084317
+Método: levenshtein_thres Talla: 36 Threshold: 5 Media: 0.0021261284515213144 Mediana: 0.0026359247967479675 Desviación Típica: 0.001095304720309503
+Método: levenshtein_thres Talla: 216 Threshold: 1 Media: 0.0015963995022689084 Mediana: 0.0012745596205962061 Desviación Típica: 0.0011657413009276529
+Método: levenshtein_thres Talla: 216 Threshold: 2 Media: 0.004147357868858716 Mediana: 0.004981884057971014 Desviación Típica: 0.0023763844515188623
+Método: levenshtein_thres Talla: 216 Threshold: 3 Media: 0.007792426100442358 Mediana: 0.009114583333333334 Desviación Típica: 0.004025081345141513
+Método: levenshtein_thres Talla: 216 Threshold: 4 Media: 0.011957376851065836 Mediana: 0.015625 Desviación Típica: 0.005851787625780677
+Método: levenshtein_thres Talla: 216 Threshold: 5 Media: 0.014846132128740825 Mediana: 0.018229166666666668 Desviación Típica: 0.006588899930995938
+Método: levenshtein_thres Talla: 1296 Threshold: 1 Media: 0.01564752540116804 Mediana: 0.02005208333333333 Desviación Típica: 0.008178565618425294
+Método: levenshtein_thres Talla: 1296 Threshold: 2 Media: 0.03817234848484848 Mediana: 0.046875 Desviación Típica: 0.01917138689780683
+Método: levenshtein_thres Talla: 1296 Threshold: 3 Media: 0.06713942307692308 Mediana: 0.078125 Desviación Típica: 0.031416356395187015
+Método: levenshtein_thres Talla: 1296 Threshold: 4 Media: 0.09601562500000001 Mediana: 0.109375 Desviación Típica: 0.04087729649989863
+Método: levenshtein_thres Talla: 1296 Threshold: 5 Media: 0.11171875 Mediana: 0.125 Desviación Típica: 0.03529486561898912
+Método: levenshtein_thres Talla: 7776 Threshold: 1 Media: 0.09693509615384616 Mediana: 0.1171875 Desviación Típica: 0.043262594643358104
+Método: levenshtein_thres Talla: 7776 Threshold: 2 Media: 0.24453125 Mediana: 0.2890625 Desviación Típica: 0.10222440560630568
+Método: levenshtein_thres Talla: 7776 Threshold: 3 Media: 0.4359375 Mediana: 0.484375 Desviación Típica: 0.1634960459193127
+Método: levenshtein_thres Talla: 7776 Threshold: 4 Media: 0.5921875 Mediana: 0.6484375 Desviación Típica: 0.1600247173290739
+Método: levenshtein_thres Talla: 7776 Threshold: 5 Media: 0.728125 Mediana: 0.7421875 Desviación Típica: 0.14727339584935223
+Método: levenshtein_thres Talla: 46656 Threshold: 1 Media: 0.2619791666666667 Mediana: 0.28125 Desviación Típica: 0.10790304169137219
+Método: levenshtein_thres Talla: 46656 Threshold: 2 Media: 0.653125 Mediana: 0.7421875 Desviación Típica: 0.24354959710498392
+Método: levenshtein_thres Talla: 46656 Threshold: 3 Media: 1.1515625 Mediana: 1.2890625 Desviación Típica: 0.35258877982183434
+Método: levenshtein_thres Talla: 46656 Threshold: 4 Media: 1.7828125 Mediana: 1.9140625 Desviación Típica: 0.41742151676243283
+Método: levenshtein_thres Talla: 46656 Threshold: 5 Media: 2.171875 Mediana: 2.1484375 Desviación Típica: 0.307062061113059
+Método: restringida_thres Talla: 6 Threshold: 1 Media: 2.230599023801624e-06 Mediana: 2.169452851184894e-06 Desviación Típica: 3.5838373028216874e-07
+Método: restringida_thres Talla: 6 Threshold: 2 Media: 2.207550660118724e-06 Mediana: 2.088804734848029e-06 Desviación Típica: 3.5431043749122077e-07
+Método: restringida_thres Talla: 6 Threshold: 3 Media: 2.7437613263654616e-05 Mediana: 2.7846958604383434e-06 Desviación Típica: 3.1103728489153844e-05
+Método: restringida_thres Talla: 6 Threshold: 4 Media: 0.00013616551578283595 Mediana: 8.461514768547869e-05 Desviación Típica: 0.00012294389634889797
+Método: restringida_thres Talla: 6 Threshold: 5 Media: 0.0003048107776647033 Mediana: 0.0003533934909698298 Desviación Típica: 0.00018896735407173648
+Método: restringida_thres Talla: 36 Threshold: 1 Media: 7.334308237858002e-05 Mediana: 9.474013197383032e-05 Desviación Típica: 3.9363308239556806e-05
+Método: restringida_thres Talla: 36 Threshold: 2 Media: 0.00020277471490708537 Mediana: 0.0001660980524422305 Desviación Típica: 0.0001255999443396239
+Método: restringida_thres Talla: 36 Threshold: 3 Media: 0.0006073072260597687 Mediana: 0.0004428427997705106 Desviación Típica: 0.0004559276561656564
+Método: restringida_thres Talla: 36 Threshold: 4 Media: 0.0016325481563786934 Mediana: 0.0013938210227272727 Desviación Típica: 0.00116073070999004
+Método: restringida_thres Talla: 36 Threshold: 5 Media: 0.0024662178541332777 Mediana: 0.0030381944444444445 Desviación Típica: 0.0012755995136660302
+Método: restringida_thres Talla: 216 Threshold: 1 Media: 0.0016231125290983902 Mediana: 0.001302267895109851 Desviación Típica: 0.0011699338110515275
+Método: restringida_thres Talla: 216 Threshold: 2 Media: 0.004787529740250198 Mediana: 0.005772569444444445 Desviación Típica: 0.0028239263451705033
+Método: restringida_thres Talla: 216 Threshold: 3 Media: 0.009172403909675175 Mediana: 0.0109375 Desviación Típica: 0.004766229846266864
+Método: restringida_thres Talla: 216 Threshold: 4 Media: 0.0138521172827239 Mediana: 0.015625 Desviación Típica: 0.00690681690045895
+Método: restringida_thres Talla: 216 Threshold: 5 Media: 0.017244791666666665 Mediana: 0.020833333333333332 Desviación Típica: 0.007920587365219164
+Método: restringida_thres Talla: 1296 Threshold: 1 Media: 0.016708356414389627 Mediana: 0.021354166666666667 Desviación Típica: 0.008857871616566667
+Método: restringida_thres Talla: 1296 Threshold: 2 Media: 0.04199150054014672 Mediana: 0.0546875 Desviación Típica: 0.02067269587905965
+Método: restringida_thres Talla: 1296 Threshold: 3 Media: 0.07417067307692307 Mediana: 0.08984375 Desviación Típica: 0.034580246003935215
+Método: restringida_thres Talla: 1296 Threshold: 4 Media: 0.10551215277777777 Mediana: 0.1171875 Desviación Típica: 0.046526664353644956
+Método: restringida_thres Talla: 1296 Threshold: 5 Media: 0.121875 Mediana: 0.140625 Desviación Típica: 0.03940475066537028
+Método: restringida_thres Talla: 7776 Threshold: 1 Media: 0.11165364583333334 Mediana: 0.1328125 Desviación Típica: 0.05098554159426137
+Método: restringida_thres Talla: 7776 Threshold: 2 Media: 0.27265625 Mediana: 0.328125 Desviación Típica: 0.11611225458177316
+Método: restringida_thres Talla: 7776 Threshold: 3 Media: 0.4703125 Mediana: 0.546875 Desviación Típica: 0.17545281817699593
+Método: restringida_thres Talla: 7776 Threshold: 4 Media: 0.6796875 Mediana: 0.75 Desviación Típica: 0.2119766072736565
+Método: restringida_thres Talla: 7776 Threshold: 5 Media: 0.8421875 Mediana: 0.859375 Desviación Típica: 0.18227752921369653
+Método: restringida_thres Talla: 46656 Threshold: 1 Media: 0.29765625 Mediana: 0.3125 Desviación Típica: 0.12943546669697029
+Método: restringida_thres Talla: 46656 Threshold: 2 Media: 0.7203125 Mediana: 0.8125 Desviación Típica: 0.2616849325166621
+Método: restringida_thres Talla: 46656 Threshold: 3 Media: 1.2984375 Mediana: 1.40625 Desviación Típica: 0.3985110226282957
+Método: restringida_thres Talla: 46656 Threshold: 4 Media: 1.928125 Mediana: 2.0546875 Desviación Típica: 0.426490950959103
+Método: restringida_thres Talla: 46656 Threshold: 5 Media: 2.5265625 Mediana: 2.4296875 Desviación Típica: 0.4228027992235269
+Método: intermedia_thres Talla: 6 Threshold: 1 Media: 1.9878517257871936e-06 Mediana: 2.0229373545124248e-06 Desviación Típica: 3.0222040560509075e-07
+Método: intermedia_thres Talla: 6 Threshold: 2 Media: 2.014476836815243e-06 Mediana: 1.928527535905741e-06 Desviación Típica: 5.156431324063944e-07
+Método: intermedia_thres Talla: 6 Threshold: 3 Media: 3.118374230680255e-05 Mediana: 2.6518878101472592e-06 Desviación Típica: 3.5922637933642746e-05
+Método: intermedia_thres Talla: 6 Threshold: 4 Media: 0.00015765528506503108 Mediana: 9.812266265657384e-05 Desviación Típica: 0.0001381109833127649
+Método: intermedia_thres Talla: 6 Threshold: 5 Media: 0.0003455938210399804 Mediana: 0.0004088913617687341 Desviación Típica: 0.00021265664686847803
+Método: intermedia_thres Talla: 36 Threshold: 1 Media: 8.156854953271468e-05 Mediana: 0.00010511775613315598 Desviación Típica: 4.390975016767001e-05
+Método: intermedia_thres Talla: 36 Threshold: 2 Media: 0.00022162770186899197 Mediana: 0.00018906782256618656 Desviación Típica: 0.00013803424366336386
+Método: intermedia_thres Talla: 36 Threshold: 3 Media: 0.0007046796121486216 Mediana: 0.0005123203707766565 Desviación Típica: 0.0005363395210852525
+Método: intermedia_thres Talla: 36 Threshold: 4 Media: 0.0017825061476918654 Mediana: 0.0015417162993845543 Desviación Típica: 0.0012442314940807795
+Método: intermedia_thres Talla: 36 Threshold: 5 Media: 0.0028880444241090883 Mediana: 0.0034730972782258066 Desviación Típica: 0.0015187920950151686
+Método: intermedia_thres Talla: 216 Threshold: 1 Media: 0.0018488956980401653 Mediana: 0.0014887152777777778 Desviación Típica: 0.001323210424786116
+Método: intermedia_thres Talla: 216 Threshold: 2 Media: 0.0053568265138216236 Mediana: 0.006255106209150327 Desviación Típica: 0.0031279365362673183
+Método: intermedia_thres Talla: 216 Threshold: 3 Media: 0.010744528579444041 Mediana: 0.012912326388888888 Desviación Típica: 0.005640379900779165
+Método: intermedia_thres Talla: 216 Threshold: 4 Media: 0.016468368807567836 Mediana: 0.020833333333333332 Desviación Típica: 0.008049709672050898
+Método: intermedia_thres Talla: 216 Threshold: 5 Media: 0.01974439283033033 Mediana: 0.0234375 Desviación Típica: 0.008921116120794478
+Método: intermedia_thres Talla: 1296 Threshold: 1 Media: 0.019850610263138443 Mediana: 0.021875 Desviación Típica: 0.010695147997647153
+Método: intermedia_thres Talla: 1296 Threshold: 2 Media: 0.047916057504873294 Mediana: 0.05859375 Desviación Típica: 0.024444530175983404
+Método: intermedia_thres Talla: 1296 Threshold: 3 Media: 0.08951822916666667 Mediana: 0.109375 Desviación Típica: 0.04173705196043027
+Método: intermedia_thres Talla: 1296 Threshold: 4 Media: 0.12063802083333335 Mediana: 0.140625 Desviación Típica: 0.0489382871886853
+Método: intermedia_thres Talla: 1296 Threshold: 5 Media: 0.14348958333333334 Mediana: 0.15625 Desviación Típica: 0.04670760039753523
+Método: intermedia_thres Talla: 7776 Threshold: 1 Media: 0.12469223484848486 Mediana: 0.1484375 Desviación Típica: 0.056100866808752196
+Método: intermedia_thres Talla: 7776 Threshold: 2 Media: 0.3140625 Mediana: 0.359375 Desviación Típica: 0.1380758538132211
+Método: intermedia_thres Talla: 7776 Threshold: 3 Media: 0.5390625 Mediana: 0.609375 Desviación Típica: 0.1945610544437144
+Método: intermedia_thres Talla: 7776 Threshold: 4 Media: 0.8078125 Mediana: 0.8828125 Desviación Típica: 0.24922242356226695
+Método: intermedia_thres Talla: 7776 Threshold: 5 Media: 1.0359375 Mediana: 0.984375 Desviación Típica: 0.21964660003344008
+Método: intermedia_thres Talla: 46656 Threshold: 1 Media: 0.32734375 Mediana: 0.359375 Desviación Típica: 0.13721783904275164
+Método: intermedia_thres Talla: 46656 Threshold: 2 Media: 0.828125 Mediana: 0.9453125 Desviación Típica: 0.30257682392245444
+Método: intermedia_thres Talla: 46656 Threshold: 3 Media: 1.53125 Mediana: 1.71875 Desviación Típica: 0.47971549185428647
+Método: intermedia_thres Talla: 46656 Threshold: 4 Media: 2.275 Mediana: 2.4140625 Desviación Típica: 0.511355429227069
+Método: intermedia_thres Talla: 46656 Threshold: 5 Media: 3.1703125 Mediana: 3.1875 Desviación Típica: 0.6245486651624915
+Método: levenshtein-trie Talla: 6 Threshold: 1 Media: 0.0001147442583217433 Mediana: 0.00010985131267886026 Desviación Típica: 2.723850646053475e-05
+Método: levenshtein-trie Talla: 6 Threshold: 2 Media: 0.0001544319739396085 Mediana: 0.00015308274958961642 Desviación Típica: 1.6024526954798804e-05
+Método: levenshtein-trie Talla: 6 Threshold: 3 Media: 0.00019731052684646475 Mediana: 0.00020138528941466622 Desviación Típica: 1.798351296947397e-05
+Método: levenshtein-trie Talla: 6 Threshold: 4 Media: 0.00022960866313888312 Mediana: 0.00022232160563194077 Desviación Típica: 1.605306037327111e-05
+Método: levenshtein-trie Talla: 6 Threshold: 5 Media: 0.0002408324144935776 Mediana: 0.00024118000651554493 Desviación Típica: 1.920488064575273e-05
+Método: levenshtein-trie Talla: 36 Threshold: 1 Media: 0.0007227757617358787 Mediana: 0.0007552083333333334 Desviación Típica: 0.00012786070703046888
+Método: levenshtein-trie Talla: 36 Threshold: 2 Media: 0.0009278364446151318 Mediana: 0.0009511588777979432 Desviación Típica: 0.0001028665865628463
+Método: levenshtein-trie Talla: 36 Threshold: 3 Media: 0.001175592525152613 Mediana: 0.0011398176291793312 Desviación Típica: 0.00012470771495748728
+Método: levenshtein-trie Talla: 36 Threshold: 4 Media: 0.0012911082310707181 Mediana: 0.001264493116813686 Desviación Típica: 0.00016398913612890824
+Método: levenshtein-trie Talla: 36 Threshold: 5 Media: 0.001305564844133896 Mediana: 0.001302267895109851 Desviación Típica: 0.00013720385960376715
+Método: levenshtein-trie Talla: 216 Threshold: 1 Media: 0.0061636311597007215 Mediana: 0.006095201238390092 Desviación Típica: 0.0005836322329207525
+Método: levenshtein-trie Talla: 216 Threshold: 2 Media: 0.00760952818627451 Mediana: 0.0078125 Desviación Típica: 0.0007135504802493254
+Método: levenshtein-trie Talla: 216 Threshold: 3 Media: 0.008879662004662005 Mediana: 0.009114583333333334 Desviación Típica: 0.0007207812530800707
+Método: levenshtein-trie Talla: 216 Threshold: 4 Media: 0.00914135343822844 Mediana: 0.008413461538461538 Desviación Típica: 0.0010136513226262746
+Método: levenshtein-trie Talla: 216 Threshold: 5 Media: 0.009534649378399379 Mediana: 0.009114583333333334 Desviación Típica: 0.001416398112850269
+Método: levenshtein-trie Talla: 1296 Threshold: 1 Media: 0.0515625 Mediana: 0.0546875 Desviación Típica: 0.008699631816921908
+Método: levenshtein-trie Talla: 1296 Threshold: 2 Media: 0.06015625 Mediana: 0.0546875 Desviación Típica: 0.009276829755498373
+Método: levenshtein-trie Talla: 1296 Threshold: 3 Media: 0.06458333333333334 Mediana: 0.05859375 Desviación Típica: 0.014629762401237645
+Método: levenshtein-trie Talla: 1296 Threshold: 4 Media: 0.06640625 Mediana: 0.0625 Desviación Típica: 0.016105881350068987
+Método: levenshtein-trie Talla: 1296 Threshold: 5 Media: 0.06796875 Mediana: 0.0625 Desviación Típica: 0.01640625
+Método: levenshtein-trie Talla: 7776 Threshold: 1 Media: 0.35625 Mediana: 0.328125 Desviación Típica: 0.10615804844664394
+Método: levenshtein-trie Talla: 7776 Threshold: 2 Media: 0.409375 Mediana: 0.375 Desviación Típica: 0.12632114332129835
+Método: levenshtein-trie Talla: 7776 Threshold: 3 Media: 0.409375 Mediana: 0.34375 Desviación Típica: 0.14024253545198048
+Método: levenshtein-trie Talla: 7776 Threshold: 4 Media: 0.390625 Mediana: 0.34375 Desviación Típica: 0.10481568644530265
+Método: levenshtein-trie Talla: 7776 Threshold: 5 Media: 0.4046875 Mediana: 0.34375 Desviación Típica: 0.12912150588205668
+Método: levenshtein-trie Talla: 46656 Threshold: 1 Media: 1.078125 Mediana: 0.9609375 Desviación Típica: 0.3304234971971576
+Método: levenshtein-trie Talla: 46656 Threshold: 2 Media: 1.128125 Mediana: 1.0 Desviación Típica: 0.30264136676105596
+Método: levenshtein-trie Talla: 46656 Threshold: 3 Media: 1.16875 Mediana: 1.03125 Desviación Típica: 0.31974416042361115
+Método: levenshtein-trie Talla: 46656 Threshold: 4 Media: 1.14375 Mediana: 1.0078125 Desviación Típica: 0.3654246245807745
+Método: levenshtein-trie Talla: 46656 Threshold: 5 Media: 1.165625 Mediana: 1.0625 Desviación Típica: 0.29795854892081886

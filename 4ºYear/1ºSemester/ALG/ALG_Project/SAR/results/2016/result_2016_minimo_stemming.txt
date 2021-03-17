@@ -1,0 +1,30 @@
+#
+# MINIMO
+#
+de	2312
+isla	107
+valencia	98
+sanidad	68
+cultura	187
+videojuegos	29
+videojuegos OR cultura	211
+videojuegos OR NOT videojuegos	2314
+isla AND valencia	4
+isla AND NOT valencia	103
+NOT pero	889
+isla AND NOT valencia AND NOT pero	26
+NOT isla AND NOT valencia AND NOT pero	818
+isla AND valencia AND pero	2
+isla OR valencia	201
+isla OR NOT valencia	2220
+NOT isla OR valencia	2211
+NOT isla OR NOT valencia	2310
+NOT isla OR NOT valencia AND pero	1423
+NOT isla OR NOT valencia AND NOT pero	887
+NOT isla OR NOT valencia OR NOT pero	2312
+años	1258
+google	24
+cultura	187
+google OR cultura	209
+años AND google	15
+años AND cultura	129

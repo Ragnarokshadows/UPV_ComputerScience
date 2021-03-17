@@ -1,0 +1,38 @@
+(load "E:/FZCLP604/FZEXMPL/SIMPLTST.CLP")
+CLIPS> Defining deftemplate: speed_error
+Defining deftemplate: speed_change
+Defining deffacts: my_facts
+Defining defrule: speed-too-fast +j
+Defining defrule: speed-ok +j
+Defining defrule: get-crisp-value-and-print-rslt +j
+TRUE
+CLIPS> (reset)
+==> f-0     (initial-fact) CF 1.00 
+==> f-1     (speed_error zero) CF 0.90 
+	( (0.0 1.0) (0.11 0.0)  )
+
+==> Activation 0      speed-ok: f-1
+==> Activation 0      speed-too-fast: f-1
+CLIPS> (run)
+FIRE    1 speed-too-fast: f-1
+==> f-2     (speed_change ???) CF 0.63 
+	( (0.1 0.0) (0.1495 0.0991)  )
+
+==> Activation -1     get-crisp-value-and-print-rslt: f-2
+FIRE    2 speed-ok: f-1
+<== f-2     (speed_change ???) CF 0.63 
+	( (0.1 0.0) (0.1495 0.0991)  )
+
+<== Activation -1     get-crisp-value-and-print-rslt: f-2
+==> f-3     (speed_change ???) CF 0.63 
+	( (0.0 1.0) (0.1 0.1) (0.1333 0.06667) (0.1495 0.0991)  )
+
+==> Activation -1     get-crisp-value-and-print-rslt: f-3
+FIRE    3 get-crisp-value-and-print-rslt: f-3
+Change speed by a factor of:  0.3553202565269306
+3 rules fired        Run time is 0.06400000000212458 seconds.
+46.87499999844391 rules per second.
+3 mean number of facts (3 maximum).
+1 mean number of instances (1 maximum).
+1 mean number of activations (2 maximum).
+CLIPS> (exit)

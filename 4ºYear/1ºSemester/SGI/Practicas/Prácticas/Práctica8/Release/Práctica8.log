@@ -1,0 +1,36 @@
+﻿  Main.cpp
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\codebase\Utilidades.h(29,44): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\codebase\Utilidades.h(30,45): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\codebase\Utilidades.h(35,57): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\codebase\Utilidades.h(36,57): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\codebase\Utilidades.h(38,54): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\codebase\Utilidades.h(252,37): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica8\Main.cpp(24,35): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica8\Main.cpp(25,35): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica8\Main.cpp(37,36): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica8\Main.cpp(39,36): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica8\Main.cpp(52,36): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica8\Main.cpp(84,36): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica8\Main.cpp(85,36): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica8\Main.cpp(369,29): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica8\Main.cpp(371,28): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica8\Main.cpp(373,29): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica8\Main.cpp(375,30): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica8\Main.cpp(391,24): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica8\Main.cpp(393,23): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica8\Main.cpp(395,24): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica8\Main.cpp(397,25): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica8\Main.cpp(414,38): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica8\Main.cpp(416,43): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica8\Main.cpp(497,15): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica8\Main.cpp(501,32): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica8\Main.cpp(505,16): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica8\Main.cpp(509,16): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica8\Main.cpp(512,13): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica8\Main.cpp(513,13): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica8\Main.cpp(545,1): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
+  Generando código
+  Previous IPDB not found, fall back to full compilation.
+  All 133 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generación de código finalizada
+  Práctica8.vcxproj -> C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica8\\Práctica8.exe

@@ -1,0 +1,17 @@
+
+========================================
+Number of indexed days: 285
+----------------------------------------
+Number of indexed news: 803
+----------------------------------------
+TOKENS:
+	# of tokens in 'article': 44684
+----------------------------------------
+STEMS:
+	# of stems in 'article': 23284
+----------------------------------------
+Positional queries are NOT allowed.
+========================================
+Time indexing: 1.43s.
+Time saving: 0.12s.
+

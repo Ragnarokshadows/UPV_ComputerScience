@@ -1,0 +1,42 @@
+  0 INCTOP              ,            ,  i:  10    
+  1 GOTOS               ,            ,  e:   2    
+  2 PUSHFP              ,            ,            
+  3 FPTOP               ,            ,            
+  4 INCTOP              ,            ,  i:  18    
+  5 EASIG     i:   0    ,            ,  p: (1,  1)
+  6 EASIG     p: (1,  1),            ,  p: (1,  0)
+  7 EASIG     p: (1,  0),            ,  p: (1,  3)
+  8 EASIG     i:  10    ,            ,  p: (1,  4)
+  9 EASIG     i:   1    ,            ,  p: (1,  5)
+ 10 EMEN      p: (1,  3),  p: (1,  4),  e:  12    
+ 11 EASIG     i:   0    ,            ,  p: (1,  5)
+ 12 EIGUAL    p: (1,  5),  i:   1    ,  i:  17    
+ 13 GOTOS               ,            ,  i:  21    
+ 14 EASIG     p: (1,  0),            ,  p: (1,  6)
+ 15 ESUM      p: (1,  0),  i:   1    ,  p: (1,  0)
+ 16 GOTOS               ,            ,  e:   7    
+ 17 EASIG     p: (1,  0),            ,  p: (1,  7)
+ 18 EASIG     p: (1,  0),            ,  p: (1,  8)
+ 19 EVA       p: (0,  0),  p: (1,  7),  p: (1,  8)
+ 20 GOTOS               ,            ,  e:  14    
+ 21 EASIG     i:   9    ,            ,  p: (1,  9)
+ 22 EASIG     p: (1,  9),            ,  p: (1,  0)
+ 23 EASIG     p: (1,  0),            ,  p: (1, 11)
+ 24 EASIG     i:   0    ,            ,  p: (1, 12)
+ 25 EASIG     i:   1    ,            ,  p: (1, 13)
+ 26 EMAYEQ    p: (1, 11),  p: (1, 12),  e:  28    
+ 27 EASIG     i:   0    ,            ,  p: (1, 13)
+ 28 EIGUAL    p: (1, 13),  i:   1    ,  i:  33    
+ 29 GOTOS               ,            ,  i:  37    
+ 30 EASIG     p: (1,  0),            ,  p: (1, 14)
+ 31 EDIF      p: (1,  0),  i:   1    ,  p: (1,  0)
+ 32 GOTOS               ,            ,  e:  23    
+ 33 EASIG     p: (1,  0),            ,  p: (1, 15)
+ 34 EAV       p: (0,  0),  p: (1, 15),  p: (1, 16)
+ 35 EWRITE              ,            ,  p: (1, 16)
+ 36 GOTOS               ,            ,  e:  30    
+ 37 EASIG     i:   0    ,            ,  p: (1, 17)
+ 38 EASIG     p: (1, 17),            ,  p: (1, -3)
+ 39 TOPFP               ,            ,            
+ 40 FPPOP               ,            ,            
+ 41 FIN                 ,            ,            

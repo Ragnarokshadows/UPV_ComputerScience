@@ -1,0 +1,8 @@
+﻿  S2E06.cpp
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Seminario2\S2E06.cpp(47,1): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
+  Generando código
+  2 of 16 functions (12.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Generación de código finalizada
+  Seminario2.vcxproj -> C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Seminario2\\Seminario2.exe

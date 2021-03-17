@@ -1,0 +1,28 @@
+
+; Version LPG-td-1.0
+; Seed 105069026
+; Command line: lpg-td -o transporte_publico.pddl -f pfile1.pddl -n 4 
+; Problem pfile1.pddl
+; Time 0.00
+; Search time 0.00
+; Parsing time 0.00
+; Mutex time 0.00
+; Quality 57.90
+
+
+Time 0.00
+
+0.0003:   (RECARGAR-BONO EVA) [1.0000]
+0.0005:   (RECARGAR-BONO ANA) [1.0000]
+0.0008:   (COMPRAR-TICKET PEDRO) [2.0000]
+1.0010:   (VIAJAR-METRO EVA C B) [20.0000]
+2.0013:   (VIAJAR-TREN PEDRO E B) [30.0000]
+21.0015:   (VIAJAR-METRO EVA B D) [40.0000]
+1.0017:   (VIAJAR-METRO ANA D A) [60.0000]
+0.0020:   (COMPRAR-TICKET JUAN) [2.0000]
+2.0022:   (VIAJAR-TREN JUAN A E) [50.0000]
+0.0025:   (VIAJAR-METRO MARIA C B) [20.0000]
+0.0027:   (COMPRAR-TICKET MARIA) [2.0000]
+20.0030:   (VIAJAR-TREN MARIA B E) [20.0000]
+
+

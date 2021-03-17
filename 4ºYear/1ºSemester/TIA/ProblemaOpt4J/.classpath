@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/guava-16.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/guice-4.0-beta5.jar"/>
+	<classpathentry kind="lib" path="lib/guice-multibindings-4.0-beta5.jar"/>
+	<classpathentry kind="lib" path="lib/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="lib/opt4j-3.1.4.jar"/>
+	<classpathentry kind="lib" path="lib/opt4j-benchmarks-3.1.4.jar"/>
+	<classpathentry kind="lib" path="lib/opt4j-core-3.1.4.jar"/>
+	<classpathentry kind="lib" path="lib/opt4j-operators-3.1.4.jar"/>
+	<classpathentry kind="lib" path="lib/opt4j-optimizers-3.1.4.jar"/>
+	<classpathentry kind="lib" path="lib/opt4j-satdecoding-3.1.4.jar"/>
+	<classpathentry kind="lib" path="lib/opt4j-tutorial-3.1.4.jar"/>
+	<classpathentry kind="lib" path="lib/opt4j-viewer-3.1.4.jar"/>
+	<classpathentry kind="lib" path="lib/org.ow2.sat4j.core-2.3.3-tests.jar"/>
+	<classpathentry kind="lib" path="lib/org.ow2.sat4j.core-2.3.3.jar"/>
+	<classpathentry kind="lib" path="lib/org.ow2.sat4j.pb-2.3.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,30 @@
+#
+# MINIMO
+#
+de	803
+isla	43
+valencia	40
+sanidad	34
+cultura	66
+videojuegos	3
+videojuegos OR cultura	69
+videojuegos OR NOT videojuegos	803
+isla AND valencia	3
+isla AND NOT valencia	40
+NOT pero	292
+isla AND NOT valencia AND NOT pero	8
+NOT isla AND NOT valencia AND NOT pero	276
+isla AND valencia AND pero	2
+isla OR valencia	80
+isla OR NOT valencia	766
+NOT isla OR valencia	763
+NOT isla OR NOT valencia	800
+NOT isla OR NOT valencia AND pero	509
+NOT isla OR NOT valencia AND NOT pero	291
+NOT isla OR NOT valencia OR NOT pero	801
+años	453
+google	12
+cultura	66
+google OR cultura	76
+años AND google	7
+años AND cultura	43

@@ -1,0 +1,64 @@
+﻿  Main.cpp
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(42,61): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(42,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(43,61): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(43,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(44,61): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(44,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(45,61): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(45,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(46,61): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(46,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(47,61): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(47,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(48,61): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(48,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(49,61): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(49,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(52,61): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(52,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(53,61): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(53,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(54,61): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(54,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(55,61): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(55,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(56,61): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(56,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(57,61): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(57,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(58,61): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(58,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(59,61): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(59,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(84,24): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(96,27): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(97,28): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(102,27): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(103,28): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(115,25): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(121,25): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(122,28): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(135,29): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(152,29): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(164,15): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(190,29): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(202,15): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(209,31): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(230,14): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(231,16): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(232,14): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(295,15): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(306,30): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(315,23): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(319,40): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(320,21): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(321,21): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(322,21): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\Main.cpp(335,1): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
+  Generando código
+  2 of 24 functions ( 8.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Generación de código finalizada
+  Práctica5.vcxproj -> C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica5\\Práctica5.exe

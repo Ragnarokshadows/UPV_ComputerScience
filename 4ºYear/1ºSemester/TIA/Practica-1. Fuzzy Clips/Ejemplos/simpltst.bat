@@ -1,0 +1,5 @@
+(load "f:\\fzclp610d\\fzexmpl\\simpltst.clp")
+(reset)
+(dribble-on "simpltst.out")
+(run)
+(exit)

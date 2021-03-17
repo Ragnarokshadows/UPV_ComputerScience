@@ -1,0 +1,33 @@
+[InternetShortcut]
+URL=***Capítulo 7, página 7-10, apartado 7.2.2
+Segundo ítem:
+
+-El método is_not_complete_and_is_extensible recibe un conjunto de pares "valor de moneda, cantidad de monedas" x y, a partir del valor que deseamos cambiar, Q, devuelve "cierto" si y sólo si la suma del producto de los dos elementos de cada par  par es ***igual*** a la cantidad que deseamos desglosar.
+——
+-El método is_not_complete_and_is_extensible recibe un conjunto de pares "valor de moneda, cantidad de monedas" x y, a partir del valor que deseamos cambiar, Q, devuelve "cierto" si y sólo si la suma del producto de los dos elementos de cada par  par es ***menor*** a la cantidad que deseamos desglosar.
+
+
+***Capítulo 7, página 7-23, apartado 7.5, línea de código 3
+j = 1 <--- SOBRA!!!
+
+***Capítulo 8, página 29, líneas de código 69 a 72:
+
+if V[i-1,c] > V[i-1,c-w[i]] + v[i]:
+  V[i,c], B[i,c] = V[i-1,c], (i-1, c)
+else:
+  V[i,c], B[i,c] = V[i-1,c AQUI ]+v[i], (i-1, c-w[i])
+
+***Capítulo 9, página 9-79, apartado 9.7
+Cuando se hace referencia al estado se debería numerar desde 1: (x_1, x_2, …, x_k) y lo mismo la ramificación, se ramifica desde la caja 1 hasta el máximo de cajas. También se hace referencia al número de objetos como n y N indistintamente (se debería cambiar todo a n, como en el apartado de voraces). La función de ramificación también contiene un fallo, así como la cota. Rectificación en lides.
+
+***Capítulo 9, página 9-79, apartado 9.7.2
+objetos calcular la suma de todos los pesos,
+——
+objetos: se suman los pesos de los N objetos, 
+
+***Capítulo 9, página 9-81, ejercicio 9-25
+Trabajamos para una empresa textil. Cada rollo de tella
+--->
+.................de tela
+
+

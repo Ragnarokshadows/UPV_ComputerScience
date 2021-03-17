@@ -1,0 +1,30 @@
+#
+# MINIMO
+#
+de
+isla
+valencia
+sanidad
+cultura
+videojuegos
+videojuegos OR cultura
+videojuegos OR NOT videojuegos
+isla AND valencia
+isla AND NOT valencia
+NOT pero
+isla AND NOT valencia AND NOT pero
+NOT isla AND NOT valencia AND NOT pero
+isla AND valencia AND pero
+isla OR valencia
+isla OR NOT valencia
+NOT isla OR valencia
+NOT isla OR NOT valencia
+NOT isla OR NOT valencia AND pero
+NOT isla OR NOT valencia AND NOT pero
+NOT isla OR NOT valencia OR NOT pero
+años
+google
+cultura
+google OR cultura
+años AND google
+años AND cultura

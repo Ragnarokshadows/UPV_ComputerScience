@@ -1,0 +1,22 @@
+﻿  S03E03.cpp
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Seminario3\S03E03.cpp(19,24): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Seminario3\S03E03.cpp(39,28): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+  S03E04.cpp
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Seminario3\S03E04.cpp(19,24): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Seminario3\S03E04.cpp(20,24): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Seminario3\S03E04.cpp(25,26): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Seminario3\S03E04.cpp(26,27): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Seminario3\S03E04.cpp(37,25): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Seminario3\S03E04.cpp(38,20): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Seminario3\S03E04.cpp(43,24): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Seminario3\S03E04.cpp(57,27): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Seminario3\S03E04.cpp(59,27): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Seminario3\S03E04.cpp(64,30): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Seminario3\S03E04.cpp(65,24): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Seminario3\S03E04.cpp(76,1): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
+  Generando código
+  7 of 17 functions (41.2%) were compiled, the rest were copied from previous compilation.
+    4 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Generación de código finalizada
+  Seminario3.vcxproj -> C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Seminario3\\Seminario3.exe

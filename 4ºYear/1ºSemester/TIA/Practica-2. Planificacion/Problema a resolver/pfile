@@ -1,0 +1,94 @@
+(define (problem logistica-3-8)
+(:domain logistica)
+(:objects
+	paquete1 - packXL
+	paquete2 - packS
+	camion1 - truck
+	camion2 - truck
+	person1 - person
+	person2 - person
+	cityA - city
+	cityB - city
+	cityC - city
+	cityD - city
+	cityE - city
+	)
+(:init
+	(at paquete1 cityA)
+	(at paquete2 cityD)
+	(at camion1 cityA)
+	(at camion2 cityA)
+	(at person1 cityC)
+	(at person2 cityD)
+	(= (distance cityA cityA) 0)
+	(= (distance cityB cityB) 0)
+	(= (distance cityC cityC) 0)
+	(= (distance cityD cityD) 0)
+	(= (distance cityE cityE) 0)
+
+	(= (distance cityA cityB) 4)
+	(= (distance cityB cityA) 4)
+
+	(= (distance cityA cityC) 2)
+	(= (distance cityC cityA) 2)
+
+	(= (distance cityB cityD) 3)
+	(= (distance cityD cityB) 3)
+
+	(= (distance cityB cityE) 4)
+	(= (distance cityE cityB) 4)
+
+	(= (distance cityC cityE) 9)
+	(= (distance cityE cityC) 9)
+
+	(= (distance cityC cityB) 3)
+	(= (distance cityB cityC) 3)
+
+	(= (coste cityA cityA) 0)
+	(= (coste cityB cityB) 0)
+	(= (coste cityC cityC) 0)
+	(= (coste cityD cityD) 0)
+	(= (coste cityE cityE) 0)
+
+	(= (coste cityA cityB) 1)
+	(= (coste cityB cityA) 1)
+
+	(= (coste cityA cityC) 1)
+	(= (coste cityC cityA) 1)
+
+	(= (coste cityB cityD) 3)
+	(= (coste cityD cityB) 3)
+
+	(= (coste cityB cityE) 3)
+	(= (coste cityE cityB) 3)
+
+	(= (coste cityC cityE) 6)
+	(= (coste cityE cityC) 6)
+
+	(= (coste cityC cityB) 2)
+	(= (coste cityB cityC) 2)
+
+	(= (duration_driver_in_out) 1)
+	(= (cost_driver_in_out) 1)
+
+	(= (duration_paqueteXL) 2)
+	(= (cost_paqueteXL) 4)
+
+	(= (duration_paqueteS) 1)
+	(= (cost_paqueteS) 2)
+
+	(= (duration_bus) 10)
+	(= (cost_bus) 3)
+
+	(= (coste_total) 0)
+
+)
+(:goal (and
+	(at paquete1 cityE)
+	(at paquete2 cityC)
+	(at camion2 cityA)
+	(at person1 cityB)
+	))
+
+(:metric minimize (+ (* 0.2 (total-time))  (* 0.5 (coste_total))))
+)

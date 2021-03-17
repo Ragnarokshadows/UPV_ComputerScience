@@ -1,0 +1,21 @@
+TRUE
+CLIPS> (reset)
+CLIPS> (run)
+which node are you interested in? (a-j or q to quit)
+i
+Please enter a value for node: a 
+2
+Enter Certainty Factor for node (0.0 to 1.0): a 
+0.5
+Please enter a value for node: b 
+4
+Enter Certainty Factor for node (0.0 to 1.0): b 
+0.4
+Please enter a value for node: c 
+6
+Enter Certainty Factor for node (0.0 to 1.0): c 
+1.0
+The output value at node i is 12 with certainty of 0.4
+which node are you interested in? (a-j or q to quit)
+q
+CLIPS> (dribble-off)

@@ -1,0 +1,25 @@
+  0 INCTOP              ,            ,  i:   0    
+  1 GOTOS               ,            ,  e:   2    
+  2 PUSHFP              ,            ,            
+  3 FPTOP               ,            ,            
+  4 INCTOP              ,            ,  i:  14    
+  5 EREAD               ,            ,  p: (1,  0)
+  6 EASIG     i:   2    ,            ,  p: (1,  1)
+  7 EASIG     p: (1,  0),            ,  p: (1,  2)
+  8 EMULT     p: (1,  1),  p: (1,  2),  p: (1,  3)
+  9 EASIG     p: (1,  0),            ,  p: (1,  4)
+ 10 EDIF      p: (1,  3),  p: (1,  4),  p: (1,  5)
+ 11 EASIG     p: (1,  0),            ,  p: (1,  6)
+ 12 ESUM      p: (1,  5),  p: (1,  6),  p: (1,  7)
+ 13 EASIG     i:   2    ,            ,  p: (1,  8)
+ 14 EDIVI     p: (1,  7),  p: (1,  8),  p: (1,  9)
+ 15 EASIG     p: (1,  0),            ,  p: (1, 10)
+ 16 EMULT     p: (1,  9),  p: (1, 10),  p: (1, 11)
+ 17 EASIG     p: (1, 11),            ,  p: (1,  0)
+ 18 EASIG     p: (1,  0),            ,  p: (1, 12)
+ 19 EWRITE              ,            ,  p: (1, 12)
+ 20 EASIG     i:   0    ,            ,  p: (1, 13)
+ 21 EASIG     p: (1, 13),            ,  p: (1, -3)
+ 22 TOPFP               ,            ,            
+ 23 FPPOP               ,            ,            
+ 24 FIN                 ,            ,            

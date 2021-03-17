@@ -1,0 +1,84 @@
+[InternetShortcut]
+URL=NOT antihéroes AND ecuador
+blindarse OR árboles AND perjuicio
+orígenes AND aversión
+actualmente AND NOT reubicar
+ventanasse OR rebuscar
+tortuosa OR atardecer
+NOT alexander AND iluminación
+capital OR secuela AND asoman
+virgen AND permisos
+libertad AND NOT sagrado
+apertura OR lourdes
+
+NOT antihéroes%2 AND ecuador%2
+blindarse%2 OR árboles AND perjuicio#2
+orígenes%2 AND aversión%2
+actualmente%2 AND NOT reubicar%2
+ventanasse%2 OR rebuscar%2
+tortuosa%2 OR atardecer%2
+NOT alexander%2 AND iluminación%2
+capital OR secuela%2 AND asoman%2
+virgen%2 AND permisos%2
+libertad%2 AND NOT sagrado%2
+apertura%2 OR lourdes%2
+
+NOT antihéroes%3 AND ecuador%3
+blindarse%3 OR árboles AND perjuicio#2
+orígenes%3 AND aversión%3
+actualmente%3 AND NOT reubicar%3
+ventanasse%3 OR rebuscar%3
+tortuosa%3 OR atardecer%3
+NOT alexander%3 AND iluminación%3
+capital OR secuela%3 AND asoman%3
+virgen%3 AND permisos%3
+libertad%3 AND NOT sagrado%3
+apertura%3 OR lourdes%3
+
+NOT antihéroes%5 AND ecuador%5
+blindarse%5 OR árboles AND perjuicio#2
+orígenes%5 AND aversión%5
+actualmente%5 AND NOT reubicar%5
+ventanasse%5 OR rebuscar%5
+tortuosa%5 OR atardecer%5
+NOT alexander%5 AND iluminación%5
+capital OR secuela%5 AND asoman%5
+virgen%5 AND permisos%5
+libertad%5 AND NOT sagrado%5
+apertura%5 OR lourdes%5
+
+NOT antihéroes@2 AND ecuador@2
+blindarse@2 OR árboles AND perjuicio#2
+orígenes@2 AND aversión@2
+actualmente@2 AND NOT reubicar@2
+ventanasse@2 OR rebuscar@2
+tortuosa@2 OR atardecer@2
+NOT alexander@2 AND iluminación@2
+capital OR secuela@2 AND asoman@2
+virgen@2 AND permisos@2
+libertad@2 AND NOT sagrado@2
+apertura@2 OR lourdes@2
+
+NOT antihéroes@3 AND ecuador@3
+blindarse@3 OR árboles AND perjuicio#2
+orígenes@3 AND aversión@3
+actualmente@3 AND NOT reubicar@3
+ventanasse@3 OR rebuscar@3
+tortuosa@3 OR atardecer@3
+NOT alexander@3 AND iluminación@3
+capital OR secuela@3 AND asoman@3
+virgen@3 AND permisos@3
+libertad@3 AND NOT sagrado@3
+apertura@3 OR lourdes@3
+
+NOT antihéroes@5 AND ecuador@5
+blindarse@5 OR árboles AND perjuicio#2
+orígenes@5 AND aversión@5
+actualmente@5 AND NOT reubicar@5
+ventanasse@5 OR rebuscar@5
+tortuosa@5 OR atardecer@5
+NOT alexander@5 AND iluminación@5
+capital OR secuela@5 AND asoman@5
+virgen@5 AND permisos@5
+libertad@5 AND NOT sagrado@5
+apertura@5 OR lourdes@5

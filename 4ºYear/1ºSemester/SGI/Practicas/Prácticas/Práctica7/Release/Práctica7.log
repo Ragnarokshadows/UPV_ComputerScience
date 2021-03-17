@@ -1,0 +1,29 @@
+﻿  Main.cpp
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\codebase\Utilidades.h(29,44): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\codebase\Utilidades.h(30,45): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\codebase\Utilidades.h(35,57): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\codebase\Utilidades.h(36,57): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\codebase\Utilidades.h(38,54): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\codebase\Utilidades.h(252,37): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica7\Main.cpp(30,35): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica7\Main.cpp(31,35): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica7\Main.cpp(43,36): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica7\Main.cpp(45,36): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica7\Main.cpp(58,36): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica7\Main.cpp(90,36): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica7\Main.cpp(91,36): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica7\Main.cpp(111,38): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica7\Main.cpp(113,43): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica7\Main.cpp(212,15): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica7\Main.cpp(216,32): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica7\Main.cpp(227,13): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica7\Main.cpp(228,13): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica7\Main.cpp(231,11): warning C4566: el carácter representado por el nombre de carácter universal '\uFFFD' no se puede representar en la página de códigos actual (1252)
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica7\Main.cpp(254,1): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica7\Main.cpp(258,19): warning C4566: el carácter representado por el nombre de carácter universal '\uFFFD' no se puede representar en la página de códigos actual (1252)
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica7\Main.cpp(260,15): warning C4566: el carácter representado por el nombre de carácter universal '\uFFFD' no se puede representar en la página de códigos actual (1252)
+  Generando código
+  Previous IPDB not found, fall back to full compilation.
+  All 123 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generación de código finalizada
+  Práctica7.vcxproj -> C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica7\\Práctica7.exe

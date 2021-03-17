@@ -1,0 +1,1919 @@
+Compiling Tareas.mzn, additional arguments nt=6; 
+Running Tareas.mzn
+Tareas Adan: 
+1-2
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+1-2
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+1-2
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+19-23
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+2-3
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+2-3
+13-15
+10-11
+5-9
+Salir de casa: 1
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+2-3
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+2-3
+13-15
+10-11
+5-9
+Salir de casa: 1
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+2-3
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+19-23
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+2-3
+13-15
+10-11
+5-9
+Salir de casa: 1
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+19-23
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+3-4
+13-15
+10-11
+5-9
+Salir de casa: 1
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+3-4
+13-15
+10-11
+5-9
+Salir de casa: 2
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+3-4
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+10-11
+5-9
+Salir de casa: 1
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+10-11
+5-9
+Salir de casa: 2
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+19-23
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+10-11
+5-9
+Salir de casa: 1
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+19-23
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+10-11
+5-9
+Salir de casa: 2
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+19-23
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+1-2
+13-15
+11-12
+5-9
+Salir de casa: 0
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+1-2
+13-15
+11-12
+5-9
+Salir de casa: 0
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+2-3
+13-15
+11-12
+5-9
+Salir de casa: 0
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+2-3
+13-15
+11-12
+5-9
+Salir de casa: 1
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+2-3
+13-15
+11-12
+5-9
+Salir de casa: 0
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+2-3
+13-15
+11-12
+5-9
+Salir de casa: 1
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+11-12
+5-9
+Salir de casa: 0
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+3-4
+13-15
+11-12
+5-9
+Salir de casa: 1
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+3-4
+13-15
+11-12
+5-9
+Salir de casa: 2
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+3-4
+13-15
+11-12
+5-9
+Salir de casa: 0
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+11-12
+5-9
+Salir de casa: 1
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+11-12
+5-9
+Salir de casa: 2
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+1-2
+13-15
+11-12
+5-9
+Salir de casa: 0
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+19-23
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+2-3
+13-15
+11-12
+5-9
+Salir de casa: 0
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+19-23
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+2-3
+13-15
+11-12
+5-9
+Salir de casa: 1
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+19-23
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+11-12
+5-9
+Salir de casa: 0
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+19-23
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+11-12
+5-9
+Salir de casa: 1
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+19-23
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+11-12
+5-9
+Salir de casa: 2
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+19-23
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+1-2
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+1-2
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+2-3
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+2-3
+13-15
+10-11
+5-9
+Salir de casa: 1
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+2-3
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+2-3
+13-15
+10-11
+5-9
+Salir de casa: 1
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+3-4
+13-15
+10-11
+5-9
+Salir de casa: 1
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+3-4
+13-15
+10-11
+5-9
+Salir de casa: 2
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+3-4
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+10-11
+5-9
+Salir de casa: 1
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+10-11
+5-9
+Salir de casa: 2
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+1-2
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+19-23
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+2-3
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+19-23
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+2-3
+13-15
+10-11
+5-9
+Salir de casa: 1
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+19-23
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+19-23
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+10-11
+5-9
+Salir de casa: 1
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+19-23
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+10-11
+5-9
+Salir de casa: 2
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+19-23
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+1-2
+13-15
+11-12
+5-9
+Salir de casa: 0
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+1-2
+13-15
+11-12
+5-9
+Salir de casa: 0
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+2-3
+13-15
+11-12
+5-9
+Salir de casa: 0
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+2-3
+13-15
+11-12
+5-9
+Salir de casa: 1
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+2-3
+13-15
+11-12
+5-9
+Salir de casa: 0
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+2-3
+13-15
+11-12
+5-9
+Salir de casa: 1
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+11-12
+5-9
+Salir de casa: 0
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+3-4
+13-15
+11-12
+5-9
+Salir de casa: 1
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+3-4
+13-15
+11-12
+5-9
+Salir de casa: 2
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+3-4
+13-15
+11-12
+5-9
+Salir de casa: 0
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+11-12
+5-9
+Salir de casa: 1
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+11-12
+5-9
+Salir de casa: 2
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+1-2
+13-15
+11-12
+5-9
+Salir de casa: 0
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+19-23
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+2-3
+13-15
+11-12
+5-9
+Salir de casa: 0
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+19-23
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+2-3
+13-15
+11-12
+5-9
+Salir de casa: 1
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+19-23
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+11-12
+5-9
+Salir de casa: 0
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+19-23
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+11-12
+5-9
+Salir de casa: 1
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+19-23
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+11-12
+5-9
+Salir de casa: 2
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+19-23
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+1-2
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+1-2
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+2-3
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+2-3
+13-15
+10-11
+5-9
+Salir de casa: 1
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+2-3
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+2-3
+13-15
+10-11
+5-9
+Salir de casa: 1
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+3-4
+13-15
+10-11
+5-9
+Salir de casa: 1
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+3-4
+13-15
+10-11
+5-9
+Salir de casa: 2
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+3-4
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+10-11
+5-9
+Salir de casa: 1
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+10-11
+5-9
+Salir de casa: 2
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+16-17
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+16-17
+13-15
+10-11
+5-9
+Salir de casa: 1
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+16-17
+13-15
+10-11
+5-9
+Salir de casa: 2
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+16-17
+13-15
+10-11
+5-9
+Salir de casa: 3
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+16-17
+13-15
+10-11
+5-9
+Salir de casa: 4
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+16-17
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+16-17
+13-15
+10-11
+5-9
+Salir de casa: 1
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+16-17
+13-15
+10-11
+5-9
+Salir de casa: 2
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+16-17
+13-15
+10-11
+5-9
+Salir de casa: 3
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+16-17
+13-15
+10-11
+5-9
+Salir de casa: 4
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+1-2
+13-15
+11-12
+5-9
+Salir de casa: 0
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+1-2
+13-15
+11-12
+5-9
+Salir de casa: 0
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+2-3
+13-15
+11-12
+5-9
+Salir de casa: 0
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+2-3
+13-15
+11-12
+5-9
+Salir de casa: 1
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+Tareas Adan: 
+2-3
+13-15
+11-12
+5-9
+Salir de casa: 0
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+2-3
+13-15
+11-12
+5-9
+Salir de casa: 1
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+Tareas Adan: 
+3-4
+13-15
+11-12
+5-9
+Salir de casa: 0
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+[ 99 more solutions ]
+Tareas Adan: 
+16-17
+13-15
+11-12
+5-9
+Salir de casa: 0
+Aeropuerto: 19
+
+Holgura: 1
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 23
+----------
+[ 199 more solutions ]
+Tareas Adan: 
+17-18
+14-16
+11-12
+5-9
+Salir de casa: 1
+Aeropuerto: 19
+
+Holgura: 1
+
+Tareas Eva: 
+5-9
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+[ 399 more solutions ]
+Tareas Adan: 
+2-3
+13-15
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 16
+
+Holgura: 4
+
+Tareas Eva: 
+5-9
+10-15
+16-18
+Salir de casa: 4
+Llegar a casa: 20
+----------
+[ 799 more solutions ]
+Tareas Adan: 
+2-3
+14-16
+10-11
+5-9
+Salir de casa: 0
+Aeropuerto: 19
+
+Holgura: 1
+
+Tareas Eva: 
+5-9
+10-15
+16-18
+Salir de casa: 4
+Llegar a casa: 24
+----------
+[ 1599 more solutions ]
+Tareas Adan: 
+3-4
+14-16
+12-13
+5-9
+Salir de casa: 2
+Aeropuerto: 17
+
+Holgura: 3
+
+Tareas Eva: 
+5-9
+10-15
+17-19
+Salir de casa: 4
+Llegar a casa: 21
+----------
+[ 3199 more solutions ]
+Tareas Adan: 
+2-3
+4-6
+16-17
+11-15
+Salir de casa: 0
+Aeropuerto: 19
+
+Holgura: 1
+
+Tareas Eva: 
+11-15
+5-10
+16-18
+Salir de casa: 4
+Llegar a casa: 21
+----------
+[ 6399 more solutions ]
+Tareas Adan: 
+17-18
+5-7
+9-10
+12-16
+Salir de casa: 4
+Aeropuerto: 19
+
+Holgura: 1
+
+Tareas Eva: 
+12-16
+6-11
+17-19
+Salir de casa: 5
+Llegar a casa: 22
+----------
+[ 12799 more solutions ]
+Tareas Adan: 
+4-5
+6-8
+16-17
+9-13
+Salir de casa: 2
+Aeropuerto: 18
+
+Holgura: 2
+
+Tareas Eva: 
+9-13
+14-19
+6-8
+Salir de casa: 5
+Llegar a casa: 24
+----------
+[ 25599 more solutions ]
+Tareas Adan: 
+1-2
+7-9
+17-18
+10-14
+Salir de casa: 0
+Aeropuerto: 19
+
+Holgura: 1
+
+Tareas Eva: 
+10-14
+16-20
+6-8
+Salir de casa: 5
+Llegar a casa: 21
+----------
+[ 51199 more solutions ]
+Tareas Adan: 
+14-15
+4-6
+12-13
+7-11
+Salir de casa: 2
+Aeropuerto: 19
+
+Holgura: 1
+
+Tareas Eva: 
+7-11
+18-22
+15-17
+Salir de casa: 4
+Llegar a casa: 24
+----------
+[ 36638 more solutions ]
+Tareas Adan: 
+6-7
+8-10
+17-18
+11-15
+Salir de casa: 5
+Aeropuerto: 19
+
+Holgura: 1
+
+Tareas Eva: 
+11-15
+19-23
+16-18
+Salir de casa: 10
+Llegar a casa: 24
+----------
+==========
+Finished in 47s 56msec

@@ -1,0 +1,83 @@
+﻿  Practica9.cpp
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\codebase\Utilidades.h(29,44): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\codebase\Utilidades.h(30,45): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\codebase\Utilidades.h(35,57): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\codebase\Utilidades.h(36,57): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\codebase\Utilidades.h(38,54): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\codebase\Utilidades.h(252,37): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(39,20): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(40,23): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(41,24): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(45,18): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(55,42): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(56,42): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(74,11): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(77,28): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(117,31): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(261,26): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(263,25): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(265,25): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(267,26): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(279,16): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(330,46): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(338,45): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(340,46): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(350,46): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(488,30): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(565,19): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(626,22): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLenum'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(634,37): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(663,24): warning C4838: la conversión de 'double' en 'GLfloat' requiere una conversión de restricción
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(663,24): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(663,44): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(663,40): warning C4838: la conversión de 'double' en 'GLfloat' requiere una conversión de restricción
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(663,40): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(663,61): warning C4838: la conversión de 'double' en 'GLfloat' requiere una conversión de restricción
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(663,61): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(663,80): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(663,76): warning C4838: la conversión de 'double' en 'GLfloat' requiere una conversión de restricción
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(663,76): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(663,98): warning C4838: la conversión de 'double' en 'GLfloat' requiere una conversión de restricción
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(663,98): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(663,117): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(663,113): warning C4838: la conversión de 'double' en 'GLfloat' requiere una conversión de restricción
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(663,113): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(663,135): warning C4838: la conversión de 'double' en 'GLfloat' requiere una conversión de restricción
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(663,135): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(663,155): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(663,151): warning C4838: la conversión de 'double' en 'GLfloat' requiere una conversión de restricción
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(663,151): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(682,47): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(684,48): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(691,46): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(692,43): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(699,48): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(706,46): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(707,43): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(727,22): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(744,31): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(746,33): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(749,31): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(761,31): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(806,27): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(807,35): warning C4838: la conversión de 'double' en 'GLfloat' requiere una conversión de restricción
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(807,35): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(807,57): warning C4838: la conversión de 'double' en 'GLfloat' requiere una conversión de restricción
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(807,57): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(808,35): warning C4838: la conversión de 'double' en 'GLfloat' requiere una conversión de restricción
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(808,35): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(808,57): warning C4838: la conversión de 'double' en 'GLfloat' requiere una conversión de restricción
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(808,57): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(812,34): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(814,35): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(815,34): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(817,35): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(822,70): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(822,46): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\Practica9.cpp(852,1): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
+  Generando código
+  1 of 137 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Generación de código finalizada
+  Práctica9.vcxproj -> C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica9\\Práctica9.exe

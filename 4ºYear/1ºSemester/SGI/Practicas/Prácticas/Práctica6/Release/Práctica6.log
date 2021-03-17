@@ -1,0 +1,17 @@
+﻿  Main.cpp
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\codebase\Utilidades.h(29,44): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\codebase\Utilidades.h(30,45): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\codebase\Utilidades.h(35,57): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\codebase\Utilidades.h(36,57): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\codebase\Utilidades.h(38,54): warning C4305: 'inicializando': truncamiento de 'double' a 'const GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\codebase\Utilidades.h(252,37): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica6\Main.cpp(112,15): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica6\Main.cpp(116,32): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica6\Main.cpp(127,13): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica6\Main.cpp(128,13): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica6\Main.cpp(154,1): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
+  Generando código
+  Previous IPDB not found, fall back to full compilation.
+  All 123 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generación de código finalizada
+  Práctica6.vcxproj -> C:\Users\Stéphane\Desktop\UPV\SGI\Practicas\Prácticas\Práctica6\\Práctica6.exe

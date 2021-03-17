@@ -1,0 +1,17 @@
+
+; Version LPG-td-1.0
+; Seed 1000
+; Command line: lpg-td -o transporte_publico_ex.pddl -f pfile1_ex.pddl -quality -seed 1000 
+; Problem pfile1_ex.pddl
+; Time 0.02
+; Plan generation time 0.00
+; Search time 0.00
+; Parsing time 0.00
+; Mutex time 0.00
+; Quality 141.00
+
+
+Time 0.02
+
+
+
