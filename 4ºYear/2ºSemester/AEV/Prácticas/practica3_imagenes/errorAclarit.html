@@ -1,0 +1,92 @@
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"/>
+<title></title>
+<meta name="generator" content="LibreOffice 5.2.1.2 (Windows)"/><meta name="created" content="00:00:00"/><meta name="changed" content="2018-03-09T11:19:12.641000000"/>
+<style type="text/css">code.cjk { font-family: "NSimSun", monospace }
+</style>
+<p>Algunos, que han intentando trabajar sobre Windows, se han encontrado con un error a la hora de compilar los ejemplos de 3DS, en particular&nbsp; <u>solo se da&nbsp; </u>en <code class="western">/c/devkitPro/examples/3ds/graphics/bitmap/24bit-color</code>.</p>
+
+<p>El error es debido a que intenta usar la aplicaci&oacute;n del sistema <code class="western">convert</code> (<code class="western">/c/WINDOWS/system32/convert.exe</code>) y no el conversor de formatos de im&aacute;genes <code class="western">convert</code> del paquete <em>ImageMagick</em>.&nbsp; As&iacute; que se obtiene un error porque la aplicaci&oacute;n llamada no entiende los par&aacute;metros que se le pasan. Con los ejemplos de 3DS se est&aacute; cambiado de GRIT a <code class="western">convert</code> (<em>ImageMagick</em>) para resolver las conversiones de ficheros de formato gr&aacute;fico.</p>
+
+<p>La posible soluci&oacute;n se basa en:</p>
+
+<ol>
+	<li>
+	<p style="margin-bottom: 0cm">Instalar ImageMagick, desde la entrada &quot;Downloads&quot; del sitio web &quot; ImageMagick &quot; &lt;<a href="https://www.imagemagick.org/script/index.php">https://www.imagemagick.org/script/index.php</a>&gt; y comprobar la ruta desde el terminal&nbsp; (<code class="western">Start -&gt; devkitPro -&gt; MSYS</code>).&nbsp; En mi caso es<br />
+	<code class="western">/c/Archivos\ de\ programa/ImageMagick-6.9.9-Q16/convert.exe</code></p>
+	</li>
+	<li>
+	<p style="margin-bottom: 0cm">Editar el fichero <em>Makefile </em>del mencionado ejemplo. Para ello</p>
+
+	<ol>
+		<li>
+		<p>A&ntilde;adir la l&iacute;nea<br />
+		<code class="western">CONVERT = /c/Archivos\ de\ programa/ImageMagick-6.9.9-Q16/convert.exe</code><br />
+		al principio del <em>Makefile</em>. Y sustituir el bloque</p>
+
+		<p><code class="western">--------------------<br />
+		%.bgr: %.png<br />
+		#---------------------------------------------------------------------------------<br />
+		&nbsp;&nbsp;&nbsp; @convert $&lt; -rotate 90 </code><br />
+		<br />
+		por</p>
+		</li>
+	</ol>
+	</li>
+</ol>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <code class="western">--------------------<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; %.bgr: %.png<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #---------------------------------------------------------------------------------<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $&lt; -rotate 90 </code></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Y ya ser&aacute; posible recompilar desde el terminal: <code class="western">Start -&gt; devkitPro -&gt; MSYS</code></p>
+
+<p>con la orden</p>
+
+<p><code class="western">$ make clean &amp;&amp; make</code></p>
+
+<p>&nbsp;</p>
+
+<p><br />
+&nbsp;</p>
+
+<p><br />
+&nbsp;</p>
+
+<p>PD. El fichero README.md que acompa&ntilde;a al ejemplo dice algo parecido:</p>
+
+<h1><cite><a name="user-content-24bit-bitmap-example"></a>24bit Bitmap Example</cite></h1>
+
+<p><cite>This example shows on bottom screen an upscaled version of the nds examples Drunken Coders logo that can be found in devkitPro.</cite></p>
+
+<p><cite>If you want to try with your own image follow these steps:</cite></p>
+
+<ol>
+	<li>
+	<p style="margin-bottom: 0cm"><cite>Download &amp; install: <a href="http://www.imagemagick.org/">http://www.imagemagick.org/</a> (If you get an option to add the application to the path make sure to check it!).</cite></p>
+	</li>
+	<li>
+	<p style="margin-bottom: 0cm"><cite>convert fileIn.png -channel B -separate fileIn.png -channel G -separate fileIn.png -channel R -separate -channel RGB -combine -rotate 90 fileOut.rgb</cite></p>
+	</li>
+	<li>
+	<p style="margin-bottom: 0cm"><cite>Rename fileOut.rgb in fileOut.bin</cite></p>
+	</li>
+	<li>
+	<p style="margin-bottom: 0cm"><cite>Copy fileOut.bin in the data folder of your project</cite></p>
+	</li>
+	<li>
+	<p style="margin-bottom: 0cm"><cite>Replace any reference of drunkenlogo_bin in main.cpp with fileOut_bin (or however you named it)</cite></p>
+	</li>
+	<li>
+	<p><cite>Re-Build the project</cite></p>
+	</li>
+</ol>
+
+<p><cite>As you can see from the previos steps the image is clockwise rotated by 90 degrees and its B and R channels are swapped. The first operation is done because the 3DS screens are actually portrait screens rotated by 90 degrees (in a counter-clockwise direction), while the second one is done because the 3DS screens&#39; framebuffers have a BGR888 color format, by default.</cite></p>
+
+<p><br />
+&nbsp;</p>

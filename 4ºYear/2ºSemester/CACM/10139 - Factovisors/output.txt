@@ -1,0 +1,15 @@
+1 divides 0!
+2 does not divide 0!
+3 does not divide 0!
+0 does not divide 1!
+1 divides 1!
+2 does not divide 1!
+3 does not divide 1!
+0 does not divide 2!
+1 divides 2!
+2 divides 2!
+3 does not divide 2!
+0 does not divide 3!
+1 divides 3!
+2 divides 3!
+3 divides 3!
